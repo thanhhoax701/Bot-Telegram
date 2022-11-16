@@ -112,7 +112,7 @@ intents:
   - thong_bao_kq_hoc_tap
   - thu_tuc_ra_truong
   - quan_ly_bang_tot_nghiep
-entities: [comment_content,student_code]
+entities: [student_name,comment_content,student_code]
 slots:
 
   comment_name:
@@ -681,10 +681,12 @@ responses:
 
 
   utter_please_rephrase:
-    - text: "Xin lỗi. Tôi không hiểu nhu cầu của bạn. Vui lòng nói rõ hơn. Cảm ơn"
+    - text: "Bạn vui lòng đặt lại câu hỏi thật ngắn gọn và dễ hiểu để mình có thể hiểu được nhé. 
+    Mình có thể trả lời ngay những câu như “điểm thi anh văn đầu vào”, “học bổng”, “điểm rèn luyện”,… nha"
 
   utter_default:
-    - text: "Xin lỗi. Tôi không hiểu nhu cầu của bạn. Vui lòng nói rõ hơn. Cảm ơn"
+    - text: "Bạn vui lòng đặt lại câu hỏi thật ngắn gọn và dễ hiểu để mình có thể hiểu được nhé. 
+    Mình có thể trả lời ngay những câu như “điểm thi anh văn đầu vào”, “học bổng”, “điểm rèn luyện”,… nha"
 
   utter_ask_entry:
     - text: "Để nhập học mời bạn qua phòng công tác tuyển sinh của trường. Cảm ơn bạn"
@@ -695,7 +697,7 @@ responses:
   utter_greet:
     - text: " Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ. 
     \n  Đây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiểu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
-      Các lĩnh vực hỗ trợ trợ gồm:\n 1) Quy chế học vụ \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ \n....\n
+      Các lĩnh vực hỗ trợ trợ gồm:\n 1) Quy chế học vụ \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ \n 4) Góp ý\n....\n
     Mình tên là CTU Students Advisor. Mình có thể hỗ trợ nhanh với những yêu cầu dưới đây. Bạn cũng có thể đặt các câu hỏi ngắn gọn như “quy chế học vụ”, “bảo hiểm y tế”,… mình sẽ giải đáp ngay."
       buttons:
         - title: "Quy chế học vụ"
@@ -704,6 +706,8 @@ responses:
           payload: "/ask_time_study"
         - title: "Kết quả trình độ ngoại ngữ"
           payload: "/ask_point"
+        - title: "Góp ý"
+          payload: "/ask_comment"
       button_type: vertical
 
   utter_ask_university:
@@ -720,20 +724,26 @@ responses:
     - text: "Bạn muốn hỏi về thông tin gì vậy ạ ?"
 
   utter_comment_replay:
-    - text: "Vui lòng nhập MSSV của bạn lúc góp ý: "
+    - text: "Vui lòng nhập họ tên của bạn lúc góp ý: "
 
   utter_ask_comment:
-    - text: "Xin vui lòng cung cấp MSSV của bạn:"
+    - text: "Xin vui lòng cung cấp họ tên của bạn:"
 
 ###################### xây dựng cốt chuyện quy chế học vụ
 
   utter_van_de_chung:
     - text: "Vấn đề chung trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
-        - title: "Kế hoạch học tập"
-          payload: "/ask_khht"
+        - title: "Phạm vi và đối tượng áp dụng"
+          payload: "/ask_pham_vi_doi_tuong"
+        - title: "Sinh Viên"
+          payload: "/ask_sinh_vien"
+        - title: "Chương trình đào tạo, dạy học và bản mô tả CTDT"
+          payload: "/ask_ctdt_mt_ctgd"
         - title: "Thời gian học tập"
           payload: "/ask_time_study"
+        - title: "Sinh viên liên thông"
+          payload: "/ask_time_lien_thong"
         - title: "Học kỳ"
           payload: "/ask_info_hoc_ky"
         - title: "Học phần, lớp học phần và lớp chuyên ngành"
@@ -753,8 +763,12 @@ responses:
   utter_to_chuc_dao_tao:
     - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
+        - title: "Trách nhệm của Trường và sinh viên trong ĐKHP"
+          payload: "/ask_trach_nhiem"
         - title: "Số tín chỉ được phép đăng ký trong một học kỳ"
           payload: "/ask_tin_chi_HK"
+        - title: "Quy trình ĐKHP"
+          payload: "/ask_quy_trinh_dkhp"
         - title: "Xóa và mở thêm lớp học phần"
           payload: "/info_add_delete_HP"
         - title: "Đăng ký học lại"
@@ -775,10 +789,10 @@ responses:
 
 
   utter_Danh_gia_hoc_tap:
-    - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
+    - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 10 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
         - title: "Đánh giá học phần"
-          payload: "/chuưa có"
+          payload: "/utter_danh_gia_HP"
         - title: "Điểm học phần"
           payload: "/utter_course_score"
         - title: "Số lần thi, tổ chức thi và vắng thi cuối kỳ"
@@ -794,13 +808,13 @@ responses:
         - title: "Các hình thức sinh viên vi phạm về thi và kiểm tra"
           payload: "/utter_xu_ly_sv_vi_pham_quy_dinh"
         - title: "Thông báo kết quả học"
-          payload: "/thêm train hoa"
+          payload: "/thong_bao_kq_hoc_tap"
         - title: "Xếp trình độ học"
           payload: "/trinh_do_nam_hoc"
       button_type: vertical
 
   utter_xet_va_cong_nhan_tot_nghiep:
-    - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
+    - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 6 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
         - title: "Luận văn, tiểu luận tốt nghiệp và tích lũy tín chỉ tốt nghiệp"
           payload: "/ask_tot_nghiep"
@@ -811,9 +825,9 @@ responses:
         - title: "Bằng tốt nghiệp và hạng tốt nghiệp"
           payload: "/rank_tot_nghiep"
         - title: "Thủ tục ra trường"
-          payload: "/ask_drl"
+          payload: "/thu_tuc_ra_truong"
         - title: "Quản lý bằng tốt nghiệp"
-          payload: "/xep_loai_khen_thuong"
+          payload: "/quan_ly_bang_tot_nghiep"
       button_type: vertical
 
 ##################### bổ sung các điều còn thiếu
@@ -943,8 +957,6 @@ session_config:
   carry_over_slots_to_new_session: true
 
 actions:
-  - action_greet
-  - action_goodbye
 
   - action_ask_point
   - action_give_comment_content

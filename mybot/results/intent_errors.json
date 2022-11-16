@@ -1,18 +1,10 @@
 [
   {
-    "text": "bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ",
-    "intent": "ask_tin_chi",
-    "intent_prediction": {
-      "name": "ask_tin_chi_HK",
-      "confidence": 0.608185350894928
-    }
-  },
-  {
     "text": "tôi muốn biết 1 kỳ học tối đa mấy tín chỉ",
     "intent": "ask_tin_chi",
     "intent_prediction": {
       "name": "ask_tin_chi_HK",
-      "confidence": 0.6682930588722229
+      "confidence": 0.5632110834121704
     }
   },
   {
@@ -20,7 +12,39 @@
     "intent": "ask_tin_chi",
     "intent_prediction": {
       "name": "ask_tin_chi_HK",
-      "confidence": 0.6023135185241699
+      "confidence": 0.4814920127391815
+    }
+  },
+  {
+    "text": "chương trình đào tạo là sao vậy bot",
+    "intent": "change_ctdt",
+    "intent_prediction": {
+      "name": "ask_ctdt",
+      "confidence": 0.7997941970825195
+    }
+  },
+  {
+    "text": "chương trình đào tạo là gì vậy bot",
+    "intent": "change_ctdt",
+    "intent_prediction": {
+      "name": "ask_ctdt",
+      "confidence": 0.771327018737793
+    }
+  },
+  {
+    "text": "tôi muốn hỏi về chương trình đào tạo được không",
+    "intent": "change_ctdt",
+    "intent_prediction": {
+      "name": "ask_ctdt",
+      "confidence": 0.6541677713394165
+    }
+  },
+  {
+    "text": "tối đa bao nhiêu tín chỉ học kỳ",
+    "intent": "ask_tin_chi_HK",
+    "intent_prediction": {
+      "name": "ask_tin_chi",
+      "confidence": 0.5077645182609558
     }
   },
   {
@@ -28,7 +52,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.8041702508926392
+      "confidence": 0.7600566148757935
     }
   },
   {
@@ -36,15 +60,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.7671367526054382
-    }
-  },
-  {
-    "text": "bạn/em/anh hãy cho tôi biết thông tin về điểm M",
-    "intent": "diem_M",
-    "intent_prediction": {
-      "name": "diem_I",
-      "confidence": 0.7205318808555603
+      "confidence": 0.6937691569328308
     }
   },
   {
@@ -52,15 +68,7 @@
     "intent": "to_chuc_thi_CK",
     "intent_prediction": {
       "name": "so_lan_thi_CK",
-      "confidence": 0.838019847869873
-    }
-  },
-  {
-    "text": "chương trình đào tạo là như nào vậy bot",
-    "intent": "ask_ctdt",
-    "intent_prediction": {
-      "name": "change_ctdt",
-      "confidence": 0.5061693787574768
+      "confidence": 0.5993139147758484
     }
   }
 ]

@@ -437,14 +437,12 @@ stories:
   - action: action_ask_point
 
 
-
-
 - story: s12 # gop y
   steps:
   - intent: ask_comment
   - action: utter_ask_comment
-#  - intent: give_comment_name
-  - intent: give_student_code
+  - intent: give_comment_name
+#  - intent: give_student_code
   - action: action_give_comment_name
   - intent: give_comment_content
   - action: action_give_comment_content
@@ -458,15 +456,22 @@ stories:
   steps:
   - intent: ask_comment
   - action: utter_ask_comment
-#  - intent: give_comment_name
-  - intent: give_student_code
+  - intent: give_comment_name
+#  - intent: give_student_code
   - action: action_give_comment_name
 
 - story: s13 #xem lai gop y
   steps:
   - intent: ask_comment_replay
   - action: utter_comment_replay
-  - intent: give_student_code
+  - intent: give_comment_name
+  - action: action_ask_comment_replay
+
+
+- story: s13b #xem lai gop y
+  steps:
+  - action: utter_comment_replay
+  - intent: give_comment_name
   - action: action_ask_comment_replay
 
 ################# xây dựng cốt chuyện quy chế học vụ

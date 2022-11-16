@@ -7,29 +7,36 @@
     "confused_with": {}
   },
   "comment_content": {
-    "precision": 0.9803921568627451,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.99009900990099,
+    "f1-score": 1.0,
     "support": 100,
     "confused_with": {}
   },
-  "micro avg": {
-    "precision": 0.9854014598540146,
+  "student_name": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9926470588235294,
-    "support": 135
+    "f1-score": 1.0,
+    "support": 734,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 869
   },
   "macro avg": {
-    "precision": 0.9901960784313726,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.995049504950495,
-    "support": 135
+    "f1-score": 1.0,
+    "support": 869
   },
   "weighted avg": {
-    "precision": 0.9854756717501815,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9926659332599925,
-    "support": 135
+    "f1-score": 1.0,
+    "support": 869
   },
-  "accuracy": 0.999874442840103
+  "accuracy": 1.0
 }

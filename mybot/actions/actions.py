@@ -16,33 +16,6 @@ import pandas as pd
 
 
 
-class ActionGreet(Action):
-    def name(self) -> Text:
-        return "action_greet"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(response="utter_greet"
-                                 , name="Bot CTU"
-                                 , image="https://imgur.com/gallery/zD6yT8Z")
-
-        return []
-
-
-class ActionGoodBye(Action):
-    def name(self) -> Text:
-        return "action_goodbye"
-
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-
-        dispatcher.utter_message(response="utter_goodbye"
-                                 , image="https://imgur.com/gallery/q284aob")
-
-        return []
 
 ################### xem diem anh van
 
@@ -158,7 +131,7 @@ class action_ask_comment_replay(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         # df = pd.read_csv("db/points_old.csv")
-        student_code = next(tracker.get_latest_entity_values("student_code"), None)
+        student_name = next(tracker.get_latest_entity_values("student_name"), None)
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
@@ -168,7 +141,7 @@ class action_ask_comment_replay(Action):
 
         mycursor = mydb.cursor()
 
-        mycursor.execute("SELECT * FROM tblComments WHERE comment_name = '" + student_code + "'")
+        mycursor.execute("SELECT * FROM tblComments WHERE comment_name = '" + student_name + "'")
 
         myresult = mycursor.fetchall()
         df =  None
