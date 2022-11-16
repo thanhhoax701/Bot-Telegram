@@ -1,0 +1,2236 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào bạn
+    - chào bot
+    - chào buổi sáng
+    - có ai ở đó không
+    - chào buổi chiều
+    - chào cả nhà
+    - chào em
+    - chào chú
+    - chào
+    - chào nhé
+    - chào bạn
+    - chào bot nhé
+    - chào cậu
+    - hi cậu
+    - chào bạn
+    - xin chào bot
+    - hi bạn
+    - cstart
+    - xin chào bạn
+    - xin chào nhé
+    - start
+    - astart
+    - bstart
+    - hello bot
+    - ahello
+    - bhello
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - bye bye
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - oke
+    - ok
+    - okay
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thanks bot
+    - thank you so much
+    - greet! Thanks
+    - good job
+    - hay
+    - siêu
+    - tuyệt
+    - cảm ơn em nhiều nhé
+    - cảm ơn
+    - cảm ơn nha
+    - cảm ơn bot nha
+    - gặp sau nha
+    - hẹn lần khác
+    - lúc khác nói tiếp sau
+    - thôi nha
+    - gặp sau
+    - đi à
+
+
+- intent: ask_name
+  examples: |
+    - bạn tên gì
+    - tên gì
+    - chị tên gì
+    - anh tên gì
+    - tên của bạn là gì
+    - tên của chị là gì
+    - tên của anh là gì
+    - cho mình hỏi tên nhé
+    - mình muốn biết tên bạn
+    - mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+    - để tiện xưng hộ thì tên bạn là gì
+    - cho em xin tên của anh ạ
+    - cho em xin tên của chị ạ
+    - được biết tên bạn thì tốt nhỉ
+    - vui lòng cho mình biết tên nhé
+    - xin phép hỏi tên của bạn
+    - vậy thì tên bạn là gì
+    - tên bạn trong tiếng việt là gì
+    - bạn có vui lòng cho mình biết tên được không
+    - chúng ta nên biết tên nhau nhỉ?
+    - em tên là gì thế
+    - tên em là gì
+    - tên em
+    - tên bạn
+    - bạn tên là gì
+    - bạn tên gì thế
+    - em tên gì
+
+
+
+
+- intent: ask_func_list
+  examples: |
+    - bạn có thể làm được những gì
+    - bạn giúp được gì nào
+    - chức năng của bạn là gì
+    - bạn có thể làm được mấy chức năng
+    - bạn giỏi nhất làm gì
+    - bạn có tư vấn giúp mình được không
+    - việc gì bạn làm được
+    - kể xem bạn làm được gì
+    - cho mình biết bạn làm được gì nhé
+    - bạn hữu dụng như thế nào
+    - bạn có ích trong những việc gì
+    - lĩnh vực gì bạn giỏi nhất
+    - mình tò mò về những việc bạn làm được
+    - chẳng biết bạn làm được gì
+    - bạn tệ nhất trong việc gì
+    - bạn biết được những lĩnh vực gì
+    - bạn giỏi hỗ trợ nhất trong lĩnh vực gì
+    - kể cho mình biết những việc bạn có thể làm được nhé
+    - nói cho mình về những việc bạn giúp được mình
+    - bạn giúp được mình gì nào
+    - bạn có thể làm gì
+    - em giúp được gì
+    - em làm được gì
+    - mày biết làm gì
+    - em biết làm gì
+    - bạn biết làm gì
+    - biết làm gì
+    - làm được gì
+    - có làm được gì
+    - có làm được trò gì
+    - giúp giúp cái gì
+    - biết gì mà nói
+    - làm được gì
+    - giúp được gì
+    - mày làm được gì
+    - có biết gì
+    - em có thể làm những gì nhỉ
+    - em có chức năng gì?
+    - em giúp gì được anh không?
+    - em có thể giúp gì cho anh?
+    - em biết làm gì?
+    - em hỗ trợ anh như thế nào?
+    - cho anh xem các chức năng của em
+
+
+- intent: praise
+  examples: |
+    - bot giỏi quá
+    - great
+    - awsome
+    - bot làm tốt lắm
+    - ui giỏi thế
+    - bot thông minh
+    - đẹp trai đấy
+    - em đẹp lắm
+    - tuyệt lắm em ơi
+    - khôn đấy
+    - hay lắm
+    - hay ghê
+    - hay quá
+    - hay dữ luôn
+    - dữ rồi
+    - vip dị ba
+
+- intent: decry
+  examples: |
+    - quá tệ
+    - ngu ngốc
+    - chả biết gì cả
+    - ngu thật
+    - dở ghê
+    - có thế mà cũng không biết
+    - kém cỏi
+    - non quá
+    - tào lao
+    - điên khùng
+    - vãi
+    - não phẳng
+    - ba chợn
+    - gà quá
+    - vậy cũng không biết
+    - sao khờ vậy
+    - ngốc quá
+    - rồi làm được gì
+    - sai rồi, chán ghê
+
+
+- intent: ask_university
+  examples: |
+    - tôi cần biết thông tin về trường
+    - thông tin trường 
+    - tôi muốn tìm hiểu về trường
+    - trường bạn thế nào hả bot
+    - trường mình có tốt có tốt không vậy bot
+    - mình muốn biết thông tin về trường
+    - trường của mình có gì hay
+    - mình cần hỏi về trường
+    - tôi muốn biết thông tin về trường
+    - tôi muốn tìm hiểu thông tin về trường
+    - tôi muốn hỏi thông tin về trường
+    - mình cần thêm thông tin trường
+
+- intent: ask_quy_che_hoc_vu
+  examples: |
+    - tôi muốn hỏi về quy chế học vụ ctu
+    - quy chế học vụ của trường là gì
+    - quy chế học vụ là sao
+    - quy ch học vụ dùng để làm gì 
+    - tôi muốn hỏi về quy chế của trường đại học cần thơ
+    - các điều sinh viên phải làm được quy định tại đâu
+    - thông tin sinh viên cần nắm
+    - tôi muốn hỏi về quy chế dành cho sinh viên
+    - tôi muốn hỏi về quy định về học tập, kiểm tra, thi cử, nghỉ học,..
+    - ở trường có quy chế gì dành cho sinh viên không?
+    - tôi muốn hỏi về quy chế dùng để lưu các quy định của trường dành cho sinh viên
+
+- intent: ask_time_study
+  examples: |
+    - tôi muốn hỏi về thời gian học ở trường
+    - cho em hỏi về chương trình học dài bao lâu
+    - hãy cho tôi biết mỗi ngành học bao lâu
+    - thời gian học dài bao lâu
+    - thời gian học của trường đại học cần thơ
+    - thời gian học của trường mình là bao lâu
+    - tôi muốn biết thông tin về thời gian học tại trường
+    - tôi muốn tìm hiểu thông tin về thời gian học của trường
+    - tôi muốn hỏi thông tin về thời gian học của trường
+    - chương trình học của trường mình dài bao lâu
+    - chương trình học thời gian bao lâu vậy
+    - thời gian học của chương trình trường mình như thế nào
+    - ngành học dài bao lâu thế bot
+    - thời gian học tại trường là sao hả bot
+    - thời gian học tại trường là bao lâu vậy bot
+    - ngành học chương trình của trường dài bao lâu
+
+- intent: time_chuan
+  examples: |
+    - tôi muốn hỏi về thời gian chuẩn theo CTDT
+    - thời gian chuẩn theo CTDT
+    - tôi muốn hỏi về thời học của ngành
+    - cho em hỏi học đại học là học bao lâu lận
+    - thời gian chuẩn của CTDT là gì
+    - thời gian chuẩn là gì vậy bot
+    - tôi muốn biết thông tin về thời gian chuẩn theo CTDT
+    - tôi muốn tìm hiểu thông tin về thời gian chuẩn theo CTDT
+    - thời gian chuẩn theo CTDT là sao
+    - thời gian chuẩn theo CTDT là như thế nào
+    - thời gian chuẩn là sao hả bot
+    - thời gian chuẩn là như thế nào
+    - thời gian chuẩn của chương trình học là mấy năm
+    - thời gian chuẩn theo CTDT là mấy năm
+    - tôi muốn biết thời gian chuẩn chương trình đại học của trường mình là bao lâu
+    - tôi muốn biết thời gian chuẩn theo CTDT là sao hả bot
+    - tôi muốn tìm kiếm thời gian chuẩn theo CTDT là như thế nào
+    - tôi muốn tìm hiểu thời gian chuẩn theo CTDT của chương trình học là mấy năm
+    - tôi muốn hỏi thời gian chuẩn theo CTDT theo CTDT là mấy năm
+    - tôi muốn hỏi thời gian chuẩn theo CTDT chương trình đại học của trường mình là bao lâu
+
+- intent: time_toi_da
+  examples: |
+    - tôi muốn hỏi về thời gian tối đa để học đại học trong trường này
+    - thời gian tối đa để học đại học trong trường này
+    - thời học tối đa của ngành này là mấy năm
+    - học được tối đa bao nhiêu lận
+    - cho em hỏi là học lâu quá có sao hông
+    - tôi muốn hỏi thời gian tối đa để học đại học của trường mình là bao lâu
+    - tôi muốn biết thời gian tối đa ở lại trường là bao lâu
+    - tôi muốn biết thời gian tối đa là bao lâu hả bot
+    - tôi muốn biết thời gian tối đa tại trường là sao
+    - tôi muốn hỏi thời gian tối đa tại trường là như thế nào
+    - tôi muốn tìm hiểu thời gian tối đa học được bao nhiêu vậy
+    - tôi muốn hỏi thời gian tôi đa học tại trường mình là bao lâu vậy
+
+- intent: ask_drl
+  examples: |
+    - tôi muốn hỏi về điểm rèn luyện của trường đại học cần thơ
+    - tôi muốn hỏi về điểm rèn luyện
+    - tôi muốn hỏi về điểm rèn luyện
+    - cho em hỏi về điểm rèn luyện
+    - điểm rèn luyện là sao thế bot
+    - điểm rèn luyện là gì hả bot
+    - tôi muốn biết thông tin về điểm rèn luyện
+    - tôi muốn tìm hiểu thông tin về điểm rèn luyện
+    - em xin thông tin về xếp loại điểm rèn luyện
+    - tôi muốn biết thông tin về điểm rèn luyện
+    - tôi muốn hỏi thông tin về điểm rèn luyện
+    - tôi muốn tìm hiểu thông tin về điểm rèn luyện
+    - tôi muốn hỏi điểm rèn luyện là gì
+    - tôi muốn biết điểm rèn luyện là như thế nào
+    - điểm rèn luyện là như thế nào
+    - tôi muốn hỏi về điểm rèn luyện
+    
+
+- intent: ask_tiet_hoc
+  examples: |
+    - tôi muốn tìm hiểu và hỏi thông tin về tiết học
+    - tôi muốn biết thông tin liên quan đến tiết học
+    - tiết học là sao hả bot
+    - cách chia tiết học ở trường đhct
+    - tiết học là gì thế bot
+    - tiết học là như thế nào hả bot
+    - mình muốn hỏi thông tin về tiết học
+    - mình muốn tìm hiểu thông tin về tiết học
+    - tôi muốn biết về tiết học 
+    - tôi muốn biết về thời gian học của tiết học
+    - tôi muốn biết tiết học bắt đầu vào lúc mấy giờ
+    - tôi muốn hỏi về tiết học 
+    - tôi muốn tìm hiểu về thời gian học của tiết học
+    - tôi muốn hỏi tiết học bắt đầu vào lúc mấy giờ
+- intent: ask_khht
+  examples: |
+    - tôi muốn hỏi về kế hoạch học tập
+    - tôi muốn biết thông tin về kế hoạch học tập
+    - tôi muốn hỏi về kế hoạch học tập
+    - em muốn hỏi về kế hoạch học tập
+    - em cần thông tin về kế hoạch học tập
+    - hãy cho tôi biết sơ lược về kế hoạch học tập
+    - tôi cần xây dựng kế hoạch học tập như thế nào
+    - mình cần xây dựng kế hoạch học tập ra sao
+    - kế hoạch học tập là gì
+    - kế hoạch học tập là sao hả bot 
+    - kế hoạch học tập là gì thế bot
+    - kế hoạch học tập là như thế nào vậy bot
+    - tôi muốn biết thông tin về kế hoạch học tập
+    - tôi muốn biết về kế hoạch học tập
+
+- intent: ask_info_hoc_ky
+  examples: |
+    - tôi muốn hỏi về học kỳ của trường đại học cần thơ
+    - học kỳ của trường đại học cần thơ
+    - học kỳ là gì hả bot
+    - học kỳ là sao vậy bot
+    - cho em hỏi là mỗi năm có mấy học kỳ
+    - tôi muốn biết một năm học có mấy kỳ
+    - học kỳ mình có học kỳ hè không vậy bot
+    - tôi muốn biết thông tin về học kỳ
+    - tôi muốn tìm hiểu thông tin về học kỳ
+    - tôi muốn tìm kiếm thông tin về học kỳ
+    - trường mình có học kỳ hè không
+    - có mấy học kỳ trong một năm
+    - một năm có mấy học kỳ
+    - học kỳ như thế nào
+    - học kỳ trường mình là sao
+    - học kỳ là gì vậy
+    - cho em hỏi là có học kỳ hè hay không
+    - cho mình hỏi là học kỳ một năm thì học mấy kỳ
+    - học 1 năm thì được học tối thiểu mấy kỳ
+    - trường mình có mấy học kỳ
+
+- intent: hoc_ky_chinh
+  examples: |
+    - tôi muốn hỏi về học kỳ chính
+    - hãy cho tôi biết học kỳ chính là gì
+    - học kỳ chính gồm những kỳ nào
+    - có mấy học kỳ trong học kỳ chính
+    - học kỳ chính học gì
+    - học kỳ chính là gì
+    - tôi muốn biết thông tin về học kỳ chính
+    - tôi muốn tìm hiểu thông tin về học kỳ chính
+    - tôi muốn tìm kiếm thông tin về học kỳ chính
+    - học kỳ chính là sao
+    - một năm có mấy học kỳ chính
+    - học kỳ chính là như thế nào
+    - học kỳ chính của trường là sao
+
+- intent: hoc_ky_phu
+  examples: |
+    - hãy cho tôi biết học kỳ phụ là gì
+    - học kỳ phụ ra làm sao
+    - cho tôi hỏi có mấy học kỳ phụ
+    - học kỳ phụ học gì
+    - học kỳ phụ là gì
+    - học kỳ phụ là sao
+    - tôi muốn biết về thời gian của học kỳ phụ
+    - tôi muốn tìm hiểu về thời gian của học kỳ phụ
+    - tôi muốn hỏi về thời gian của học kỳ phụ
+    - tôi muốn biết thông tin về học kỳ phụ
+    - tôi muốn tìm hiểu thông tin về học kỳ phụ
+    - tôi muốn tìm kiếm thông tin về học kỳ phụ
+    - một năm có mấy học kỳ phụ
+    - học kỳ phụ là như thế nào
+    - học kỳ phụ của trường là sao
+- intent: ask_info_HP
+  examples: |
+    - hãy cho tôi biết học phần là gì
+    - cho em hỏi về học phần bắt buộc
+    - cho tôi hỏi về học phần tự chọn
+    - học phần điều kiện là sao
+    - học phần song hành là cái gì
+    - cho em hỏi học phần tiên quyết là gì
+    - cho tôi hỏi học phần tự chọn là sao
+    - bot cho mình hỏi môn điều kiện là sao nữa vậy
+    - có bao nhiêu loại học phần
+    - học phần là sao
+    - học phần là gì
+    - tôi muốn biết về học phần
+    - tôi muốn hỏi về thông tin học phần
+    - tôi muốn biết thông tin về học phần
+    - tôi muốn tìm hiểu thông tin về học phần
+    - tôi muốn biết về học phần
+    - tôi muốn hỏi về học phần
+    - tôi muốn tìm hiểu về học phần
+    - tôi muốn hỏi thông tin học phần
+    - tôi muốn tìm kiếm thông tin về học phần
+    - bạn cho mình hỏi học phần là gì
+    - tôi không biết là chuyên ngành có khác gì với học phần
+
+- intent: ask_tin_chi
+  examples: |
+    - tôi không biết tín chỉ là gì
+    - tín chỉ là gì
+    - hãy cho tôi biết 1 tín chỉ là bao nhiêu tiết
+    - tối muốn biết tín chỉ là gì
+    - tính chỉ được tính như thế nào
+    - tôi muốn biết về tín chỉ
+    - tín chỉ được tính như thế nào
+    - tín chỉ là sao vậy
+    - tín chỉ là như thế nào
+    - tôi muốn biết thông tin về tín chỉ
+    - bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ
+    - tôi muốn biết 1 kỳ học tối đa mấy tín chỉ
+    - tôi muốn tìm hiểu thông tin về tín chỉ
+    - tôi muốn hỏi thêm thông tin về tín chỉ
+    - kỳ đầu tiên học tối đa bao nhiêu tín chỉ
+    - tôi muốn học được bao nhiêu tín chỉ
+    - tôi muốn biết được bao nhiêu tín chỉ
+    - học được bao nhiêu tín chỉ trong học kỳ
+    - tôi muốn biết là học kỳ đầu tiên thì học bao nhiêu tín chỉ
+    - tín chỉ là gì hả bot
+    - tín chỉ là sao thế bot
+    - tôi muốn biết thông tin về tín chỉ
+    - tín chỉ là như thế nào vậy bot
+    - tôi muốn hỏi về tín chỉ
+    - tín chỉ là sao hả bot
+- intent: ask_hoc_bong
+  examples: |
+    - bạn hãy cho tôi biết học bổng của trường đại học cần thơ
+    - tôi muốn biết học bổng là gì
+    - cho tôi hỏi làm thế nào để có được học bổng
+    - hãy cho tôi biết điều kiện để có được học bổng
+    - tôi muốn biết các mức học bổng
+    - tôi cần thông tin chi tiết về học bổng của trường
+    - học bổng là gì thế bot
+    - học bổng là sao vậy
+    - tôi muốn biết thông tin về học bổng
+    - làm thế nào để có học bổng
+    - tôi muốn có học bổng thì phải làm sao
+    - học bổng trường mình như thế nào
+    - học bổng như nào hả bot
+    - tôi muốn tìm hiểu thông tin về học bổng
+    - học bổng như nào để đạt được
+    - cách để đạt được học bổng
+    - cách nào để đạt được học bổng thế bot
+- intent: hoc_bong_khuyen_khich
+  examples: |
+    - bạn hãy cho tôi biết học bổng khuyến khích là gì
+    - học bổng khuyến khích là sao
+    - làm sao để có được học bổng khuyến khích
+    - bạn ơi, học bổng khuyến khích được tính như thế nào
+    - tôi cần biết điều kiện để xét học bổng khuyến khích
+    - học bổng khuyến khích là gì
+    - học bổng khuyến khích như thế nào để đạt được
+    - tôi muốn có học bổng khuyến khích 
+    - tôi muốn có được học bổng khuyến khích
+    - làm sao để tôi có được học bổng khuyến khích
+    - cần điều kiện như thế nào để có được học bổng khuyến khích
+    - muốn có học bổng khuyến khích phải làm sao
+- intent: hoc_bong_tai_tro
+  examples: |
+    - cho tôi ho ai sẽ được học bổng
+    - ai sẽ được học bổng
+    - tôi muốn biết học bổng tài trợ là sao
+    - tài trợ học bổng cho sinh viên
+    - giải đáp giúp tôi học bổng tài trợ được tài trợ từ nguồn nào
+    - làm sao để có được học bổng tài trợ
+    - bạn ơi, học bổng tài trợ được tính như thế nào
+    - tôi cần biết điều kiện để xét học bổng tài trợ
+    - học bổng tài trợ là gì
+    - học bổng tài trợ như thế nào để đạt được
+    - tôi muốn có học bổng tài trợ 
+    - tôi muốn có được học bổng tài trợ
+    - làm sao để tôi có được học bổng tài trợ
+    - cần điều kiện như thế nào để có được học bổng tài trợ
+    - muốn có học bổng tài trợ phải làm sao
+- intent: quy_ho_tro
+  examples: |
+    - bạn hãy cho tôi biết về quỹ hỗ trợ sinh viên
+    - sinh viên có nhu cầu hỗ trợ
+    - tôi cần được hỗ trợ tài chính
+    - tôi muốn biết đối tượng được hỗ trợ tài chính
+    - quỹ hỗ trợ là gì
+    - quỹ hỗ trợ là sao vậy 
+    - quỹ hỗ trợ là như thế nào
+    - làm thế nào để có quỹ hỗ trợ
+    - tôi muốn có quỹ hỗ trợ
+    - tôi muốn có quỹ hỗ trợ thì phải làm sao
+    - muốn đạt được quỹ hỗ trợ thì phải như thế nào
+
+- intent: tro_cap_xa_hoi
+  examples: |
+    - trợ cấp xã hội là gì vậy bạn bot
+    - trợ cấp cho sinh viên là gì vậy bot
+    - tôi muốn biết đối tượng được hưởng trở cấp
+    - trợ cấp xã hội là gì
+    - trợ cấp xã hội là sao 
+    - tôi muốn được trợ cấp xã hội
+    - tôi muốn xin được trợ cấp xã hội
+    - làm thế nào để được trợ cấp xã hội
+    - trợ cấp xã hội cần những gì
+    - để được trợ cấp xã hội thì phải làm gì
+    - trợ cấp xã hội là như thế nào
+
+- intent: ask_fee
+  examples: |
+    - tôi muốn biết học phí bên mình tính như nào
+    - bạn hãy cho tôi biết thông tin học phí
+    - cho em hỏi là học phí có cao không ạ
+    - tôi cần biết chi tiết về thông tin học phí
+    - bạn hãy cho tôi biết cách tính học phí
+    - bot ơi, học phí có cho trả góp không
+    - học phí bên mình có thấp không vậy bot
+    - học phí trường mình được tính như thế nào
+    - học phí tính như thế nào
+    - học phí tính sao vậy bot
+    - không đóng học phí có bị gì hong
+    - tôi muốn biết thông tin về hoc phí
+    - tôi muốn tìm hiểu về học phí
+    - tôi muốn hỏi về học phí
+    - học phí bên mình như thế nào
+    - học phí bên mình ra sao vậy bot
+
+- intent: info_bhyt
+  examples: |
+    - bạn hãy cho tôi biết thông tin về bảo hiểm y tế 
+    - tôi không biết quy định về bảo hiểm y tế là như thế nào
+    - tôi không biết bảo hiểm tai nạn là như thế nào
+    - bạn hãy cho tôi biết các loại bảo hiểm của trường đại học cần thơ
+    - cho em hỏi về bảo hiểm của trường đại học cần thơ
+    - tôi muốn biết thông tin về bảo hiểm y tế
+    - tôi muốn tìm hiểu thông tin về bảo hiểm y tế
+    - tôi muốn hỏi thông tin về bảo hiểm y tế
+    - bảo hiểm y tế có mấy loại
+    - làm thế nào để có bảo hiểm y tế
+
+- intent: change_ctdt
+  examples: |
+    - tôi muốn biết về việc chuyển đổi chương trình đào tạo
+    - tôi muốn biết về việc chuyển chương trình đào tạo
+    - cho em xin thông tin về việc chuyển đổi chương trình đào tạo
+    - chương trình đào tạo là sao vậy bot
+    - chuyển chương trình đào tạo là gì
+    - bạn có thể cho mình biết chương trình đạo tạo là sao được không
+    - chương trình đào tạo là gì vậy bot
+    - tôi muốn chuyển chương trình đào tạo 
+    - tôi muốn hỏi về chương trình đào tạo được không
+    - tôi muốn biết thông tin về chuyển đổi chương trình đào tạo
+    - tôi muốn hỏi thông tin về chuyển đổi chương trình đào tạo
+    - tôi muốn tìm hiểu thông tin về chuyển đổi chương trình đào tạo
+    - chuyển đổi chương trình đào tạo là sao hả bot
+    - chuyển đổi chương trình đào tạo là gì thế bot
+- intent: change_co_so_dao_tao
+  examples: |
+    - bạn có thể cho mình biết đổi cơ sở đào tạo là sao
+    - mình muốn biết điều kiện để chuyển đổi cơ sở đào tạo
+    - bạn hãy cho mình biết quy định về chuyển đổi cơ sở đào tạo
+    - tôi muốn chuyển cơ sở đào tạo
+    - tôi muốn chuyển cơ sở đào tạo thì làm sao
+    - tôi muốn chuyển đổi cơ sở đào tạo thì làm cách nào
+    - làm thế nào để chuyển đổi cơ sở đào tạo 
+    - chuyển đổi cơ sở đào tạo là sao
+    - chuyển đổi cơ sở đào tạo là gì
+    - chuyển cơ sở đào tạo là sao
+    - chuyển cơ sở đào tạo là gì
+- intent: change_nganh_dao_tao
+  examples: |
+    - bạn có thể cho mình biết về việc chuyển ngành học
+    - tôi cần biết về đổi ngành đào tạo
+    - hãy cho tôi biết điều kiện để chuyển đổi ngành học
+    - bạn có thể cho mình biết quy định về chuyển đổi ngành học
+    - tôi muốn chuyển ngành đào tạo
+    - tôi muốn biết thông tin về chuyển ngành đào tạo
+    - tôi muốn tìm hiểu thông tin về chuyển ngành đào tạo
+    - tôi muốn chuyển ngành đào tạo thì làm cách nào
+    - làm thế nào để chuyển ngành học 
+    - chuyển ngành học là sao
+    - chuyển ngành đào tạo là gì
+    - tôi muốn chuyển ngành học
+
+- intent: change_hinh_thuc_dao_tao
+  examples: |
+    - bạn có thể cho mình biết chuyển hình thức đào tạo là sao không
+    - tôi muốn hỏi về chuyển hình thức đào tạo
+    - tôi muốn chuyển hình thức đào tạo thì như thế nào
+    - bạn hãy cho tôi biết về việc chuyển đổi hình thức đào tạo
+    - tôi muốn chuyển hình thức đào tạo
+    - tôi muốn chuyển hình thức đào tạo thì làm cách nào
+    - làm thế nào để chuyển hình thức đào tạo 
+    - chuyển hình thức đào tạo là sao
+    - tôi muốn biết thông tin về hình thức đào tạo
+    - tôi muốn tìm hiểu thông tin về hình thức đào tạo
+    - chuyển hình thức đào tạo là gì
+    - tôi muốn biết thông tin về hình thức đào tạo
+    - hình thức đào tạo là như thế nào
+    - tôi muốn hỏi thông tin về hình thức đào tạo
+    - tôi muốn chuyển hình thức đào tạo
+
+# TỔ CHỨC ĐÀO TẠO
+- intent: ask_tin_chi_HK
+  examples: |
+    - bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ học kỳ
+    - tôi muốn biết 1 kỳ học tối đa mấy tín chỉ học kỳ
+    - kỳ đầu tiên học tối đa bao nhiêu tín chỉ học kỳ
+    - học được bao nhiêu tín chỉ học kỳ trong học kỳ
+    - tôi muốn biết là học kỳ đầu tiên thì học bao nhiêu tín chỉ học kỳ
+    - tín chỉ học kỳ là gì
+    - tín chỉ học kỳ là sao
+    - tôi muốn hỏi về tín chỉ học kỳ
+    - tôi muốn biết thông tin về tín chỉ học kỳ
+    - tín chỉ học kỳ là như thế nào vậy bot
+    - tối đa bao nhiêu tín chỉ học kỳ
+    - tôi muốn hỏi về tín chỉ học kỳ
+    - tín chỉ học kỳ là sao vậy bot
+    - tôi muốn tìm hiểu về tín chỉ học kỳ
+    - tín chỉ học kỳ là như nào hả bot
+    - tín chỉ học kỳ là như thế nào
+    - tôi muốn biết thông tin về tín chỉ học kỳ
+    - tôi muốn hỏi thông tin về tín chỉ học kỳ
+    - tôi muốn tìm hiểu thông tin về tín chỉ học kỳ
+    - tôi muốn hỏi về tín chỉ học kỳ
+    - tìm muốn tìm hiểu về tín chỉ học kỳ
+    - tôi muốn biết về tín chỉ học kỳ
+    - tôi muốn hỏi về thông tin tín chỉ học kỳ
+
+- intent: info_add_delete_HP
+  examples: |
+    - tôi muốn biết về lớp học phần
+    - lớp học phần là gì
+    - tôi muốn tìm hiểu về lớp học phần
+    - lớp học phần là sao vậy bot
+    - lớp học phần là gì vậy
+    - tôi muốn ý nghĩa của lớp học phần
+    - lớp học phần là như thế nào
+    - tôi muốn biết thông tin về lớp học phần
+    - lớp học phần là sao
+    - tôi muốn tìm hiểu thông tin về lớp học phần
+    - tôi muốn tìm kiếm thông tin về lớp học phần
+    - tôi muốn hỏi thông tin về lớp học phần
+    - tôi muốn biết ý nghĩa thông tin về lớp học phần
+    - tôi muốn tìm hiểu về lớp học phần
+    - tôi muốn hỏi về lớp học phần
+    - lớp học phần là thế nào
+    - lớp học phần là sao thế
+    - lớp học phần là như nào hả bot
+    - lớp học phần là gì thế
+    - tôi muốn tra thông tin về lớp học phần
+    - tôi muốn biết về lớp học phần
+    - tôi muốn biết như thế nào là lớp học phần
+    - tôi muốn biết lớp học phần là như thế nào
+
+
+- intent: delete_lop_HP
+  examples: |
+    - bạn có thể cho mình biết chi tiết về xóa lớp học phần
+    - bạn hãy cho tôi biết điều kiện để xóa lớp học phần
+    - tôi không biết là tại sao phải xóa lớp học phần
+    - xóa lớp học phần như thế nào
+    - tôi muốn biết xóa lớp học phần là sao
+    - tôi không biết là sinh viên có tự ý xóa lớp học phần không
+    - thế nào sẽ bị xóa lớp học phần
+    - xóa lớp học phần là gì vậy bot
+    - xóa lớp học phần là như nào thế bot
+    - tôi muốn biết thông tin về xóa lớp học phần
+    - tôi muốn tìm hiểu thông tin về xóa lớp học phần
+    - tại sao lại xóa lớp học phần
+
+- intent: add_lop_HP
+  examples: |
+    - tôi/em muốn mở thêm lớp học phần thì phải làm sao
+    - bạn có thể cho mình biết điều kiện để mở thêm lớp học phần
+    - tôi không biết là tại sao phải mở thêm lớp học phần
+    - bạn hãy cho tôi biết bao nhiêu sinh viên mở mở thêm lớp học phần
+    - mở thêm lớp học phần như thế nào
+    - cần những yếu tố gì để mở thêm lớp học phần
+    - mở thêm lớp học phần bằng cách nào
+    - tại sao lại mở thêm lớp học phần
+    - mở lớp học phần là sao
+    - mở lớp học phần là gì vậy bot
+    - mở lớp học phần là như nào thế bot
+    - tôi muốn tìm hiểu thông tin về mở lớp học phần
+    - tôi muốn biết ý nghĩa của mở lớp học phần
+    - tôi muốn biết thông tin về mở lớp học phần
+    - tôi muốn biết ý nghĩa của mở thêm lớp học phần
+    - mở lớp học phần là sao vậy bot
+    - mở thêm lớp học phần
+    - mở lớp học phần như thế nào
+    - làm sao để được mở lớp học phần
+
+- intent: info_dang_ky_hoc_lai
+  examples: |
+    - tôi muốn đăng ký học lại
+    - tôi muốn biết đăng ký học lại là sao
+    - làm thế nào để đăng ký học lại
+    - bạn hãy cho tôi biết quy định về việc đăng ký học lại
+    - muốn đăng ký học lại thì phải làm sao
+    - thông tin chi tiết về việc đăng ký học lại
+    - tôi muốn biết thông tin về đăng ký học lại
+    - tôi muốn tìm hiểu thông tin về đăng ký học lại
+    - đăng ký học lại thì điểm tính như thế nào
+    - đăng ký học lại của học phần tự chọn thì tính như thế nào
+    - học phần tự chọn được đăng ký học lại không
+    - đăng ký học lại cần những gì
+    - đăng ký học lại là sao vậy bot
+    - đăng ký học lại là gì thế bot
+
+#- intent: info_hoc_tap_khong_tot
+#  examples: |
+#    - nghỉ học tạm thời là sao
+#    - bạn hãy cho tôi biết thông tin về việc nghỉ học tạm thời
+#    - cảnh báo học vụ là sao
+#    - tôi không biết là ai sẽ bị cảnh báo học vụ
+#    - bạn có thể cho mình biết hình thức cảnh báo học vụ
+#    - bạn hãy cho tôi biết đình chỉ học tập là sao
+#    - đối tượng nào bị đình chỉ học tập
+#    - tôi/em muốn biết tại sao bị buộc thôi học
+#    - tôi/em muốn biết yếu tố nào dẫn đến việc thôi học
+
+- intent: nghi_hoc_tam_thoi
+  examples: |
+    - nghỉ học tạm thời là sao
+    - tại sao phải nghỉ học tạm thời
+    - tôi muốn biết nghỉ học tạm thời là sao
+    - làm thế nào để nghỉ học tạm thời
+    - nghỉ học tạm thời là gì vậy bot
+    - nghỉ học tạm thời là sao thế bot
+    - tôi muốn biết thông tin về nghỉ học tạm thời
+    - tôi muốn tìm hiểu thông tin về nghỉ học tạm thời
+    - tôi muốn hỏi thông tin về nghỉ học tạm thời
+    - những lý do nào được nghỉ học tạm thời
+    - tôi muốn biết về nghỉ học tạm thời
+    - tôi muốn hỏi về nghỉ học tạm thời
+    - tôi muốn nghỉ học tạm thời thì làm như thế nào
+
+- intent: canh_bao_hoc_tap
+  examples: |
+    - cảnh báo học tập là sao
+    - tại sao lại bị cảnh báo học tập
+    - các truờng hợp bị cảnh báo học tập
+    - cảnh báo học tập là gì thế bot
+    - cảnh báo học tập là như thế nào vậy bot
+    - tôi muốn biết cảnh báo học tập là sao
+    - làm gì mà bị cảnh báo học tập
+    - tôi muốn biết thông tin về cảnh báo học tập
+    - tôi muốn tìm hiểu thông tin về cảnh báo học tập
+    - tôi muốn hỏi thông tin về cảnh báo học tập
+    - tôi muốn biết về cảnh báo học tập
+    - tôi muốn hỏi về cảnh báo học tập
+    - như thế nào là cảnh báo học tập
+
+- intent: dinh_chi_hoc_tap
+  examples: |
+    - đình chỉ học tập là sao
+    - tại sao lại bị đình chỉ học tập
+    - các truờng hợp bị đình chỉ học tập
+    - tôi muốn biết đình chỉ học tập là gì
+    - làm sao mà bị đình chỉ học tập
+    - đình chỉ học tập là gì vậy bot
+    - đình chỉ học tập là gì sao thế bot
+    - như thế nào là đình chỉ học tập
+    - đình chỉ học tập là như thế nào
+    - như thế nào là bị đình chỉ học tập
+    - tôi muốn biết thông tin về việc đình chỉ học tập
+    - tôi muốn tìm hiểu thông tin về đình chỉ học tập
+    - tôi muốn tìm kiếm thông tin về đình chỉ học tập
+    - tôi muốn tìm hiểu về việc đình chỉ học tập
+    - đình chỉ học tập là sao vậy
+    - đình chỉ học tập là như nào vậy
+    - tôi muốn biết về đình chỉ học tập
+    - tôi muốn hỏi về đình chỉ học tập
+
+- intent: buoc_thoi_hoc
+  examples: |
+    - buộc thôi học là sao
+    - tại sao lại bị buộc thôi học
+    - các truờng hợp bị buộc thôi học
+    - tôi muốn biết tại sao lại bị buộc thôi học
+    - thôi học là như thế nào
+    - buộc thôi học là gì
+    - thôi học là sao 
+    - tôi muốn biết thông tin về buộc thôi học
+    - tôi muốn tìm hiểu thông tin về buộc thôi học
+    - tôi muốn thôi học thì cần những gì
+    - thôi học bằng cách nào
+    - như thế nào sẽ bị buộc thôi học
+
+- intent: learn_2_chuong_trinh
+  examples: |
+    - tôi muốn biết thông tin về việc học cùng lúc hai chương trình
+    - tôi muốn biết thông tin về việc học song song hai ngành
+    - muốn học hai ngành thì làm thế nào
+    - học hai chương trình là sao
+    - học hai chương trình là gì
+    - làm thế nào để tôi học hai chương trình
+    - học hai chương trình thì làm thế nào
+    - làm thế nào để học được hai ngành cùng lúc
+    - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình
+    - tôi muốn biết thông tin về việc học song song 2 ngành
+    - muốn học 2 ngành thì làm thế nào
+    - học 2 chương trình là sao
+    - học 2 chương trình là gì
+    - tôi muốn biết thông tin về học 2 chương trình
+    - tôi muốn biết thông tin về học hai chương trình
+    - tôi muốn biết thông tin về học 2 ngành học
+    - tôi muốn tìm hiểu thông tin về học 2 chương trình
+    - tôi muốn tìm hiểu thông tin về học hai chương trình
+    - tôi muốn tìm hiểu thông tin về học 2 ngành học
+    - tôi muốn hỏi thông tin về học 2 chương trình
+    - tôi muốn hỏi thông tin về học hai chương trình
+    - tôi muốn hỏi thông tin về học 2 ngành học
+    - làm thế nào để tôi học 2 chương trình
+    - học 2 chương trình thì làm thế nào
+    - làm thế nào để học được 2 ngành cùng lúc
+
+- intent: dieu_kien_learn
+  examples: |
+    - tôi muốn biết thông tin về điều kiện học cùng lúc hai chương trình
+    - tôi muốn biết thông tin về điều kiện học cùng lúc hai ngành
+    - điều kiện học hai ngành như thế nào
+    - điều kiện học hai chương trình là như thế nào
+    - điều kiện học hai chương trình là gì
+    - làm thế nào để tôi học hai chương trình
+    - điều kiện học hai chương trình thì như thế nào
+    - điều kiện học hai ngành cùng lúc
+    - tôi muốn biết thông tin về điều kiện học cùng lúc 2 chương trình
+    - tôi muốn biết thông tin về điều kiện học cùng lúc 2 ngành
+    - điều kiện học 2 ngành như thế nào
+    - điều kiện học 2 chương trình là như thế nào
+    - điều kiện học 2 chương trình là gì
+    - tôi muốn biết thông tin về điều kiện học 2 chương trình
+    - tôi muốn biết thông tin về điều kiện học hai chương trình
+    - tôi muốn biết thông tin về điều kiện học 2 ngành học
+    - tôi muốn tìm hiểu thông tin về điều kiện học 2 chương trình
+    - tôi muốn tìm hiểu thông tin về điều kiện học hai chương trình
+    - tôi muốn tìm hiểu thông tin về điều kiện học 2 ngành học
+    - tôi muốn hỏi thông tin về điều kiện học 2 chương trình
+    - tôi muốn hỏi thông tin về điều kiện học hai chương trình
+    - tôi muốn hỏi thông tin về điều kiện học 2 ngành học
+    - làm thế nào để tôi học 2 chương trình
+    - điều kiện học 2 chương trình thì như thế nào
+    - điều kiện học 2 ngành cùng lúc
+
+- intent: thu_tuc_learn
+  examples: |
+    - tôi muốn biết thông tin về thủ tục học hai chương trình
+    - tôi muốn biết thông tin về thủ tục học cùng lúc hai ngành
+    - thủ tục học hai ngành như thế nào
+    - thủ tục học hai chương trình là như thế nào
+    - thủ tục học hai chương trình là gì
+    - thủ tục thế nào để tôi học hai chương trình
+    - thủ tục học hai chương trình thì như thế nào
+    - thủ tục học hai ngành cùng lúc
+    - tôi muốn biết thông tin về thủ tục học 2 chương trình
+    - tôi muốn biết thông tin về thủ tục học cùng lúc 2 ngành
+    - thủ tục học 2 ngành như thế nào
+    - thủ tục học 2 chương trình là như thế nào
+    - thủ tục học 2 chương trình là gì
+    - thủ tục thế 2 để tôi học hai chương trình
+    - thủ tục học 2 chương trình thì như thế nào
+    - thủ tục học 2 ngành cùng lúc
+    - tôi muốn biết thông tin về thủ tục học 2 chương trình
+    - tôi muốn biết thông tin về thủ tục học hai chương trình
+    - tôi muốn biết thông tin về thủ tục học 2 ngành học
+    - tôi muốn tìm hiểu thông tin về thủ tục học 2 chương trình
+    - tôi muốn tìm hiểu thông tin về thủ tục học hai chương trình
+    - tôi muốn tìm hiểu thông tin về thủ tục học 2 ngành học
+    - tôi muốn hỏi thông tin về thủ tục học 2 chương trình
+    - tôi muốn hỏi thông tin về thủ tục học hai chương trình
+    - tôi muốn hỏi thông tin về thủ tục học 2 ngành học
+    - thủ tục đăng ký học 2 ngành như thế nào
+    - thủ tục đăng ký học 2 chương trình là như thế nào
+    - thủ tục đăng ký học 2 chương trình là gì
+    - thủ tục đăng ký thế 2 để tôi học hai chương trình
+    - thủ tục đăng ký học 2 chương trình thì như thế nào
+    - thủ tục đăng ký học 2 ngành cùng lúc
+    - tôi muốn biết thông tin về thủ tục đăng ký học 2 chương trình
+    - tôi muốn biết thông tin về thủ tục đăng ký học hai chương trình
+    - tôi muốn biết thông tin về thủ tục đăng ký học 2 ngành học
+    - tôi muốn tìm hiểu thông tin về thủ đăng ký tục học 2 chương trình
+    - tôi muốn tìm hiểu thông tin về thủ đăng ký tục học hai chương trình
+    - tôi muốn tìm hiểu thông tin về thủ đăng ký tục học 2 ngành học
+    - tôi muốn hỏi thông tin về thủ tục đăng ký học 2 chương trình
+    - tôi muốn hỏi thông tin về thủ tục đăng ký học hai chương trình
+    - tôi muốn hỏi thông tin về thủ tục đăng ký học 2 ngành học
+# ĐÁNH GIÁ HỌC TẬP
+- intent: learn_truc_truyen
+  examples: |
+    - bạn hãy cho tôi biết thông tin về ánh giá về học trực tuyến
+    - tôi muốn biết học trực tuyến thì tính điểm như thế nào
+    - gian lận trong khi thi trực tuyến
+    - tôi không biết là khi thi trực tuyến thì cần gì
+    - tôi muốn biết điều kiện bắt buộc cho việc thi trực tuyến
+    - bạn hãy cho tôi biết thông tin về thi trực tuyến
+    - bạn hãy cho tôi biết thông tin về tốt nghiệp onl
+    - bạn hãy cho tôi biết thông tin về tốt nghiệp trực tuyến
+    - thi trực tuyến là sao vậy bot
+    - thi trực tuyến là gì thế bot
+    - tôi muốn biết thông tin về thi trực tuyến
+    - tôi muốn hỏi thông tin về thi trực tuyến
+    - tôi muốn tìm hiểu thông tin về thi trực tuyến
+    - tôi muốn biết như thế nào là thi trực tuyến
+    - thi trực tuyến là như thế nào hả bot
+    - tôi muốn tìm hiểu về thi trực tuyến
+    - tôi muốn hỏi về thi trực tuyến
+
+
+# Hỏi điểm M, I, W
+
+- intent: tong_hop_thi # check thêm
+  examples: |
+    - các vấn đề về thi
+    - các vấn đề về thi cuối kỳ tại trường
+    - các vấn đề về thi cuối kỳ
+    - tổng hợp liên quan đến kỳ thi
+    - tổng hợp các vấn đề về thi
+    - tôi muốn biết về tổng hợp các vấn đề về thi cử
+    - tôi muốn hổi về tổng hợp các vấn đề về thi cử
+    - tôi muốn tìm hiểu về tổng hợp các vấn đề về thi
+    - tôi muốn biết thông tin về tổng hợp các vấn đề về thi
+    - tổng hợp các vấn đề về thi như thế nào
+    - tổng hợp các vấn đề về thi là thế nào hả bot
+    - tổng hợp các vấn đề về thi là gì
+    - tổng hợp các vấn đề về thi là sao hả bot
+
+- intent: diem_M
+  examples: |
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm M
+    - có điểm M hông
+    - có điểm M không
+    - bạn hãy cho tôi biết tại sao lại có điểm M
+    - tôi không biết là điểm M có tác dụng gì
+    - điểm M có tính vào điểm trung bình học kỳ hông
+    - điểm M có tính vào điểm trung bình tích lũy hông
+    - điểm M có quan trọng không
+    - bạn hãy cho tôi biết thông tin chi tiết về điểm M đối với sinh viên
+    - điểm M là sao
+    - điểm M là gì
+    - điểm M là như thế nào
+    - điểm M là sao vậy
+    - điểm M là bị gì
+    - tại sao có điểm M
+    - điểm M đại diện cho điểm gì
+    
+- intent: diem_I
+  examples: |
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm I
+    - bạn hãy cho tôi biết điểm I là điểm gì
+    - điểm I có quan trọng không
+    - điểm I có tính vào điểm trung bình học kỳ/ĐTBHK không
+    - điểm I có tính vào điểm trung bình tích lũy/ĐTBTL không
+    - bạn hãy cho tôi biết thông tin chi tiết về điểm I đối với sinh viên
+    - điểm I có tác dụng gì
+    - bạn có thể cho mình biết điểm I từ đâu mà ra
+    - điểm I là sao
+    - điểm I là gì
+    - điểm I là như thế nào
+    - điểm I là sao vậy
+    - điểm I là bị gì
+    - tại sao có điểm I
+    - điểm I đại diện cho điểm gì
+
+- intent: diem_W
+  examples: |
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm W
+    - điểm W là gì
+    - có điểm W hông
+    - có điểm W không
+    - tại sao lại có điểm W
+    - bạn hãy cho tôi biết điểm W có tác dụng gì
+    - tôi/em muốn biết điểm W có tính vào điểm trung bình học kỳ hông
+    - điểm W có tính vào điểm trung bình tích lũy hông
+    - bạn hãy cho tôi biết điểm W có quan trọng không
+    - tôi/em muốn biết thông tin chi tiết về điểm W đối với sinh viên
+    - điểm W là sao
+    - điểm W là gì
+    - điểm W là như thế nào
+    - điểm W là sao vậy
+    - điểm W là bị gì
+    - tại sao có điểm W
+    - điểm W đại diện cho điểm gì
+    
+
+- intent: so_lan_thi_CK
+  examples: |
+    - bạn hãy cho tôi biết cuối kỳ thì thi mấy lần
+    - tôi không biết là học hết chương trình thì có thi hông
+    - bạn hãy cho tôi biết cuối kỳ thi một lần hay hai lần
+    - cuối ký thi 1 lần hay 2 lần
+    - tôi muốn biết thi hơn 1 lần được không
+    - thi cuối kỳ nhiều hơn 1 lần được hông
+    - kỳ thi cuối là như thế nào
+    - cuối kỳ thi ra làm sao
+    - kỳ thi cuối là sao vây
+    - thi cuối kỳ là như nào hả bot
+    - kỳ thi cuối có mấy lần
+    - thi cuối là sao vậy bot
+    - thi cuối kỳ là sao vậy trường
+    - cuối kỳ thi như thế nào
+    - tôi muốn biết thông tin về cuối kỳ thi là như nào hả bot
+    - tôi muốn biết thông tin về kỳ thi cuối là sao thế bot
+    - tôi muốn biết thông tin về thi cuối kỳ là gì vậy bot
+    - tôi muốn biết thi cuối kỳ là sao
+    - thi cuối kỳ như thế nào
+    - tôi muốn hỏi về kỳ thi cuối
+    - tôi muốn tìm hiểu về kỳ thi cuối
+    - tôi muốn biết về kỳ thi cuối
+    - tôi muốn hỏi về cuối kỳ thi
+    - tôi muốn tìm hiểu về cuối kỳ thi
+    - tôi muốn biết về cuối kỳ thi
+    - tôi muốn hỏi về thi cuối kỳ
+    - tôi muốn tìm hiểu về thi cuối kỳ
+    - tôi muốn biết về thi cuối kỳ
+- intent: to_chuc_thi_CK
+  examples: |
+    - anh hãy cho tôi biết thông tin về thời gian tổ chức thi cuối kỳ
+    - bạn hãy cho tôi biết thi cuối kỳ chung hay riêng
+    - em muốn biết thi cuối kỳ như thế nào
+    - bạn hãy cho tôi biết thông tin về cách tổ chức thi cuối kỳ
+    - bạn hãy cho tôi biết giảng viên tự chọn ngày thi hay sinh viên
+    - tôi không biết là thi cuối kỳ sẽ do ai sắp xếp
+    - tổ chức kỳ thi cuối là như thế nào
+    - cuối kỳ tổ chức thi ra làm sao
+    - tổ chức kỳ thi cuối
+    - tổ chức thi cuối kỳ
+    - kỳ thi cuối tổ chức mấy lần
+    - tôi muốn biết thông tin về tổ chức cuối kỳ thi là như nào hả bot
+    - tôi muốn biết thông tin về tổ chức kỳ thi cuối là sao thế bot
+    - tôi muốn biết thông tin về tổ chức thi cuối kỳ là gì vậy bot
+    - cuối kỳ thi tổ chức như thế nào
+    - tôi muốn biết thi cuối kỳ tổ chức ra làm sao
+    - thi cuối kỳ tổ chức như thế nào
+- intent: vang_thi_CK
+  examples: |
+    - tôi/em muốn biết vắng thi cuối kỳ có sao không
+    - bạn hãy cho tôi biết hậu quả khi vắng thi
+    - bạn có thể cho mình biết hậu quả khi vắng thi kết thúc học phần
+    - tôi/em muốn biết không thi cuối kỳ thì sẽ ra sao
+    - tôi/em muốn biết không thi kết thúc học phần thì sẽ ra sao
+    - vắng thi có lý do thì sao
+    - vắng thi có bị rớt môn không
+    - vắng thi kỳ thi cuối thì bị gì
+    - vắng thi cuối kỳ ra làm sao
+    - tôi muốn biết thông tin về vắng cuối kỳ thi là như nào hả bot
+    - tôi muốn biết thông tin về vắng kỳ thi cuối là sao thế bot
+    - tôi muốn biết thông tin về vắng thi cuối kỳ là gì vậy bot
+    - vắng kỳ thi cuối là sao thế bot
+    - vắng thi cuối kỳ là như nào vậy bot
+    - vắng kỳ thi cuối có sao không
+    - vắng thi cuối bị sẽ bị gì
+    - tôi muốn biết vắng thi cuối kỳ sẽ bị sao
+    - vắng thi cuối sẽ ảnh hưởng gì đến tôi
+# Điểm trung bình chung
+
+- intent: diem_tbchung
+  examples: |
+    - bạn hãy cho tôi biết điểm trung bình chung là gì
+    - bạn hãy cho tôi biết điểm trung bình chung là gì
+    - bạn hãy cho tôi biết điểm trung bình chung là gì
+    - bạn có thể cho mình biết điểm trung bình chung là gì
+    - bạn có thể cho mình biết điểm trung bình chung là sao
+    - bạn có thể cho mình biết điểm trung bình chung là như thế nào
+    - điểm trung bình chung là sao
+    - điểm trung bình chung là gì
+    - điểm trung bình chung là như nào hả bot
+    - điểm trung bình chung là sao vậy bot
+    - điểm trung bình chung là gì vậy trường
+    - điểm trung bình chung là như thế nào
+    - hãy cho tôi biết thông tin về điểm trung bình chung là điểm gì
+    - tôi muốn biết điểm tổng trung bình chung là thế nào hả bot
+    - tôi/em muốn biết cách tính điểm trung bình chung là sao
+    - bạn hãy cho tôi biết cách tính điểm trung bình chung
+    - tôi muốn biết công thức tính điểm trung bình chung
+    - tôi muốn biết thông tin về điểm trung bình chung
+    - tôi muốn tìm hiểu thông tin về điểm trung bình chung
+    - tôi muốn hỏi thông tin về điểm trung bình chung
+    - tôi không biết là tính điểm trung bình chung bằng cách nào
+    - Điểm trung bình chung
+    - điểm trung bình chung ra sao
+    - cách tính điểm trung bình chung
+    - điểm trung bình chung tính điểm ra sao
+    - điểm trung bình chung là gì thế bot
+    - hãy giải thích giúp tôi về điểm trung bình chung
+    - hay nói cho tôi biết về điểm trung bình chung
+
+- intent: diem_tbchk
+  examples: |
+    - bạn hãy cho tôi biết điểm trung bình chung học kỳ là gì
+    - bạn hãy cho tôi biết điểm trung bình chung học kỳ là gì
+    - bạn hãy cho tôi biết điểm tbchk là gì
+    - bạn có thể cho mình biết dtbhk là gì
+    - bạn có thể cho mình biết dtbhk là sao
+    - bạn có thể cho mình biết dtbhk là như thế nào
+    - điểm trung bình chung học kỳ là sao
+    - điểm trung bình chung học kỳ là gì
+    - điểm trung bình chung học kỳ là như nào hả bot
+    - điểm trung bình chung học kỳ là sao vậy bot
+    - điểm trung bình chung học kỳ là gì vậy trường
+    - điểm trung bình chung học kỳ là như thế nào
+    - hãy cho tôi biết thông tin về điểm trung bình chung học kỳ là điểm gì
+    - tôi muốn biết điểm tổng trung bình chung của học kỳ
+    - tôi/em muốn biết cách tính điểm trung bình chung của học kỳ
+    - bạn hãy cho tôi biết cách tính điểm trung bình chung học kỳ
+    - tôi muốn biết công thức tính điểm trung bình chung học kỳ
+    - tôi muốn biết thông tin về điểm trung bình chung học kỳ
+    - tôi muốn tìm hiểu thông tin về điểm trung bình chung học kỳ
+    - tôi muốn hỏi thông tin về điểm trung bình chung học kỳ
+    - tôi không biết là tính điểm trung bình chung học kỳ bằng cách nào
+
+- intent: diem_tbcnh
+  examples: |
+    - hãy cho tôi biết thông tin về điểm trung bình chung năm học là gì
+    - tôi muốn biết điểm trung bình chung năm học có tính điểm F không
+    - tôi không biết là có tính điểm của các môn thể chất vào điểm tbcnh không
+    - tôi không biết là có tính điểm của học phần thể chất vào điểm trung bình chung năm học không
+    - bạn có thể cho mình biết điểm chung bình chung năm học tính như thế nào
+    - điểm trung bình chung cả năm là sao
+    - điểm trung bình chung năm học là gì
+    - điểm trung bình chung năm học là như thế nào hả bot
+    - điểm trung bình chung năm học là sao vậy bot
+    - điểm trung bình chung năm học là gì vậy trường
+    - điểm trung bình chung cả năm là như thế nào
+    - hãy cho tôi biết thông tin về điểm trung bình chung cả năm là điểm gì
+    - tôi muốn biết điểm tổng trung bình chung của cả năm
+    - tôi muốn biết cách tính điểm trung bình chung cả năm của học kỳ
+    - bạn hãy cho tôi biết cách tính điểm trung bình chung năm học
+    - tôi muốn biết công thức tính điểm trung bình chung cả năm
+    - tôi muốn biết thông tin về điểm trung bình chung cả năm
+    - tôi muốn tìm hiểu thông tin về điểm trung bình chung năm học
+    - tôi muốn hỏi thông tin về điểm trung bình chung năm học
+    - tôi không biết là tính điểm trung bình chung năm học bằng cách nào
+    - tôi muốn biết thông tin về điểm trung năm học
+- intent: diem_tbctl
+  examples: |
+    - điểm trung bình chung tích lũy là sao
+    - bạn/em/anh hãy cho tôi biết thông tin về cách tính điểm trung bình chung tích lũy
+    - bạn hãy cho tôi biết xếp loại tốt nghiệp có tính điểm trung bình chung tích lũy hay không
+    - tôi/em muốn biết điểm trung bình chung tích lũy có quan trọng không
+    - tôi không biết là khi bị điểm F có tính vào điểm trung bình chung tích lũy hay không
+    - điểm trung bình chung tích lũy là sao
+    - điểm trung bình chung tích lũy là gì
+    - điểm trung bình chung tích lũy
+    - điểm trung bình chung tích lũy là sao vậy bot
+    - điểm trung bình chung tích lũy là sao vậy trường
+    - điểm trung bình chung tích lũy là như thế nào
+    - hãy cho tôi biết thông tin về điểm trung bình chung tích lũy là điểm gì
+    - tôi muốn biết điểm tổng trung bình chung tích chung lũy của học kỳ
+    - tôi muốn biết cách tính điểm trung bình chung tích luy của học kỳ
+    - bạn hãy cho tôi biết cách tính điểm trung bình chung tích lũy
+    - tôi muốn biết công thức tính điểm trung bình chung tích lũy
+    - tôi không biết là tính điểm trung bình chung tích lũy bằng cách nào
+    - tôi muốn biết thông tin về điểm trung bình chung tích lũy
+    - tôi muốn tìm hiểu thông tin về điểm trung bình chung tích lũy
+    - tôi muốn hỏi thông tin về điểm trung bình chung tích lũy
+    - tôi muốn biết thông tin về điểm trung bình chung tích lũy
+- intent: rank_hoc_tap
+  examples: |
+    - hãy cho tôi biết thông tin về xếp loại học tập
+    - tôi/em muốn biết xếp loại học tập dựa vào điểm nào
+    - xếp loại học tập là gì vậy bot
+    - tôi muốn biết thông tin về xếp loại học tập
+    - tôi muốn tìm hiểu thông tin về xếp loại học tập
+    - tôi muốn biết về xếp loại học tập
+    - tôi muốn hỏi về xếp loại học tập
+    - tôi muốn hỏi thông tin về xếp loại học tập
+    - xếp loại học tập như thế nào hả bot
+    - xếp loại học tập là sao thế bot
+    - thông tin về xếp loại học tập
+    - xếp loại học tập phân như thế nào
+    - xếp loại học tập dựa vào đâu
+
+# Xếp loại khen thưởng
+- intent: xep_loai_khen_thuong
+  examples: |
+    - bạn hãy cho tôi biết thông tin về xếp loại khen thưởng
+    - tôi không biết là học bao nhiêu chỉ thì được xếp loại khen thưởng
+    - tôi muốn biết các mức xếp loại khen thưởng
+    - bạn hãy cho tôi biết mức xếp loại khen thưởng cao nhất là mức nào
+    - bạn có thể cho mình biết mức xếp loại khen thưởng thấp nhất là mức nào
+    - xếp loại khen thưởng có kèm giấy khen hay tiền mặt không
+    - tôi không biết là xếp loại khen thưởng có kèm theo tiền mặt hay quà không
+    - bạn hãy cho tôi biết xếp loại khen thưởng có được vinh danh ở khoa không
+    - tôi muốn biết thông tin về xếp loại khen thưởng
+    - tôi muốn tìm hiểu thông tin về xếp loại khen thưởng
+    - tôi muốn hỏi thông tin về xếp loại khen thưởng
+    - xếp loại khen thưởng như thế nào
+    - xếp loại khen thưởng là gì vậy bot
+    - xếp loại khen thưởng là như thế nào hả bot
+    - xếp loại khen thưởng là sao thế bot
+
+- intent: loai_xuat_sac
+  examples: |
+    - bạn hãy cho tôi biết loại xuất sắc thì được gì
+    - bạn có thể cho mình biết điều kiện để được loại xuất sắc thì như thế nào
+    - loại xuất sắc cần những gì
+    - xếp loại xuất sắc là như thế nào vậy bot
+    - xếp loại xuất sắc như thế nào
+    - xếp loại xuất sắc cần những gì
+    - tôi muốn biết thông tin về loại xuất sắc
+    - tôi muốn tìm hiểu thông tin về loại xuất sắc
+    - tôi muốn tìm kiếm thông tin về loại xuất sắc
+    - loại xuất sắc là sao thế bot
+    - loại xuất sắc là gì vậy bot
+
+- intent: loai_gioi
+  examples: |
+    - tôi muốn biết là loại giỏi thì được gì
+    - bạn hãy cho tôi biết điều kiện để được loại giỏi thì như thế nào
+    - loại giỏi cần những gì
+    - xếp loại giỏi là như thế nào hả bot
+    - xếp loại giỏi như thế nào
+    - tôi muốn biết về loại giỏi
+    - tôi muốn hỏi về loại giỏi
+    - tôi muốn tìm hiểu về loại giỏi
+    - xếp loại giỏi cần những gì
+    - tôi muốn biết thông tin về loại giỏi
+    - tôi muốn tìm hiểu thông tin về loại giỏi
+    - tôi muốn hỏi thông tin về loại giỏi
+    - loại giỏi là sao
+    - loại giỏi là sao thế bot
+    - loại giỏi là gì vậy bot
+- intent: loai_kha
+  examples: |
+    - tôi/em muốn biết là loại khá thì được gì
+    - bạn hãy cho tôi biết điều kiện để được loại khá thì như thế nào
+    - loại kh cần những gì
+    - xếp loại khá là như thế nào hả bot
+    - xếp loại khá như thế nào
+    - xếp loại khá cần những gì
+    - tôi muốn biết thông tin về loại khá
+    - loại khá là sao
+    - loại khá là sao thế bot
+    - loại khá là gì vậy bot
+    - tôi muốn biết thông tin về loại khá
+    - tôi muốn tìm hiểu thông tin về loại khá
+    - tôi muốn hỏi thông tin về loại khá
+- intent: khen_thuong
+  examples: |
+    - bạn có thể cho mình biết quy định về việc khen thưởng sinh viên
+    - tôi muốn biết khen thưởng những trường hợp nào
+    - bạn hãy cho tôi biết điều kiện để được khen thưởng
+    - tôi không biết là khen thưởng từ loại nào
+    - như thế nào mới được khen thưởng
+    - khen thưởng như thế nào
+    - như thế nào mới được khen thưởng
+    - trong trường hợp nào mới được khen thưởng
+    - tôi muốn biết thông tin về khen thưởng
+    - tôi muốn hỏi thông tin về khen thưởng
+    - tôi muốn tìm kiếm thông tin về khen thưởng
+    - khen thưởng là sao vậy bot
+    - khen thưởng là gì thế bot
+    - tôi muốn biết về khen thưởng
+    - tôi muốn hỏi về vấn đề khen thưởng
+    - khen thưởng như thế nào hả bot
+    - làm thế nào để được khen thưởng
+    
+    
+
+- intent: quy_dinh_kiem_tra
+  examples: |
+    - bạn có thể cho mình biết quy định về kiểm tra
+    - bạn hãy cho tôi biết quy định về thi cử
+    - tôi/em muốn biết yêu cầu khi đi thi
+    - đi thi có cần mang thẻ sinh viên
+    - đang thi có được đi đâu không
+    - viết chữ xấu có được thi không
+    - bạn có thể cho mình biết điều kiện dự thi
+    - thế nào là bài thi không hợp lệ
+    - bài thi không hợp lệ sẽ bị xử lý ra sao
+    - quy định kiểm tra là sao thế bot
+    - Tôi muốn biết thông tin về các quy định kiểm tra
+    - các quy định kiểm tra ra làm sao
+    - các quy định kiểm tra như thế nào
+    - tôi muốn biết về quy định kiểm tra
+    - quy định kiểm tra như thế nào
+    - quy định kiểm tra ra làm sao
+    - quy định kiểm tra là sao hả bot
+    - quy định kiểm tra là gì thế bot
+    - quy định kiểm tra là như thế nào hả bot
+    - tôi muốn biết quy định kiểm tra ra làm sao
+    - tôi muốn hỏi quy định kiểm tra ra làm sao
+    - tôi muốn tìm hiểu quy định kiểm tra ra làm sao
+
+- intent: xu_ly_sv_vi_pham_quy_dinh
+  examples: |
+    - tôi/em muốn biết thông tin về việc xử lý sinh viên vi phạm
+    - bạn có thể cho mình biết vi phạm quy chế thi sẽ bị xử lý như thế nào
+    - hình thức xử phạt khi quy phạm quy định kiểm tra
+    - bạn hãy cho tôi biết các hình thức răng đe sinh viên khi quy phạm quy chế thi
+    - xử lý khi sinh viên có hành vi sai trái trong kiểm tra, thi cử
+    - bạn có thể cho mình biết quy định xử lý sinh viên vi phạm quy định về thi cử
+    - xử lý vi phạm như thế nào
+    - xử lý vi phạm của sinh viên ra làm sao
+    - xử lý vi phạm là sao
+    - xử lý vi phạm là gì vậy bot
+    - xử lý vi phạm là như thế nào hả bot
+    - tôi muốn biết thông tin về xử lý vi phạm
+    - tôi muốn hỏi thông tin về xử lý vi phạm
+    - tôi muốn tìm hiểu thông tin về xử lý vi phạm
+    - tôi muốn biết xử lý sinh viên vi phạm như thế nào
+    - tôi muốn biết xử lý sinh viên vi phạm ra sao
+    - tôi muốn biết xử lý sinh viên vi phạm là sao
+- intent: khien_trach_sv
+  examples: |
+    - tôi/em muốn biết khiển trách sinh viên khi nào
+    - tôi không biết là khi nào thì cán bộ coi thi sẽ nhắc nhở sinh viên
+    - bạn có thể cho mình biết chi tiết về khiển trách sinh viên trong kiểm tra thi cử
+    - khiển trách sinh viên là như thế nào hả bot
+    - tôi muốn biết sinh viên bị phạt khiển trách như thế nào
+    - tôi muốn hỏi khiển trách sinh viên ra làm sao
+    - khiển trách là sao vậy bot
+    - tại sao lại bị khiển trách
+    - tôi muốn biết thông tin về khiển trách
+    - làm sao sinh viên lại bị khiển trách
+    - tôi muốn biết thông tin về khiển trách
+    - tôi muốn biết thông tin về khiển trách sinh viên
+    - tôi muốn hỏi thông tin về khiển trách
+    - tôi muốn hỏi thông tin về khiển trách sinh viên   
+    - khiển trách sinh viên sẽ bị gì
+
+- intent: canh_cao_sv
+  examples: |
+    - cảnh cáo sinh viên khi nào
+    - cảnh cáo là sao
+    - cảnh cáo là bị gì
+    - tôi muốn biết thông tin về cảnh cáo
+    - tại sao lại cảnh cáo sinh viên
+    - khi bị cảnh cáo, sinh viên cần làm gì
+    - cảnh cáo sinh viên là gì vậy bot
+    - cảnh cáo sinh viên trong kiểm tra
+    - cảnh cáo sinh viên trong thi cử
+    - cảnh cáo sinh viên khi vi phạm quy chế
+    - khi nào thì sẽ bị cảnh cáo sinh viên
+    - cảnh cáo sinh viên là sao thế bot
+    - tôi muốn biết thông tin về việc cảnh cáo
+    - cảnh cáo là sao vậy trường
+    - cảnh cáo là gì vậy bot
+    - tôi muốn biết về cảnh cáo sinh viên
+    - tôi muốn hỏi về cảnh cáo sinh viên
+    - tôi muốn biết cảnh cáo sinh viên là sẽ bị gì
+    - tôi muốn biết thông tin về cảnh báo
+    - tôi muốn biết thông tin về cảnh báo sinh viên
+    - tôi muốn hỏi thông tin về cảnh báo
+    - tôi muốn hỏi thông tin về cảnh báo sinh viên
+- intent: dinh_chi_sv
+  examples: |
+    - bạn hãy cho tôi biết về việc đình chỉ sinh viên
+    - bạn hãy cho tôi biết về việc đình chỉ sinh viên
+    - bạn hãy cho tôi biết đình chỉ sinh viên khi nào
+    - bạn có thể cho mình biết đình chỉ sinh viên khi nào
+    - tại sao lại đình chỉ sinh viên
+    - sinh viên khi bị đình chỉ sẽ bị ra sao
+    - nếu bị đình chỉ, sinh viên có tiếp tục thi hay không
+    - đình chỉ sinh viên
+    - đình chỉ thi là như thế nào hả bot
+    - đình chỉ thi là sao vậy bot
+    - tôi muốn biết thông tin về việc đình chỉ
+    - đình chỉ là sao vậy bot
+    - tôi muốn biết về đình chỉ sinh viên
+    - tôi muốn hỏi về đình chỉ sinh viên
+    - đình chỉ là như thế nào vậy truờng
+    - tôi muốn biết thông tin về đình chỉ thi
+    - tại sao lại bị đình chỉ thi
+    - tại sao lại bị đình chỉ sinh viên
+    - tôi muốn biết thông tin về đình chỉ
+    - tôi muốn biết thông tin về đình chỉ sinh viên
+    - tôi muốn hỏi thông tin về đình chỉ
+    - tôi muốn hỏi thông tin về đình chỉ sinh viên
+- intent: sv_thi_ho
+  examples: |
+    - tôi không biết là thi hộ là sao
+    - tôi muốn biết tại sao lại thi hộ
+    - sinh viên nhờ người khác thi hộ
+    - bạn hãy cho tôi biết hậu quả khi nhờ người khác thi hộ
+    - tôi không biết là thi hộ có ảnh hưởng gì không
+    - sinh viên thi hộ
+    - thi hộ có làm sao không
+    - thi hộ sẽ bị gì
+    - thi hộ là sao vậy bot
+    - thi hộ là gì vậy trường
+    - bị phát hiện thi hộ sẽ bị gì
+    - bị phát hiện thi hộ sẽ xử lý ra làm sao
+    - thi hộ có bị gì không 
+    - tôi muốn biết thông tin về thi hộ
+    - tôi muốn tìm hiểu thông tin về thi hộ
+    - tôi muốn hỏi thông tin về thi hộ
+- intent: trinh_do_nam_hoc
+  examples: |
+    - tôi không biết là trình độ năm học là gì
+    - tôi muốn biết năm 3 học nhiêu chỉ là sao
+    - bạn có thể cho mình biết năm thứ nhất thì có bao nhiêu tổng tín chỉ tích lũy
+    - bạn có thể cho mình biết năm 2 là bao nhiêu tổng tín chỉ tích lũy
+    - tôi muốn biết năm 3 là bao nhiêu tổng tín chỉ tích lũy
+    - tôi không biết là năm 4 là bao nhiêu tổng tín chỉ tích lũy
+    - bạn hãy cho tôi biết năm 1 là bao nhiêu tổng tín chỉ tích lũy
+    - trình độ năm học như thế nào hả bot
+    - trình độ năm học được xác định dựa vào đâu
+    - trình độ năm học là gì thế bot
+    - trình độ năm học là sao vậy bot
+    - trình độ năm học là gì vậy trường
+    - tôi muốn biết thông tin về trình độ năm học
+    - dựa vào đâu để tôi có thể xác định trình độ năm học
+    - trình độ năm học ra làm sao
+    - tôi muốn biết thông tin về trình độ năm học
+    - tôi muốn hỏi thông tin về trình độ năm học
+    - tôi muốn tìm hiểu thông tin về trình độ năm học
+# XÉT VÀ CÔNG NHẬN TỐT NGHIỆP
+- intent: ask_tot_nghiep
+  examples: |
+    - bạn hãy cho tôi biết thông tin liên quan đến tốt nghiệp
+    - luận văn tốt nghiệp
+    - tiểu luận tốt nghiệp
+    - tôi muốn học các môn thay thể để tốt nghiệp
+    - tôi muốn biết cách tích lũy tín chỉ để tốt nghiệp
+    - bạn hãy cho tôi biết cách tính điểm luận văn tốt nghiệp
+    - bạn có thể cho mình biết cách tính điểm tiểu luận tốt nghiệp
+    - bạn hãy cho tôi biết thông tin chi tiết về việc học các môn thay thế để tốt nghiệp
+    - tôi muốn biết thông tin về tốt nghiệp
+    - tôi muốn hỏi thông tin về tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về tốt nghiệp
+    - tốt nghiệp là gì vậy
+    - tôi muốn biết về tốt nghiệp
+    - tôi muốn hỏi về tốt nghiệp
+    - tôi muốn tìm hiểu về tốt nghiệp
+    - tốt nghiệp là như thế nào hả bot
+    - tốt nghiệp là sao vậy bot
+    - làm sao để được tốt nghiệp
+
+- intent: dieu_kien_tot_nghiep
+  examples: |
+    - bạn hãy cho tôi biết về điều kiện tốt nghiệp
+    - tôi không biết là để được xét điều kiện tốt nghiệp thì cần gì
+    - bạn có thể cho mình biết quy định về điều kiện tốt nghiệp
+    - tôi muốn biết về điều kiện tốt nghiệp
+    - tôi muốn hỏi về điều kiện tốt nghiệp
+    - tôi muốn tìm hiểu về điều kiện tốt nghiệp
+    - bạn hãy cho tôi biết điểm số bao nhiêu thì được xét điều kiện tốt nghiệp
+    - bạn có thể cho mình biết học bao nhiêu tín chỉ thì được xét điều kiện tốt nghiệp
+    - xét điều kiện tốt nghiệp là như nào
+    - làm sao để được xét điều kiện tốt nghiệp
+    - tôi muốn được xét điều kiện tốt nghiệp
+    - điều kiện tốt nghiệp là sao hả bot
+    - điều kiện tốt nghiệp là gì vậy bot
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp
+    - tôi muốn hỏi thông tin về điều kiện tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp
+    - điều kiện tốt nghiệp là gì vậy
+    - tôi muốn biết về điều kiện tốt nghiệp
+    - tôi muốn hỏi về điều kiện tốt nghiệp
+    - tôi muốn tìm hiểu về điều kiện tốt nghiệp
+
+- intent: thoi_gian_tot_nghiep
+  examples: |
+    - bạn có thể cho mình biết thời gian tốt nghiệp
+    - tôi muốn biết về thời gian tốt nghiệp vào tháng mấy
+    - bạn hãy cho tôi thời gian tốt nghiệp vào tháng mấy
+    - mình muốn biết thông tin về thời gian tốt nghiệp
+    - bạn có thể cho mình biết thời gian tốt nghiệp
+    - em muốn biết thời gian tốt nghiệp được tổ chức vào tháng mấy
+    - tôi không biết là thời gian tốt nghiệp được tổ chức vào tháng nào
+    - tôi muốn biết về thời gian tốt nghiệp
+    - thời gian tốt nghiệp là sao vậy bot
+    - thời gian tốt nghiệp diễn ra như thế nào
+    - thời gian tốt nghiệp vào tháng mấy
+    - tôi muốn biết về thời gian tốt nghiệp 
+    - thời gian tốt nghiệp ra làm sao
+    - tôi muốn biết thông tin về thời gian tốt nghiệp
+    - tôi muốn hỏi thông tin về thời gian tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về thời gian tốt nghiệp
+    - thời gian tốt nghiệp là gì vậy
+    - tôi muốn biết về thời gian tốt nghiệp
+    - tôi muốn hỏi về thời gian tốt nghiệp
+- intent: qua_han_tot_nghiep
+  examples: |
+    - bạn hãy cho tôi biết khi quá hạn tốt nghiệp thì có bị sao không
+    - quá hạn tốt nghiệp thì bị làm sao hả bot
+    - quá hạn tốt nghệp mà không tốt nghiệp thì có bị sao không
+    - quá hạn tốt nghiệp sẽ ra sao hả bot
+    - tôi không biết là quá hạn tốt nghiệp có sao không
+    - quá hạn tốt nghiệp là như thế nào
+    - quá hạn tốt nghiệp có ảnh hưởng gì không
+    - quá hạn tốt nghiệp sẽ bị gì
+    - tôi muốn biết về quá hạn tốt nghiệp
+    - quá hạn tốt nghiệp là gì vậy bot
+    - quá hạn tốt nghiệp là sao vậy bot
+    - quá hạn tốt nghiệp là gì vậy trường 
+    - tôi muốn biết về quá hạn tốt nghiệp
+    - mình muốn biết thông tin về quá hạn tốt nghiệp
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp
+    - tôi muốn hỏi thông tin về quá hạn tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về quá hạn tốt nghiệp
+    - quá hạn tốt nghiệp là gì vậy
+    - tôi muốn biết về quá hạn tốt nghiệp
+    - tôi muốn hỏi về quá hạn tốt nghiệp
+    - tôi muốn tìm hiểu về quá hạn tốt nghiệp
+
+- intent: rank_tot_nghiep
+  examples: |
+    - bạn hãy cho tôi biết về xếp hạng tốt nghiệp
+    - xếp hạng tốt nghiệp căn cứ vào đâu
+    - xếp hạng tốt nghiệp là như thế nào hả bot
+    - xếp hạng tốt nghiệp là sao
+    - xếp hạng tốt nghiệp là gì t
+    - như thế nào mới được xếp hạng tốt nghiệp
+    - xếp hạng tốt nghiệp ra làm sao
+    - xếp hạng tốt nghiệp là gì thế bot
+    - hạng tốt nghiệp là như nào hả bot
+    - hạng tốt nghiệp là gì hả bot
+    - tôi muốn biết về thông tin hạng tốt nghiệp
+    - tôi muốn biết thông tin về xếp hạng tốt nghiệp
+    - xếp hạng tốt nghiệp là sao vậy
+    - tôi muốn biết thông tin về xếp hạng tốt nghiệp
+    - tôi muốn hỏi thông tin về xếp hạng tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về xếp hạng tốt nghiệp
+    - xếp hạng tốt nghiệp là gì vậy
+    - tôi muốn biết về xếp hạng tốt nghiệp
+    - tôi muốn hỏi về xếp hạng tốt nghiệp
+    - xếp hạng tốt nghiệp ra sao
+    - xếp hạng tốt nghiệp là gì hả
+
+################
+
+
+- intent: ask_point
+  examples: |
+    - tôi muốn xem điểm anh văn
+    - tôi muốn xem điểm anh văn
+    - điểm anh văn
+    - mình cần biết điểm thi anh văn đầu vào 
+    - tra cứu điểm thi tiếng anh đầu vào của tôi
+    - tôi cần xem điểm điểm thi tiếng anh đầu vào của tôi
+    - điểm thi đầu vào ngoại ngữ của tôi
+    - có thể cho em xin điểm thi tiếng anh đầu vào được không ạ
+    - tra cứu điểm thi ngoai ngữ đầu vào
+    - kết quả tiếng anh thi đầu vào của tôi được bao nhiêu điểm
+    - kết quả thi ngoại ngữ đầu vào của tôi như nào
+    - điểm thi tiếng anh đầu vào của tôi như thế nào
+    - điểm thi ngoại ngữ đầu vào của tôi như nào
+    - điểm thi anh văn đầu vào của tôi được bao nhiêu điểm
+    - kết qua anh văn thi đầu vào của tôi được bao nhiêu điểm
+    - tra cứu điểm thi tiếng anh đầu vào của tôi
+    - tôi cần xem điểm điểm thi tiếng anh đầu vào của tôi
+    - điểm thi đầu vào ngoại ngữ của tôi
+    - có thể cho em xin điểm thi tiếng anh đầu vào được không ạ
+    - tra cứu điểm thi ngoai ngữ đầu vào
+
+- intent: ask_entry
+  examples: |
+    - mình cần hỏi thủ tục nhập học
+    - nhập học như nào em ơi
+    - tôi cần nhập học
+    - xin cho tôi cách nhập học
+    - nhập học thì cần làm gì
+    - em cho anh hỏi nhập học thế nào
+    - thầy cho hỏi thủ tục nhập học
+    - hãy cho tôi biết về thủ tục nhập học
+    - hãy nói cho tôi biết về thủ tục nhập học
+    - hãy cho tôi hỏi về thủ tục nhập học
+    - tôi muốn nhập học
+    - tôi muốn hỏi về nhập học
+    - nhập học cần những gì
+    - thủ tục nhập học cần gì
+    - thủ tục nhập học như thế nào
+    - nhập học ra làm sao
+    - thủ tục nhập học ra làm sao
+
+
+- intent: give_student_code
+  examples: |
+    - mã sinh viên là [B1908396](student_code)
+    - [B1908416](student_code)
+    - mã sinh viên của tôi là [b1908397](student_code)
+    - dạ mã sinh viên của em là [B1908398](student_code)
+    - đây mã đây nhé [b1801296](student_code)
+    - mã số sinh viên của tôi là [b1745396](student_code)
+    - MSSV của tôi là [b2025240](student_code)
+    - mã sinh viên là [B2045678](student_code)
+    - [b2045789](student_code)
+    - mã sinh viên của tôi là [b2154864](student_code)
+    - dạ mã sinh viên của em là [B215487](student_code)
+    - đây mã đây nhé [b1908396](student_code)
+    - [b1908396](student_code)
+    - [b1908337](student_code)
+    - [b1904826](student_code)
+    - [b1908456](student_code)
+    - [b1902345](student_code)
+    - [b1904567](student_code)
+    - [b1906789](student_code)
+    - [b2011234](student_code)
+    - [b2102345](student_code)
+    - [b2204567](student_code)
+    - [b2306789](student_code)
+    - [b2401234](student_code)
+    - [b2502345](student_code)
+    - [b2604567](student_code)
+    - [b2706789](student_code)
+    - [b1801234](student_code)
+    - [b1802345](student_code)
+    - [b1804567](student_code)
+    - [b1806789](student_code)
+    - [b1701234](student_code)
+    - [b1702345](student_code)
+    - [b1704567](student_code)
+    - [b1706789](student_code)
+###########################
+- intent: ask_course_score
+  examples: |
+    - tôi muốn hỏi về điểm học phần
+    - điểm học phần là gì
+    - điểm học phần là sao vậy
+    - điểm đánh giá học phần là gì
+    - cách đánh giá điểm học phần
+    - điểm học phần là như thế nào
+    - tôi muốn biết về điểm học phần
+    - điểm học phần là sao
+    - hãy cho tôi biết về điểm học phần
+    - điểm học phần ra làm sao
+    - tôi muốn hỏi về điểm học phần
+    - hãy nói cho tôi biết về điểm học phần
+    - hãy cho tôi biết thông tin về điểm học phần
+    - hãy cho tôi hỏi thông tin về điểm học phần
+    - hãy cho tôi biết về điểm học phần
+    - hãy cho tôi hỏi về điểm học phần
+    - điểm học phần
+    - điểm học phần là sao thế bot
+    - điểm học phần ra sao bot
+    - điểm học phần là g hả
+    - tôi muốn hỏi thông tin về điểm học phần được không bot
+    - tôi muốn biết thông tin về điểm học phần được không bot
+    - tôi muốn tìm hiểu thông tin về điểm học phần được không bot
+    - tôi muốn hỏi về điểm học phần được không bot
+######### gop y
+- intent: ask_comment
+  examples: |
+    - tôi muốn góp ý
+    - cho tối góp ý với nhà trường
+    - góp ý chút nhé
+    - tôi muốn góp ý cái
+    - góp ý nè
+    - góp ý như này
+    - góp ý cái bạn
+    - anh có ý kiến góp ý
+    - góp ý được không vậy
+    - tôi muốn ý kiến
+    - góp ý cái
+    - góp ý cái được hong
+    - ý kiến với trường như này cái
+    - tôi muốn góp ý
+    - tôi muốn ý kiến
+    - góp ý
+    - ý kiến
+    - góp ý cái bot
+    - ý kiến cái bot
+
+
+- intent: give_comment_content
+  examples: |
+    - chất lượng [dịch vụ tuyệt vời](comment_content)
+    - mình thấy [trường dạy tốt lắm](comment_content)
+    - mình cảm thấy [ngồi trướng tốt nhất từng biết](comment_content)
+    - tôi muốn góp ý là [trường chất lượng cao](comment_content)
+    - tôi thấy [Bot rất tốt](comment_content)
+    - cảm giác bot [óc ngu vãi](comment_content)
+    - Bot còn [kém lắm ngu quá](comment_content)
+    - là như này [Bot tệ quá đấy](comment_content)
+    - [Bot gì ngu dữ vậy](comment_content)
+    - tôi thấy [dịch vụ chán quá](comment_content)
+    - bot gì mà [hại tồi lắm](comment_content)
+    - tôi nghĩ các bạn nên xem lại [dịch vụ của bạn chán cực](comment_content)
+    - nên xem lại [trường chán cực không thể tả được](comment_content)
+    - là như này [trường tốt lắm tuyệt vời luôn](comment_content)
+    - tôi thấy [trường chỉ tạm chấp nhận được](comment_content)
+    - cảm giác [học rất tốt](comment_content)
+    - [cảm ơn nhiều vì dịch vụ tốt](comment_content)
+    - cảm giác [bot còn kém lắm](comment_content)
+    - là như thế này nè [Bot của các bạn ngu không thể tả được](comment_content)
+    - nói thật là [dịch vụ bên bạn chả tốt tí nào](comment_content)
+##################3333
+
+- intent: ask_comment_replay # hoi lai
+  examples: |
+    - Tôi muốn xem lại góp ý của tôi
+    - Tôi muốn xem lại góp ý của mình
+    - xem lại góp ý đi
+    - xem lại góp ý nào
+    - Xem ý kiến lại cái
+    - Coi lại ý kiến góp ý cái
+    - xem lại góp ý cái
+    - Coi lại ý kiến góp ý cái
+    - góp ý hôm trước xem lại cái
+    - góp ý xem lại cái
+    - tôi muốn xem lại góp ý
+    - xem lại góp ý
+    - xem góp ý
+    - xem lại góp ý được hong
+    - xem lại ý kiến của tôi
+    - tôi muốn xem lại ý kiến
+
+######################### cốt chuyện hỏi
+- intent: ask_van_de_chung
+  examples: |
+    - Tôi muốn biết một số vấn đề chung của trường Đại học cần thơ
+    - Tôi muốn hỏi một số vấn đề chung của trường Đại học cần thơ
+    - Tôi muốn tìm hiểu một số vấn đề chung của trường Đại học cần thơ
+    - Tôi muốn biết thông tin một số vấn đề chung của trường Đại học cần thơ
+    - Vấn đề chung về trường
+    - vấn đề chung
+    - các vấn đề chung
+    - tôi muốn xem các vấn đề chung của trường
+    - vấn đề chung là gì sao
+    - vấn đề chung như thế nào
+    - vấn đề chung là gì thế bot
+
+- intent: ask_to_chuc_dao_tao
+  examples: |
+    - Tôi muốn biết một về tổ chức đào tạo của trường Đại học cần thơ
+    - Tôi muốn hỏi về tổ chức đào tạo của trường Đại học cần thơ
+    - Tôi muốn tìm hiểu về tổ chức đào tạo của trường Đại học cần thơ
+    - Tôi muốn biết thông tin về tổ chức đào tạo của trường Đại học cần thơ
+    - tổ chức đào tạo về trường
+    - tổ chức đào tạo
+    - các tổ chức đào tạo
+    - tôi muốn xem các tổ chức đào tạo của trường
+    - tổ chức đào tạo là gì sao
+    - tổ chức đào tạo như thế nào
+    - tổ chức đào tạo là gì thế bot
+
+- intent: ask_danh_gia_ket_qua_hoc_tap
+  examples: |
+    - Tôi muốn biết một về đánh giá kết quả học tập của trường Đại học cần thơ
+    - Tôi muốn hỏi về đánh giá kết quả học tập của trường Đại học cần thơ
+    - Tôi muốn tìm hiểu về đánh giá kết quả học tập của trường Đại học cần thơ
+    - Tôi muốn biết thông tin về đánh giá kết quả học tập của trường Đại học cần thơ
+    - đánh giá kết quả học tập về trường
+    - đánh giá kết quả học tập
+    - các đánh giá kết quả học tập
+    - tôi muốn xem các đánh giá kết quả học tập của trường
+    - đánh giá kết quả học tập là gì sao
+    - đánh giá kết quả học tập như thế nào
+    - đánh giá kết quả học tập là gì thế bot
+
+- intent: ask_xet_va_cong_nhan_tot_nghiep
+  examples: |
+    - Tôi muốn biết một về xét và công nhận tốt nghiệp của trường Đại học cần thơ
+    - Tôi muốn hỏi về xét và công nhận tốt nghiệp của trường Đại học cần thơ
+    - Tôi muốn tìm hiểu về xét và công nhận tốt nghiệp của trường Đại học cần thơ
+    - Tôi muốn biết thông tin về xét và công nhận tốt nghiệp của trường Đại học cần thơ
+    - xét và công nhận tốt nghiệp về trường
+    - xét và công nhận tốt nghiệp
+    - các xét và công nhận tốt nghiệp
+    - tôi muốn xem các xét và công nhận tốt nghiệp của trường
+    - xét và công nhận tốt nghiệp là gì sao
+    - xét và công nhận tốt nghiệp như thế nào
+    - xét và công nhận tốt nghiệp là gì thế bot
+
+############### bo sung
+# Điều 1: Phạm vi điều chỉnh và đối tượng áp dụng # check het điều 1
+- intent: ask_pham_vi_doi_tuong
+  examples: |
+    - phạm vi đối tượng được áp dụng
+    - phạm vi đối tượng được áp dụng là ai
+    - phạm vi đối tượng áp dụng quy chế học vụ
+    - phạm vi đối tượng áp dụng trong quy chế học vụ
+    - phạm vi đối tượng được áp dụng là gì thế bot  
+    - phạm vi đối tượng được áp dụng bao gồm ai
+    - phạm vi đối tượng được áp dụng là sao
+    - phạm vi đối tượng áp dụng quy chế học vụ là như nào
+    - phạm vi đối tượng áp dụng trong quy chế học vụ là sao
+    - phạm vi đối tượng được áp dụng là gì thế bot
+    - phạm vi đối tượng được áp dụng bao gồm những ai
+    - phạm vi đối tượng được áp dụng là gì thế bot
+    - phạm vi đối tượng áp dụng quy chế học vụ ra sao
+    - phạm vi đối tượng áp dụng trong quy chế học vụ là gì vậy
+    - phạm vi đối tượng được áp dụng như nào
+    - phạm vi đối tượng áp dụng quy chế học vụ là ai
+    - phạm vi đối tượng áp dụng trong quy chế học vụ là sao
+    - tôi muốn biết về phạm vi đối tượng được áp dụng
+    - phạm vi đối tượng áp dụng quy chế học vụ gồm những ai
+    - phạm vi đối tượng áp dụng trong quy chế học vụ là như thế nào
+    - tôi muốn biết về phạm vi đối tượng được áp dụng là bao gồm ai
+    - tôi muốn tìm hiểu về phạm vi đối tượng được áp dụng
+    - tôi muốn hỏi về phạm vi đối tượng được áp dụng
+    - tôi muốn xem về phạm vi đối tượng được áp dụng
+    - phạm vi đối tượng là ai
+    - phạm vi đối tượng là sao
+    - phạm vi đối tượng là gì
+    - hãy cho tôi biết về phạm vi đối tượng gồm những ai
+    - hãy cho tôi hỏi về phạm vi đối tượng gồm những ai
+    - hãy cho tôi xem về phạm vi đối tượng gồm những ai
+    - hãy cho tôi tìm hiểu về phạm vi đối tượng gồm những ai
+- intent: pham_vi
+  examples: |
+    - phạm vi được áp dụng
+    - tôi muốn biết về phạm vi được áp dụng
+    - tôi muốn tìm hiểu về phạm vi được áp dụng
+    - tôi muốn hỏi về phạm vi được áp dụng
+    - tôi muốn xem về phạm vi được áp dụng 
+    - phạm vi được áp dụng là gì thế bot  
+    - phạm vi được áp dụng bao gồm ai
+    - phạm vi được áp dụng là sao
+    - phạm vi áp dụng quy chế học vụ là như nào
+    - phạm vi áp dụng trong quy chế học vụ là sao
+    - phạm vi được áp dụng là gì thế bot
+    - phạm vi được áp dụng bao gồm những ai
+    - phạm vi được áp dụng là gì thế bot
+    - phạm vi áp dụng quy chế học vụ ra sao
+    - phạm vi áp dụng trong quy chế học vụ là gì vậy
+    - phạm vi được áp dụng như nào
+    - phạm vi áp dụng quy chế học vụ là ai
+    - phạm vi áp dụng trong quy chế học vụ là sao    
+    - phạm vi là ai
+    - phạm vi là sao
+    - phạm vi là gì
+    - hãy cho tôi biết về phạm vi gồm những ai
+    - hãy cho tôi hỏi về phạm vi gồm những ai
+    - hãy cho tôi xem về phạm vi gồm những ai
+    - hãy cho tôi tìm hiểu về phạm vi gồm những ai
+
+- intent: doi_tuong
+  examples: |
+    - đối tượng được áp dụng
+    - tôi muốn biết về đối tượng được áp dụng
+    - tôi muốn tìm hiểu về đối tượng được áp dụng
+    - tôi muốn hỏi về  đối tượng được áp dụng
+    - tôi muốn xem về đối tượng được áp dụng   
+    - đối tượng được áp dụng là gì thế bot  
+    - đối tượng được áp dụng bao gồm ai
+    - đối tượng được áp dụng là sao
+    - đối tượng áp dụng quy chế học vụ là như nào
+    - đối tượng áp dụng trong quy chế học vụ là sao
+    - đối tượng được áp dụng là gì thế bot
+    - đối tượng được áp dụng bao gồm những ai
+    - đối tượng được áp dụng là gì thế bot
+    - đối tượng áp dụng quy chế học vụ ra sao
+    - đối tượng áp dụng trong quy chế học vụ là gì vậy
+    - đối tượng được áp dụng như nào
+    - đối tượng áp dụng quy chế học vụ là ai
+    - đối tượng áp dụng trong quy chế học vụ là sao  
+    - đối tượng là ai
+    - đối tượng là sao
+    - đối tượng là gì
+    - hãy cho tôi biết về đối tượng gồm những ai
+    - hãy cho tôi hỏi về đối tượng gồm những ai
+    - hãy cho tôi xem về đối tượng gồm những ai
+    - hãy cho tôi tìm hiểu về đối tượng gồm những ai
+# Điều 2: Sinh viên
+- intent: ask_sinh_vien
+  examples: |
+    - nội quy sinh viên trường là sao hả bot
+    - nội quy sinh viên là sao thế bot
+    - nội quy sinh viên trường là gì hả bot
+    - nội quy sinh viên là gì thế bot
+    - nội quy sinh viên trường là như thế nào
+    - nội quy sinh viên là thế nào vậy bot
+    - nội quy sinh viên trường
+    - nội quy sinh viên là sao
+    - nội quy sinh viên trường là gì
+    - nội quy sinh viên là ra sao
+    - nội quy sinh viên trường là thế nào
+    - nội quy sinh viên là thế nào 
+    - tôi muốn biết về nội quy sinh viên trường
+    - tôi muốn hỏi về nội quy sinh viên trường
+    - tôi muốn xem về nội quy sinh viên trường
+    - tôi muốn tìm hiểu về nội quy sinh viên trường
+    - tôi muốn biết về nội quy sinh viên
+    - tôi muốn hỏi về nội quy sinh viên
+    - tôi muốn xem về nội quy sinh viên
+    - tôi muốn tìm hiểu về nội quy sinh viên
+    
+
+## Điều 3. Chương trình đào tạo, Bản mô tả chương trình đào tạo và chương trình dạy học
+- intent: ask_ctdt_mt_ctgd # check
+  examples: |
+    - chương trình đào tạo, bản mô tả và chương trình dạy học
+    - tôi muốn xem chương trình đào tạo, bản mô tả và chương trình dạy học
+    - tôi muốn biết chương trình đào tạo, bản mô tả và chương trình dạy học
+    - tôi muốn tìm hiểu về chương trình đào tạo, bản mô tả và chương trình dạy học
+    - tôi muốn hỏi về chương trình đào tạo, bản mô tả và chương trình dạy học
+    - hãy cho tôi biết về chương trình đào tạo, bản mô tả và chương trình dạy học
+    - hãy nói cho tôi biết về chương trình đào tạo, bản mô tả và chương trình dạy học
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là sao hả bot
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là gì thế bot
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là như nào vậy bot
+    - chương trình đào tạo, bản mô tả và chương trình dạy học ra làm sao
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là sao
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là gì
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là như nào
+    - chương trình đào tạo, bản mô tả và chương trình dạy học ra làm sao
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là sao thế
+    - chương trình đào tạo, bản mô tả và chương trình dạy học như nào
+    - chương trình đào tạo, bản mô tả và chương trình dạy học là gì vậy bot
+    - chương trình đào tạo, bản mô tả và chương trình dạy học ra làm sao thế hả
+
+- intent: ask_ctdt
+  examples: |
+    - chương trình đào tạo
+    - tôi muốn xem chương trình đào tạo
+    - tôi muốn biết chương trình đào tạo
+    - tôi muốn tìm hiểu về chương trình đào tạo
+    - tôi muốn hỏi về chương trình đào tạo
+    - hãy cho tôi biết về chương trình đào tạo
+    - hãy nói cho tôi biết về chương trình đào tạo
+    - chương trình đào tạo là sao hả bot
+    - chương trình đào tạo là gì thế bot
+    - chương trình đào tạo là như nào vậy bot
+    - chương trình đào tạo ra làm sao
+    - hãy cho tôi biết về chương trình đào tạo
+    - hãy cho tôi hỏi về chương trình đào tạo
+    - hãy cho tôi biết thông tin về chương trình đào tạo
+    - hãy nói cho tôi hỏi thông tin về chương trình đào tạo
+    - hãy cho tôi xem về chương trình đào tạo 
+    - hãy cho tôi xem thông tin về chương trình đào tạo là gì
+    - hãy cho tôi hỏi về chương trình đào tạo ra làm sao
+    - hãy cho tôi biết thông tin về chương trình đào tạo là gì thế bot
+    - hãy nói cho tôi hỏi thông tin về chương trình đào tạo là như nào
+    - hãy cho tôi xem về chương trình đào tạo ra sao
+- intent: ask_mota
+  examples: |
+    - bản mô tả chương trình đào tạo
+    - tôi muốn xem bản mô tả chương trình đào tạo
+    - tôi muốn biết bản mô tả chương trình đào tạo
+    - tôi muốn tìm hiểu về bản mô tả chương trình đào tạo
+    - tôi muốn hỏi về bản mô tả chương trình đào tạo
+    - hãy cho tôi biết về bản mô tả chương trình đào tạo
+    - hãy nói cho tôi biết về bản mô tả chương trình đào tạo
+    - bản mô tả chương trình đào tạo là sao hả bot
+    - bản mô tả chương trình đào tạo là gì thế bot
+    - bản mô tả chương trình đào tạo là như nào vậy bot
+    - bản mô tả chương trình đào tạo làm sao  
+    - bản mô tả
+    - tôi muốn xem bản mô tả
+    - tôi muốn biết bản mô tả
+    - tôi muốn tìm hiểu về bản mô tả
+    - tôi muốn hỏi về bản mô tả
+    - hãy cho tôi biết về bản mô tả
+    - hãy nói cho tôi biết về bản mô tả
+    - bản mô tả là sao hả bot
+    - bản mô tả là gì thế bot
+    - bản mô tả là như nào vậy bot
+    - bản mô tả ra làm sao
+- intent: ask_ctgd
+  examples: |
+    - chương trình dạy học
+    - tôi muốn xem chương trình dạy học
+    - tôi muốn biết chương trình dạy học
+    - tôi muốn tìm hiểu về chương trình dạy học
+    - tôi muốn hỏi về chương trình dạy học
+    - hãy cho tôi biết về chương trình dạy học
+    - hãy nói cho tôi biết về chương trình dạy học
+    - chương trình dạy học là sao hả bot
+    - chương trình dạy học là gì thế bot
+    - chương trình dạy học là như nào vậy bot
+    - chương trình dạy học ra làm sao 
+    - hãy cho tôi biết về chương trình dạy học
+    - hãy cho tôi hỏi về chương trình dạy học
+    - hãy cho tôi biết thông tin về chương trình dạy học
+    - hãy nói cho tôi hỏi thông tin về chương trình dạy học
+    - hãy cho tôi xem về chương trình dạy học
+    - hãy cho tôi xem thông tin về chương trình dạy học là gì
+    - hãy cho tôi hỏi về chương trình dạy học ra làm sao
+    - hãy cho tôi biết thông tin về chương trình dạy học là gì thế bot
+    - hãy nói cho tôi hỏi thông tin về chương trình dạy học là như nào
+    - hãy cho tôi xem về chương trình dạy học ra sao
+#
+# Điều 5: Bổ sung
+- intent: ask_time_lien_thong
+  examples: |
+    - sinh viên liên thông là sao thế bot
+    - sinh viên liên thông là gì vậy bot
+    - sinh viên liên thông là như thế nào hả bot
+    - tôi muốn tìm hiểu về sinh viên liên thông
+    - tôi muốn xem thông tin về sinh viên liên thông
+    - tôi muốn hỏi thông tin về sinh viên liên thông
+    - tôi muốn biết thông tin về sinh viên liên thông
+    - hãy cho tôi biết thông tin về sinh viên liên thông
+    - hãy cho tôi hỏi về về sinh viên liên thông
+    - sinh viên liên thông
+    - hãy nói cho tôi biết về sinh viên liên thông
+    - hãy cho tôi hỏi thông tin về sinh viên liên thông
+    - hãy nói cho tôi biết thông tin về sinh viên liên thông
+
+# ============= TỔ CHỨC ĐÀO TẠO =============
+# Trách nhệm của Trường và sinh viên trong việc đăng ký học phần
+- intent: ask_trach_nhiem
+  examples: |
+    - trách nhiệm của trường và sinh viên là gì
+    - trách nhiệm của trường và sinh viên
+    - trách nhiệm của trường và sinh viên là sao
+    - Trách nhiệm của trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn biết Trách nhiệm của trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn hỏi Trách nhiệm của trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn tìm hiểu thông tin Trách nhiệm của trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn xem Trách nhiệm của trường và sinh viên trong việc đăng ký học phần
+    - Tôi muốn biết thông tin trách nhiệm của trường và sinh viên khi sinh viên đăng ký học phần
+    - trách nhiệm của nhà trường và sinh viên là gì
+    - trách nhiệm của nhà trường và sinh viên là sao
+    - Trách nhiệm của nhà trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn biết Trách nhiệm của nhà trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn hỏi Trách nhiệm của nhà trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn tìm hiểu thông tin Trách nhiệm của nhà trường và sinh viên trong việc đăng ký học phần
+    - tôi muốn xem Trách nhiệm của nhà trường và sinh viên trong việc đăng ký học phần
+    - Tôi muốn biết thông tin trách nhiệm của nhà trường và sinh viên khi sinh viên đăng ký học phần
+    - hãy nói cho tôi biết về trách nhiệm của trường và sinh viên đối với đăng ký học phần
+    - hãy nói cho tôi hỏi thông tin về trách nhiệm của trường và sinh viên đối với đăng ký học phần
+    - hãy nói cho tôi xem thông tin về trách nhiệm của trường và sinh viên đối với đăng ký học phần
+    - hãy nói cho tôi hỏi về trách nhiệm của trường và sinh viên đối với đăng ký học phần
+
+- intent: trach_nhiem_truong
+  examples: |
+    - trách nhiệm của trường là gì
+    - trách nhiệm của trường là sao
+    - Trách nhiệm của trường trong việc đăng ký học phần
+    - tôi muốn biết Trách nhiệm của trường trong việc đăng ký học phần
+    - tôi muốn hỏi Trách nhiệm của trường trong việc đăng ký học phần
+    - tôi muốn tìm hiểu thông tin Trách nhiệm của trường trong việc đăng ký học phần
+    - tôi muốn xem Trách nhiệm của trường trong việc đăng ký học phần
+    - Tôi muốn biết thông tin trách nhiệm của trường khi sinh viên đăng ký học phần
+    - trách nhiệm của nhà trường là gì
+    - trách nhiệm của nhà trường là sao
+    - trách nhiệm của nhà trường
+    - trách nhiệm của trường
+    - trách nhiệm của nhà trường là gì thế
+    - trách nhiệm của trường là gì thế
+    - trách nhiệm của nhà trường là sao vậy
+    - trách nhiệm của trường là sao vậy
+    - trách nhiệm của nhà trường là thế nào
+    - trách nhiệm của trường là thế nào
+    - trách nhiệm của nhà trường ra sao
+    - trách nhiệm của trường ra sao
+    - trách nhiệm của nhà trường là gì hả bot
+    - trách nhiệm của trường là gì hả bot
+    - trách nhiệm của nhà trường là sao thế bot 
+    - trách nhiệm của trường là sao thế bot
+    - trách nhiệm của nhà trường là như nào hả
+    - trách nhiệm của trường là như nào hả bot
+    - trách nhiệm của nhà trường ra sao vậy bot
+    - trách nhiệm của trường ra sao hả bot 
+    - Trách nhiệm của nhà trường trong việc đăng ký học phần
+    - tôi muốn biết Trách nhiệm của nhà trường trong việc đăng ký học phần
+    - tôi muốn hỏi Trách nhiệm của nhà trường trong việc đăng ký học phần
+    - tôi muốn tìm hiểu thông tin Trách nhiệm của nhà trường trong việc đăng ký học phần
+    - tôi muốn xem Trách nhiệm của nhà trường trong việc đăng ký học phần
+    - Tôi muốn biết thông tin trách nhiệm của nhà trường khi sinh viên đăng ký học phần
+
+- intent: trach_nhiem_sinh_vien
+  examples: |
+    - trách nhiệm của sinh viên là gì
+    - trách nhiệm của sinh viên là sao
+    - trách nhiệm của sinh viên
+    - Trách nhiệm của sinh viên trong việc đăng ký học phần
+    - tôi muốn biết Trách nhiệm của sinh viên trong việc đăng ký học phần
+    - tôi muốn hỏi Trách nhiệm của sinh viên trong việc đăng ký học phần
+    - tôi muốn tìm hiểu thông tin Trách nhiệm của sinh viên trong việc đăng ký học phần
+    - tôi muốn xem Trách nhiệm của sinh viên trong việc đăng ký học phần
+    - Tôi muốn biết thông tin trách nhiệm của sinh viên khi sinh viên đăng ký học phần
+    - hãy cho tôi biết trách nhiệm của sinh viên
+    - hãy cho tôi biết thông tin trách nhiệm của sinh viên
+    - hãy nói tôi hỏi trách nhiệm của sinh viên
+    - hãy cho tôi xem trách nhiệm của sinh viên
+    - trách nhiệm của sinh viên là gì thế
+    - trách nhiệm của sinh viên là gì thế bot
+    - trách nhiệm của sinh viên là sao vậy
+    - trách nhiệm của sinh viên là sao vậy bot
+    - trách nhiệm của sinh viên trường là thế nào hả
+    - trách nhiệm của sinh viên là thế nào hả
+    - trách nhiệm của sinh viên ra sao thế bot
+    - trách nhiệm của sinh viên ra sao hả  
+    - trách nhiệm của sinh viên là gì hả bot
+    - trách nhiệm của sinh viên là gì vậy bot
+    - trách nhiệm của sinh viên là sao thế bot
+    - trách nhiệm của sinh viên là sao thế
+    - trách nhiệm của sinh viên là như nào hả bot
+    - trách nhiệm của sinh viên là như nào
+    - trách nhiệm của sinh viên ra sao hả bot
+    - trách nhiệm của sinh viên ra sao
+
+- intent: ask_quy_trinh_dkhp # check
+  examples: |
+    - quy trình đăng ký học phần là sao thế bot
+    - quy trình đăng ký học phần là gì hả bot
+    - quy trình đăng ký học phần như thế nào vậy bot
+    - quy trình đăng ký học phần là sao vậy bot
+    - quy trình đăng ký học phần
+    - quy trình đăng ký học phần như nào
+    - quy trình đăng ký học phần ra sao
+    - quy trình đăng ký học phần ra sao vậy
+    - quy trình đăng ký học phần là gì
+    - quy trình đăng ký học phần là thế nào
+    - tôi muốn biết thông tin về quy trình đăng ký học phần
+    - tôi muốn hỏi thông tin về quy trình đăng ký học phần
+    - tôi muốn tìm hiểu thông tin về quy trình đăng ký học phần
+    - tôi muốn xem thông tin về quy trình đăng ký học phần
+    - hãy nói cho tôi biết về quy trình đăng ký học phần
+    - hãy nói cho tôi biết thông tin về quy trình đăng ký học phần
+    - hãy nói cho tôi xem về quy trình đăng ký học phần
+    - hãy nói cho tôi hỏi về quy trình đăng ký học phần
+    - hãy nói cho tôi hỏi thông tin về quy trình đăng ký học phần
+# ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
+- intent: danh_gia_HP_ly_thuyet
+  examples: |
+    - đánh giá học phần lý thuyết
+    - đánh giá học phần lý thuyết là sao
+    - đánh giá học phần lý thuyết là gì thế bot
+    - đánh giá học phần lý thuyết là như thế nào hả bot
+    - đánh giá học phần lý thuyết ra làm sao vậy bot
+    - tôi muốn biết thông tin về đánh giá học phần lý thuyết
+    - tôi muốn biết về đánh giá học phần lý thuyết
+    - tôi muốn hỏi thông tin về đánh giá học phần lý thuyết
+    - tôi muốn hỏi về đánh giá học phần lý thuyết
+    - tôi muốn tìm hiểu thông tin về đánh giá học phần lý thuyết
+    - tôi muốn xem thông tin về đánh giá học phần lý thuyết
+    - hãy nói cho tôi biết thông tin về đánh giá học phần lý thuyết
+    - hãy nói cho tôi thông tin về đánh giá học phần lý thuyết
+    - hãy nói cho tôi biết về đánh giá học phần lý thuyết
+    - hãy nói cho tôi xem tin về đánh giá học phần lý thuyết
+    - hãy nói cho tôi hỏi thông tin về đánh giá học phần lý thuyết
+    - hãy nói cho tôi hỏi về đánh giá học phần lý thuyết
+- intent: danh_gia_HP_thuc_hanh
+  examples: |
+    - đánh giá học phần thực hành
+    - đánh giá học phần thực hành là sao
+    - đánh giá học phần thực hành là gì thế bot
+    - đánh giá học phần thực hành là như thế nào hả bot
+    - đánh giá học phần thực hành ra làm sao vậy bot
+    - tôi muốn biết thông tin về đánh giá học phần thực hành
+    - tôi muốn biết về đánh giá học phần thực hành
+    - tôi muốn hỏi thông tin về đánh giá học phần thực hành
+    - tôi muốn hỏi về đánh giá học phần thực hành
+    - tôi muốn tìm hiểu thông tin về đánh giá học phần thực hành
+    - tôi muốn xem thông tin về đánh giá học phần thực hành
+    - hãy nói cho tôi biết thông tin về đánh giá học phần thực hành
+    - hãy nói cho tôi thông tin về đánh giá học phần thực hành
+    - hãy nói cho tôi biết về đánh giá học phần thực hành
+    - hãy nói cho tôi xem tin về đánh giá học phần thực hành
+    - hãy nói cho tôi hỏi thông tin về đánh giá học phần thực hành
+    - hãy nói cho tôi hỏi về đánh giá học phần thực hành
+
+- intent: thong_bao_kq_hoc_tap
+  examples: |   
+    - thông báo kết quả học tập
+    - tôi muốn hỏi về cách xem thông báo kết quả học tập
+    - thông báo kết quả học tập là sao
+    - thông báo kết quả học tập là gì thế bot
+    - thông báo kết quả học tập là như nào
+    - thông báo kết quả học tập ra làm sao
+    - thông báo kết quả học tập là thế nào
+    - tôi muốn hỏi về cách xem thông báo kết quả học tập
+    - tôi muốn hỏi thông tin về cách xem thông báo kết quả học tập
+    - tôi muốn biết thông tin về cách xem thông báo kết quả học tập
+    - tôi muốn xem thông tin về cách xem thông báo kết quả học tập
+    - tôi muốn tìm hiểu về cách xem thông báo kết quả học tập
+    - hãy nói cho tôi biết thông tin về thông báo kết quả học tập
+    - hãy nói cho tôi hỏi thông tin về thông báo kết quả học tập
+    - hãy nói cho tôi thông tin về thông báo kết quả học tập
+    - hãy nói cho tôi xem thông tin về thông báo kết quả học tập
+    - hãy nói cho tôi biết thông tin về cách xem thông báo kết quả học tập
+    - hãy nói cho tôi hỏi thông tin về cách xem thông báo kết quả học tập
+    - hãy nói cho tôi thông tin về cách xem thông báo kết quả học tập
+    - hãy nói cho tôi xem thông tin về cách xem thông báo kết quả học tập
+
+
+# ============= XÉT VÀ CÔNG NHẬN TỐT NGHIỆP =============
+- intent: thu_tuc_ra_truong
+  examples: |
+    - thủ tục ra trường là sao
+    - thủ tục ra trường cần những gì
+    - thủ tục ra trường là gì
+    - tôi muốn biết thông tin về thủ tục ra trường
+    - tôi muốn hỏi thông tin về thủ tục ra trường
+    - tôi muốn xem về thủ tục ra trường
+    - tôi muốn tìm hiểu thông tin về thủ tục ra trường
+    - thủ tục ra trường
+    - thông tin thủ tục ra trường
+    - hãy nói cho tôi biết về thủ tục ra trường
+    - hãy nói cho tôi nghe về thủ tục ra trường
+    - hãy nói cho tôi xem về thủ tục ra trường
+    - hãy nói cho tôi hỏi về thủ tục ra trường
+
+- intent: quan_ly_bang_tot_nghiep
+  examples: |
+    - quản lý bằng tốt nghiệp
+    - quản lý bằng tốt nghiệp là sao hả bot
+    - quản lý bằng tốt nghiệp là gì thế bot
+    - quản lý bằng tốt nghiệp ra làm sao vậy
+    - quản lý bằng tốt nghiệp là như thế nào
+    - tôi muốn biết thông tin về quản lý bằng tốt nghiệp
+    - tôi muốn hỏi thông tin về quản lý bằng tốt nghiệp
+    - tôi muốn tìm hiểu về quản lý bằng tốt nghiệp
+    - tôi muốn xem thông tin về quản lý bằng tốt nghiệp
+    - hãy nói cho tôi biết về quản lý bằng tốt nghiệp
+    - hãy nói cho tôi nghe về quản lý bằng tốt nghiệp
+    - hãy nói cho tôi xem về quản lý bằng tốt nghiệp
+    - hãy nói cho tôi hỏi về quản lý bằng tốt nghiệp
+#################################################################
+# ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
+#- intent: ask_sdt_tro_giup
+#  examples: |
+#    - số điện thoại trợ giúp
+#    - tôi muốn biết số điện thoại trợ giúp của trường
+#    - tôi muốn hỏi số điện thoại trợ giúp của trường
+#    - tôi muốn biết thông tin số điện thoại trợ giúp
+#    - tôi muốn hỏi thông tin số điện thoại trợ giúp
+#    - số điện thoại trợ giúp của trường
+#    - số điện thoại trợ giúp của trường là số mấy
+#    - số điện thoại trợ giúp là số mấy vậy
+#    - số điện thoại trợ giúp là sao thế bot
+#    - số điện thoại trợ giúp ra sao hả bot
+#    - Số Liên hệ hỗ trợ như thế nào
+#    - Số Liên hệ hỗ trợ ra sao
+#    - cách nào để Liên hệ hỗ trợ
+#    - cách nào để có thể số Liên hệ hỗ trợ vậy
+#    - tôi muốn biết số Liên hệ hỗ trợ
+#    - tôi muốn hỏi số Liên hệ hỗ trợ
+#    - tôi muốn xem số Liên hệ hỗ trợ
+#    - tôi muốn tìm hiểu số Liên hệ hỗ trợ
+#    - số điện thoại trợ là sao
+#    - Liên hệ hỗ trợ như thế nào
+#    - Liên hệ hỗ trợ ra sao
+#    - cách nào để Liên hệ hỗ trợ
+#    - cách nào để có thể Liên hệ hỗ trợ vậy
+#    - tôi muốn biết Liên hệ hỗ trợ
+#    - tôi muốn hỏi Liên hệ hỗ trợ
+#    - tôi muốn xem Liên hệ hỗ trợ
+#    - tôi muốn tìm hiểu Liên hệ hỗ trợ

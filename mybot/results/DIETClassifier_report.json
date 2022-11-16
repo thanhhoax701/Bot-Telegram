@@ -1,0 +1,35 @@
+{
+  "student_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "comment_content": {
+    "precision": 0.9803921568627451,
+    "recall": 1.0,
+    "f1-score": 0.99009900990099,
+    "support": 100,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9854014598540146,
+    "recall": 1.0,
+    "f1-score": 0.9926470588235294,
+    "support": 135
+  },
+  "macro avg": {
+    "precision": 0.9901960784313726,
+    "recall": 1.0,
+    "f1-score": 0.995049504950495,
+    "support": 135
+  },
+  "weighted avg": {
+    "precision": 0.9854756717501815,
+    "recall": 1.0,
+    "f1-score": 0.9926659332599925,
+    "support": 135
+  },
+  "accuracy": 0.999874442840103
+}

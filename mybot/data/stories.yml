@@ -1,0 +1,587 @@
+version: "3.1"
+
+stories:
+
+- story: s1
+  steps:
+  - intent: greet
+  - action: utter_greet
+- story: s2
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: s3
+  steps:
+  - intent: ask_university
+  - action: utter_ask_university
+
+
+
+
+
+- story: thank
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- story: name
+  steps:
+  - intent: ask_name
+  - action: utter_ask_name
+
+- story: function list
+  steps:
+  - intent: ask_func_list
+  - action: utter_ask_func_list
+
+- story: praise
+  steps:
+  - intent: praise
+  - action: utter_happy
+
+- story: decry
+  steps:
+  - intent: decry
+  - action: utter_sorry
+
+- story: quy chế học vụ
+  steps:
+    - intent: ask_quy_che_hoc_vu
+    - action: utter_ask_quy_che_hoc_vu
+
+
+- story: ask_entry
+  steps:
+  - intent: ask_entry
+  - action: utter_ask_entry
+######################
+
+- story: hỏi về thời gian học
+  steps:
+    - intent: ask_time_study
+    - action: utter_time_study
+
+- story: time_chuan
+  steps:
+    - intent: time_chuan
+    - action: utter_time_chuan
+
+- story: time_toi_da
+  steps:
+    - intent: time_toi_da
+    - action: utter_time_toi_da
+
+- story: hỏi về drl
+  steps:
+   - intent: ask_drl
+   - action: utter_drl
+
+- story: hỏi về tiết học
+  steps:
+    - intent: ask_tiet_hoc
+    - action: utter_tiet_hoc
+
+- story: hỏi về khht
+  steps:
+    - intent: ask_khht
+    - action: utter_khht
+
+
+# Hỏi về học bổng, trợ cấp, quỹ hỗ trợ,...
+- story: thông tin học bổng, hỗ trợ xã hội,...
+  steps:
+    - intent: ask_hoc_bong
+    - action: utter_hoc_bong
+
+- story: thông tin học bổng khuyến khích
+  steps:
+    - intent: hoc_bong_khuyen_khich
+    - action: utter_hoc_bong_khuyen_khich
+
+- story: thông tin học bổng tài trợ
+  steps:
+    - intent: hoc_bong_tai_tro
+    - action: utter_hoc_bong_tai_tro
+
+- story: thông tin quỹ hỗ trợ
+  steps:
+    - intent: quy_ho_tro
+    - action: utter_quy_ho_tro
+
+- story: thông tin trợ cấp xã hội
+  steps:
+    - intent: tro_cap_xa_hoi
+    - action: utter_tro_cap_xa_hoi
+
+
+- story: hỏi về học phí
+  steps:
+  - intent: ask_fee
+  - action: utter_ask_fee
+
+
+- story: hỏi về bảo hiểm
+  steps:
+    - intent: info_bhyt
+    - action: utter_info_bhyt
+
+# Chuyển chương trình đào tạo
+- story: chuyển ctdt
+  steps:
+    - intent: change_ctdt
+    - action: utter_change_ctdt
+
+- story: chuyển cở sở đào tạo
+  steps:
+    - intent: change_co_so_dao_tao
+    - action: utter_change_co_so_dao_tao
+
+- story: chuyển ngành đào tạo
+  steps:
+    - intent: change_nganh_dao_tao
+    - action: utter_change_nganh_dao_tao
+
+- story: chuyển hình thức đào tạo
+  steps:
+    - intent: change_hinh_thuc_dao_tao
+    - action: utter_change_hinh_thuc_dao_tao
+
+# TỔ CHỨC ĐÀO TẠO
+- story: hỏi về số tín chỉ học trong 1 học kỳ
+  steps:
+    - intent: ask_tin_chi_HK
+    - action: utter_tin_chi_HK
+
+
+
+# Thông tin về xóa và thêm lớp học phần
+- story: thông tin về việc xóa và thêm lớp học phần
+  steps:
+    - intent: info_add_delete_HP
+    - action: utter_info_add_delete_HP
+
+- story: xóa lớp học phần
+  steps:
+    - intent: delete_lop_HP
+    - action: utter_info_delete_lop_HP
+
+- story: mở thêm lớp học phần
+  steps:
+    - intent: add_lop_HP
+    - action: utter_info_add_lop_HP
+
+
+- story: thông tin về việc học lại, học cải thiện, học HP tự chọn
+  steps:
+    - intent: info_dang_ky_hoc_lai
+    - action: utter_info_dang_ky_hoc_lai
+
+#- story: học tập không tốt
+#  steps:
+#    - intent: info_hoc_tap_khong_tot
+#    - action: utter_info_hoc_tap_khong_tot
+
+- story: nghỉ học tạm thời
+  steps:
+    - intent: nghi_hoc_tam_thoi
+    - action: utter_nghi_hoc_tam_thoi
+
+- story: cảnh báo học tập
+  steps:
+    - intent: canh_bao_hoc_tap
+    - action: utter_canh_bao_hoc_tap
+
+- story: đình chỉ học tập
+  steps:
+    - intent: dinh_chi_hoc_tap
+    - action: utter_dinh_chi_hoc_tap
+
+- story: buộc thôi học
+  steps:
+    - intent: buoc_thoi_hoc
+    - action: utter_buoc_thoi_hoc
+
+
+- story: học hai chương trình
+  steps:
+    - intent: learn_2_chuong_trinh
+    - action: utter_learn_2_chuong_trinh
+
+- story: điều kiện học 2 chương trình
+  steps:
+    - intent: dieu_kien_learn
+    - action: utter_dieu_kien_learn
+
+- story: thủ tục học 2 chương trình
+  steps:
+    - intent: thu_tuc_learn
+    - action: utter_thu_tuc_learn
+
+
+# ĐÁNH GIÁ HỌC TẬP
+- story: đánh giá học trực tuyến
+  steps:
+    - intent: learn_truc_truyen
+    - action: utter_learn_truc_truyen
+
+- story: course_score
+  steps:
+    - intent: ask_course_score
+    - action: utter_course_score
+
+# Hỏi điểm M, I, W
+
+- story: tổng hợp về thi
+  steps:
+    - intent: tong_hop_thi
+    - action: utter_tong_hop_thi
+
+- story: điểm M
+  steps:
+    - intent: diem_M
+    - action: utter_diem_M
+
+- story: điểm I
+  steps:
+    - intent: diem_I
+    - action: utter_diem_I
+
+- story: điểm W
+  steps:
+    - intent: diem_W
+    - action: utter_diem_W
+
+
+- story: số lần thi cuối kỳ
+  steps:
+    - intent: so_lan_thi_CK
+    - action: utter_so_lan_thi_CK
+
+- story: tổ chức thi cuối kỳ
+  steps:
+    - intent: to_chuc_thi_CK
+    - action: utter_to_chuc_thi_CK
+
+- story: vắng thi cuối kỳ
+  steps:
+    - intent: vang_thi_CK
+    - action: utter_vang_thi_CK
+
+
+# Điểm trung bình chung
+- story: điểm trung bình chung
+  steps:
+    - intent: diem_tbchung
+    - action: utter_diem_tbchung
+
+- story: điểm trung bình chung học kỳ
+  steps:
+    - intent: diem_tbchk
+    - action: utter_diem_tbchk
+
+- story: điểm trung bình chung năm học
+  steps:
+    - intent: diem_tbcnh
+    - action: utter_diem_tbcnh
+
+- story: điểm trung bình chung tích lũy
+  steps:
+    - intent: diem_tbctl
+    - action: utter_diem_tbctl
+
+
+- story: xếp loại học tập
+  steps:
+    - intent: rank_hoc_tap
+    - action: utter_rank_hoc_tap
+
+# Xếp loại khen thưởng
+- story: xếp loại khen thưởng
+  steps:
+    - intent: xep_loai_khen_thuong
+    - action: utter_xep_loai_khen_thuong
+
+- story: loại xuất sắc
+  steps:
+    - intent: loai_xuat_sac
+    - action: utter_loai_xuat_sac
+
+- story: loại giỏi
+  steps:
+    - intent: loai_gioi
+    - action: utter_loai_gioi
+
+- story: loại khá
+  steps:
+    - intent: loai_kha
+    - action: utter_loai_kha
+
+
+- story: khen thưởng
+  steps:
+    - intent: khen_thuong
+    - action: utter_khen_thuong
+
+
+- story: quy định kiểm tra
+  steps:
+    - intent: quy_dinh_kiem_tra
+    - action: utter_quy_dinh_kiem_tra
+
+
+# Xử lý sinh viên vi phạm
+- story: xử lý sinh viên vi phạm
+  steps:
+    - intent: xu_ly_sv_vi_pham_quy_dinh
+    - action: utter_xu_ly_sv_vi_pham_quy_dinh
+
+- story: khiển trách sinh viên
+  steps:
+    - intent: khien_trach_sv
+    - action: utter_khien_trach_sv
+
+- story: cảnh cáo sinh viên
+  steps:
+    - intent: canh_cao_sv
+    - action: utter_canh_cao_sv
+
+- story: đình chỉ thi
+  steps:
+    - intent: dinh_chi_sv
+    - action: utter_dinh_chi_sv
+
+- story: xử lý thi hộ
+  steps:
+    - intent: sv_thi_ho
+    - action: utter_sv_thi_ho
+
+
+- story: trình độ năm học
+  steps:
+    - intent: trinh_do_nam_hoc
+    - action: utter_trinh_do_nam_hoc
+
+# XÉT VÀ CÔNG NHẬN TỐT NGHIỆP
+- story: tốt nghiệp
+  steps:
+    - intent: ask_tot_nghiep
+    - action: utter_ask_tot_nghiep
+
+
+- story: điều kiện xét tốt nghiệp
+  steps:
+    - intent: dieu_kien_tot_nghiep
+    - action: utter_dieu_kien_tot_nghiep
+
+
+- story: thời gian tốt nghiệp
+  steps:
+    - intent: thoi_gian_tot_nghiep
+    - action: utter_thoi_gian_tot_nghiep
+
+
+- story: quá hạn tốt nghiệp
+  steps:
+    - intent: qua_han_tot_nghiep
+    - action: utter_qua_han_tot_nghiep
+
+- story: xếp hạng tốt nghiệp
+  steps:
+    - intent: rank_tot_nghiep
+    - action: utter_rank_tot_nghiep
+
+# Hỏi về thông tin học kỳ chính và học kỳ phụ
+- story: hỏi về học kỳ
+  steps:
+    - intent: ask_info_hoc_ky
+    - action: utter_info_hoc_ky
+
+- story: học kỳ chính
+  steps:
+    - intent: hoc_ky_chinh
+    - action: utter_hoc_ky_chinh
+
+- story: học kỳ phụ
+  steps:
+    - intent: hoc_ky_phu
+    - action: utter_hoc_ky_phu
+
+
+- story: hỏi về học phần
+  steps:
+    - intent: ask_info_HP
+    - action: utter_info_HP
+
+- story: thông tin về tín chỉ
+  steps:
+    - intent: ask_tin_chi
+    - action: utter_tin_chi
+
+
+- story: s6
+  steps:
+  - intent: give_student_code
+  - action: utter_ask_no_case
+
+- story: s7
+  steps:
+  - intent: give_student_code
+  - action: utter_ask_no_case
+
+- story: ask_point_student
+  steps:
+  - intent: ask_point
+  - action: utter_ask_point
+  - intent: give_student_code
+  - action: action_ask_point
+
+
+
+
+- story: s12 # gop y
+  steps:
+  - intent: ask_comment
+  - action: utter_ask_comment
+#  - intent: give_comment_name
+  - intent: give_student_code
+  - action: action_give_comment_name
+  - intent: give_comment_content
+  - action: action_give_comment_content
+
+- story: s12a # gop y
+  steps:
+  - intent: give_comment_content
+  - action: action_give_comment_content
+
+- story: s12b # gop y
+  steps:
+  - intent: ask_comment
+  - action: utter_ask_comment
+#  - intent: give_comment_name
+  - intent: give_student_code
+  - action: action_give_comment_name
+
+- story: s13 #xem lai gop y
+  steps:
+  - intent: ask_comment_replay
+  - action: utter_comment_replay
+  - intent: give_student_code
+  - action: action_ask_comment_replay
+
+################# xây dựng cốt chuyện quy chế học vụ
+
+- story: vấn đề chung
+  steps:
+    - intent: ask_van_de_chung
+    - action: utter_van_de_chung
+
+- story: tổ chức đào tạo
+  steps:
+    - intent: ask_to_chuc_dao_tao
+    - action: utter_to_chuc_dao_tao
+
+
+- story: đánh giá kết quả học tập
+  steps:
+    - intent: ask_danh_gia_ket_qua_hoc_tap
+    - action: utter_Danh_gia_hoc_tap
+
+- story: xét và công nhận tốt nghiệp
+  steps:
+    - intent: ask_xet_va_cong_nhan_tot_nghiep
+    - action: utter_xet_va_cong_nhan_tot_nghiep
+
+######################## bổ sung các điều còn thiếu
+
+- story: phạm vi điều chỉnh và đối tượng áp dụng
+  steps:
+    - intent: ask_pham_vi_doi_tuong
+    - action: utter_ask_pham_vi_doi_tuong
+
+- story: phạm vi điều chỉnh
+  steps:
+    - intent: pham_vi
+    - action: utter_pham_vi
+
+- story:  đối tượng áp dụng
+  steps:
+    - intent: doi_tuong
+    - action: utter_doi_tuong
+
+- story:  sinh viên
+  steps:
+    - intent: ask_sinh_vien
+    - action: utter_ask_sinh_vien
+
+- story: chương trình đào tạo, bản mô tả ctdt, chương trình giảng dạy
+  steps:
+    - intent: ask_ctdt_mt_ctgd
+    - action: utter_ask_ctdt_mt_ctgd
+
+- story:  chương trình đào tạo
+  steps:
+    - intent: ask_ctdt
+    - action: utter_ask_ctdt
+
+- story:  bản mô tả ctdt
+  steps:
+    - intent: ask_mota
+    - action: utter_ask_mota
+
+- story:  chương trình giảng dạy
+  steps:
+    - intent: ask_ctgd
+    - action: utter_ask_ctgd
+
+- story: sinh viên học liên thông
+  steps:
+    - intent: ask_time_lien_thong
+    - action: utter_ask_time_lien_thong
+
+# ============= TỔ CHỨC ĐÀO TẠO =============
+- story: hỏi về trách nhệm của Trường và sinh viên trong việc đăng ký học phần
+  steps:
+    - intent: ask_trach_nhiem
+    - action: utter_ask_trach_nhiem
+
+- story: hỏi về trách nhệm của Trường trong việc đăng ký học phần
+  steps:
+    - intent: trach_nhiem_truong
+    - action: utter_trach_nhiem_truong
+
+- story: hỏi về trách nhệm của sinh viên trong việc đăng ký học phần
+  steps:
+    - intent: trach_nhiem_sinh_vien
+    - action: utter_trach_nhiem_sinh_vien
+
+- story:  quy trình đăng ký học phần
+  steps:
+    - intent: ask_quy_trinh_dkhp
+    - action: utter_ask_quy_trinh_dkhp
+
+# ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
+- story:  đánh giá học phần lý thuyết
+  steps:
+    - intent: danh_gia_HP_ly_thuyet
+    - action: utter_danh_gia_HP_ly_thuyet
+
+- story:  đánh giá học phần thực hành
+  steps:
+    - intent: danh_gia_HP_thuc_hanh
+    - action: utter_danh_gia_HP_thuc_hanh
+- story:  thông báo kết quả học tập
+  steps:
+    - intent: thong_bao_kq_hoc_tap
+    - action: utter_thong_bao_kq_hoc_tap
+
+# ============= XÉT VÀ CÔNG NHẬN TỐT NGHIỆP =============
+- story:  thủ tục ra trường
+  steps:
+    - intent: thu_tuc_ra_truong
+    - action: utter_thu_tuc_ra_truong
+
+- story:  quản lý bằng tốt nghiệp
+  steps:
+    - intent: quan_ly_bang_tot_nghiep
+    - action: utter_quan_ly_bang_tot_nghiep

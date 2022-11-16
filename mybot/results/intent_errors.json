@@ -1,0 +1,66 @@
+[
+  {
+    "text": "bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ",
+    "intent": "ask_tin_chi",
+    "intent_prediction": {
+      "name": "ask_tin_chi_HK",
+      "confidence": 0.608185350894928
+    }
+  },
+  {
+    "text": "tôi muốn biết 1 kỳ học tối đa mấy tín chỉ",
+    "intent": "ask_tin_chi",
+    "intent_prediction": {
+      "name": "ask_tin_chi_HK",
+      "confidence": 0.6682930588722229
+    }
+  },
+  {
+    "text": "học được bao nhiêu tín chỉ trong học kỳ",
+    "intent": "ask_tin_chi",
+    "intent_prediction": {
+      "name": "ask_tin_chi_HK",
+      "confidence": 0.6023135185241699
+    }
+  },
+  {
+    "text": "làm thế nào để tôi học hai chương trình",
+    "intent": "dieu_kien_learn",
+    "intent_prediction": {
+      "name": "learn_2_chuong_trinh",
+      "confidence": 0.8041702508926392
+    }
+  },
+  {
+    "text": "làm thế nào để tôi học 2 chương trình",
+    "intent": "dieu_kien_learn",
+    "intent_prediction": {
+      "name": "learn_2_chuong_trinh",
+      "confidence": 0.7671367526054382
+    }
+  },
+  {
+    "text": "bạn/em/anh hãy cho tôi biết thông tin về điểm M",
+    "intent": "diem_M",
+    "intent_prediction": {
+      "name": "diem_I",
+      "confidence": 0.7205318808555603
+    }
+  },
+  {
+    "text": "em muốn biết thi cuối kỳ như thế nào",
+    "intent": "to_chuc_thi_CK",
+    "intent_prediction": {
+      "name": "so_lan_thi_CK",
+      "confidence": 0.838019847869873
+    }
+  },
+  {
+    "text": "chương trình đào tạo là như nào vậy bot",
+    "intent": "ask_ctdt",
+    "intent_prediction": {
+      "name": "change_ctdt",
+      "confidence": 0.5061693787574768
+    }
+  }
+]
