@@ -1082,3 +1082,205 @@ stories:
 
 
 # 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+- story: Hướng dẫn chuyển email
+  steps:
+    - intent: hd_chuyen_email
+    - action: utter_hd_chuyen_email
+
+- story: Hướng dẫn chuyển email - 1
+  steps:
+    - intent: hd_chuyen_email_b1
+    - action: utter_hd_chuyen_email_b1
+
+- story: Hướng dẫn chuyển email - 2
+  steps:
+    - intent: hd_chuyen_email_b2
+    - action: utter_hd_chuyen_email_b2
+
+- story: Hướng dẫn chuyển email - 3
+  steps:
+    - intent: hd_chuyen_email_b3
+    - action: utter_hd_chuyen_email_b3
+
+- story: Hướng dẫn chuyển email - 4
+  steps:
+    - intent: hd_chuyen_email_b4
+    - action: utter_hd_chuyen_email_b4
+
+- story: Hướng dẫn chuyển email - 5
+  steps:
+    - intent: hd_chuyen_email_b5
+    - action: utter_hd_chuyen_email_b5
+
+- story: Hướng dẫn chuyển email - 6
+  steps:
+    - intent: hd_chuyen_email_b6
+    - action: utter_hd_chuyen_email_b6
+
+- story: Hướng dẫn chuyển email - 7
+  steps:
+    - intent: hd_chuyen_email_b7
+    - action: utter_hd_chuyen_email_b7
+
+- story: Hướng dẫn chuyển email - 8
+  steps:
+    - intent: hd_chuyen_email_b8
+    - action: utter_hd_chuyen_email_b8
+
+- story: Hướng dẫn chuyển email - 9
+  steps:
+    - intent: hd_chuyen_email_b9
+    - action: utter_hd_chuyen_email_b9
+
+- story: Hướng dẫn chuyển email - 10
+  steps:
+    - intent: hd_chuyen_email_b10
+    - action: utter_hd_chuyen_email_b10
+
+- story: Hướng dẫn chuyển email - 11
+  steps:
+    - intent: hd_chuyen_email_b11
+    - action: utter_hd_chuyen_email_b11
+
+- story: Hướng dẫn chuyển email - 12
+  steps:
+    - intent: hd_chuyen_email_b12
+    - action: utter_hd_chuyen_email_b12
+
+- story: Hướng dẫn chuyển email - 13
+  steps:
+    - intent: hd_chuyen_email_b13
+    - action: utter_hd_chuyen_email_b13
+
+- story: Hướng dẫn chuyển email - 14
+  steps:
+    - intent: hd_chuyen_email_b14
+    - action: utter_hd_chuyen_email_b14
+
+- story: Hướng dẫn chuyển email - 15
+  steps:
+    - intent: hd_chuyen_email_b15
+    - action: utter_hd_chuyen_email_b15
+
+- story: Hướng dẫn chuyển email - 16
+  steps:
+    - intent: hd_chuyen_email_b16
+    - action: utter_hd_chuyen_email_b16
+
+- story: Hướng dẫn chuyển email - 17
+  steps:
+    - intent: hd_chuyen_email_b17
+    - action: utter_hd_chuyen_email_b17
+
+- story: Hướng dẫn chuyển email - 18
+  steps:
+    - intent: hd_chuyen_email_b18
+    - action: utter_hd_chuyen_email_b18
+
+- story: Hướng dẫn chuyển email - 19
+  steps:
+    - intent: hd_chuyen_email_b19
+    - action: utter_hd_chuyen_email_b19
+
+- story: Hướng dẫn chuyển email - 20
+  steps:
+    - intent: hd_chuyen_email_b20
+    - action: utter_hd_chuyen_email_b20
+
+- story: Hướng dẫn chuyển email - 21
+  steps:
+    - intent: hd_chuyen_email_b21
+    - action: utter_hd_chuyen_email_b21
+
+
+## Chi tiết về Hệ thống tích hợp
+# 1) Đăng nhập hệ thống tích hợp
+- story: Hướng dẫn đăng nhập hệ thống tích hợp
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop
+    - action: utter_hd_dang_nhap_he_thong_tich_hop
+
+- story: Hướng dẫn đăng nhập hệ thống tích hợp - 1
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop_b1
+    - action: utter_hd_dang_nhap_he_thong_tich_hop_b1
+
+- story: Hướng dẫn đăng nhập hệ thống tích hợp - 2
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop_b2
+    - action: utter_hd_dang_nhap_he_thong_tich_hop_b2
+
+- story: Hướng dẫn đăng nhập hệ thống tích hợp - 3
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop_b3
+    - action: utter_hd_dang_nhap_he_thong_tich_hop_b3
+
+- story: Hướng dẫn đăng nhập hệ thống tích hợp - 4
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop_b4
+    - action: utter_hd_dang_nhap_he_thong_tich_hop_b4
+
+- story: Hướng dẫn đăng nhập hệ thống tích hợp - 5
+  steps:
+    - intent: hd_dang_nhap_he_thong_tich_hop_b5
+    - action: utter_hd_dang_nhap_he_thong_tich_hop_b5
+
+
+# 2) Đổi mật khẩu tài khoản máy tính
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh
+    - action: utter_hd_doi_mat_khau_may_tinh
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 1
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_b1
+    - action: utter_hd_doi_mat_khau_may_tinh_b1
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 2
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_b2
+    - action: utter_hd_doi_mat_khau_may_tinh_b2
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 3
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_b3
+    - action: utter_hd_doi_mat_khau_may_tinh_b3
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 4
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_b4
+    - action: utter_hd_doi_mat_khau_may_tinh_b4
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 5
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_b5
+    - action: utter_hd_doi_mat_khau_may_tinh_b5
+
+
+# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_cong
+    - action: utter_hd_doi_mat_khau_may_tinh_cong
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 1
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_cong_b1
+    - action: utter_hd_doi_mat_khau_may_tinh_cong_b1
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 2
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_cong_b2
+    - action: utter_hd_doi_mat_khau_may_tinh_cong_b2
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 3
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_cong_b3
+    - action: utter_hd_doi_mat_khau_may_tinh_cong_b3
+
+- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 4
+  steps:
+    - intent: hd_doi_mat_khau_may_tinh_cong_b4
+    - action: utter_hd_doi_mat_khau_may_tinh_cong_b4
+

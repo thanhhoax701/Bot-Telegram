@@ -2765,3 +2765,124 @@ nlu:
 
 
 # 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+- intent: hd_chuyen_email
+  examples: |
+
+- intent: hd_chuyen_email_b1
+  examples: |
+
+- intent: hd_chuyen_email_b2
+  examples: |
+
+- intent: hd_chuyen_email_b3
+  examples: |
+
+- intent: hd_chuyen_email_b4
+  examples: |
+
+- intent: hd_chuyen_email_b5
+  examples: |
+
+- intent: hd_chuyen_email_b6
+  examples: |
+
+- intent: hd_chuyen_email_b7
+  examples: |
+
+- intent: hd_chuyen_email_b8
+  examples: |
+
+- intent: hd_chuyen_email_b9
+  examples: |
+
+- intent: hd_chuyen_email_b10
+  examples: |
+
+- intent: hd_chuyen_email_b11
+  examples: |
+
+- intent: hd_chuyen_email_b12
+  examples: |
+
+- intent: hd_chuyen_email_b13
+  examples: |
+
+- intent: hd_chuyen_email_b14
+  examples: |
+
+- intent: hd_chuyen_email_b15
+  examples: |
+
+- intent: hd_chuyen_email_b16
+  examples: |
+
+- intent: hd_chuyen_email_b17
+  examples: |
+
+- intent: hd_chuyen_email_b18
+  examples: |
+
+- intent: hd_chuyen_email_b19
+  examples: |
+
+- intent: hd_chuyen_email_b20
+  examples: |
+
+- intent: hd_chuyen_email_b21
+  examples: |
+
+
+## Chi tiết về Hệ thống tích hợp
+# 1) Đăng nhập hệ thống tích hợp
+- intent: hd_dang_nhap_he_thong_tich_hop
+  examples: |
+
+- intent: hd_dang_nhap_he_thong_tich_hop_b1
+  examples: |
+
+- intent: hd_dang_nhap_he_thong_tich_hop_b2
+  examples: |
+
+- intent: hd_dang_nhap_he_thong_tich_hop_b3
+  examples: |
+
+- intent: hd_dang_nhap_he_thong_tich_hop_b4
+  examples: |
+
+- intent: hd_dang_nhap_he_thong_tich_hop_b5
+  examples: |
+
+# 2) Đổi mật khẩu tài khoản máy tính
+- intent: hd_doi_mat_khau_may_tinh
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_b1
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_b2
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_b3
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_b4
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_b5
+  examples: |
+
+# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+- intent: hd_doi_mat_khau_may_tinh_cong
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_cong_b1
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_cong_b2
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_cong_b3
+  examples: |
+
+- intent: hd_doi_mat_khau_may_tinh_cong_b4
+  examples: |

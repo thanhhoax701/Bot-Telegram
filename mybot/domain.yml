@@ -222,7 +222,52 @@ intents:
   - hd_doi_mat_khau_b8
   - hd_doi_mat_khau_b9
 # 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+  - hd_chuyen_email
+  - hd_chuyen_email_b1
+  - hd_chuyen_email_b2
+  - hd_chuyen_email_b3
+  - hd_chuyen_email_b4
+  - hd_chuyen_email_b5
+  - hd_chuyen_email_b6
+  - hd_chuyen_email_b7
+  - hd_chuyen_email_b8
+  - hd_chuyen_email_b9
+  - hd_chuyen_email_b10
+  - hd_chuyen_email_b11
+  - hd_chuyen_email_b12
+  - hd_chuyen_email_b13
+  - hd_chuyen_email_b14
+  - hd_chuyen_email_b15
+  - hd_chuyen_email_b16
+  - hd_chuyen_email_b17
+  - hd_chuyen_email_b18
+  - hd_chuyen_email_b19
+  - hd_chuyen_email_b20
+  - hd_chuyen_email_b21
 
+
+## Chi tiết về Hệ thống tích hợp
+# 1) Đăng nhập hệ thống tích hợp
+  - hd_dang_nhap_he_thong_tich_hop
+  - hd_dang_nhap_he_thong_tich_hop_b1
+  - hd_dang_nhap_he_thong_tich_hop_b2
+  - hd_dang_nhap_he_thong_tich_hop_b3
+  - hd_dang_nhap_he_thong_tich_hop_b4
+  - hd_dang_nhap_he_thong_tich_hop_b5
+# 2) Đổi mật khẩu tài khoản máy tính
+  - hd_doi_mat_khau_may_tinh
+  - hd_doi_mat_khau_may_tinh_b1
+  - hd_doi_mat_khau_may_tinh_b2
+  - hd_doi_mat_khau_may_tinh_b3
+  - hd_doi_mat_khau_may_tinh_b4
+  - hd_doi_mat_khau_may_tinh_b5
+# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+  - hd_doi_mat_khau_may_tinh_cong
+  - hd_doi_mat_khau_may_tinh_cong_b1
+  - hd_doi_mat_khau_may_tinh_cong_b2
+  - hd_doi_mat_khau_may_tinh_cong_b3
+  - hd_doi_mat_khau_may_tinh_cong_b4
+  - hd_doi_mat_khau_may_tinh_cong_b5
 
 entities: [student_name,comment_content,student_code]
 slots:
@@ -1095,7 +1140,7 @@ responses:
       button_type: vertical
 
   utter_ask_hoc_truc_tuyen:
-    - text: "Các hướng dẫn về việc học trực tuyến dành cho sinh viên:\n
+    - text: "Các hướng dẫn liên quan đến việc học trực tuyến dành cho sinh viên:\n
     Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen.html"
       buttons:
         - title: "Hướng dẫn sử dụng hệ thống E-Learning"
@@ -1111,8 +1156,18 @@ responses:
       button_type: vertical
 
   utter_ask_hop_thu_dien_tu:
-    - text: "
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/"
+    - text: "Các hướng dẫn liên quan đến hộp thư điện dành cho sinh viên:\n
+    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu"
+      buttons:
+        - title: "Hướng dẫn đổi tên hiển thị trên Gmail"
+          payload: "/hd_doi_ten_hien_thi"
+        - title: "Hướng dẫn đăng nhập thư điện tử trên điện thoại"
+          payload: "/hd_dang_nhap_email"
+        - title: "ướng dẫn đổi mật khẩu hộp thư điện tử"
+          payload: "/hd_doi_mat_khau"
+        - title: "Hướng dẫn chuyển email Trường ra tài khoản Gmail mới"
+          payload: "/hd_chuyen_email"
+      button_type: vertical
 
   utter_ask_he_thong_tich_hop:
     - text: "
@@ -1649,6 +1704,260 @@ responses:
 
 
 # 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+  utter_hd_chuyen_email:
+    - text: "Thực hiện theo các bước sau để chuyển email Trường ra tài khoản Gmail mới:\n
+    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu/32-huong-dan-chuyen-email-truong-ra-tai-khoan-gmail-moi.html"
+      buttons:
+        - title: "Bước 1"
+          payload: "/hd_chuyen_email_b1"
+        - title: "Bước 2"
+          payload: "/hd_chuyen_email_b2"
+        - title: "Bước 3"
+          payload: "/hd_chuyen_email_b3"
+        - title: "Bước 4"
+          payload: "/hd_chuyen_email_b4"
+        - title: "Bước 5"
+          payload: "/hd_chuyen_email_b5"
+        - title: "Bước 6"
+          payload: "/hd_chuyen_email_b6"
+        - title: "Bước 7"
+          payload: "/hd_chuyen_email_b7"
+        - title: "Bước 8"
+          payload: "/hd_chuyen_email_b8"
+        - title: "Bước 9"
+          payload: "/hd_chuyen_email_b9"
+        - title: "Bước 10"
+          payload: "/hd_chuyen_email_b10"
+        - title: "Bước 11"
+          payload: "/hd_chuyen_email_b11"
+        - title: "Bước 12"
+          payload: "/hd_chuyen_email_b12"
+        - title: "Bước 13"
+          payload: "/hd_chuyen_email_b13"
+        - title: "Bước 14"
+          payload: "/hd_chuyen_email_b14"
+        - title: "Bước 15"
+          payload: "/hd_chuyen_email_b15"
+        - title: "Bước 16"
+          payload: "/hd_chuyen_email_b16"
+        - title: "Bước 17"
+          payload: "/hd_chuyen_email_b17"
+        - title: "Bước 18"
+          payload: "/hd_chuyen_email_b18"
+        - title: "Bước 19"
+          payload: "/hd_chuyen_email_b19"
+        - title: "Bước 20"
+          payload: "/hd_chuyen_email_b20"
+        - title: "Bước 21"
+          payload: "/hd_chuyen_email_b21"
+      button_type: vertical
+
+  utter_hd_chuyen_email_b1:
+    - text: "Đăng nhập vào tài khoản email student"
+      image: "https://imgur.com/gallery/9tZC2JX"
+
+  utter_hd_chuyen_email_b2:
+    - text: "Chọn cài đặt bằng cách click chọn biểu tượng ở góc bên phải"
+      image: "https://imgur.com/gallery/BqQqi0F"
+
+  utter_hd_chuyen_email_b3:
+    - text: "Ta chọn tiếp thẻ 'Chuyển tiếp và POP/IMAP'"
+      image: "https://imgur.com/gallery/Z93cDW8"
+
+  utter_hd_chuyen_email_b4:
+    - text: "Tại mục Tải xuống POP, ta click chọn 'Bật chức năng tải POP cho tất cả các thư (thậm chí cả thư đã được tải xuống)'"
+      image: "https://imgur.com/gallery/W2of6XH"
+
+  utter_hd_chuyen_email_b5:
+    - text: "Sau đó kéo xuống dưới chọn 'Lưu Thay đổi'"
+      image: "https://imgur.com/gallery/D9ee5ad"
+
+  utter_hd_chuyen_email_b6:
+    - text: "Sau khi đã lưu lại, ta tiếp tục truy cập vào địa chỉ sau https://www.google.com/settings/security/lesssecureapps chọn 'Bật' để bật chế độ kém bảo mật cho phép chuyển mail."
+      image: "https://imgur.com/gallery/WOFotrB"
+
+  utter_hd_chuyen_email_b7:
+    - text: "Tiếp theo truy cập vào địa chỉ: https://accounts.google.com/b/0/DisplayUnlockCaptcha và chọn 'Tiếp tục' để cho phép truy cập vào tài khoản student."
+      image: "https://imgur.com/gallery/iNGBNOY"
+
+  utter_hd_chuyen_email_b8:
+    - text: "Sau khi thiết lập ở tài khoản email student, ta mở một trình duyệt khác để đăng nhập vào tài khoản gmail mới"
+      image: "https://imgur.com/gallery/kUsBN5A"
+
+  utter_hd_chuyen_email_b9:
+    - text: "Chọn cài đặt bằng cách click chọn biểu tượng ở góc bên phải"
+      image: "https://imgur.com/gallery/SgfZfiy"
+
+  utter_hd_chuyen_email_b10:
+    - text: "Chọn thẻ Tài khoản"
+      image: "https://imgur.com/gallery/EOPxNOV"
+
+  utter_hd_chuyen_email_b11:
+    - text: "Ở mục Kiểm tra thư tài khoản khác (sử dụng POP3) ta chọn 'Thêm tài khoản thư POP3 của bạn'."
+      image: "https://imgur.com/gallery/7gfWWhU"
+
+  utter_hd_chuyen_email_b12:
+    - text: "Một cửa sổ khác hiển thị. Nhập địa chỉ tài khoản email student vào và chọn Bước tiếp theo"
+      image: "https://imgur.com/gallery/b4DtRkq"
+
+  utter_hd_chuyen_email_b13:
+    - text: "Ta nhập mật khẩu của tài khoản gmail cũ, chọn Máy chủ POP là stmp.gmail.com và Cổng 995.\n
+      - Click chọn Luôn sử dụng kết nối bảo mật (SSL) khi tải thư về\n
+      - Chọn Thêm tài khoản"
+      image: "https://imgur.com/gallery/RNds7g6"
+
+  utter_hd_chuyen_email_b14:
+    - text: "Chọn Có ở bước này và chọn Bước tiếp theo"
+      image: "https://imgur.com/gallery/TL5C3ou"
+
+  utter_hd_chuyen_email_b15:
+    - text: "Tiếp tục chọn Bước tiếp theo"
+      image: "https://imgur.com/gallery/GMEo9Ve"
+
+  utter_hd_chuyen_email_b16:
+    - text: "Chọn gửi qua Gmail và tiếp tục"
+      image: "https://imgur.com/gallery/cJmBhx5"
+
+  utter_hd_chuyen_email_b17:
+    - text: "Chọn gửi xác minh để gửi mã xác minh đến tài khoản gmail student"
+      image: "https://imgur.com/gallery/A9kW7tz"
+
+  utter_hd_chuyen_email_b18:
+    - text: "Trở về tài khoản email student ta sẽ nhận được email  chứa mã xác minh (nếu vẫn chưa có thư mới ta bấm F5 để load lại trang)"
+      image: "https://imgur.com/gallery/EBpqJ9s"
+
+  utter_hd_chuyen_email_b19:
+    - text: "Mở thư mới từ Gmail và copy Mã xác nhận"
+      image: "https://imgur.com/gallery/q9oEB91"
+
+  utter_hd_chuyen_email_b20:
+    - text: "Nhập mã xác nhận và chọn Xác minh"
+      image: "https://imgur.com/gallery/ScGH6fX"
+
+  utter_hd_chuyen_email_b21:
+    - text: "Hoàn tất việc thiết lập, hệ thống sẽ mất một thời gian để kiểm tra và tải thư về tài khoản mới. Những thư không chuyển được sẽ được hệ thống thông báo."
+      image: "https://imgur.com/gallery/4KR81km"
+
+
+## Chi tiết về Hệ thống tích hợp
+# 1) Đăng nhập hệ thống tích hợp
+  utter_hd_dang_nhap_he_thong_tich_hop:
+    - text: "Thực hiện theo các bước sau để đăng nhập hệ thống tích hợp:\n
+    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/gioi-thieu-tai-khoan-may-tinh.html"
+      buttons:
+        - title: "Bước 1"
+          payload: "/hd_dang_nhap_he_thong_tich_hop_b1"
+        - title: "Bước 2"
+          payload: "/hd_dang_nhap_he_thong_tich_hop_b2"
+        - title: "Bước 3"
+          payload: "/hd_dang_nhap_he_thong_tich_hop_b3"
+        - title: "Bước 4"
+          payload: "/hd_dang_nhap_he_thong_tich_hop_b4"
+        - title: "Bước 5"
+          payload: "/hd_dang_nhap_he_thong_tich_hop_b5"
+      button_type: vertical
+
+  utter_hd_dang_nhap_he_thong_tich_hop_b1:
+    - text: "Truy cập vào địa chỉ hệ thống tích hợp: https://htql.ctu.edu.vn/htql/login.php\n
+      - Tài khoản và mật khẩu: sử dụng tài khoản máy tính.\n
+      - Đối với sinh viên khóa 40 trở về sau tài khoản máy tính được in trong Phiếu thu nhận hồ sơ được phát cho sinh viên khi làm thủ tục nhập học.\n
+      - Sinh viên các khóa 39 trở về trước đã được phát phiêu cung cấp tài khoản máy tính và email khi mới vào Trường."
+
+  utter_hd_dang_nhap_he_thong_tich_hop_b2:
+    - text: "Giao diện đăng nhập của HTTT như hình bên dưới. Cán bộ/Sinh viên nhập Mã số vào ô “Mã số đăng nhập”, nhập mật khẩu được cấp vào ô “Mật khẩu”, mã bảo vệ theo hình hiển thị và nhấp chuột vào nút “ĐĂNG NHẬP” để đăng nhập vào HTTT."
+      image: "https://imgur.com/gallery/nLKLMic"
+
+  utter_hd_dang_nhap_he_thong_tich_hop_b3:
+    - text: "Sau khi đăng nhập vào HTTT lần đầu tiên, hệ thống yêu cầu sinh viên nhập vào thông tin cá nhân như hình bên dưới:"
+      image: "https://imgur.com/gallery/93aFF7q"
+
+  utter_hd_dang_nhap_he_thong_tich_hop_b4:
+    - text: "Giao diện chính của hệ thống hiện lên như hình bên dưới. Đối với sinh viên, giao diện này gồm 2 phần chính:\n
+      (1) Thông tin liên quan đến sinh viên: cá nhân, gia đình và cố vấn học tập.\n
+      (2) Danh sách các phân hệ."
+
+  utter_hd_dang_nhap_he_thong_tich_hop_b5:
+    - text: "Để tìm hiểu cách sử dụng các chức năng của các phân hệ sinh viên nhấp vào liên kết “Hướng dẫn” ở góc trên bên phải của giao diện chính."
+      image: "https://imgur.com/gallery/AyP1uLn"
+
+
+# 2) Đổi mật khẩu tài khoản máy tính
+  utter_hd_doi_mat_khau_may_tinh:
+    - text: "Để giúp cho việc đổi mật khẩu được dễ dàng và tiện lợi, Trường đã phát triển một trang web cho phép đổi mật khẩu "Tài khoản máy tính". Để đổi mật khẩu sử dụng giao diện web chúng ta thực hiện các bước sau:\n
+    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/doi-mat-khau-tkmt.html\n
+    Tài khoản đăng nhập vào HTTT là "Tài khoản máy tính". Do đó, quí thầy cô và các bạn sinh viên có thể đổi mật khẩu của tài khoản này sử dụng tiện ích được cung cấp bởi hệ điều hành, xem chi tiết tại: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt-pmtc"
+      buttons:
+        - title: "Bước 1"
+          payload: "/hd_doi_mat_khau_may_tinh_b1"
+        - title: "Bước 2"
+          payload: "/hd_doi_mat_khau_may_tinh_b2"
+        - title: "Bước 3"
+          payload: "/hd_doi_mat_khau_may_tinh_b3"
+        - title: "Bước 4"
+          payload: "/hd_doi_mat_khau_may_tinh_b4"
+        - title: "Bước 5"
+          payload: "/hd_doi_mat_khau_may_tinh_b5"
+      button_type: vertical
+
+  utter_hd_doi_mat_khau_may_tinh_b1:
+    - text: "Mở trình duyệt web gõ vào địa chỉ https://dmk.ctu.edu.vn\n
+      Chúng ta nhập <tên tài khoản> (là mã số cán bộ hoặc mã số sinh viên) vào ô phía trên và mật khẩu vào ô phía dưới. Tài khoản và mật khẩu là tài khoản máy tính được cấp bởi Trung tâm Thông tin - Quản Trị mạng."
+      image: "https://imgur.com/gallery/5c23mPt"
+
+  utter_hd_doi_mat_khau_may_tinh_b2:
+    - text: "Trang đổi mật khẩu có giao diện như hình bên dưới. Click vào link Change password"
+      image: "https://imgur.com/gallery/4qWsX0F"
+
+  utter_hd_doi_mat_khau_may_tinh_b3:
+    - text: "Tiến hành đổi mật khẩu mới:\n
+      1. Nhập vào tài khoản theo dạng ctu\<tên tài khoản>\n
+      2. Nhập vào mật khẩu cũ\n
+      3. Nhập vào mật khẩu mới\n
+      4. Nhập lại mật khẩu mới lần nữa\n
+      5. Nhấp nút Submit\n
+      Lưu ý: Mật khẩu phải được đặt ở dạng phức tạp, có nghĩa là trong đó phải có 3 trong 4 loại ký tự sau: ký tự thường, ký tự HOA, ký tự số, ký tự đặt biệt như ! @ # $ - và mật khẩu phải có độ dài ít nhất 06 ký tự."
+      image: "https://imgur.com/gallery/8HEEXZQ"
+  
+  utter_hd_doi_mat_khau_may_tinh_b4:
+    - text: "Nếu mật khẩu cũ và mới được chấp nhận, thông báo đổi mật khẩu thành công được hiện lên như hình bên dưới. Nhấp nút OK để hoàn tất và quay về trang chủ"
+      image: "https://imgur.com/gallery/rd7uiL4"
+  
+  utter_hd_doi_mat_khau_may_tinh_b5:
+    - text: "Bấm Sign out để thoát ra"
+      image: "https://imgur.com/gallery/dmw1YwI"
+
+# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+  utter_hd_doi_mat_khau_may_tinh_cong:
+    - text: "Quí thầy cô và các sinh viên có thể đổi mật khẩu "Tài khoản máy tính" bằng cách đến các phòng máy tính công của Trường và thực hiện theo các bước như sau:\n
+    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt-pmtc\n
+    Ngoài cách trên Quí thầy cô và các bạn sinh viên có thể đổi mật khẩu "Tài khoản đăng nhập máy tính" thông qua Website https://dmk.ctu.edu.vn (Xem chi tiết hướng dẫn tại: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt)"
+      buttons:
+        - title: "Bước 1"
+          payload: "/hd_doi_mat_khau_may_tinh_cong_b1"
+        - title: "Bước 2"
+          payload: "/hd_doi_mat_khau_may_tinh_cong_b2"
+        - title: "Bước 3"
+          payload: "/hd_doi_mat_khau_may_tinh_cong_b3"
+        - title: "Bước 4"
+          payload: "/hd_doi_mat_khau_may_tinh_cong_b4"
+      button_type: vertical
+
+  utter_hd_doi_mat_khau_may_tinh_cong_b1:
+    - text: "Đăng nhập vào miền CTU với username và password đã được cung cấp."
+      image: "https://imgur.com/gallery/T31k7MJ"
+  
+  utter_hd_doi_mat_khau_may_tinh_cong_b2:
+    - text: "Sau khi đăng nhập thành công nhấn tổ hợp phím Ctrl + Alt + Del, hộp thoại Windows Security xuất hiện. Click chọn Change Password…"
+      image: "https://imgur.com/gallery/0yKk18l"
+
+  utter_hd_doi_mat_khau_may_tinh_cong_b3:
+    - text: "Hộp thoại Change Pasword xuất hiện, tiến hành nhập password  cũ, sau đó nhập password mới 02 lần. Click OK.\n
+      Lưu ý: Password phải có tối thiểu 06 ký tự, trong đó có ít nhất 01 ký tự hoa, 01 ký tự thường, 01 ký tự đặc biệt hoặc số. Password không trùng với họ và tên của mình."
+      image: "https://imgur.com/gallery/4S6miKw"
+
+  utter_hd_doi_mat_khau_may_tinh_cong_b4:
+    - text: "Hộp thoại thông báo đổi password thành công xuất hiện. Click OK, sau đó Logoff và Login với mật khẩu mới."
+      image: "https://imgur.com/gallery/L5XzurY"
 
 
 session_config:
