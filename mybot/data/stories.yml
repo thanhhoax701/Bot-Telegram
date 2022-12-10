@@ -593,694 +593,694 @@ stories:
 
 
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
-- story:  các địa chỉ liên hệ trợ giúp
-  steps:
-    - intent: ask_dia_chi_tro_giup
-    - action: utter_ask_dia_chi_tro_giup
-
-- story:  các số điện thoại liên hệ trợ giúp
-  steps:
-    - intent: ask_sdt_tro_giup
-    - action: utter_ask_sdt_tro_giup
-
-- story:  các địa chỉ trang web trợ giúp
-  steps:
-    - intent: ask_trang_web_tro_giup
-    - action: utter_ask_trang_web_tro_giup
-
-- story: học trực tuyến
-  steps:
-    - intent: ask_hoc_truc_tuyen
-    - action: utter_ask_hoc_truc_tuyen
-
-- story: hộp thư điện tử
-  steps:
-    - intent: ask_hop_thu_dien_tu
-    - action: utter_hop_thu_dien_tu
-
-- story: hệ thống tích hợp
-  steps:
-    - intent: ask_he_thong_tich_hop
-    - action: utter_he_thong_tich_hop
-
-
-
-## Chi tiết về Học trực tuyến
-# 1) Hướng dẫn sử dụng hệ thống E-Learning
-- story: Hướng dẫn sử dụng hệ thống E-Learning
-  steps:
-    - intent: hd_elearning
-    - action: utter_hd_elearning
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập
-  steps:
-    - intent: hd_elearning_dang_nhap
-    - action: utter_hd_elearning_dang_nhap
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập - 1
-  steps:
-    - intent: hd_elearning_dang_nhap_b1
-    - action: utter_hd_elearning_dang_nhap_b1
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập - 2
-  steps:
-    - intent: hd_elearning_dang_nhap_b2
-    - action: utter_hd_elearning_dang_nhap_b2
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất
-  steps:
-    - intent: hd_elearning_dang_xuat
-    - action: utter_hd_elearning_dang_xuat
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất - 1
-  steps:
-    - intent: hd_elearning_dang_xuat_b1
-    - action: utter_hd_elearning_dang_xuat_b1
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất - 2
-  steps:
-    - intent: hd_elearning_dang_xuat_b2
-    - action: utter_hd_elearning_dang_xuat_b2
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh
-  steps:
-    - intent: hd_elearning_tim_kiem_ghi_danh
-    - action: utter_hd_elearning_tim_kiem_ghi_danh
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 1
-  steps:
-    - intent: hd_elearning_tim_kiem_ghi_danh_b1
-    - action: utter_hd_elearning_tim_kiem_ghi_danh_b1
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 2
-  steps:
-    - intent: hd_elearning_tim_kiem_ghi_danh_b2
-    - action: utter_hd_elearning_tim_kiem_ghi_danh_b2
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 3
-  steps:
-    - intent: hd_elearning_tim_kiem_ghi_danh_b3
-    - action: utter_hd_elearning_tim_kiem_ghi_danh_b3
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học
-  steps:
-    - intent: hd_elearning_rut_ten
-    - action: utter_hd_elearning_rut_ten
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học - 1
-  steps:
-    - intent: hd_elearning_rut_ten_b1
-    - action: utter_hd_elearning_rut_ten_b1
-
-- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học - 2
-  steps:
-    - intent: hd_elearning_rut_ten_b2
-    - action: utter_hd_elearning_rut_ten_b2
-
-
-# 2) Hướng dẫn sử dụng Google Classroom
-- story: Hướng dẫn sử dụng Google Classroom
-  steps:
-    - intent: hd_classroom
-    - action: utter_hd_classroom
-
-- story: Hướng dẫn sử dụng Google Classroom - 1
-  steps:
-    - intent: hd_classroom_b1
-    - action: utter_hd_classroom_b1
-
-- story: Hướng dẫn sử dụng Google Classroom - 2
-  steps:
-    - intent: hd_classroom_b2
-    - action: utter_hd_classroom_b2
-
-- story: Hướng dẫn sử dụng Google Classroom - 3
-  steps:
-    - intent: hd_classroom_b3
-    - action: utter_hd_classroom_b3
-
-- story: Hướng dẫn sử dụng Google Classroom - 4
-  steps:
-    - intent: hd_classroom_b4
-    - action: utter_hd_classroom_b4
-
-- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp
-  steps:
-    - intent: hd_classroom_tham_gia_lop
-    - action: utter_hd_classroom_tham_gia_lop
-
-- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 1
-  steps:
-    - intent: hd_classroom_tham_gia_lop_b1
-    - action: utter_hd_classroom_tham_gia_lop_b1
-
-- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 2
-  steps:
-    - intent: hd_classroom_tham_gia_lop_b2
-    - action: utter_hd_classroom_tham_gia_lop_b2
-
-- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 3
-  steps:
-    - intent: hd_classroom_tham_gia_lop_b3
-    - action: utter_hd_classroom_tham_gia_lop_b3
-
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài
-  steps:
-    - intent: hd_classroom_nop_bai
-    - action: utter_hd_classroom_nop_bai
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 1
-  steps:
-    - intent: hd_classroom_nop_bai_b1
-    - action: utter_hd_classroom_nop_bai_b1
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 2
-  steps:
-    - intent: hd_classroom_nop_bai_b2
-    - action: utter_hd_classroom_nop_bai_b2
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 3
-  steps:
-    - intent: hd_classroom_nop_bai_b3
-    - action: utter_hd_classroom_nop_bai_b3
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 4
-  steps:
-    - intent: hd_classroom_nop_bai_b4
-    - action: utter_hd_classroom_nop_bai_b4
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 5
-  steps:
-    - intent: hd_classroom_nop_bai_b5
-    - action: utter_hd_classroom_nop_bai_b5
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 6
-  steps:
-    - intent: hd_classroom_nop_bai_b6
-    - action: utter_hd_classroom_nop_bai_b6
-
-- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 7
-  steps:
-    - intent: hd_classroom_nop_bai_b7
-    - action: utter_hd_classroom_nop_bai_b7
-
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile
-  steps:
-    - intent: hd_classroom_mobile
-    - action: utter_hd_classroom_mobile
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 1
-  steps:
-    - intent: hd_classroom_mobile_b1
-    - action: utter_hd_classroom_mobile_b1
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 2
-  steps:
-    - intent: hd_classroom_mobile_b2
-    - action: utter_hd_classroom_mobile_b2
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 3
-  steps:
-    - intent: hd_classroom_mobile_b3
-    - action: utter_hd_classroom_mobile_b3
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 4
-  steps:
-    - intent: hd_classroom_mobile_b4
-    - action: utter_hd_classroom_mobile_b4
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 5
-  steps:
-    - intent: hd_classroom_mobile_b5
-    - action: utter_hd_classroom_mobile_b5
-
-- story: Hướng dẫn sử dụng Google Classroom - Mobile - 6
-  steps:
-    - intent: hd_classroom_mobile_b6
-    - action: utter_hd_classroom_mobile_b6
-
-# 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam
-  steps:
-    - intent: hd_quay_man_hinh
-    - action: utter_hd_quay_man_hinh
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Cài đặt
-  steps:
-    - intent: hd_quay_man_hinh_cai_dat
-    - action: utter_hd_quay_man_hinh_cai_dat
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng
-  steps:
-    - intent: hd_quay_man_hinh_su_dung
-    - action: utter_hd_quay_man_hinh_su_dung
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 1
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b1
-    - action: utter_hd_quay_man_hinh_su_dung_b1
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 2
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b2
-    - action: utter_hd_quay_man_hinh_su_dung_b2
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 3
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b3
-    - action: utter_hd_quay_man_hinh_su_dung_b3
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 4
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b4
-    - action: utter_hd_quay_man_hinh_su_dung_b4
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 5
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b5
-    - action: utter_hd_quay_man_hinh_su_dung_b5
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 6
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b6
-    - action: utter_hd_quay_man_hinh_su_dung_b6
-
-- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 7
-  steps:
-    - intent: hd_quay_man_hinh_su_dung_b7
-    - action: utter_hd_quay_man_hinh_su_dung_b7
-
-
-# 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
-- story: Hướng dẫn sử dụng Zoom
-  steps:
-    - intent: hd_zoom
-    - action: utter_hd_zoom
-
-- story: Hướng dẫn sử dụng Zoom - 1
-  steps:
-    - intent: hd_zoom_b1
-    - action: utter_hd_zoom_b1
-
-- story: Hướng dẫn sử dụng Zoom - 2
-  steps:
-    - intent: hd_zoom_b2
-    - action: utter_hd_zoom_b2
-
-- story: Hướng dẫn sử dụng Zoom - 3
-  steps:
-    - intent: hd_zoom_b3
-    - action: utter_hd_zoom_b3
-
-- story: Hướng dẫn sử dụng Zoom - 4
-  steps:
-    - intent: hd_zoom_b4
-    - action: utter_hd_zoom_b4
-
-- story: Hướng dẫn sử dụng Zoom - 5
-  steps:
-    - intent: hd_zoom_b5
-    - action: utter_hd_zoom_b5
-
-- story: Hướng dẫn sử dụng Zoom - 6
-  steps:
-    - intent: hd_zoom_b6
-    - action: utter_hd_zoom_b6
-
-- story: Hướng dẫn sử dụng Zoom - 7
-  steps:
-    - intent: hd_zoom_b7
-    - action: utter_hd_zoom_b7
-
-- story: Hướng dẫn sử dụng Zoom - 8
-  steps:
-    - intent: hd_zoom_b8
-    - action: utter_hd_zoom_b8
-
-
-## Chi tiết về Hộp thư điện tử
-# 1) Hướng dẫn đổi tên hiển thị trên Gmail
-- story: Hướng dẫn đổi tên hiển thị Gmail
-  steps:
-    - intent: hd_doi_ten_hien_thi
-    - action: utter_hd_doi_ten_hien_thi
-
-- story: Hướng dẫn đổi tên hiển thị Gmail - 1
-  steps:
-    - intent: hd_doi_ten_hien_thi_b1
-    - action: utter_hd_doi_ten_hien_thi_b1
-
-- story: Hướng dẫn đổi tên hiển thị Gmail - 2
-  steps:
-    - intent: hd_doi_ten_hien_thi_b2
-    - action: utter_hd_doi_ten_hien_thi_b2
-
-- story: Hướng dẫn đổi tên hiển thị Gmail - 3
-  steps:
-    - intent: hd_doi_ten_hien_thi_b3
-    - action: utter_hd_doi_ten_hien_thi_b3
-
-- story: Hướng dẫn đổi tên hiển thị Gmail - 4
-  steps:
-    - intent: hd_doi_ten_hien_thi_b4
-    - action: utter_hd_doi_ten_hien_thi_b4
-
-# 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
-- story: Hướng dẫn đăng nhập trên điện thoại
-  steps:
-    - intent: hd_dang_nhap_email
-    - action: utter_hd_dang_nhap_email
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android
-  steps:
-    - intent: hd_dang_nhap_email_android
-    - action: utter_hd_dang_nhap_email_android
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 1
-  steps:
-    - intent: hd_dang_nhap_email_android_b1
-    - action: utter_hd_dang_nhap_email_android_b1
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 2
-  steps:
-    - intent: hd_dang_nhap_email_android_b2
-    - action: utter_hd_dang_nhap_email_android_b2
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 3
-  steps:
-    - intent: hd_dang_nhap_email_android_b3
-    - action: utter_hd_dang_nhap_email_android_b3
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 4
-  steps:
-    - intent: hd_dang_nhap_email_android_b4
-    - action: utter_hd_dang_nhap_email_android_b4
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 5
-  steps:
-    - intent: hd_dang_nhap_email_android_b5
-    - action: utter_hd_dang_nhap_email_android_b5
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 6
-  steps:
-    - intent: hd_dang_nhap_email_android_b6
-    - action: utter_hd_dang_nhap_email_android_b6
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 7
-  steps:
-    - intent: hd_dang_nhap_email_android_b7
-    - action: utter_hd_dang_nhap_email_android_b7
-
-- story: Hướng dẫn đăng nhập trên điện thoại - Android - 8
-  steps:
-    - intent: hd_dang_nhap_email_android_b8
-    - action: utter_hd_dang_nhap_email_android_b8
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS
-  steps:
-    - intent: hd_dang_nhap_email_ios
-    - action: utter_hd_dang_nhap_email_ios
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 1
-  steps:
-    - intent: hd_dang_nhap_email_ios_b1
-    - action: utter_hd_dang_nhap_email_ios_b1
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 2
-  steps:
-    - intent: hd_dang_nhap_email_ios_b2
-    - action: utter_hd_dang_nhap_email_ios_b2
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 3
-  steps:
-    - intent: hd_dang_nhap_email_ios_b3
-    - action: utter_hd_dang_nhap_email_ios_b3
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 4
-  steps:
-    - intent: hd_dang_nhap_email_ios_b4
-    - action: utter_hd_dang_nhap_email_ios_b4
-
-- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 5
-  steps:
-    - intent: hd_dang_nhap_email_ios_b5
-    - action: utter_hd_dang_nhap_email_ios_b5
-
-
-# 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử
-  steps:
-    - intent: hd_doi_mat_khau
-    - action: utter_hd_doi_mat_khau
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 1
-  steps:
-    - intent: hd_doi_mat_khau_b1
-    - action: utter_hd_doi_mat_khau_b1
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 2
-  steps:
-    - intent: hd_doi_mat_khau_b2
-    - action: utter_hd_doi_mat_khau_b2
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 3
-  steps:
-    - intent: hd_doi_mat_khau_b3
-    - action: utter_hd_doi_mat_khau_b3
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 4
-  steps:
-    - intent: hd_doi_mat_khau_b4
-    - action: utter_hd_doi_mat_khau_b4
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 5
-  steps:
-    - intent: hd_doi_mat_khau_b5
-    - action: utter_hd_doi_mat_khau_b5
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 6
-  steps:
-    - intent: hd_doi_mat_khau_b6
-    - action: utter_hd_doi_mat_khau_b6
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 7
-  steps:
-    - intent: hd_doi_mat_khau_b7
-    - action: utter_hd_doi_mat_khau_b7
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 8
-  steps:
-    - intent: hd_doi_mat_khau_b8
-    - action: utter_hd_doi_mat_khau_b8
-
-- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 9
-  steps:
-    - intent: hd_doi_mat_khau_b9
-    - action: utter_hd_doi_mat_khau_b9
-
-
-# 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
-- story: Hướng dẫn chuyển email
-  steps:
-    - intent: hd_chuyen_email
-    - action: utter_hd_chuyen_email
-
-- story: Hướng dẫn chuyển email - 1
-  steps:
-    - intent: hd_chuyen_email_b1
-    - action: utter_hd_chuyen_email_b1
-
-- story: Hướng dẫn chuyển email - 2
-  steps:
-    - intent: hd_chuyen_email_b2
-    - action: utter_hd_chuyen_email_b2
-
-- story: Hướng dẫn chuyển email - 3
-  steps:
-    - intent: hd_chuyen_email_b3
-    - action: utter_hd_chuyen_email_b3
-
-- story: Hướng dẫn chuyển email - 4
-  steps:
-    - intent: hd_chuyen_email_b4
-    - action: utter_hd_chuyen_email_b4
-
-- story: Hướng dẫn chuyển email - 5
-  steps:
-    - intent: hd_chuyen_email_b5
-    - action: utter_hd_chuyen_email_b5
-
-- story: Hướng dẫn chuyển email - 6
-  steps:
-    - intent: hd_chuyen_email_b6
-    - action: utter_hd_chuyen_email_b6
-
-- story: Hướng dẫn chuyển email - 7
-  steps:
-    - intent: hd_chuyen_email_b7
-    - action: utter_hd_chuyen_email_b7
-
-- story: Hướng dẫn chuyển email - 8
-  steps:
-    - intent: hd_chuyen_email_b8
-    - action: utter_hd_chuyen_email_b8
-
-- story: Hướng dẫn chuyển email - 9
-  steps:
-    - intent: hd_chuyen_email_b9
-    - action: utter_hd_chuyen_email_b9
-
-- story: Hướng dẫn chuyển email - 10
-  steps:
-    - intent: hd_chuyen_email_b10
-    - action: utter_hd_chuyen_email_b10
-
-- story: Hướng dẫn chuyển email - 11
-  steps:
-    - intent: hd_chuyen_email_b11
-    - action: utter_hd_chuyen_email_b11
-
-- story: Hướng dẫn chuyển email - 12
-  steps:
-    - intent: hd_chuyen_email_b12
-    - action: utter_hd_chuyen_email_b12
-
-- story: Hướng dẫn chuyển email - 13
-  steps:
-    - intent: hd_chuyen_email_b13
-    - action: utter_hd_chuyen_email_b13
-
-- story: Hướng dẫn chuyển email - 14
-  steps:
-    - intent: hd_chuyen_email_b14
-    - action: utter_hd_chuyen_email_b14
-
-- story: Hướng dẫn chuyển email - 15
-  steps:
-    - intent: hd_chuyen_email_b15
-    - action: utter_hd_chuyen_email_b15
-
-- story: Hướng dẫn chuyển email - 16
-  steps:
-    - intent: hd_chuyen_email_b16
-    - action: utter_hd_chuyen_email_b16
-
-- story: Hướng dẫn chuyển email - 17
-  steps:
-    - intent: hd_chuyen_email_b17
-    - action: utter_hd_chuyen_email_b17
-
-- story: Hướng dẫn chuyển email - 18
-  steps:
-    - intent: hd_chuyen_email_b18
-    - action: utter_hd_chuyen_email_b18
-
-- story: Hướng dẫn chuyển email - 19
-  steps:
-    - intent: hd_chuyen_email_b19
-    - action: utter_hd_chuyen_email_b19
-
-- story: Hướng dẫn chuyển email - 20
-  steps:
-    - intent: hd_chuyen_email_b20
-    - action: utter_hd_chuyen_email_b20
-
-- story: Hướng dẫn chuyển email - 21
-  steps:
-    - intent: hd_chuyen_email_b21
-    - action: utter_hd_chuyen_email_b21
-
-
-## Chi tiết về Hệ thống tích hợp
-# 1) Đăng nhập hệ thống tích hợp
-- story: Hướng dẫn đăng nhập hệ thống tích hợp
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop
-    - action: utter_hd_dang_nhap_he_thong_tich_hop
-
-- story: Hướng dẫn đăng nhập hệ thống tích hợp - 1
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop_b1
-    - action: utter_hd_dang_nhap_he_thong_tich_hop_b1
-
-- story: Hướng dẫn đăng nhập hệ thống tích hợp - 2
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop_b2
-    - action: utter_hd_dang_nhap_he_thong_tich_hop_b2
-
-- story: Hướng dẫn đăng nhập hệ thống tích hợp - 3
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop_b3
-    - action: utter_hd_dang_nhap_he_thong_tich_hop_b3
-
-- story: Hướng dẫn đăng nhập hệ thống tích hợp - 4
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop_b4
-    - action: utter_hd_dang_nhap_he_thong_tich_hop_b4
-
-- story: Hướng dẫn đăng nhập hệ thống tích hợp - 5
-  steps:
-    - intent: hd_dang_nhap_he_thong_tich_hop_b5
-    - action: utter_hd_dang_nhap_he_thong_tich_hop_b5
-
-
-# 2) Đổi mật khẩu tài khoản máy tính
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh
-    - action: utter_hd_doi_mat_khau_may_tinh
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 1
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_b1
-    - action: utter_hd_doi_mat_khau_may_tinh_b1
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 2
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_b2
-    - action: utter_hd_doi_mat_khau_may_tinh_b2
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 3
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_b3
-    - action: utter_hd_doi_mat_khau_may_tinh_b3
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 4
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_b4
-    - action: utter_hd_doi_mat_khau_may_tinh_b4
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 5
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_b5
-    - action: utter_hd_doi_mat_khau_may_tinh_b5
-
-
-# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_cong
-    - action: utter_hd_doi_mat_khau_may_tinh_cong
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 1
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_cong_b1
-    - action: utter_hd_doi_mat_khau_may_tinh_cong_b1
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 2
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_cong_b2
-    - action: utter_hd_doi_mat_khau_may_tinh_cong_b2
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 3
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_cong_b3
-    - action: utter_hd_doi_mat_khau_may_tinh_cong_b3
-
-- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 4
-  steps:
-    - intent: hd_doi_mat_khau_may_tinh_cong_b4
-    - action: utter_hd_doi_mat_khau_may_tinh_cong_b4
+#- story:  các địa chỉ liên hệ trợ giúp
+#  steps:
+#    - intent: ask_dia_chi_tro_giup
+#    - action: utter_ask_dia_chi_tro_giup
+#
+#- story:  các số điện thoại liên hệ trợ giúp
+#  steps:
+#    - intent: ask_sdt_tro_giup
+#    - action: utter_ask_sdt_tro_giup
+#
+#- story:  các địa chỉ trang web trợ giúp
+#  steps:
+#    - intent: ask_trang_web_tro_giup
+#    - action: utter_ask_trang_web_tro_giup
+#
+#- story: học trực tuyến
+#  steps:
+#    - intent: ask_hoc_truc_tuyen
+#    - action: utter_ask_hoc_truc_tuyen
+#
+#- story: hộp thư điện tử
+#  steps:
+#    - intent: ask_hop_thu_dien_tu
+#    - action: utter_hop_thu_dien_tu
+#
+#- story: hệ thống tích hợp
+#  steps:
+#    - intent: ask_he_thong_tich_hop
+#    - action: utter_he_thong_tich_hop
+#
+#
+#
+### Chi tiết về Học trực tuyến
+## 1) Hướng dẫn sử dụng hệ thống E-Learning
+#- story: Hướng dẫn sử dụng hệ thống E-Learning
+#  steps:
+#    - intent: hd_elearning
+#    - action: utter_hd_elearning
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập
+#  steps:
+#    - intent: hd_elearning_dang_nhap
+#    - action: utter_hd_elearning_dang_nhap
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập - 1
+#  steps:
+#    - intent: hd_elearning_dang_nhap_b1
+#    - action: utter_hd_elearning_dang_nhap_b1
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng nhập - 2
+#  steps:
+#    - intent: hd_elearning_dang_nhap_b2
+#    - action: utter_hd_elearning_dang_nhap_b2
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất
+#  steps:
+#    - intent: hd_elearning_dang_xuat
+#    - action: utter_hd_elearning_dang_xuat
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất - 1
+#  steps:
+#    - intent: hd_elearning_dang_xuat_b1
+#    - action: utter_hd_elearning_dang_xuat_b1
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Đăng xuất - 2
+#  steps:
+#    - intent: hd_elearning_dang_xuat_b2
+#    - action: utter_hd_elearning_dang_xuat_b2
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh
+#  steps:
+#    - intent: hd_elearning_tim_kiem_ghi_danh
+#    - action: utter_hd_elearning_tim_kiem_ghi_danh
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 1
+#  steps:
+#    - intent: hd_elearning_tim_kiem_ghi_danh_b1
+#    - action: utter_hd_elearning_tim_kiem_ghi_danh_b1
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 2
+#  steps:
+#    - intent: hd_elearning_tim_kiem_ghi_danh_b2
+#    - action: utter_hd_elearning_tim_kiem_ghi_danh_b2
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Tìm kiếm và ghi danh - 3
+#  steps:
+#    - intent: hd_elearning_tim_kiem_ghi_danh_b3
+#    - action: utter_hd_elearning_tim_kiem_ghi_danh_b3
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học
+#  steps:
+#    - intent: hd_elearning_rut_ten
+#    - action: utter_hd_elearning_rut_ten
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học - 1
+#  steps:
+#    - intent: hd_elearning_rut_ten_b1
+#    - action: utter_hd_elearning_rut_ten_b1
+#
+#- story: Hướng dẫn sử dụng hệ thống E-Learning - Rút tên khỏi khóa học - 2
+#  steps:
+#    - intent: hd_elearning_rut_ten_b2
+#    - action: utter_hd_elearning_rut_ten_b2
+#
+#
+## 2) Hướng dẫn sử dụng Google Classroom
+#- story: Hướng dẫn sử dụng Google Classroom
+#  steps:
+#    - intent: hd_classroom
+#    - action: utter_hd_classroom
+#
+#- story: Hướng dẫn sử dụng Google Classroom - 1
+#  steps:
+#    - intent: hd_classroom_b1
+#    - action: utter_hd_classroom_b1
+#
+#- story: Hướng dẫn sử dụng Google Classroom - 2
+#  steps:
+#    - intent: hd_classroom_b2
+#    - action: utter_hd_classroom_b2
+#
+#- story: Hướng dẫn sử dụng Google Classroom - 3
+#  steps:
+#    - intent: hd_classroom_b3
+#    - action: utter_hd_classroom_b3
+#
+#- story: Hướng dẫn sử dụng Google Classroom - 4
+#  steps:
+#    - intent: hd_classroom_b4
+#    - action: utter_hd_classroom_b4
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp
+#  steps:
+#    - intent: hd_classroom_tham_gia_lop
+#    - action: utter_hd_classroom_tham_gia_lop
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 1
+#  steps:
+#    - intent: hd_classroom_tham_gia_lop_b1
+#    - action: utter_hd_classroom_tham_gia_lop_b1
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 2
+#  steps:
+#    - intent: hd_classroom_tham_gia_lop_b2
+#    - action: utter_hd_classroom_tham_gia_lop_b2
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Tham gia lớp - 3
+#  steps:
+#    - intent: hd_classroom_tham_gia_lop_b3
+#    - action: utter_hd_classroom_tham_gia_lop_b3
+#
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài
+#  steps:
+#    - intent: hd_classroom_nop_bai
+#    - action: utter_hd_classroom_nop_bai
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 1
+#  steps:
+#    - intent: hd_classroom_nop_bai_b1
+#    - action: utter_hd_classroom_nop_bai_b1
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 2
+#  steps:
+#    - intent: hd_classroom_nop_bai_b2
+#    - action: utter_hd_classroom_nop_bai_b2
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 3
+#  steps:
+#    - intent: hd_classroom_nop_bai_b3
+#    - action: utter_hd_classroom_nop_bai_b3
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 4
+#  steps:
+#    - intent: hd_classroom_nop_bai_b4
+#    - action: utter_hd_classroom_nop_bai_b4
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 5
+#  steps:
+#    - intent: hd_classroom_nop_bai_b5
+#    - action: utter_hd_classroom_nop_bai_b5
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 6
+#  steps:
+#    - intent: hd_classroom_nop_bai_b6
+#    - action: utter_hd_classroom_nop_bai_b6
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Nộp bài - 7
+#  steps:
+#    - intent: hd_classroom_nop_bai_b7
+#    - action: utter_hd_classroom_nop_bai_b7
+#
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile
+#  steps:
+#    - intent: hd_classroom_mobile
+#    - action: utter_hd_classroom_mobile
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 1
+#  steps:
+#    - intent: hd_classroom_mobile_b1
+#    - action: utter_hd_classroom_mobile_b1
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 2
+#  steps:
+#    - intent: hd_classroom_mobile_b2
+#    - action: utter_hd_classroom_mobile_b2
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 3
+#  steps:
+#    - intent: hd_classroom_mobile_b3
+#    - action: utter_hd_classroom_mobile_b3
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 4
+#  steps:
+#    - intent: hd_classroom_mobile_b4
+#    - action: utter_hd_classroom_mobile_b4
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 5
+#  steps:
+#    - intent: hd_classroom_mobile_b5
+#    - action: utter_hd_classroom_mobile_b5
+#
+#- story: Hướng dẫn sử dụng Google Classroom - Mobile - 6
+#  steps:
+#    - intent: hd_classroom_mobile_b6
+#    - action: utter_hd_classroom_mobile_b6
+#
+## 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam
+#  steps:
+#    - intent: hd_quay_man_hinh
+#    - action: utter_hd_quay_man_hinh
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Cài đặt
+#  steps:
+#    - intent: hd_quay_man_hinh_cai_dat
+#    - action: utter_hd_quay_man_hinh_cai_dat
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung
+#    - action: utter_hd_quay_man_hinh_su_dung
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 1
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b1
+#    - action: utter_hd_quay_man_hinh_su_dung_b1
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 2
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b2
+#    - action: utter_hd_quay_man_hinh_su_dung_b2
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 3
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b3
+#    - action: utter_hd_quay_man_hinh_su_dung_b3
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 4
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b4
+#    - action: utter_hd_quay_man_hinh_su_dung_b4
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 5
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b5
+#    - action: utter_hd_quay_man_hinh_su_dung_b5
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 6
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b6
+#    - action: utter_hd_quay_man_hinh_su_dung_b6
+#
+#- story: Hướng dẫn quay phim màn hình bằng công cụ Free Cam - Sử dụng - 7
+#  steps:
+#    - intent: hd_quay_man_hinh_su_dung_b7
+#    - action: utter_hd_quay_man_hinh_su_dung_b7
+#
+#
+## 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
+#- story: Hướng dẫn sử dụng Zoom
+#  steps:
+#    - intent: hd_zoom
+#    - action: utter_hd_zoom
+#
+#- story: Hướng dẫn sử dụng Zoom - 1
+#  steps:
+#    - intent: hd_zoom_b1
+#    - action: utter_hd_zoom_b1
+#
+#- story: Hướng dẫn sử dụng Zoom - 2
+#  steps:
+#    - intent: hd_zoom_b2
+#    - action: utter_hd_zoom_b2
+#
+#- story: Hướng dẫn sử dụng Zoom - 3
+#  steps:
+#    - intent: hd_zoom_b3
+#    - action: utter_hd_zoom_b3
+#
+#- story: Hướng dẫn sử dụng Zoom - 4
+#  steps:
+#    - intent: hd_zoom_b4
+#    - action: utter_hd_zoom_b4
+#
+#- story: Hướng dẫn sử dụng Zoom - 5
+#  steps:
+#    - intent: hd_zoom_b5
+#    - action: utter_hd_zoom_b5
+#
+#- story: Hướng dẫn sử dụng Zoom - 6
+#  steps:
+#    - intent: hd_zoom_b6
+#    - action: utter_hd_zoom_b6
+#
+#- story: Hướng dẫn sử dụng Zoom - 7
+#  steps:
+#    - intent: hd_zoom_b7
+#    - action: utter_hd_zoom_b7
+#
+#- story: Hướng dẫn sử dụng Zoom - 8
+#  steps:
+#    - intent: hd_zoom_b8
+#    - action: utter_hd_zoom_b8
+#
+#
+### Chi tiết về Hộp thư điện tử
+## 1) Hướng dẫn đổi tên hiển thị trên Gmail
+#- story: Hướng dẫn đổi tên hiển thị Gmail
+#  steps:
+#    - intent: hd_doi_ten_hien_thi
+#    - action: utter_hd_doi_ten_hien_thi
+#
+#- story: Hướng dẫn đổi tên hiển thị Gmail - 1
+#  steps:
+#    - intent: hd_doi_ten_hien_thi_b1
+#    - action: utter_hd_doi_ten_hien_thi_b1
+#
+#- story: Hướng dẫn đổi tên hiển thị Gmail - 2
+#  steps:
+#    - intent: hd_doi_ten_hien_thi_b2
+#    - action: utter_hd_doi_ten_hien_thi_b2
+#
+#- story: Hướng dẫn đổi tên hiển thị Gmail - 3
+#  steps:
+#    - intent: hd_doi_ten_hien_thi_b3
+#    - action: utter_hd_doi_ten_hien_thi_b3
+#
+#- story: Hướng dẫn đổi tên hiển thị Gmail - 4
+#  steps:
+#    - intent: hd_doi_ten_hien_thi_b4
+#    - action: utter_hd_doi_ten_hien_thi_b4
+#
+## 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
+#- story: Hướng dẫn đăng nhập trên điện thoại
+#  steps:
+#    - intent: hd_dang_nhap_email
+#    - action: utter_hd_dang_nhap_email
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android
+#  steps:
+#    - intent: hd_dang_nhap_email_android
+#    - action: utter_hd_dang_nhap_email_android
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 1
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b1
+#    - action: utter_hd_dang_nhap_email_android_b1
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 2
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b2
+#    - action: utter_hd_dang_nhap_email_android_b2
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 3
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b3
+#    - action: utter_hd_dang_nhap_email_android_b3
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 4
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b4
+#    - action: utter_hd_dang_nhap_email_android_b4
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 5
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b5
+#    - action: utter_hd_dang_nhap_email_android_b5
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 6
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b6
+#    - action: utter_hd_dang_nhap_email_android_b6
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 7
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b7
+#    - action: utter_hd_dang_nhap_email_android_b7
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - Android - 8
+#  steps:
+#    - intent: hd_dang_nhap_email_android_b8
+#    - action: utter_hd_dang_nhap_email_android_b8
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS
+#  steps:
+#    - intent: hd_dang_nhap_email_ios
+#    - action: utter_hd_dang_nhap_email_ios
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 1
+#  steps:
+#    - intent: hd_dang_nhap_email_ios_b1
+#    - action: utter_hd_dang_nhap_email_ios_b1
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 2
+#  steps:
+#    - intent: hd_dang_nhap_email_ios_b2
+#    - action: utter_hd_dang_nhap_email_ios_b2
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 3
+#  steps:
+#    - intent: hd_dang_nhap_email_ios_b3
+#    - action: utter_hd_dang_nhap_email_ios_b3
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 4
+#  steps:
+#    - intent: hd_dang_nhap_email_ios_b4
+#    - action: utter_hd_dang_nhap_email_ios_b4
+#
+#- story: Hướng dẫn đăng nhập trên điện thoại - IOS - 5
+#  steps:
+#    - intent: hd_dang_nhap_email_ios_b5
+#    - action: utter_hd_dang_nhap_email_ios_b5
+#
+#
+## 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử
+#  steps:
+#    - intent: hd_doi_mat_khau
+#    - action: utter_hd_doi_mat_khau
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 1
+#  steps:
+#    - intent: hd_doi_mat_khau_b1
+#    - action: utter_hd_doi_mat_khau_b1
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 2
+#  steps:
+#    - intent: hd_doi_mat_khau_b2
+#    - action: utter_hd_doi_mat_khau_b2
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 3
+#  steps:
+#    - intent: hd_doi_mat_khau_b3
+#    - action: utter_hd_doi_mat_khau_b3
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 4
+#  steps:
+#    - intent: hd_doi_mat_khau_b4
+#    - action: utter_hd_doi_mat_khau_b4
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 5
+#  steps:
+#    - intent: hd_doi_mat_khau_b5
+#    - action: utter_hd_doi_mat_khau_b5
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 6
+#  steps:
+#    - intent: hd_doi_mat_khau_b6
+#    - action: utter_hd_doi_mat_khau_b6
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 7
+#  steps:
+#    - intent: hd_doi_mat_khau_b7
+#    - action: utter_hd_doi_mat_khau_b7
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 8
+#  steps:
+#    - intent: hd_doi_mat_khau_b8
+#    - action: utter_hd_doi_mat_khau_b8
+#
+#- story: Hướng dẫn đổi mật khẩu hộp thư điện tử - 9
+#  steps:
+#    - intent: hd_doi_mat_khau_b9
+#    - action: utter_hd_doi_mat_khau_b9
+#
+#
+## 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+#- story: Hướng dẫn chuyển email
+#  steps:
+#    - intent: hd_chuyen_email
+#    - action: utter_hd_chuyen_email
+#
+#- story: Hướng dẫn chuyển email - 1
+#  steps:
+#    - intent: hd_chuyen_email_b1
+#    - action: utter_hd_chuyen_email_b1
+#
+#- story: Hướng dẫn chuyển email - 2
+#  steps:
+#    - intent: hd_chuyen_email_b2
+#    - action: utter_hd_chuyen_email_b2
+#
+#- story: Hướng dẫn chuyển email - 3
+#  steps:
+#    - intent: hd_chuyen_email_b3
+#    - action: utter_hd_chuyen_email_b3
+#
+#- story: Hướng dẫn chuyển email - 4
+#  steps:
+#    - intent: hd_chuyen_email_b4
+#    - action: utter_hd_chuyen_email_b4
+#
+#- story: Hướng dẫn chuyển email - 5
+#  steps:
+#    - intent: hd_chuyen_email_b5
+#    - action: utter_hd_chuyen_email_b5
+#
+#- story: Hướng dẫn chuyển email - 6
+#  steps:
+#    - intent: hd_chuyen_email_b6
+#    - action: utter_hd_chuyen_email_b6
+#
+#- story: Hướng dẫn chuyển email - 7
+#  steps:
+#    - intent: hd_chuyen_email_b7
+#    - action: utter_hd_chuyen_email_b7
+#
+#- story: Hướng dẫn chuyển email - 8
+#  steps:
+#    - intent: hd_chuyen_email_b8
+#    - action: utter_hd_chuyen_email_b8
+#
+#- story: Hướng dẫn chuyển email - 9
+#  steps:
+#    - intent: hd_chuyen_email_b9
+#    - action: utter_hd_chuyen_email_b9
+#
+#- story: Hướng dẫn chuyển email - 10
+#  steps:
+#    - intent: hd_chuyen_email_b10
+#    - action: utter_hd_chuyen_email_b10
+#
+#- story: Hướng dẫn chuyển email - 11
+#  steps:
+#    - intent: hd_chuyen_email_b11
+#    - action: utter_hd_chuyen_email_b11
+#
+#- story: Hướng dẫn chuyển email - 12
+#  steps:
+#    - intent: hd_chuyen_email_b12
+#    - action: utter_hd_chuyen_email_b12
+#
+#- story: Hướng dẫn chuyển email - 13
+#  steps:
+#    - intent: hd_chuyen_email_b13
+#    - action: utter_hd_chuyen_email_b13
+#
+#- story: Hướng dẫn chuyển email - 14
+#  steps:
+#    - intent: hd_chuyen_email_b14
+#    - action: utter_hd_chuyen_email_b14
+#
+#- story: Hướng dẫn chuyển email - 15
+#  steps:
+#    - intent: hd_chuyen_email_b15
+#    - action: utter_hd_chuyen_email_b15
+#
+#- story: Hướng dẫn chuyển email - 16
+#  steps:
+#    - intent: hd_chuyen_email_b16
+#    - action: utter_hd_chuyen_email_b16
+#
+#- story: Hướng dẫn chuyển email - 17
+#  steps:
+#    - intent: hd_chuyen_email_b17
+#    - action: utter_hd_chuyen_email_b17
+#
+#- story: Hướng dẫn chuyển email - 18
+#  steps:
+#    - intent: hd_chuyen_email_b18
+#    - action: utter_hd_chuyen_email_b18
+#
+#- story: Hướng dẫn chuyển email - 19
+#  steps:
+#    - intent: hd_chuyen_email_b19
+#    - action: utter_hd_chuyen_email_b19
+#
+#- story: Hướng dẫn chuyển email - 20
+#  steps:
+#    - intent: hd_chuyen_email_b20
+#    - action: utter_hd_chuyen_email_b20
+#
+#- story: Hướng dẫn chuyển email - 21
+#  steps:
+#    - intent: hd_chuyen_email_b21
+#    - action: utter_hd_chuyen_email_b21
+#
+#
+### Chi tiết về Hệ thống tích hợp
+## 1) Đăng nhập hệ thống tích hợp
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop
+#
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp - 1
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop_b1
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop_b1
+#
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp - 2
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop_b2
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop_b2
+#
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp - 3
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop_b3
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop_b3
+#
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp - 4
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop_b4
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop_b4
+#
+#- story: Hướng dẫn đăng nhập hệ thống tích hợp - 5
+#  steps:
+#    - intent: hd_dang_nhap_he_thong_tich_hop_b5
+#    - action: utter_hd_dang_nhap_he_thong_tich_hop_b5
+#
+#
+## 2) Đổi mật khẩu tài khoản máy tính
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh
+#    - action: utter_hd_doi_mat_khau_may_tinh
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 1
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_b1
+#    - action: utter_hd_doi_mat_khau_may_tinh_b1
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 2
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_b2
+#    - action: utter_hd_doi_mat_khau_may_tinh_b2
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 3
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_b3
+#    - action: utter_hd_doi_mat_khau_may_tinh_b3
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 4
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_b4
+#    - action: utter_hd_doi_mat_khau_may_tinh_b4
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính - 5
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_b5
+#    - action: utter_hd_doi_mat_khau_may_tinh_b5
+#
+#
+## 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_cong
+#    - action: utter_hd_doi_mat_khau_may_tinh_cong
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 1
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_cong_b1
+#    - action: utter_hd_doi_mat_khau_may_tinh_cong_b1
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 2
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_cong_b2
+#    - action: utter_hd_doi_mat_khau_may_tinh_cong_b2
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 3
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_cong_b3
+#    - action: utter_hd_doi_mat_khau_may_tinh_cong_b3
+#
+#- story: Hướng dẫn đổi mật khẩu tài khoản máy tính tại các phòng máy tính công - 4
+#  steps:
+#    - intent: hd_doi_mat_khau_may_tinh_cong_b4
+#    - action: utter_hd_doi_mat_khau_may_tinh_cong_b4
 

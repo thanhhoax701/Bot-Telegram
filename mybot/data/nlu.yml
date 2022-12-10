@@ -2433,456 +2433,456 @@ nlu:
 
 #################################################################
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
-- intent: ask_dia_chi_tro_giup
-  examples: |
-
-- intent: ask_sdt_tro_giup
-  examples: |
-    - số điện thoại trợ giúp
-    - tôi muốn biết số điện thoại trợ giúp của trường
-    - tôi muốn hỏi số điện thoại trợ giúp của trường
-    - tôi muốn biết thông tin số điện thoại trợ giúp
-    - tôi muốn hỏi thông tin số điện thoại trợ giúp
-    - số điện thoại trợ giúp của trường
-    - số điện thoại trợ giúp của trường là số mấy
-    - số điện thoại trợ giúp là số mấy vậy
-    - số điện thoại trợ giúp là sao thế bot
-    - số điện thoại trợ giúp ra sao hả bot
-    - Số Liên hệ hỗ trợ như thế nào
-    - Số Liên hệ hỗ trợ ra sao
-    - cách nào để Liên hệ hỗ trợ
-    - cách nào để có thể số Liên hệ hỗ trợ vậy
-    - tôi muốn biết số Liên hệ hỗ trợ
-    - tôi muốn hỏi số Liên hệ hỗ trợ
-    - tôi muốn xem số Liên hệ hỗ trợ
-    - tôi muốn tìm hiểu số Liên hệ hỗ trợ
-    - số điện thoại trợ là sao
-    - Liên hệ hỗ trợ như thế nào
-    - Liên hệ hỗ trợ ra sao
-    - cách nào để Liên hệ hỗ trợ
-    - cách nào để có thể Liên hệ hỗ trợ vậy
-    - tôi muốn biết Liên hệ hỗ trợ
-    - tôi muốn hỏi Liên hệ hỗ trợ
-    - tôi muốn xem Liên hệ hỗ trợ
-    - tôi muốn tìm hiểu Liên hệ hỗ trợ
-
-
-- intent: ask_trang_web_tro_giup
-  examples: |
-
-- intent: ask_hoc_truc_tuyen
-  examples: |
-
-- intent: ask_hop_thu_dien_tu
-  examples: |
-
-- intent: ask_he_thong_tich_hop
-  examples: |
-
-## Chi tiết về Học trực tuyến
-# 1) Hướng dẫn sử dụng hệ thống E-Learning
-- intent: hd_elearning
-  examples: |
-
-- intent: hd_elearning_dang_nhap
-  examples: |
-
-- intent: hd_elearning_dang_nhap_b1
-  examples: |
-
-- intent: hd_elearning_dang_nhap_b2
-  examples: |
-
-- intent: hd_elearning_dang_xuat
-  examples: |
-
-- intent: hd_elearning_dang_xuat_b1
-  examples: |
-
-- intent: hd_elearning_dang_xuat_b2
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh_b1
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh_b2
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh_b3
-  examples: |
-
-- intent: hd_elearning_rut_ten
-  examples: |
-
-- intent: hd_elearning_rut_ten_b1
-  examples: |
-
-- intent: hd_elearning_rut_ten_b2
-  examples: |
-    
-
-# 2) Hướng dẫn sử dụng Google Classroom
-- intent: hd_classroom
-  examples: |
-
-- intent: hd_classroom_b1
-  examples: |
-
-- intent: hd_classroom_b2
-  examples: |
-
-- intent: hd_classroom_b3
-  examples: |
-
-- intent: hd_classroom_b4
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop_b1
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop_b2
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop_b3
-  examples: |
-
-
-- intent: hd_classroom_nop_bai
-  examples: |
-
-- intent: hd_classroom_nop_bai_b1
-  examples: |
-
-- intent: hd_classroom_nop_bai_b2
-  examples: |
-
-- intent: hd_classroom_nop_bai_b3
-  examples: |
-
-- intent: hd_classroom_nop_bai_b4
-  examples: |
-
-- intent: hd_classroom_nop_bai_b5
-  examples: |
-
-- intent: hd_classroom_nop_bai_b6
-  examples: |
-  
-- intent: hd_classroom_nop_bai_b7
-  examples: |
-  
-
-- intent: hd_classroom_mobile
-  examples: |
-
-- intent: hd_classroom_mobile_b1
-  examples: |
-
-- intent: hd_classroom_mobile_b2
-  examples: |
-
-- intent: hd_classroom_mobile_b3
-  examples: |
-
-- intent: hd_classroom_mobile_b4
-  examples: |
-
-- intent: hd_classroom_mobile_b5
-  examples: |
-
-- intent: hd_classroom_mobile_b6
-  examples: |
-
-
-# 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
-- intent: hd_quay_man_hinh
-  examples: |
-
-- intent: hd_quay_man_hinh_cai_dat
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b1
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b2
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b3
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b4
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b5
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b6
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b7
-  examples: |
-
-# 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
-- intent: hd_zoom
-  examples: |
-
-- intent: hd_zoom_b1
-  examples: |
-
-- intent: hd_zoom_b2
-  examples: |
-
-- intent: hd_zoom_b3
-  examples: |
-
-- intent: hd_zoom_b4
-  examples: |
-
-- intent: hd_zoom_b5
-  examples: |
-
-- intent: hd_zoom_b6
-  examples: |
-
-- intent: hd_zoom_b7
-  examples: |
-
-- intent: hd_zoom_b8
-  examples: |
-
-
-
-## Chi tiết về Hộp thư điện tử
-# 1) Hướng dẫn đổi tên hiển thị trên Gmail
-- intent: hd_doi_ten_hien_thi
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b1
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b2
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b3
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b4
-  examples: |
-
-# 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
-- intent: hd_dang_nhap_email
-  examples: |
-
-- intent: hd_dang_nhap_email_android
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b1
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b2
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b3
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b4
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b5
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b6
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b7
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b8
-  examples: |
-
-
-- intent: hd_dang_nhap_email_ios
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b1
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b2
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b3
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b4
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b5
-  examples: |
-
-# 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
-- intent: hd_doi_mat_khau
-  examples: |
-
-- intent: hd_doi_mat_khau_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_b2
-  examples: |
-
-- intent: hd_doi_mat_khau_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_b4
-  examples: |
-
-- intent: hd_doi_mat_khau_b5
-  examples: |
-
-- intent: hd_doi_mat_khau_b6
-  examples: |
-
-- intent: hd_doi_mat_khau_b6
-  examples: |
-
-- intent: hd_doi_mat_khau_b7
-  examples: |
-
-- intent: hd_doi_mat_khau_b8
-  examples: |
-
-- intent: hd_doi_mat_khau_b9
-  examples: |
-
-
-
-# 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
-- intent: hd_chuyen_email
-  examples: |
-
-- intent: hd_chuyen_email_b1
-  examples: |
-
-- intent: hd_chuyen_email_b2
-  examples: |
-
-- intent: hd_chuyen_email_b3
-  examples: |
-
-- intent: hd_chuyen_email_b4
-  examples: |
-
-- intent: hd_chuyen_email_b5
-  examples: |
-
-- intent: hd_chuyen_email_b6
-  examples: |
-
-- intent: hd_chuyen_email_b7
-  examples: |
-
-- intent: hd_chuyen_email_b8
-  examples: |
-
-- intent: hd_chuyen_email_b9
-  examples: |
-
-- intent: hd_chuyen_email_b10
-  examples: |
-
-- intent: hd_chuyen_email_b11
-  examples: |
-
-- intent: hd_chuyen_email_b12
-  examples: |
-
-- intent: hd_chuyen_email_b13
-  examples: |
-
-- intent: hd_chuyen_email_b14
-  examples: |
-
-- intent: hd_chuyen_email_b15
-  examples: |
-
-- intent: hd_chuyen_email_b16
-  examples: |
-
-- intent: hd_chuyen_email_b17
-  examples: |
-
-- intent: hd_chuyen_email_b18
-  examples: |
-
-- intent: hd_chuyen_email_b19
-  examples: |
-
-- intent: hd_chuyen_email_b20
-  examples: |
-
-- intent: hd_chuyen_email_b21
-  examples: |
-
-
-## Chi tiết về Hệ thống tích hợp
-# 1) Đăng nhập hệ thống tích hợp
-- intent: hd_dang_nhap_he_thong_tich_hop
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b1
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b2
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b3
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b4
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b5
-  examples: |
-
-# 2) Đổi mật khẩu tài khoản máy tính
-- intent: hd_doi_mat_khau_may_tinh
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b2
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b4
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b5
-  examples: |
-
-# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-- intent: hd_doi_mat_khau_may_tinh_cong
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b2
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b4
-  examples: |
+#- intent: ask_dia_chi_tro_giup
+#  examples: |
+#
+#- intent: ask_sdt_tro_giup
+#  examples: |
+#    - số điện thoại trợ giúp
+#    - tôi muốn biết số điện thoại trợ giúp của trường
+#    - tôi muốn hỏi số điện thoại trợ giúp của trường
+#    - tôi muốn biết thông tin số điện thoại trợ giúp
+#    - tôi muốn hỏi thông tin số điện thoại trợ giúp
+#    - số điện thoại trợ giúp của trường
+#    - số điện thoại trợ giúp của trường là số mấy
+#    - số điện thoại trợ giúp là số mấy vậy
+#    - số điện thoại trợ giúp là sao thế bot
+#    - số điện thoại trợ giúp ra sao hả bot
+#    - Số Liên hệ hỗ trợ như thế nào
+#    - Số Liên hệ hỗ trợ ra sao
+#    - cách nào để Liên hệ hỗ trợ
+#    - cách nào để có thể số Liên hệ hỗ trợ vậy
+#    - tôi muốn biết số Liên hệ hỗ trợ
+#    - tôi muốn hỏi số Liên hệ hỗ trợ
+#    - tôi muốn xem số Liên hệ hỗ trợ
+#    - tôi muốn tìm hiểu số Liên hệ hỗ trợ
+#    - số điện thoại trợ là sao
+#    - Liên hệ hỗ trợ như thế nào
+#    - Liên hệ hỗ trợ ra sao
+#    - cách nào để Liên hệ hỗ trợ
+#    - cách nào để có thể Liên hệ hỗ trợ vậy
+#    - tôi muốn biết Liên hệ hỗ trợ
+#    - tôi muốn hỏi Liên hệ hỗ trợ
+#    - tôi muốn xem Liên hệ hỗ trợ
+#    - tôi muốn tìm hiểu Liên hệ hỗ trợ
+#
+#
+#- intent: ask_trang_web_tro_giup
+#  examples: |
+#
+#- intent: ask_hoc_truc_tuyen
+#  examples: |
+#
+#- intent: ask_hop_thu_dien_tu
+#  examples: |
+#
+#- intent: ask_he_thong_tich_hop
+#  examples: |
+#
+### Chi tiết về Học trực tuyến
+## 1) Hướng dẫn sử dụng hệ thống E-Learning
+#- intent: hd_elearning
+#  examples: |
+#
+#- intent: hd_elearning_dang_nhap
+#  examples: |
+#
+#- intent: hd_elearning_dang_nhap_b1
+#  examples: |
+#
+#- intent: hd_elearning_dang_nhap_b2
+#  examples: |
+#
+#- intent: hd_elearning_dang_xuat
+#  examples: |
+#
+#- intent: hd_elearning_dang_xuat_b1
+#  examples: |
+#
+#- intent: hd_elearning_dang_xuat_b2
+#  examples: |
+#
+#- intent: hd_elearning_tim_kiem_ghi_danh
+#  examples: |
+#
+#- intent: hd_elearning_tim_kiem_ghi_danh_b1
+#  examples: |
+#
+#- intent: hd_elearning_tim_kiem_ghi_danh_b2
+#  examples: |
+#
+#- intent: hd_elearning_tim_kiem_ghi_danh_b3
+#  examples: |
+#
+#- intent: hd_elearning_rut_ten
+#  examples: |
+#
+#- intent: hd_elearning_rut_ten_b1
+#  examples: |
+#
+#- intent: hd_elearning_rut_ten_b2
+#  examples: |
+#
+#
+## 2) Hướng dẫn sử dụng Google Classroom
+#- intent: hd_classroom
+#  examples: |
+#
+#- intent: hd_classroom_b1
+#  examples: |
+#
+#- intent: hd_classroom_b2
+#  examples: |
+#
+#- intent: hd_classroom_b3
+#  examples: |
+#
+#- intent: hd_classroom_b4
+#  examples: |
+#
+#- intent: hd_classroom_tham_gia_lop
+#  examples: |
+#
+#- intent: hd_classroom_tham_gia_lop_b1
+#  examples: |
+#
+#- intent: hd_classroom_tham_gia_lop_b2
+#  examples: |
+#
+#- intent: hd_classroom_tham_gia_lop_b3
+#  examples: |
+#
+#
+#- intent: hd_classroom_nop_bai
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b1
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b2
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b3
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b4
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b5
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b6
+#  examples: |
+#
+#- intent: hd_classroom_nop_bai_b7
+#  examples: |
+#
+#
+#- intent: hd_classroom_mobile
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b1
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b2
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b3
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b4
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b5
+#  examples: |
+#
+#- intent: hd_classroom_mobile_b6
+#  examples: |
+#
+#
+## 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
+#- intent: hd_quay_man_hinh
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_cai_dat
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b1
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b2
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b3
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b4
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b5
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b6
+#  examples: |
+#
+#- intent: hd_quay_man_hinh_su_dung_b7
+#  examples: |
+#
+## 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
+#- intent: hd_zoom
+#  examples: |
+#
+#- intent: hd_zoom_b1
+#  examples: |
+#
+#- intent: hd_zoom_b2
+#  examples: |
+#
+#- intent: hd_zoom_b3
+#  examples: |
+#
+#- intent: hd_zoom_b4
+#  examples: |
+#
+#- intent: hd_zoom_b5
+#  examples: |
+#
+#- intent: hd_zoom_b6
+#  examples: |
+#
+#- intent: hd_zoom_b7
+#  examples: |
+#
+#- intent: hd_zoom_b8
+#  examples: |
+#
+#
+#
+### Chi tiết về Hộp thư điện tử
+## 1) Hướng dẫn đổi tên hiển thị trên Gmail
+#- intent: hd_doi_ten_hien_thi
+#  examples: |
+#
+#- intent: hd_doi_ten_hien_thi_b1
+#  examples: |
+#
+#- intent: hd_doi_ten_hien_thi_b2
+#  examples: |
+#
+#- intent: hd_doi_ten_hien_thi_b3
+#  examples: |
+#
+#- intent: hd_doi_ten_hien_thi_b4
+#  examples: |
+#
+## 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
+#- intent: hd_dang_nhap_email
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b1
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b2
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b3
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b4
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b5
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b6
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b7
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_android_b8
+#  examples: |
+#
+#
+#- intent: hd_dang_nhap_email_ios
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_ios_b1
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_ios_b2
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_ios_b3
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_ios_b4
+#  examples: |
+#
+#- intent: hd_dang_nhap_email_ios_b5
+#  examples: |
+#
+## 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
+#- intent: hd_doi_mat_khau
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b1
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b2
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b3
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b4
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b5
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b6
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b6
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b7
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b8
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_b9
+#  examples: |
+#
+#
+#
+## 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
+#- intent: hd_chuyen_email
+#  examples: |
+#
+#- intent: hd_chuyen_email_b1
+#  examples: |
+#
+#- intent: hd_chuyen_email_b2
+#  examples: |
+#
+#- intent: hd_chuyen_email_b3
+#  examples: |
+#
+#- intent: hd_chuyen_email_b4
+#  examples: |
+#
+#- intent: hd_chuyen_email_b5
+#  examples: |
+#
+#- intent: hd_chuyen_email_b6
+#  examples: |
+#
+#- intent: hd_chuyen_email_b7
+#  examples: |
+#
+#- intent: hd_chuyen_email_b8
+#  examples: |
+#
+#- intent: hd_chuyen_email_b9
+#  examples: |
+#
+#- intent: hd_chuyen_email_b10
+#  examples: |
+#
+#- intent: hd_chuyen_email_b11
+#  examples: |
+#
+#- intent: hd_chuyen_email_b12
+#  examples: |
+#
+#- intent: hd_chuyen_email_b13
+#  examples: |
+#
+#- intent: hd_chuyen_email_b14
+#  examples: |
+#
+#- intent: hd_chuyen_email_b15
+#  examples: |
+#
+#- intent: hd_chuyen_email_b16
+#  examples: |
+#
+#- intent: hd_chuyen_email_b17
+#  examples: |
+#
+#- intent: hd_chuyen_email_b18
+#  examples: |
+#
+#- intent: hd_chuyen_email_b19
+#  examples: |
+#
+#- intent: hd_chuyen_email_b20
+#  examples: |
+#
+#- intent: hd_chuyen_email_b21
+#  examples: |
+#
+#
+### Chi tiết về Hệ thống tích hợp
+## 1) Đăng nhập hệ thống tích hợp
+#- intent: hd_dang_nhap_he_thong_tich_hop
+#  examples: |
+#
+#- intent: hd_dang_nhap_he_thong_tich_hop_b1
+#  examples: |
+#
+#- intent: hd_dang_nhap_he_thong_tich_hop_b2
+#  examples: |
+#
+#- intent: hd_dang_nhap_he_thong_tich_hop_b3
+#  examples: |
+#
+#- intent: hd_dang_nhap_he_thong_tich_hop_b4
+#  examples: |
+#
+#- intent: hd_dang_nhap_he_thong_tich_hop_b5
+#  examples: |
+#
+## 2) Đổi mật khẩu tài khoản máy tính
+#- intent: hd_doi_mat_khau_may_tinh
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_b1
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_b2
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_b3
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_b4
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_b5
+#  examples: |
+#
+## 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
+#- intent: hd_doi_mat_khau_may_tinh_cong
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_cong_b1
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_cong_b2
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_cong_b3
+#  examples: |
+#
+#- intent: hd_doi_mat_khau_may_tinh_cong_b4
+#  examples: |
