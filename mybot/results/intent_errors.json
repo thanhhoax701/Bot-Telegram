@@ -1,50 +1,10 @@
 [
   {
-    "text": "tôi muốn biết 1 kỳ học tối đa mấy tín chỉ",
-    "intent": "ask_tin_chi",
+    "text": "tôi muốn xem thông tin về học bổng",
+    "intent": "quy_ho_tro",
     "intent_prediction": {
-      "name": "ask_tin_chi_HK",
-      "confidence": 0.5632110834121704
-    }
-  },
-  {
-    "text": "học được bao nhiêu tín chỉ trong học kỳ",
-    "intent": "ask_tin_chi",
-    "intent_prediction": {
-      "name": "ask_tin_chi_HK",
-      "confidence": 0.4814920127391815
-    }
-  },
-  {
-    "text": "chương trình đào tạo là sao vậy bot",
-    "intent": "change_ctdt",
-    "intent_prediction": {
-      "name": "ask_ctdt",
-      "confidence": 0.7997941970825195
-    }
-  },
-  {
-    "text": "chương trình đào tạo là gì vậy bot",
-    "intent": "change_ctdt",
-    "intent_prediction": {
-      "name": "ask_ctdt",
-      "confidence": 0.771327018737793
-    }
-  },
-  {
-    "text": "tôi muốn hỏi về chương trình đào tạo được không",
-    "intent": "change_ctdt",
-    "intent_prediction": {
-      "name": "ask_ctdt",
-      "confidence": 0.6541677713394165
-    }
-  },
-  {
-    "text": "tối đa bao nhiêu tín chỉ học kỳ",
-    "intent": "ask_tin_chi_HK",
-    "intent_prediction": {
-      "name": "ask_tin_chi",
-      "confidence": 0.5077645182609558
+      "name": "ask_hoc_bong",
+      "confidence": 0.7733861804008484
     }
   },
   {
@@ -52,7 +12,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.7600566148757935
+      "confidence": 0.6481900811195374
     }
   },
   {
@@ -60,7 +20,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.6937691569328308
+      "confidence": 0.5876367688179016
     }
   },
   {
@@ -68,7 +28,7 @@
     "intent": "to_chuc_thi_CK",
     "intent_prediction": {
       "name": "so_lan_thi_CK",
-      "confidence": 0.5993139147758484
+      "confidence": 0.6683867573738098
     }
   }
 ]

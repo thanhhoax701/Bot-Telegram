@@ -1,11 +1,4 @@
 {
-  "student_code": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35,
-    "confused_with": {}
-  },
   "comment_content": {
     "precision": 1.0,
     "recall": 1.0,
@@ -20,23 +13,30 @@
     "support": 734,
     "confused_with": {}
   },
+  "student_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 306,
+    "confused_with": {}
+  },
   "micro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 869
+    "support": 1140
   },
   "macro avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 869
+    "support": 1140
   },
   "weighted avg": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 869
+    "support": 1140
   },
   "accuracy": 1.0
 }
