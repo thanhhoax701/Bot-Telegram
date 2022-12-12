@@ -38,7 +38,13 @@ nlu:
     - chào cậu nhá
     - chào cậu nè
     - chào bạn nhé
+    - chào bot nhá
+    - chào bot he
+    - chào bot ha
     - hi cậu
+    - hi bot
+    - hi anh
+    - hi bạn
     - chào bạn
     - xin chào bot
     - xin chào kem
@@ -646,19 +652,19 @@ nlu:
     - hãy cho tôi biết học phần là gì
     - cho em hỏi về học phần bắt buộc
     - cho tôi hỏi về học phần tự chọn
-    - học phần điều kiện là sao
+    - học phần là sao thế
     - học phần song hành là cái gì
     - cho em hỏi học phần tiên quyết là gì
     - cho tôi hỏi học phần tự chọn là sao
-    - học phần điều kiện là gì
+    - học phần là gì hả
     - học phần song hành là sao
     - cho em hỏi học phần tiên quyết là gì thế
     - cho tôi hỏi học phần tự chọn là sao nào
-    - học phần điều kiện ra sao
+    - học phần ra sao thế nào
     - học phần song hành ra sao vậy
     - cho em hỏi học phần tiên quyết là sao thế
     - cho tôi hỏi học phần tự chọn là như nào  
-    - bot cho mình hỏi môn điều kiện là sao nữa vậy
+    - bot cho mình hỏi học phần là sao nữa ạ
     - có bao nhiêu loại học phần
     - học phần
     - học phần là như nào
@@ -741,7 +747,7 @@ nlu:
     - bạn hãy cho tôi biết học bổng của trường đại học cần thơ
     - tôi muốn biết học bổng là gì
     - cho tôi hỏi làm thế nào để có được học bổng
-    - hãy cho tôi biết điều kiện để có được học bổng
+    - hãy cho tôi biết cách để có được học bổng
     - tôi muốn biết các mức học bổng
     - tôi cần thông tin chi tiết về học bổng của trường
     - học bổng
@@ -771,13 +777,13 @@ nlu:
     - học bổng khuyến khích là sao
     - làm sao để có được học bổng khuyến khích
     - bạn ơi, học bổng khuyến khích được tính như thế nào
-    - tôi cần biết điều kiện để xét học bổng khuyến khích
+    - tôi cần biết cách để xét học bổng khuyến khích
     - học bổng khuyến khích là gì
     - học bổng khuyến khích như thế nào để đạt được
     - tôi muốn có học bổng khuyến khích 
     - tôi muốn có được học bổng khuyến khích
     - làm sao để tôi có được học bổng khuyến khích
-    - cần điều kiện như thế nào để có được học bổng khuyến khích
+    - cần như thế nào để có được học bổng khuyến khích
     - muốn có học bổng khuyến khích phải làm sao    
     - học bổng khuyến khích trường mình như thế nào
     - học bổng khuyến khích như nào hả bot
@@ -807,13 +813,13 @@ nlu:
     - giải đáp giúp tôi học bổng tài trợ được tài trợ từ nguồn nào
     - làm sao để có được học bổng tài trợ
     - bạn ơi, học bổng tài trợ được tính như thế nào
-    - tôi cần biết điều kiện để xét học bổng tài trợ
+    - tôi cần biết cách để xét học bổng tài trợ
     - học bổng tài trợ là gì
     - học bổng tài trợ như thế nào để đạt được
     - tôi muốn có học bổng tài trợ 
     - tôi muốn có được học bổng tài trợ
     - làm sao để tôi có được học bổng tài trợ
-    - cần điều kiện như thế nào để có được học bổng tài trợ
+    - cần như thế nào để có được học bổng tài trợ
     - muốn có học bổng tài trợ phải làm sao
     - học bổng tài trợ trường mình như thế nào
     - học bổng tài trợ như nào hả bot
@@ -1008,7 +1014,7 @@ nlu:
 - intent: change_co_so_dao_tao
   examples: |
     - bạn có thể cho mình biết đổi cơ sở đào tạo là sao
-    - mình muốn biết điều kiện để chuyển đổi cơ sở đào tạo
+    - mình muốn biết cách để chuyển đổi cơ sở đào tạo
     - bạn hãy cho mình biết quy định về chuyển đổi cơ sở đào tạo
     - tôi muốn chuyển cơ sở đào tạo
     - tôi muốn chuyển cơ sở đào tạo thì làm sao
@@ -1047,7 +1053,7 @@ nlu:
   examples: |
     - bạn có thể cho mình biết về việc chuyển ngành đào tạo
     - tôi cần biết về đổi ngành đào tạo
-    - hãy cho tôi biết điều kiện để chuyển ngành đào tạo
+    - hãy cho tôi biết cách để chuyển ngành đào tạo
     - bạn có thể cho mình biết quy định về chuyển ngành đào tạo
     - tôi muốn chuyển ngành đào tạo
     - tôi muốn biết thông tin về chuyển ngành đào tạo
@@ -1233,7 +1239,7 @@ nlu:
 - intent: delete_lop_HP
   examples: |
     - bạn có thể cho mình biết chi tiết về xóa lớp học phần
-    - bạn hãy cho tôi biết điều kiện để xóa lớp học phần
+    - bạn hãy cho tôi biết cách để xóa lớp học phần
     - tôi không biết là tại sao phải xóa lớp học phần
     - xóa lớp học phần như thế nào
     - tôi muốn biết xóa lớp học phần là sao
@@ -1258,7 +1264,7 @@ nlu:
 - intent: add_lop_HP
   examples: |
     - tôi/em muốn mở thêm lớp học phần thì phải làm sao
-    - bạn có thể cho mình biết điều kiện để mở thêm lớp học phần
+    - bạn có thể cho mình biết cách để mở thêm lớp học phần
     - tôi không biết là tại sao phải mở thêm lớp học phần
     - bạn hãy cho tôi biết bao nhiêu sinh viên mở mở thêm lớp học phần
     - mở thêm lớp học phần như thế nào
@@ -1637,7 +1643,7 @@ nlu:
     - tôi muốn biết thi trực tuyến thì tính điểm như thế nào
     - gian lận trong khi thi trực tuyến
     - tôi không biết là khi thi trực tuyến thì cần gì
-    - tôi muốn biết điều kiện bắt buộc cho việc thi trực tuyến
+    - tôi muốn biết cho việc thi trực tuyến
     - bạn hãy cho tôi biết thông tin về thi trực tuyến
     - bạn hãy cho tôi hỏi thông tin về thi trực tuyến
     - bạn hãy cho tôi xem thông tin về thi trực 
@@ -2326,7 +2332,7 @@ nlu:
 - intent: loai_xuat_sac
   examples: |
     - bạn hãy cho tôi biết loại xuất sắc thì được gì
-    - bạn có thể cho mình biết điều kiện để được loại xuất sắc thì như thế nào
+    - bạn có thể cho mình biết cách để được loại xuất sắc thì như thế nào
     - loại xuất sắc cần những gì
     - xếp loại xuất sắc là như thế nào vậy bot
     - xếp loại xuất sắc như thế nào
@@ -2348,7 +2354,7 @@ nlu:
 - intent: loai_gioi
   examples: |
     - tôi muốn biết là loại giỏi thì được gì
-    - bạn hãy cho tôi biết điều kiện để được loại giỏi thì như thế nào
+    - bạn hãy cho tôi biết cách để được loại giỏi thì như thế nào
     - loại giỏi cần những gì
     - xếp loại giỏi là như thế nào hả bot
     - xếp loại giỏi như thế nào
@@ -2374,7 +2380,7 @@ nlu:
 - intent: loai_kha
   examples: |
     - tôi/em muốn biết là loại khá thì được gì
-    - bạn hãy cho tôi biết điều kiện để được loại khá thì như thế nào
+    - bạn hãy cho tôi biết cách để được loại khá thì như thế nào
     - loại kh cần những gì
     - xếp loại khá là như thế nào hả bot
     - xếp loại khá như thế nào
@@ -2400,7 +2406,7 @@ nlu:
   examples: |
     - bạn có thể cho mình biết quy định về việc khen thưởng sinh viên
     - tôi muốn biết khen thưởng những trường hợp nào
-    - bạn hãy cho tôi biết điều kiện để được khen thưởng
+    - bạn hãy cho tôi biết cách để được khen thưởng
     - tôi không biết là khen thưởng từ loại nào
     - như thế nào mới được khen thưởng
     - khen thưởng như thế nào
@@ -2432,7 +2438,7 @@ nlu:
     - đi thi có cần mang thẻ sinh viên
     - đang thi có được đi đâu không
     - viết chữ xấu có được thi không
-    - bạn có thể cho mình biết điều kiện dự thi
+    - bạn có thể cho mình biết cách dự thi
     - thế nào là bài thi không hợp lệ
     - bài thi không hợp lệ sẽ bị xử lý ra sao
     - quy định kiểm tra là sao thế bot
@@ -2767,13 +2773,37 @@ nlu:
     - điều kiện tốt nghiệp là sao hả bot
     - điều kiện tốt nghiệp là gì vậy bot
     - tôi muốn biết thông tin về điều kiện tốt nghiệp
-    - tôi muốn hỏi thông tin về điều kiện tốt nghiệp
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp là sao
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp là gì thế
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp như nào
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp ra sao
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp thế nào
+    - tôi muốn biết thông tin về điều kiện tốt nghiệp như thế nào
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp là sao
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp là gì thế
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp như nào
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp ra sao
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp thế nào
+    - tôi muốn xem thông tin về điều kiện tốt nghiệp như thế nào
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp là sao
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp là gì thế
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp như nào
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp ra sao
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp thế nào
+    - tôi muốn coi thông tin về điều kiện tốt nghiệp như thế nào
     - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp là sao
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp là gì thế
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp như nào
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp ra sao
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp thế nào
+    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp như thế nào
     - điều kiện tốt nghiệp là gì vậy
     - tôi muốn biết về điều kiện tốt nghiệp
     - tôi muốn hỏi về điều kiện tốt nghiệp
     - tôi muốn tìm hiểu về điều kiện tốt nghiệp
-    - điều kiện tốt nghiệp
     - điều kiện tốt nghiệp ra sao
     - điều kiện tốt nghiệp là thế nào
     - điều kiện tốt nghiệp là gì
@@ -2926,7 +2956,11 @@ nlu:
     - cho mình coi về điều kiện tốt nghiệp là sao thế
     - cho mình coi về điều kiện tốt nghiệp như nào vậy
     - cho mình coi về điều kiện tốt nghiệp ra sao nè
-
+    - cho mình coi về điều kiện tốt nghiệp thế nào bot
+    - cho mình coi về điều kiện tốt nghiệp là gì hả bot
+    - cho mình coi về điều kiện tốt nghiệp là sao thế bot
+    - cho mình coi về điều kiện tốt nghiệp như nào vậy bây
+    - cho mình coi về điều kiện tốt nghiệp ra sao hả
 - intent: thoi_gian_tot_nghiep
   examples: |
     - bạn có thể cho mình biết thời gian tốt nghiệp
@@ -3024,6 +3058,56 @@ nlu:
 
 - intent: qua_han_tot_nghiep
   examples: |
+    - tôi muốn biết thông tin về quá hạn
+    - tôi muốn biết thông tin về quá hạn là sao
+    - tôi muốn biết thông tin về quá hạn là gì thế
+    - tôi muốn biết thông tin về quá hạn như nào
+    - tôi muốn biết thông tin về quá hạn ra sao
+    - tôi muốn biết thông tin về quá hạn thế nào
+    - tôi muốn biết thông tin về quá hạn như thế nào
+    - tôi muốn xem thông tin về quá hạn
+    - tôi muốn xem thông tin về quá hạn là sao
+    - tôi muốn xem thông tin về quá hạn là gì thế
+    - tôi muốn xem thông tin về quá hạn như nào
+    - tôi muốn xem thông tin về quá hạn ra sao
+    - tôi muốn xem thông tin về quá hạn thế nào
+    - tôi muốn xem thông tin về quá hạn như thế nào
+    - hãy nói cho tôi nghe về quá hạn
+    - hãy nói cho tôi nghe về quá hạn là gì
+    - hãy nói cho tôi nghe về quá hạn là sao
+    - hãy nói cho tôi nghe về quá hạn như nào
+    - hãy nói cho tôi nghe về quá hạn ra sao
+    - hãy nói cho tôi biết về quá hạn
+    - hãy nói cho tôi biết về quá hạn là gì
+    - hãy nói cho tôi biết về quá hạn là sao
+    - hãy nói cho tôi biết về quá hạn như nào
+    - hãy nói cho tôi biết về quá hạn ra sao
+    - hãy nói cho tôi xem về quá hạn
+    - hãy nói cho tôi xem về quá hạn là gì
+    - hãy nói cho tôi xem về quá hạn là sao
+    - hãy nói cho tôi xem về quá hạn như nào
+    - hãy nói cho tôi xem về quá hạn ra sao
+    - hãy nói cho tôi nghe về quá hạn bot
+    - hãy nói cho tôi xem về thông tin quá hạn
+    - hãy nói cho tôi xem về thông tin quá hạn là gì
+    - hãy nói cho tôi xem về thông tin quá hạn là sao
+    - hãy nói cho tôi xem về thông tin quá hạn như nào
+    - hãy nói cho tôi xem về thông tin quá hạn ra sao
+    - hãy nói cho tôi nghe về thông tin quá hạn bot
+    - hãy nói cho tôi nghe về thông tin quá hạn là gì thế bot
+    - hãy nói cho tôi nghe về thông tin quá hạn là sao hả bot
+    - hãy nói cho tôi nghe về thông tin quá hạn như nào vậy
+    - hãy nói cho tôi nghe về thông tin quá hạn ra sao thế
+    - hãy nói cho tôi biết về thông tin quá hạn gì thế bot
+    - hãy nói cho tôi biết về thông tin quá hạn là gì bot
+    - hãy nói cho tôi biết về thông tin quá hạn là sao nào bot
+    - hãy nói cho tôi biết về thông tin quá hạn như nào hả bot
+    - hãy nói cho tôi biết về thông tin quá hạn ra sao vậy
+    - hãy nói cho tôi xem về thông tin quá hạn thế nào
+    - hãy nói cho tôi xem về thông tin quá hạn là gì hả
+    - hãy nói cho tôi xem về thông tin quá hạn là sao thế
+    - hãy nói cho tôi xem về thông tin quá hạn như nào vậy
+    - hãy nói cho tôi xem về thông tin quá hạn ra sao nè
     - bạn hãy cho tôi biết khi quá hạn tốt nghiệp thì có bị sao không
     - quá hạn tốt nghiệp thì bị làm sao hả bot
     - quá hạn tốt nghệp mà không tốt nghiệp thì có bị sao không
@@ -3037,10 +3121,27 @@ nlu:
     - quá hạn tốt nghiệp là sao vậy bot
     - quá hạn tốt nghiệp là gì vậy trường 
     - tôi muốn biết về quá hạn tốt nghiệp
-    - mình muốn biết thông tin về quá hạn tốt nghiệp
     - tôi muốn biết thông tin về quá hạn tốt nghiệp
-    - tôi muốn hỏi thông tin về quá hạn tốt nghiệp
-    - tôi muốn tìm hiểu thông tin về quá hạn tốt nghiệp
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp là sao
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp là gì thế
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp như nào
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp ra sao
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp thế nào
+    - tôi muốn biết thông tin về quá hạn tốt nghiệp như thế nào
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp là sao
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp là gì thế
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp như nào
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp ra sao
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp thế nào
+    - tôi muốn xem thông tin về quá hạn tốt nghiệp như thế nào
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp là sao
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp là gì thế
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp như nào
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp ra sao
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp thế nào
+    - tôi muốn coi thông tin về quá hạn tốt nghiệp như thế nào
     - quá hạn tốt nghiệp là gì vậy
     - tôi muốn biết về quá hạn tốt nghiệp
     - tôi muốn hỏi về quá hạn tốt nghiệp
@@ -3983,15 +4084,32 @@ nlu:
 ######################### cốt chuyện hỏi
 - intent: ask_van_de_chung
   examples: |
-    - Tôi muốn biết một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn hỏi một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn tìm hiểu một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn biết thông tin một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn hỏi thông tin một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn tìm hiểu thông tin một số vấn đề chung của trường Đại học cần thơ
-    - Tôi muốn biết thông tin một số vấn đề chung của trường Đại học cần thơ
+    - Tôi muốn biết một số vấn đề chung
+    - Tôi muốn biết một số vấn đề chung là sao
+    - Tôi muốn biết một số vấn đề chung là gì
+    - Tôi muốn biết một số vấn đề chung gì thế
+    - Tôi muốn biết một số vấn đề chung như nào
+    - Tôi muốn biết một số vấn đề chung ra sao
+    - Tôi muốn biết một số vấn đề chung thế nào
+    - Tôi muốn biết một số vấn đề chung sao vậy
+    - Tôi muốn xem một số vấn đề chung
+    - Tôi muốn xem một số vấn đề chung là sao
+    - Tôi muốn xem một số vấn đề chung là gì
+    - Tôi muốn xem một số vấn đề chung gì thế
+    - Tôi muốn xem một số vấn đề chung như nào
+    - Tôi muốn xem một số vấn đề chung ra sao
+    - Tôi muốn xem một số vấn đề chung thế nào
+    - Tôi muốn xem một số vấn đề chung sao vậy
+    - Tôi muốn coi một số vấn đề chung
+    - Tôi muốn coi một số vấn đề chung là sao
+    - Tôi muốn coi một số vấn đề chung là gì
+    - Tôi muốn coi một số vấn đề chung gì thế
+    - Tôi muốn coi một số vấn đề chung như nào
+    - Tôi muốn coi một số vấn đề chung ra sao
+    - Tôi muốn coi một số vấn đề chung thế nào
+    - Tôi muốn coi một số vấn đề chung sao vậy
     - Vấn đề chung về trường
-    - vấn đề chung là sao 
+    - vấn đề chung là sao
     - vấn đề chung là gì
     - vấn đề chung như thế nào
     - vấn đề chung ra sao
@@ -4016,6 +4134,32 @@ nlu:
     - vấn đề chung như nào hả
     - vấn đề chung sao bot
     - vấn đề chung là sao thế bạn
+    - các Vấn đề chung về trường
+    - các vấn đề chung là sao
+    - các vấn đề chung là gì
+    - các vấn đề chung như thế nào
+    - các vấn đề chung ra sao
+    - các vấn đề chung như nào
+    - các vấn đề chung thế nào
+    - các vấn đề chung là gì thế
+    - các vấn đề chung sao vậy
+    - các vấn đề chung ra sao thế
+    - các vấn đề chung như sao vậy
+    - các vấn đề chung
+    - các vấn đề chung là sao thế
+    - các Vấn đề chung về trường bot
+    - các vấn đề chung là sao hả
+    - các vấn đề chung là gì thế
+    - các vấn đề chung như thế nào hả
+    - các vấn đề chung ra sao vậy
+    - các vấn đề chung như nào hả
+    - các vấn đề chung thế nào bot
+    - các vấn đề chung là gì thế hả
+    - các vấn đề chung sao vậy bạn
+    - các vấn đề chung ra sao thế hả
+    - các vấn đề chung như nào hả
+    - các vấn đề chung sao bot
+    - các vấn đề chung là sao thế bạn
     - các vấn đề chung
     - tôi muốn xem các vấn đề chung của trường
     - vấn đề chung là gì sao
@@ -4081,66 +4225,66 @@ nlu:
     - hãy nói cho tôi xem về thông tin các vấn đề chung là sao thế
     - hãy nói cho tôi xem về thông tin các vấn đề chung như nào vậy
     - hãy nói cho tôi xem về thông tin các vấn đề chung ra sao nè
-    -  cho tôi nghe về vấn đề chung
-    -  cho tôi nghe về vấn đề chung là gì
-    -  cho tôi nghe về vấn đề chung là sao
-    -  cho tôi nghe về vấn đề chung như nào
-    -  cho tôi nghe về vấn đề chung ra sao
-    -  cho tôi biết về vấn đề chung
-    -  cho tôi biết về vấn đề chung là gì
-    -  cho tôi biết về vấn đề chung là sao
-    -  cho tôi biết về vấn đề chung như nào
-    -  cho tôi biết về vấn đề chung ra sao
-    -  cho tôi xem về vấn đề chung
-    -  cho tôi xem về vấn đề chung là gì
-    -  cho tôi xem về vấn đề chung là sao
-    -  cho tôi xem về vấn đề chung như nào
-    -  cho tôi xem về vấn đề chung ra sao
-    -  cho tôi nghe về vấn đề chung bot
-    -  cho tôi nghe về vấn đề chung là gì thế bot
-    -  cho tôi nghe về vấn đề chung là sao hả bot
-    -  cho tôi nghe về vấn đề chung như nào vậy
-    -  cho tôi nghe về vấn đề chung ra sao thế
-    -  cho tôi biết về vấn đề chung gì thế bot
-    -  cho tôi biết về vấn đề chung là gì bot
-    -  cho tôi biết về vấn đề chung là sao nào bot
-    -  cho tôi biết về vấn đề chung như nào hả bot
-    -  cho tôi biết về vấn đề chung ra sao vậy
-    -  cho tôi xem về các vấn đề chung thế nào
-    -  cho tôi xem về các vấn đề chung là gì hả
-    -  cho tôi xem về các vấn đề chung là sao thế
-    -  cho tôi xem về các vấn đề chung như nào vậy
-    -  cho tôi xem về các vấn đề chung ra sao nè
-    -  cho tôi nghe về thông tin các vấn đề chung
-    -  cho tôi nghe về thông tin các vấn đề chung là gì
-    -  cho tôi nghe về thông tin các vấn đề chung là sao
-    -  cho tôi nghe về thông tin các vấn đề chung như nào
-    -  cho tôi nghe về thông tin các vấn đề chung ra sao
-    -  cho tôi biết về thông tin các vấn đề chung
-    -  cho tôi biết về thông tin các vấn đề chung là gì
-    -  cho tôi biết về thông tin các vấn đề chung là sao
-    -  cho tôi biết về thông tin các vấn đề chung như nào
-    -  cho tôi biết về thông tin các vấn đề chung ra sao
-    -  cho tôi xem về thông tin các vấn đề chung
-    -  cho tôi xem về thông tin các vấn đề chung là gì
-    -  cho tôi xem về thông tin các vấn đề chung là sao
-    -  cho tôi xem về thông tin các vấn đề chung như nào
-    -  cho tôi xem về thông tin các vấn đề chung ra sao
-    -  cho tôi nghe về thông tin các vấn đề chung bot
-    -  cho tôi nghe về thông tin các vấn đề chung là gì thế bot
-    -  cho tôi nghe về thông tin các vấn đề chung là sao hả bot
-    -  cho tôi nghe về thông tin các vấn đề chung như nào vậy
-    -  cho tôi nghe về thông tin các vấn đề chung ra sao thế
-    -  cho tôi biết về thông tin các vấn đề chung gì thế bot
-    -  cho tôi biết về thông tin các vấn đề chung là gì bot
-    -  cho tôi biết về thông tin các vấn đề chung là sao nào bot
-    -  cho tôi biết về thông tin các vấn đề chung như nào hả bot
-    -  cho tôi biết về thông tin các vấn đề chung ra sao vậy
-    -  cho tôi xem về thông tin các vấn đề chung thế nào
-    -  cho tôi xem về thông tin các vấn đề chung là gì hả
-    -  cho tôi xem về thông tin các vấn đề chung là sao thế
-    -  cho tôi xem về thông tin các vấn đề chung như nào vậy
-    -  cho tôi xem về thông tin các vấn đề chung ra sao nè
+    - cho tôi nghe về vấn đề chung
+    - cho tôi nghe về vấn đề chung là gì
+    - cho tôi nghe về vấn đề chung là sao
+    - cho tôi nghe về vấn đề chung như nào
+    - cho tôi nghe về vấn đề chung ra sao
+    - cho tôi biết về vấn đề chung
+    - cho tôi biết về vấn đề chung là gì
+    - cho tôi biết về vấn đề chung là sao
+    - cho tôi biết về vấn đề chung như nào
+    - cho tôi biết về vấn đề chung ra sao
+    - cho tôi xem về vấn đề chung
+    - cho tôi xem về vấn đề chung là gì
+    - cho tôi xem về vấn đề chung là sao
+    - cho tôi xem về vấn đề chung như nào
+    - cho tôi xem về vấn đề chung ra sao
+    - cho tôi nghe về vấn đề chung bot
+    - cho tôi nghe về vấn đề chung là gì thế bot
+    - cho tôi nghe về vấn đề chung là sao hả bot
+    - cho tôi nghe về vấn đề chung như nào vậy
+    - cho tôi nghe về vấn đề chung ra sao thế
+    - cho tôi biết về vấn đề chung gì thế bot
+    - cho tôi biết về vấn đề chung là gì bot
+    - cho tôi biết về vấn đề chung là sao nào bot
+    - cho tôi biết về vấn đề chung như nào hả bot
+    - cho tôi biết về vấn đề chung ra sao vậy
+    - cho tôi xem về các vấn đề chung thế nào
+    - cho tôi xem về các vấn đề chung là gì hả
+    - cho tôi xem về các vấn đề chung là sao thế
+    - cho tôi xem về các vấn đề chung như nào vậy
+    - cho tôi xem về các vấn đề chung ra sao nè
+    - cho tôi nghe về thông tin các vấn đề chung
+    - cho tôi nghe về thông tin các vấn đề chung là gì
+    - cho tôi nghe về thông tin các vấn đề chung là sao
+    - cho tôi nghe về thông tin các vấn đề chung như nào
+    - cho tôi nghe về thông tin các vấn đề chung ra sao
+    - cho tôi biết về thông tin các vấn đề chung
+    - cho tôi biết về thông tin các vấn đề chung là gì
+    - cho tôi biết về thông tin các vấn đề chung là sao
+    - cho tôi biết về thông tin các vấn đề chung như nào
+    - cho tôi biết về thông tin các vấn đề chung ra sao
+    - cho tôi xem về thông tin các vấn đề chung
+    - cho tôi xem về thông tin các vấn đề chung là gì
+    - cho tôi xem về thông tin các vấn đề chung là sao
+    - cho tôi xem về thông tin các vấn đề chung như nào
+    - cho tôi xem về thông tin các vấn đề chung ra sao
+    - cho tôi nghe về thông tin các vấn đề chung bot
+    - cho tôi nghe về thông tin các vấn đề chung là gì thế bot
+    - cho tôi nghe về thông tin các vấn đề chung là sao hả bot
+    - cho tôi nghe về thông tin các vấn đề chung như nào vậy
+    - cho tôi nghe về thông tin các vấn đề chung ra sao thế
+    - cho tôi biết về thông tin các vấn đề chung gì thế bot
+    - cho tôi biết về thông tin các vấn đề chung là gì bot
+    - cho tôi biết về thông tin các vấn đề chung là sao nào bot
+    - cho tôi biết về thông tin các vấn đề chung như nào hả bot
+    - cho tôi biết về thông tin các vấn đề chung ra sao vậy
+    - cho tôi xem về thông tin các vấn đề chung thế nào
+    - cho tôi xem về thông tin các vấn đề chung là gì hả
+    - cho tôi xem về thông tin các vấn đề chung là sao thế
+    - cho tôi xem về thông tin các vấn đề chung như nào vậy
+    - cho tôi xem về thông tin các vấn đề chung ra sao nè
 
 - intent: ask_to_chuc_dao_tao
   examples: |
@@ -4165,7 +4309,7 @@ nlu:
     - tổ chức đào tạo như thế nào
     - tổ chức đào tạo là gì thế bot
 
-- intent: ask_danh_gia_ket_qua_hoc_tap #check button còn 1 và cuối
+- intent: ask_danh_gia_ket_qua_hoc_tap
   examples: |
     - Tôi muốn biết một về đánh giá kết quả học tập của trường Đại học cần thơ
     - Tôi muốn hỏi về đánh giá kết quả học tập của trường Đại học cần thơ
@@ -4552,7 +4696,7 @@ nlu:
     - hãy nói cho tôi xem thông tin về trách nhiệm của trường và sinh viên đối với đăng ký học phần
     - hãy nói cho tôi hỏi về trách nhiệm của trường và sinh viên đối với đăng ký học phần
 
-- intent: trach_nhiem_truong #check
+- intent: trach_nhiem_truong
   examples: |
     - trách nhiệm của trường là gì
     - trách nhiệm của trường là sao
@@ -4810,16 +4954,66 @@ nlu:
 - intent: danh_gia_HP
   examples: |
     - đánh giá học phần
+    - đánh giá học phần như nào
+    - đánh giá học phần ra sao
+    - đánh giá học phần thế nào
+    - đánh giá học phần là gì
+    - đánh giá học phần sao thế
+    - đánh giá học phần sao vậy
+    - đánh giá học phần sao nào
+    - đánh giá học phần là gì vậy
+    - đánh giá học phần như nào vậy
+    - đánh giá học phần ra sao thế
+    - đánh giá học phần như nào thế
+    - đánh giá học phần ra sao hả
+    - đánh giá học phần thế nào bot
+    - đánh giá học phần là gì thế
+    - đánh giá học phần sao thế hả
+    - đánh giá học phần sao vậy bot
+    - đánh giá học phần sao nào bây
+    - đánh giá học phần là gì vậy hả
+    - đánh giá học phần như nào vậy bot
+    - đánh giá học phần ra sao thế bạn
     - đánh giá học phần là sao
     - đánh giá học phần là gì thế bot
     - đánh giá học phần là như thế nào hả bot
     - đánh giá học phần ra làm sao vậy bot
-    - tôi muốn biết thông tin về đánh giá học phần
-    - tôi muốn biết về đánh giá học phần
     - tôi muốn hỏi thông tin về đánh giá học phần
-    - tôi muốn hỏi về đánh giá học phần
-    - tôi muốn tìm hiểu thông tin về đánh giá học phần
+    - tôi muốn hỏi thông tin về đánh giá học phần là sao
+    - tôi muốn hỏi thông tin về đánh giá học phần là gì
+    - tôi muốn hỏi thông tin về đánh giá học phần như nào
+    - tôi muốn hỏi thông tin về đánh giá học phần như thế nào
+    - tôi muốn hỏi thông tin về đánh giá học phần ra sao
+    - tôi muốn hỏi thông tin về đánh giá học phần ra làm sao
+    - tôi muốn hỏi thông tin về đánh giá học phần thế nào
+    - tôi muốn hỏi thông tin về đánh giá học phần thế nào vậy
     - tôi muốn xem thông tin về đánh giá học phần
+    - tôi muốn xem thông tin về đánh giá học phần là sao
+    - tôi muốn xem thông tin về đánh giá học phần là gì
+    - tôi muốn xem thông tin về đánh giá học phần như nào
+    - tôi muốn xem thông tin về đánh giá học phần như thế nào
+    - tôi muốn xem thông tin về đánh giá học phần ra sao
+    - tôi muốn xem thông tin về đánh giá học phần ra làm sao
+    - tôi muốn xem thông tin về đánh giá học phần thế nào
+    - tôi muốn xem thông tin về đánh giá học phần thế nào vậy
+    - tôi muốn biết thông tin về đánh giá học phần
+    - tôi muốn biết thông tin về đánh giá học phần là sao
+    - tôi muốn biết thông tin về đánh giá học phần là gì
+    - tôi muốn biết thông tin về đánh giá học phần như nào
+    - tôi muốn biết thông tin về đánh giá học phần như thế nào
+    - tôi muốn biết thông tin về đánh giá học phần ra sao
+    - tôi muốn biết thông tin về đánh giá học phần ra làm sao
+    - tôi muốn biết thông tin về đánh giá học phần thế nào
+    - tôi muốn biết thông tin về đánh giá học phần thế nào vậy
+    - tôi muốn coi thông tin về đánh giá học phần
+    - tôi muốn coi thông tin về đánh giá học phần là sao
+    - tôi muốn coi thông tin về đánh giá học phần là gì
+    - tôi muốn coi thông tin về đánh giá học phần như nào
+    - tôi muốn coi thông tin về đánh giá học phần như thế nào
+    - tôi muốn coi thông tin về đánh giá học phần ra sao
+    - tôi muốn coi thông tin về đánh giá học phần ra làm sao
+    - tôi muốn coi thông tin về đánh giá học phần thế nào
+    - tôi muốn coi thông tin về đánh giá học phần thế nào vậy
     - hãy nói cho tôi biết thông tin về đánh giá học phần
     - hãy nói cho tôi thông tin về đánh giá học phần
     - hãy nói cho tôi biết về đánh giá học phần
@@ -5183,11 +5377,11 @@ nlu:
     - hãy nói cho tôi xem thông tin về thư điện tử
     - hãy nói cho tôi nghe thông tin về thư điện tử
 
-- intent: ask_he_thong_tich_hop
+- intent: ask_he_thong_tich_hop # tào lao
   examples: |
     - hệ thống tích hợp
     - hệ thống tích hợp là sao
-    -hệ thống tích hợp là gì thế bot
+    - hệ thống tích hợp là gì thế bot
     - hệ thống tích hợp như thế nào vậy bot
     - hệ thống tích hợp ra sao thế
     - hệ thống tích hợp ra như nào bot
@@ -5397,7 +5591,7 @@ nlu:
     - hướng dẫn tìm kiếm ghi danh bằng cách nào hả 
     - hướng dẫn tìm kiếm ghi danh bằng cách gì thế bot
     - hướng dẫn tìm kiếm ghi danh như nào vậy
-- intent: hd_elearning_tim_kiem_ghi_danh_b1
+- intent: hd_elearning_tim_kiem_ghi_danh_b1 #check
   examples: |
 
 - intent: hd_elearning_tim_kiem_ghi_danh_b2
@@ -5449,7 +5643,7 @@ nlu:
     - hãy nói cho tôi cách rút tên elearning sao thế
     - hãy nói cho tôi cách rút tên elearning    
 
-- intent: hd_elearning_rut_ten_b1
+- intent: hd_elearning_rut_ten_b1 #check
   examples: |
 
 - intent: hd_elearning_rut_ten_b2
@@ -5576,7 +5770,7 @@ nlu:
 - intent: hd_classroom_tham_gia_lop_b3
   examples: |
 
-- intent: hd_classroom_nop_bai #check
+- intent: hd_classroom_nop_bai
   examples: |
     - nộp bài classroom
     - nộp bài classroom là sao
@@ -6217,7 +6411,7 @@ nlu:
 - intent: hd_dang_nhap_email_ios_b3
   examples: |
 
-- intent: hd_dang_nhap_email_ios_b4
+- intent: hd_dang_nhap_email_ios_b4 #check
   examples: |
 
 - intent: hd_dang_nhap_email_ios_b5
@@ -6332,7 +6526,6 @@ nlu:
 
 - intent: hd_doi_mat_khau_b5
   examples: |
-
 
 - intent: hd_doi_mat_khau_b6
   examples: |
@@ -6524,7 +6717,7 @@ nlu:
 - intent: hd_chuyen_email_b5
   examples: |
 
-- intent: hd_chuyen_email_b6hg
+- intent: hd_chuyen_email_b6hg #check
   examples: |
 
 - intent: hd_chuyen_email_b7_seven
@@ -6533,7 +6726,7 @@ nlu:
 - intent: hd_chuyen_email_b8
   examples: |
 
-- intent: hd_chuyen_email_b9_nine
+- intent: hd_chuyen_email_b9_nine #check
   examples: |
 
 - intent: hd_chuyen_email_b10
@@ -6551,13 +6744,13 @@ nlu:
 - intent: hd_chuyen_email_b14
   examples: |
 
-- intent: hd_chuyen_email_b15
+- intent: hd_chuyen_email_b15 #check
   examples: |
 
 - intent: hd_chuyen_email_b16cd
   examples: |
 
-- intent: hd_chuyen_email_b17
+- intent: hd_chuyen_email_b17 #check
   examples: |
 
 - intent: hd_chuyen_email_b18
@@ -6706,7 +6899,7 @@ nlu:
 - intent: hd_doi_mat_khau_may_tinh_b1
   examples: |
 
-- intent: hd_doi_mat_khau_may_tinh_b2
+- intent: hd_doi_mat_khau_may_tinh_b2 #check
   examples: |
 - intent: hd_doi_mat_khau_may_tinh_b3
   examples: |

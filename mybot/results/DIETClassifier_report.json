@@ -1,42 +1,42 @@
 {
   "comment_content": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "precision": 0.744,
+    "recall": 0.93,
+    "f1-score": 0.8266666666666667,
     "support": 100,
-    "confused_with": {}
-  },
-  "student_name": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 734,
     "confused_with": {}
   },
   "student_code": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 306,
+    "support": 332,
+    "confused_with": {}
+  },
+  "student_name": {
+    "precision": 0.9986338797814208,
+    "recall": 0.9878378378378379,
+    "f1-score": 0.9932065217391305,
+    "support": 740,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1140
+    "precision": 0.9722455845248108,
+    "recall": 0.9863481228668942,
+    "f1-score": 0.9792460821685727,
+    "support": 1172
   },
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1140
+    "precision": 0.9142112932604736,
+    "recall": 0.9726126126126126,
+    "f1-score": 0.939957729468599,
+    "support": 1172
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1140
+    "precision": 0.977294429213525,
+    "recall": 0.9863481228668942,
+    "f1-score": 0.9809210689024089,
+    "support": 1172
   },
-  "accuracy": 1.0
+  "accuracy": 0.9991177688554401
 }

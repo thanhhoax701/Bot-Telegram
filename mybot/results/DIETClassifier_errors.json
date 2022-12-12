@@ -1,5 +1,489 @@
 [
   {
+    "text": "tuyệt",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 0,
+        "end": 5,
+        "confidence_entity": 0.5005685687065125,
+        "value": "tuyệt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "bot làm tốt lắm",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 8,
+        "end": 15,
+        "confidence_entity": 0.6704473495483398,
+        "value": "tốt lắm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tuyệt lắm em ơi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 9,
+        "confidence_entity": 0.6761417388916016,
+        "value": "tuyệt lắm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hay lắm",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.715071976184845,
+        "value": "hay lắm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hay dữ luôn",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 4,
+        "end": 6,
+        "confidence_entity": 0.7382573485374451,
+        "value": "dữ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dữ rồi",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 2,
+        "confidence_entity": 0.5209636688232422,
+        "value": "dữ",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngu ngốc",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 4,
+        "end": 8,
+        "confidence_entity": 0.4599606692790985,
+        "value": "ngốc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quá tệ đấy",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.6148920059204102,
+        "value": "quá tệ đấy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "ngu ngốc quá",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 9,
+        "end": 12,
+        "confidence_entity": 0.7416234612464905,
+        "value": "quá",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên anh là phan quang nghiêm",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "value": "phan quang nghiêm",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 16,
+        "end": 28,
+        "confidence_entity": 0.7939844131469727,
+        "value": "quang nghiêm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên tôi dương tuấn kiệt",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "value": "dương tuấn kiệt",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 14,
+        "end": 23,
+        "confidence_entity": 0.9633086323738098,
+        "value": "tuấn kiệt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên chị là phan thị ngọc trâm",
+    "entities": [
+      {
+        "start": 11,
+        "end": 29,
+        "value": "phan thị ngọc trâm",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 11,
+        "end": 15,
+        "confidence_entity": 0.9815387725830078,
+        "value": "phan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "student_name",
+        "start": 20,
+        "end": 29,
+        "confidence_entity": 0.9974180459976196,
+        "value": "ngọc trâm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên tôi Nguyễn dương thuận lợi",
+    "entities": [
+      {
+        "start": 8,
+        "end": 30,
+        "value": "Nguyễn dương thuận lợi",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 8,
+        "end": 20,
+        "confidence_entity": 0.8956000208854675,
+        "value": "Nguyễn dương",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "student_name",
+        "start": 27,
+        "end": 30,
+        "confidence_entity": 0.9706446528434753,
+        "value": "lợi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tên anh là Hướng Kinh Kông Kiểu",
+    "entities": [
+      {
+        "start": 11,
+        "end": 31,
+        "value": "Hướng Kinh Kông Kiểu",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 17,
+        "end": 31,
+        "confidence_entity": 0.9556263089179993,
+        "value": "Kinh Kông Kiểu",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "hữu muội cẩm đặng em nhé",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "hữu muội cẩm đặng",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 4,
+        "end": 17,
+        "confidence_entity": 0.833164393901825,
+        "value": "muội cẩm đặng",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mỵ đoan trang như em nhé",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "mỵ đoan trang như",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 0,
+        "end": 7,
+        "confidence_entity": 0.9823966026306152,
+        "value": "mỵ đoan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "student_name",
+        "start": 14,
+        "end": 17,
+        "confidence_entity": 0.5550966262817383,
+        "value": "như",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "như hoài hồng cúc",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "như hoài hồng cúc",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 4,
+        "end": 17,
+        "confidence_entity": 0.9155893921852112,
+        "value": "hoài hồng cúc",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "thảo vy lộc lam",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "thảo vy lộc lam",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 5,
+        "end": 15,
+        "confidence_entity": 0.9331485629081726,
+        "value": "vy lộc lam",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "chất lượng dịch vụ tuyệt vời",
+    "entities": [
+      {
+        "start": 11,
+        "end": 28,
+        "value": "dịch vụ tuyệt vời",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 10,
+        "confidence_entity": 0.9263288378715515,
+        "value": "chất lượng",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 11,
+        "end": 28,
+        "confidence_entity": 0.9705649018287659,
+        "value": "dịch vụ tuyệt vời",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mình thấy trường dạy tốt lắm",
+    "entities": [
+      {
+        "start": 10,
+        "end": 28,
+        "value": "trường dạy tốt lắm",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 4,
+        "confidence_entity": 0.4933195114135742,
+        "value": "mình",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 10,
+        "end": 28,
+        "confidence_entity": 0.48474180698394775,
+        "value": "trường dạy tốt lắm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mình cảm thấy ngồi trướng tốt nhất từng biết",
+    "entities": [
+      {
+        "start": 14,
+        "end": 44,
+        "value": "ngồi trướng tốt nhất từng biết",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 13,
+        "confidence_entity": 0.6987907886505127,
+        "value": "mình cảm thấy",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 14,
+        "end": 44,
+        "confidence_entity": 0.8282882571220398,
+        "value": "ngồi trướng tốt nhất từng biết",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi muốn góp ý là trường chất lượng cao",
+    "entities": [
+      {
+        "start": 18,
+        "end": 39,
+        "value": "trường chất lượng cao",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 13,
+        "end": 14,
+        "confidence_entity": 0.5672987699508667,
+        "value": "ý",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 25,
+        "end": 39,
+        "confidence_entity": 0.9062235951423645,
+        "value": "chất lượng cao",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi thấy Bot rất tốt",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "Bot rất tốt",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 3,
+        "confidence_entity": 0.7196381688117981,
+        "value": "tôi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 9,
+        "end": 20,
+        "confidence_entity": 0.9700692892074585,
+        "value": "Bot rất tốt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
     "text": "cảm giác bot óc ngu vãi",
     "entities": [
       {
@@ -14,7 +498,7 @@
         "entity": "comment_content",
         "start": 9,
         "end": 12,
-        "confidence_entity": 0.6438431739807129,
+        "confidence_entity": 0.9404911398887634,
         "value": "bot",
         "extractor": "DIETClassifier"
       },
@@ -22,7 +506,7 @@
         "entity": "comment_content",
         "start": 13,
         "end": 23,
-        "confidence_entity": 0.9956049919128418,
+        "confidence_entity": 0.6893699765205383,
         "value": "óc ngu vãi",
         "extractor": "DIETClassifier"
       }
@@ -43,7 +527,7 @@
         "entity": "comment_content",
         "start": 0,
         "end": 3,
-        "confidence_entity": 0.9992109537124634,
+        "confidence_entity": 0.9658800363540649,
         "value": "Bot",
         "extractor": "DIETClassifier"
       },
@@ -51,8 +535,216 @@
         "entity": "comment_content",
         "start": 8,
         "end": 23,
-        "confidence_entity": 0.5802947282791138,
+        "confidence_entity": 0.8358848094940186,
         "value": "kém lắm ngu quá",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "là như này Bot tệ quá đấy",
+    "entities": [
+      {
+        "start": 11,
+        "end": 25,
+        "value": "Bot tệ quá đấy",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 7,
+        "end": 10,
+        "confidence_entity": 0.4756888747215271,
+        "value": "này",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 11,
+        "end": 25,
+        "confidence_entity": 0.9163320064544678,
+        "value": "Bot tệ quá đấy",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tôi nghĩ các bạn nên xem lại dịch vụ của bạn chán cực",
+    "entities": [
+      {
+        "start": 29,
+        "end": 53,
+        "value": "dịch vụ của bạn chán cực",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 13,
+        "end": 20,
+        "confidence_entity": 0.7172769904136658,
+        "value": "bạn nên",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 29,
+        "end": 53,
+        "confidence_entity": 0.7303263545036316,
+        "value": "dịch vụ của bạn chán cực",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nên xem lại trường chán cực không thể tả được",
+    "entities": [
+      {
+        "start": 12,
+        "end": 45,
+        "value": "trường chán cực không thể tả được",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.5608978271484375,
+        "value": "chán cực",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 34,
+        "end": 37,
+        "confidence_entity": 0.5456931591033936,
+        "value": "thể",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "là như này trường tốt lắm tuyệt vời luôn",
+    "entities": [
+      {
+        "start": 11,
+        "end": 40,
+        "value": "trường tốt lắm tuyệt vời luôn",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 3,
+        "end": 40,
+        "confidence_entity": 0.5082898139953613,
+        "value": "như này trường tốt lắm tuyệt vời luôn",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cảm giác học rất tốt",
+    "entities": [
+      {
+        "start": 9,
+        "end": 20,
+        "value": "học rất tốt",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.4711965322494507,
+        "value": "cảm giác học rất tốt",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cảm giác bot còn kém lắm",
+    "entities": [
+      {
+        "start": 9,
+        "end": 24,
+        "value": "bot còn kém lắm",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 0,
+        "end": 8,
+        "confidence_entity": 0.43665409088134766,
+        "value": "cảm giác",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 9,
+        "end": 24,
+        "confidence_entity": 0.5075748562812805,
+        "value": "bot còn kém lắm",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "là như thế này nè Bot của các bạn ngu không thể tả được",
+    "entities": [
+      {
+        "start": 18,
+        "end": 55,
+        "value": "Bot của các bạn ngu không thể tả được",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 18,
+        "end": 37,
+        "confidence_entity": 0.8022899627685547,
+        "value": "Bot của các bạn ngu",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "comment_content",
+        "start": 44,
+        "end": 55,
+        "confidence_entity": 0.7530631422996521,
+        "value": "thể tả được",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "nói thật là dịch vụ bên bạn chả tốt tí nào",
+    "entities": [
+      {
+        "start": 12,
+        "end": 42,
+        "value": "dịch vụ bên bạn chả tốt tí nào",
+        "entity": "comment_content"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "comment_content",
+        "start": 12,
+        "end": 38,
+        "confidence_entity": 0.893176257610321,
+        "value": "dịch vụ bên bạn chả tốt tí",
         "extractor": "DIETClassifier"
       }
     ]

@@ -496,6 +496,11 @@ stories:
     - intent: ask_van_de_chung
     - action: utter_van_de_chung
 
+- story: vấn đề chung thêm
+  steps:
+    - intent: ask_van_de_chung
+    - action: utter_van_de_chung
+
 - story: tổ chức đào tạo
   steps:
     - intent: ask_to_chuc_dao_tao
@@ -582,6 +587,11 @@ stories:
 
 # ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
 - story:  đánh giá học phần
+  steps:
+    - intent: danh_gia_HP
+    - action: utter_danh_gia_HP
+
+- story:  đánh giá học phần thêm
   steps:
     - intent: danh_gia_HP
     - action: utter_danh_gia_HP
