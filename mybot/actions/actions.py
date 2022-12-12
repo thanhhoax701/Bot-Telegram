@@ -32,7 +32,7 @@ class action_ask_point(Action):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="123456789",
+            password="vlxx.com@tth",
             database="cda_chatbot"
         )
 
@@ -102,7 +102,7 @@ class action_give_comment_content(Action):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="123456789",
+            password="vlxx.com@tth",
             database="cda_chatbot"
         )
 
@@ -134,7 +134,7 @@ class action_ask_comment_replay(Action):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="123456789",
+            password="vlxx.com@tth",
             database="cda_chatbot"
         )
 
