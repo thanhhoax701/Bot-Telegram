@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TranThanhHoa-NLN-MaNguon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
@@ -48,6 +45,7 @@
       <workItem from="1671092552433" duration="179000" />
       <workItem from="1671092788636" duration="2335000" />
       <workItem from="1671099161228" duration="251000" />
+      <workItem from="1671100389180" duration="1920000" />
     </task>
     <servers />
   </component>
