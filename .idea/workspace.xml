@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc3d0604-7f2b-4712-92c8-b65bc59cf0ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mybot/Dump20221212.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybot/models/20221212-134411-grizzled-assurance.tar.gz" afterDir="false" />
+    <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/TranThanhHoa-NLN-MaNguon.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/actions/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,34 +20,34 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2InZQFPWtuWkQmrSsEqRTpzOVGK" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2IwTYyXxkOiqhHEmGlNLahRnWzQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fc3d0604-7f2b-4712-92c8-b65bc59cf0ad" name="Changes" comment="" />
-      <created>1670819293811</created>
+      <changelist id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="" />
+      <created>1671091703908</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1670819293811</updated>
-      <workItem from="1670819296542" duration="4912000" />
-      <workItem from="1670827199709" duration="1369000" />
+      <updated>1671091703908</updated>
+      <workItem from="1671091706760" duration="839000" />
+      <workItem from="1671092552433" duration="179000" />
+      <workItem from="1671092788636" duration="2335000" />
+      <workItem from="1671099161228" duration="251000" />
     </task>
     <servers />
   </component>
@@ -64,8 +64,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
