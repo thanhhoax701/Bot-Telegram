@@ -1,10 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-152941-damp-camembert.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-170059-snowy-soil.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-170527-worn-surfer.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-170934-maroon-crumble.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-171404-average-concept.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-180041-frayed-byte.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/models/20221215-180917-perfect-plasma.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_errors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/failed_test_stories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_errors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_histogram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/stories_with_warnings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/story_report.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,17 +47,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Learn-Programming/Python/Bot-Telegram",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -46,6 +74,12 @@
       <workItem from="1671092788636" duration="2335000" />
       <workItem from="1671099161228" duration="251000" />
       <workItem from="1671100389180" duration="1920000" />
+      <workItem from="1671105095907" duration="857000" />
+      <workItem from="1671170473808" duration="139000" />
+      <workItem from="1671192364601" duration="447000" />
+      <workItem from="1671350423271" duration="644000" />
+      <workItem from="1671351375162" duration="676000" />
+      <workItem from="1671352525666" duration="1691000" />
     </task>
     <servers />
   </component>

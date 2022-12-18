@@ -1,16 +1,16 @@
 {
-  "comment_content": {
-    "precision": 0.744,
-    "recall": 0.93,
-    "f1-score": 0.8266666666666667,
-    "support": 100,
-    "confused_with": {}
-  },
   "student_code": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 332,
+    "confused_with": {}
+  },
+  "comment_content": {
+    "precision": 0.744,
+    "recall": 0.93,
+    "f1-score": 0.8266666666666667,
+    "support": 100,
     "confused_with": {}
   },
   "student_name": {

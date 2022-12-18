@@ -265,6 +265,7 @@ intents:
   - hd_doi_mat_khau_may_tinh_cong_b2
   - hd_doi_mat_khau_may_tinh_cong_b3
   - hd_doi_mat_khau_may_tinh_cong_b4
+
 entities: [student_name,comment_content,student_code]
 slots:
 

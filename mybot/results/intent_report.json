@@ -1,224 +1,9 @@
 {
-  "hd_quay_man_hinh": {
+  "trinh_do_nam_hoc": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
-  },
-  "change_ctdt": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 36,
-    "confused_with": {}
-  },
-  "danh_gia_HP_ly_thuyet": {
-    "precision": 1.0,
-    "recall": 0.35294117647058826,
-    "f1-score": 0.5217391304347826,
-    "support": 17,
-    "confused_with": {
-      "danh_gia_HP": 11
-    }
-  },
-  "info_bhyt": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "goodbye": {
-    "precision": 1.0,
-    "recall": 0.9166666666666666,
-    "f1-score": 0.9565217391304348,
-    "support": 12,
-    "confused_with": {
-      "give_comment_name": 1
-    }
-  },
-  "hd_doi_mat_khau_may_tinh_cong": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 85,
-    "confused_with": {}
-  },
-  "info_dang_ky_hoc_lai": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40,
-    "confused_with": {}
-  },
-  "ask_ctgd": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "add_lop_HP": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 29,
-    "confused_with": {}
-  },
-  "ask_sinh_vien": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "ask_course_score": {
-    "precision": 1.0,
-    "recall": 0.9393939393939394,
-    "f1-score": 0.96875,
-    "support": 33,
-    "confused_with": {
-      "danh_gia_HP": 2
-    }
-  },
-  "hd_classroom": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 47,
-    "confused_with": {}
-  },
-  "ask_func_list": {
-    "precision": 1.0,
-    "recall": 0.9761904761904762,
-    "f1-score": 0.9879518072289156,
-    "support": 42,
-    "confused_with": {
-      "ask_van_de_chung": 1
-    }
-  },
-  "quy_ho_tro": {
-    "precision": 1.0,
-    "recall": 0.9629629629629629,
-    "f1-score": 0.9811320754716981,
-    "support": 27,
-    "confused_with": {
-      "ask_hoc_bong": 1
-    }
-  },
-  "qua_han_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 199,
-    "confused_with": {}
-  },
-  "ask_khht": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "diem_tbchk": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 56,
-    "confused_with": {}
-  },
-  "rank_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 61,
-    "confused_with": {}
-  },
-  "ask_trach_nhiem": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 21,
-    "confused_with": {}
-  },
-  "hd_elearning_rut_ten": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 40,
-    "confused_with": {}
-  },
-  "diem_I": {
-    "precision": 1.0,
-    "recall": 0.95,
-    "f1-score": 0.9743589743589743,
-    "support": 20,
-    "confused_with": {
-      "diem_W": 1
-    }
-  },
-  "diem_W": {
-    "precision": 0.9393939393939394,
-    "recall": 1.0,
-    "f1-score": 0.96875,
-    "support": 31,
-    "confused_with": {}
-  },
-  "loai_xuat_sac": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "hd_elearning_dang_nhap": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 58,
-    "confused_with": {}
-  },
-  "learn_truc_truyen": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 53,
-    "confused_with": {}
-  },
-  "canh_cao_sv": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 31,
-    "confused_with": {}
-  },
-  "ask_dia_chi_tro_giup": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
-  },
-  "hd_chuyen_email": {
-    "precision": 0.9872611464968153,
-    "recall": 1.0,
-    "f1-score": 0.9935897435897436,
-    "support": 155,
-    "confused_with": {}
-  },
-  "dieu_kien_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 199,
-    "confused_with": {}
-  },
-  "change_co_so_dao_tao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 35,
+    "support": 59,
     "confused_with": {}
   },
   "khen_thuong": {
@@ -228,35 +13,111 @@
     "support": 25,
     "confused_with": {}
   },
-  "give_student_code": {
-    "precision": 1.0,
+  "danh_gia_HP": {
+    "precision": 0.8811188811188811,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 332,
+    "f1-score": 0.9368029739776951,
+    "support": 126,
     "confused_with": {}
   },
-  "ask_drl": {
+  "danh_gia_HP_thuc_hanh": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
-    "confused_with": {}
-  },
-  "diem_tbctl": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 54,
-    "confused_with": {}
-  },
-  "to_chuc_thi_CK": {
-    "precision": 1.0,
-    "recall": 0.974025974025974,
-    "f1-score": 0.9868421052631579,
-    "support": 77,
+    "recall": 0.7647058823529411,
+    "f1-score": 0.8666666666666666,
+    "support": 17,
     "confused_with": {
-      "so_lan_thi_CK": 2
+      "danh_gia_HP": 4
     }
+  },
+  "info_bhyt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "thong_bao_kq_hoc_tap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 34,
+    "confused_with": {}
+  },
+  "buoc_thoi_hoc": {
+    "precision": 1.0,
+    "recall": 0.90625,
+    "f1-score": 0.9508196721311475,
+    "support": 32,
+    "confused_with": {
+      "ask_info_HP": 3
+    }
+  },
+  "xep_loai_khen_thuong": {
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1-score": 0.8571428571428571,
+    "support": 20,
+    "confused_with": {
+      "khen_thuong": 5
+    }
+  },
+  "vang_thi_CK": {
+    "precision": 1.0,
+    "recall": 0.9818181818181818,
+    "f1-score": 0.9908256880733944,
+    "support": 55,
+    "confused_with": {
+      "so_lan_thi_CK": 1
+    }
+  },
+  "ask_fee": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
+    "confused_with": {}
+  },
+  "diem_tbchung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 60,
+    "confused_with": {}
+  },
+  "dinh_chi_sv": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30,
+    "confused_with": {}
+  },
+  "ask_ctgd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "ask_hoc_bong": {
+    "precision": 0.9642857142857143,
+    "recall": 1.0,
+    "f1-score": 0.9818181818181818,
+    "support": 27,
+    "confused_with": {}
+  },
+  "hd_quay_man_hinh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "rank_hoc_tap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
   },
   "ask_trang_web_tro_giup": {
     "precision": 1.0,
@@ -265,97 +126,60 @@
     "support": 24,
     "confused_with": {}
   },
-  "ask_university": {
+  "hd_dang_nhap_email_ios": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 31,
+    "support": 131,
     "confused_with": {}
   },
-  "ask_quy_che_hoc_vu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "change_hinh_thuc_dao_tao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 38,
-    "confused_with": {}
-  },
-  "ask_to_chuc_dao_tao": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 20,
-    "confused_with": {}
-  },
-  "trinh_do_nam_hoc": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 59,
-    "confused_with": {}
-  },
-  "ask_xet_va_cong_nhan_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "pham_vi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "trach_nhiem_sinh_vien": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 58,
-    "confused_with": {}
-  },
-  "doi_tuong": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "ask_point": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "give_comment_name": {
-    "precision": 0.9953271028037384,
-    "recall": 0.9953271028037384,
-    "f1-score": 0.9953271028037384,
-    "support": 214,
-    "confused_with": {
-      "hd_dang_nhap_email_android": 1
-    }
-  },
-  "hoc_bong_tai_tro": {
+  "ask_dia_chi_tro_giup": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 32,
     "confused_with": {}
   },
-  "hd_dang_nhap_email_ios": {
+  "hd_doi_mat_khau_may_tinh": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 131,
+    "support": 53,
+    "confused_with": {}
+  },
+  "hd_doi_mat_khau": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 83,
+    "confused_with": {}
+  },
+  "ask_comment": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 30,
+    "confused_with": {}
+  },
+  "time_chuan": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "ask_mota": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "hd_dang_nhap_email_android": {
+    "precision": 0.975,
+    "recall": 1.0,
+    "f1-score": 0.9873417721518987,
+    "support": 39,
     "confused_with": {}
   },
   "tong_hop_thi": {
@@ -367,168 +191,11 @@
       "ask_van_de_chung": 1
     }
   },
-  "ask_quy_trinh_dkhp": {
-    "precision": 1.0,
+  "hd_chuyen_email": {
+    "precision": 0.9872611464968153,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 29,
-    "confused_with": {}
-  },
-  "thong_bao_kq_hoc_tap": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 34,
-    "confused_with": {}
-  },
-  "khien_trach_sv": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 38,
-    "confused_with": {}
-  },
-  "hd_classroom_tham_gia_lop": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 47,
-    "confused_with": {}
-  },
-  "hd_doi_ten_hien_thi": {
-    "precision": 0.96,
-    "recall": 1.0,
-    "f1-score": 0.9795918367346939,
-    "support": 24,
-    "confused_with": {}
-  },
-  "ask_danh_gia_ket_qua_hoc_tap": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 23,
-    "confused_with": {}
-  },
-  "hd_classroom_mobile": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "time_chuan": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 25,
-    "confused_with": {}
-  },
-  "ask_info_HP": {
-    "precision": 0.9411764705882353,
-    "recall": 1.0,
-    "f1-score": 0.9696969696969697,
-    "support": 48,
-    "confused_with": {}
-  },
-  "ask_hoc_bong": {
-    "precision": 0.9642857142857143,
-    "recall": 1.0,
-    "f1-score": 0.9818181818181818,
-    "support": 27,
-    "confused_with": {}
-  },
-  "hoc_bong_khuyen_khich": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 28,
-    "confused_with": {}
-  },
-  "ask_time_lien_thong": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 39,
-    "confused_with": {}
-  },
-  "ask_he_thong_tich_hop": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "xu_ly_sv_vi_pham_quy_dinh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "ask_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 31,
-    "confused_with": {}
-  },
-  "greet": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 48,
-    "confused_with": {}
-  },
-  "quy_dinh_kiem_tra": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 57,
-    "confused_with": {}
-  },
-  "give_comment_content": {
-    "precision": 1.0,
-    "recall": 0.85,
-    "f1-score": 0.9189189189189189,
-    "support": 20,
-    "confused_with": {
-      "hd_classroom_nop_bai": 2,
-      "praise": 1
-    }
-  },
-  "hd_doi_mat_khau": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 83,
-    "confused_with": {}
-  },
-  "loai_gioi": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
-    "confused_with": {}
-  },
-  "danh_gia_HP": {
-    "precision": 0.8811188811188811,
-    "recall": 1.0,
-    "f1-score": 0.9368029739776951,
-    "support": 126,
-    "confused_with": {}
-  },
-  "hd_quay_man_hinh_su_dung": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 48,
-    "confused_with": {}
-  },
-  "dinh_chi_sv": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 30,
+    "f1-score": 0.9935897435897436,
+    "support": 155,
     "confused_with": {}
   },
   "thanks": {
@@ -540,50 +207,6 @@
       "praise": 1,
       "hd_doi_ten_hien_thi": 1
     }
-  },
-  "ask_time_study": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
-  },
-  "ask_comment_replay": {
-    "precision": 1.0,
-    "recall": 0.875,
-    "f1-score": 0.9333333333333333,
-    "support": 24,
-    "confused_with": {
-      "ask_comment": 3
-    }
-  },
-  "learn_2_chuong_trinh": {
-    "precision": 0.974025974025974,
-    "recall": 1.0,
-    "f1-score": 0.9868421052631579,
-    "support": 75,
-    "confused_with": {}
-  },
-  "ask_mota": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
-    "confused_with": {}
-  },
-  "ask_name": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
-  },
-  "hd_elearning_tim_kiem_ghi_danh": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
-    "confused_with": {}
   },
   "hd_dang_nhap_he_thong_tich_hop": {
     "precision": 1.0,
@@ -599,34 +222,53 @@
     "support": 58,
     "confused_with": {}
   },
-  "vang_thi_CK": {
-    "precision": 1.0,
-    "recall": 0.9818181818181818,
-    "f1-score": 0.9908256880733944,
-    "support": 55,
-    "confused_with": {
-      "so_lan_thi_CK": 1
-    }
-  },
-  "quan_ly_bang_tot_nghiep": {
+  "change_nganh_dao_tao": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 32,
+    "support": 34,
     "confused_with": {}
   },
-  "thu_tuc_learn": {
+  "qua_han_tot_nghiep": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 45,
+    "support": 199,
     "confused_with": {}
   },
-  "ask_ctdt_mt_ctgd": {
+  "ask_hoc_truc_tuyen": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 38,
+    "support": 24,
+    "confused_with": {}
+  },
+  "loai_xuat_sac": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "ask_danh_gia_ket_qua_hoc_tap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "hd_doi_ten_hien_thi": {
+    "precision": 0.96,
+    "recall": 1.0,
+    "f1-score": 0.9795918367346939,
+    "support": 24,
+    "confused_with": {}
+  },
+  "ask_point": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
     "confused_with": {}
   },
   "hoc_ky_chinh": {
@@ -636,41 +278,11 @@
     "support": 35,
     "confused_with": {}
   },
-  "praise": {
-    "precision": 0.9375,
-    "recall": 1.0,
-    "f1-score": 0.967741935483871,
-    "support": 45,
-    "confused_with": {}
-  },
-  "hd_dang_nhap_email_android": {
-    "precision": 0.975,
-    "recall": 1.0,
-    "f1-score": 0.9873417721518987,
-    "support": 39,
-    "confused_with": {}
-  },
-  "danh_gia_HP_thuc_hanh": {
-    "precision": 1.0,
-    "recall": 0.7647058823529411,
-    "f1-score": 0.8666666666666666,
-    "support": 17,
-    "confused_with": {
-      "danh_gia_HP": 4
-    }
-  },
-  "sv_thi_ho": {
+  "ask_quy_che_hoc_vu": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "canh_bao_hoc_tap": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 23,
+    "support": 25,
     "confused_with": {}
   },
   "diem_M": {
@@ -682,114 +294,78 @@
       "diem_W": 1
     }
   },
-  "ask_info_hoc_ky": {
-    "precision": 0.9743589743589743,
+  "khien_trach_sv": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9870129870129869,
+    "f1-score": 1.0,
     "support": 38,
     "confused_with": {}
   },
-  "hoc_ky_phu": {
+  "hd_elearning": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 33,
-    "confused_with": {}
-  },
-  "dieu_kien_learn": {
-    "precision": 1.0,
-    "recall": 0.9375,
-    "f1-score": 0.967741935483871,
     "support": 32,
-    "confused_with": {
-      "learn_2_chuong_trinh": 2
-    }
-  },
-  "loai_kha": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 22,
     "confused_with": {}
   },
-  "hd_dang_nhap_email": {
+  "ask_course_score": {
     "precision": 1.0,
-    "recall": 0.9487179487179487,
-    "f1-score": 0.9736842105263158,
-    "support": 39,
+    "recall": 0.9393939393939394,
+    "f1-score": 0.96875,
+    "support": 33,
     "confused_with": {
-      "hd_chuyen_email": 2
+      "danh_gia_HP": 2
     }
   },
-  "xep_loai_khen_thuong": {
+  "diem_I": {
     "precision": 1.0,
-    "recall": 0.75,
-    "f1-score": 0.8571428571428571,
+    "recall": 0.95,
+    "f1-score": 0.9743589743589743,
     "support": 20,
     "confused_with": {
-      "khen_thuong": 5
+      "diem_W": 1
     }
   },
-  "decry": {
-    "precision": 1.0,
-    "recall": 0.9736842105263158,
-    "f1-score": 0.9866666666666666,
-    "support": 38,
-    "confused_with": {
-      "praise": 1
-    }
-  },
-  "diem_tbcnh": {
+  "trach_nhiem_sinh_vien": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 68,
+    "support": 58,
     "confused_with": {}
   },
-  "buoc_thoi_hoc": {
-    "precision": 1.0,
-    "recall": 0.90625,
-    "f1-score": 0.9508196721311475,
-    "support": 32,
-    "confused_with": {
-      "ask_info_HP": 3
-    }
+  "ask_van_de_chung": {
+    "precision": 0.9898477157360406,
+    "recall": 1.0,
+    "f1-score": 0.9948979591836734,
+    "support": 195,
+    "confused_with": {}
   },
-  "rank_hoc_tap": {
+  "rank_tot_nghiep": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 22,
+    "support": 61,
     "confused_with": {}
   },
-  "time_toi_da": {
+  "ask_pham_vi_doi_tuong": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 21,
+    "support": 44,
     "confused_with": {}
   },
-  "ask_tiet_hoc": {
-    "precision": 1.0,
-    "recall": 0.9761904761904762,
-    "f1-score": 0.9879518072289156,
-    "support": 42,
-    "confused_with": {
-      "ask_info_hoc_ky": 1
-    }
-  },
-  "info_add_delete_HP": {
-    "precision": 0.8113207547169812,
+  "diem_W": {
+    "precision": 0.9393939393939394,
     "recall": 1.0,
-    "f1-score": 0.8958333333333334,
-    "support": 43,
+    "f1-score": 0.96875,
+    "support": 31,
     "confused_with": {}
   },
-  "hd_zoom": {
+  "hd_elearning_rut_ten": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 32,
+    "support": 40,
     "confused_with": {}
   },
   "delete_lop_HP": {
@@ -801,39 +377,39 @@
       "info_add_delete_HP": 10
     }
   },
-  "ask_hoc_truc_tuyen": {
+  "diem_tbchk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 56,
+    "confused_with": {}
+  },
+  "diem_tbcnh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 68,
+    "confused_with": {}
+  },
+  "change_co_so_dao_tao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 35,
+    "confused_with": {}
+  },
+  "ask_hop_thu_dien_tu": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 24,
     "confused_with": {}
   },
-  "ask_comment": {
-    "precision": 0.9090909090909091,
-    "recall": 1.0,
-    "f1-score": 0.9523809523809523,
-    "support": 30,
-    "confused_with": {}
-  },
-  "hd_doi_mat_khau_may_tinh": {
+  "give_student_code": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 53,
-    "confused_with": {}
-  },
-  "trach_nhiem_truong": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 155,
-    "confused_with": {}
-  },
-  "hd_quay_man_hinh_cai_dat": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 32,
+    "support": 332,
     "confused_with": {}
   },
   "ask_tin_chi_HK": {
@@ -843,32 +419,11 @@
     "support": 44,
     "confused_with": {}
   },
-  "thoi_gian_tot_nghiep": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 89,
-    "confused_with": {}
-  },
-  "thu_tuc_ra_truong": {
+  "dinh_chi_hoc_tap": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 28,
-    "confused_with": {}
-  },
-  "ask_fee": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 29,
-    "confused_with": {}
-  },
-  "ask_hop_thu_dien_tu": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 24,
     "confused_with": {}
   },
   "ask_tin_chi": {
@@ -880,25 +435,91 @@
       "ask_tin_chi_HK": 3
     }
   },
-  "hd_elearning_dang_xuat": {
+  "dieu_kien_learn": {
+    "precision": 1.0,
+    "recall": 0.9375,
+    "f1-score": 0.967741935483871,
+    "support": 32,
+    "confused_with": {
+      "learn_2_chuong_trinh": 2
+    }
+  },
+  "ask_drl": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 40,
+    "support": 16,
     "confused_with": {}
   },
-  "change_nganh_dao_tao": {
+  "to_chuc_thi_CK": {
+    "precision": 1.0,
+    "recall": 0.974025974025974,
+    "f1-score": 0.9868421052631579,
+    "support": 77,
+    "confused_with": {
+      "so_lan_thi_CK": 2
+    }
+  },
+  "change_ctdt": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 34,
+    "support": 36,
     "confused_with": {}
   },
-  "ask_van_de_chung": {
-    "precision": 0.9898477157360406,
+  "hd_quay_man_hinh_cai_dat": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9948979591836734,
-    "support": 195,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "canh_bao_hoc_tap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "ask_comment_replay": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 24,
+    "confused_with": {
+      "ask_comment": 3
+    }
+  },
+  "hd_elearning_tim_kiem_ghi_danh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "give_comment_name": {
+    "precision": 0.9953271028037384,
+    "recall": 0.9953271028037384,
+    "f1-score": 0.9953271028037384,
+    "support": 214,
+    "confused_with": {
+      "hd_dang_nhap_email_android": 1
+    }
+  },
+  "ask_tiet_hoc": {
+    "precision": 1.0,
+    "recall": 0.9761904761904762,
+    "f1-score": 0.9879518072289156,
+    "support": 42,
+    "confused_with": {
+      "ask_info_hoc_ky": 1
+    }
+  },
+  "loai_kha": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
     "confused_with": {}
   },
   "tro_cap_xa_hoi": {
@@ -908,39 +529,69 @@
     "support": 26,
     "confused_with": {}
   },
-  "ask_ctdt": {
+  "ask_trach_nhiem": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "hoc_ky_phu": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "ask_time_lien_thong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "ask_to_chuc_dao_tao": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 20,
     "confused_with": {}
   },
-  "ask_sdt_tro_giup": {
-    "precision": 1.0,
+  "info_add_delete_HP": {
+    "precision": 0.8113207547169812,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 26,
+    "f1-score": 0.8958333333333334,
+    "support": 43,
     "confused_with": {}
   },
-  "nghi_hoc_tam_thoi": {
+  "thoi_gian_tot_nghiep": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 23,
+    "support": 89,
     "confused_with": {}
   },
-  "hd_elearning": {
+  "quy_ho_tro": {
+    "precision": 1.0,
+    "recall": 0.9629629629629629,
+    "f1-score": 0.9811320754716981,
+    "support": 27,
+    "confused_with": {
+      "ask_hoc_bong": 1
+    }
+  },
+  "trach_nhiem_truong": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 32,
+    "support": 155,
     "confused_with": {}
   },
-  "diem_tbchung": {
-    "precision": 1.0,
+  "ask_info_HP": {
+    "precision": 0.9411764705882353,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 60,
+    "f1-score": 0.9696969696969697,
+    "support": 48,
     "confused_with": {}
   },
   "hd_classroom_nop_bai": {
@@ -950,12 +601,121 @@
     "support": 55,
     "confused_with": {}
   },
-  "dinh_chi_hoc_tap": {
+  "hd_elearning_dang_nhap": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 58,
+    "confused_with": {}
+  },
+  "doi_tuong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "ask_ctdt": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "quan_ly_bang_tot_nghiep": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "ask_info_hoc_ky": {
+    "precision": 0.9743589743589743,
+    "recall": 1.0,
+    "f1-score": 0.9870129870129869,
+    "support": 38,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "ask_sinh_vien": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 20,
+    "confused_with": {}
+  },
+  "ask_tot_nghiep": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "hd_dang_nhap_email": {
+    "precision": 1.0,
+    "recall": 0.9487179487179487,
+    "f1-score": 0.9736842105263158,
+    "support": 39,
+    "confused_with": {
+      "hd_chuyen_email": 2
+    }
+  },
+  "loai_gioi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "hoc_bong_khuyen_khich": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 28,
     "confused_with": {}
+  },
+  "ask_xet_va_cong_nhan_tot_nghiep": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "nghi_hoc_tam_thoi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "canh_cao_sv": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "thu_tuc_learn": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45,
+    "confused_with": {}
+  },
+  "ask_func_list": {
+    "precision": 1.0,
+    "recall": 0.9761904761904762,
+    "f1-score": 0.9879518072289156,
+    "support": 42,
+    "confused_with": {
+      "ask_van_de_chung": 1
+    }
   },
   "ask_entry": {
     "precision": 1.0,
@@ -964,11 +724,251 @@
     "support": 21,
     "confused_with": {}
   },
-  "ask_pham_vi_doi_tuong": {
+  "dieu_kien_tot_nghiep": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 44,
+    "support": 199,
+    "confused_with": {}
+  },
+  "hd_doi_mat_khau_may_tinh_cong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 85,
+    "confused_with": {}
+  },
+  "ask_sdt_tro_giup": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 26,
+    "confused_with": {}
+  },
+  "hd_elearning_dang_xuat": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
+    "confused_with": {}
+  },
+  "thu_tuc_ra_truong": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "add_lop_HP": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
+    "confused_with": {}
+  },
+  "praise": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 45,
+    "confused_with": {}
+  },
+  "hd_quay_man_hinh_su_dung": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "learn_2_chuong_trinh": {
+    "precision": 0.974025974025974,
+    "recall": 1.0,
+    "f1-score": 0.9868421052631579,
+    "support": 75,
+    "confused_with": {}
+  },
+  "danh_gia_HP_ly_thuyet": {
+    "precision": 1.0,
+    "recall": 0.35294117647058826,
+    "f1-score": 0.5217391304347826,
+    "support": 17,
+    "confused_with": {
+      "danh_gia_HP": 11
+    }
+  },
+  "ask_khht": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "hd_zoom": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "give_comment_content": {
+    "precision": 1.0,
+    "recall": 0.85,
+    "f1-score": 0.9189189189189189,
+    "support": 20,
+    "confused_with": {
+      "hd_classroom_nop_bai": 2,
+      "praise": 1
+    }
+  },
+  "ask_he_thong_tich_hop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24,
+    "confused_with": {}
+  },
+  "quy_dinh_kiem_tra": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 57,
+    "confused_with": {}
+  },
+  "time_toi_da": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 21,
+    "confused_with": {}
+  },
+  "learn_truc_truyen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 53,
+    "confused_with": {}
+  },
+  "decry": {
+    "precision": 1.0,
+    "recall": 0.9736842105263158,
+    "f1-score": 0.9866666666666666,
+    "support": 38,
+    "confused_with": {
+      "praise": 1
+    }
+  },
+  "hd_classroom_mobile": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "ask_ctdt_mt_ctgd": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "sv_thi_ho": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 33,
+    "confused_with": {}
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9565217391304348,
+    "support": 12,
+    "confused_with": {
+      "give_comment_name": 1
+    }
+  },
+  "diem_tbctl": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54,
+    "confused_with": {}
+  },
+  "ask_time_study": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "hd_classroom_tham_gia_lop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47,
+    "confused_with": {}
+  },
+  "xu_ly_sv_vi_pham_quy_dinh": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "ask_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "hd_classroom": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 47,
+    "confused_with": {}
+  },
+  "hoc_bong_tai_tro": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 32,
+    "confused_with": {}
+  },
+  "ask_quy_trinh_dkhp": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 29,
+    "confused_with": {}
+  },
+  "ask_university": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 31,
+    "confused_with": {}
+  },
+  "pham_vi": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 22,
+    "confused_with": {}
+  },
+  "change_hinh_thuc_dao_tao": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "info_dang_ky_hoc_lai": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40,
     "confused_with": {}
   },
   "accuracy": 0.9898327320432929,
@@ -979,7 +979,7 @@
     "support": 6098
   },
   "weighted avg": {
-    "precision": 0.9908383578570121,
+    "precision": 0.990838357857012,
     "recall": 0.9898327320432929,
     "f1-score": 0.989242698879437,
     "support": 6098
