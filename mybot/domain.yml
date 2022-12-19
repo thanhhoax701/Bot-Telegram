@@ -266,6 +266,11 @@ intents:
   - hd_doi_mat_khau_may_tinh_cong_b3
   - hd_doi_mat_khau_may_tinh_cong_b4
 
+# Hỏi nhiều hơn
+  - ask_diem_A
+  - ask_diem_B_cong
+  - ask_diem_B
+
 entities: [student_name,comment_content,student_code]
 slots:
 
@@ -1977,12 +1982,29 @@ responses:
     - text: "Hộp thoại thông báo đổi password thành công xuất hiện. Click OK, sau đó Logoff và Login với mật khẩu mới."
       image: "https://imgur.com/gallery/L5XzurY"
 
+
+
+# Hỏi nhiều hơn
+  utter_ask_diem_A:
+    - text: "Điểm A nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 9.0 - 10.0 điểm\n
+    - Thang điểm 4 sẽ là 4.0 điểm"
+  
+  utter_ask_diem_B_cong:
+    - text: "Điểm B+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
+    - Thang điểm 4 sẽ là 3.5 điểm"
+  
+  utter_ask_diem_B:
+    - text: "Điểm B nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 7.0 - 7.9 điểm\n
+    - Thang điểm 4 sẽ là 3.0 điểm"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 actions:
-
   - action_ask_point
   - action_give_comment_content
   - action_give_comment_name

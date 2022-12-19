@@ -1316,3 +1316,20 @@ stories:
     - intent: hd_doi_mat_khau_may_tinh_cong_b4
     - action: utter_hd_doi_mat_khau_may_tinh_cong_b4
 
+
+# Hỏi nhiều hơn
+- story: Hỏi điểm A
+  steps:
+    - intent: ask_diem_A
+    - action: utter_ask_diem_A
+
+- story: Hỏi điểm B cộng
+  steps:
+    - intent: ask_diem_B_cong
+    - action: utter_ask_diem_B_cong
+
+- story: Hỏi điểm B
+  steps:
+    - intent: ask_diem_B
+    - action: utter_ask_diem_B
+
