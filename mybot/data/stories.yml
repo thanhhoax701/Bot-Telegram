@@ -1323,13 +1323,37 @@ stories:
     - intent: ask_diem_A
     - action: utter_ask_diem_A
 
-- story: Hỏi điểm B cộng
-  steps:
-    - intent: ask_diem_B_cong
-    - action: utter_ask_diem_B_cong
+#- story: Hỏi điểm B cộng
+#  steps:
+#    - intent: ask_diem_B_cong
+#    - action: utter_ask_diem_B_cong
 
 - story: Hỏi điểm B
   steps:
     - intent: ask_diem_B
     - action: utter_ask_diem_B
 
+#- story: Hỏi điểm C cộng
+#  steps:
+#    - intent: ask_diem_C_cong
+#    - action: utter_ask_diem_C_cong
+
+- story: Hỏi điểm C
+  steps:
+    - intent: ask_diem_C
+    - action: utter_ask_diem_C
+
+#- story: Hỏi điểm D cộng
+#  steps:
+#    - intent: ask_diem_D_cong
+#    - action: utter_ask_diem_D_cong
+
+- story: Hỏi điểm D
+  steps:
+    - intent: ask_diem_D
+    - action: utter_ask_diem_D
+
+- story: Hỏi điểm F
+  steps:
+    - intent: ask_diem_F
+    - action: utter_ask_diem_F

@@ -7028,6 +7028,7 @@ nlu:
 # Hỏi nhiều hơn
 - intent: ask_diem_A
   examples: |
+    - vậy còn điểm A thì sao
     - điểm A
     - điểm A là sao
     - điểm A là gì
@@ -7039,6 +7040,7 @@ nlu:
     - điểm A thế nào
     - điểm A là như nào
     - điểm A là thế nào
+    - điểm A sẽ như thế nào
     - điểm A là bao nhiêu điểm
     - điểm A là mấy điểm tính theo thang điểm 10
     - điểm A là mấy điểm tính theo thang điểm 4
@@ -7054,61 +7056,66 @@ nlu:
     - bạn có thể cho mình biết điểm A từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm A
 
-- intent: ask_diem_B_cong
-  examples: |
-    - điểm B+
-    - điểm B+ là sao
-    - điểm B+ là gì
-    - điểm B+ là như thế nào
-    - điểm B+ là sao vậy
-    - điểm B+ là bị gì
-    - điểm B+ đại diện cho điểm gì
-    - điểm B+ ra sao
-    - điểm B+ thế nào
-    - điểm B+ là như nào
-    - điểm B+ là thế nào
-    - điểm B+ là bao nhiêu điểm
-    - điểm B+ là mấy điểm tính theo thang điểm 10
-    - điểm B+ là mấy điểm tính theo thang điểm 4
-    - điểm B+ có tác dụng gì
-    - điểm B+ có quan trọng không
-    - điểm B+ có tính vào điểm trung bình học kỳ/ĐTBHK không
-    - điểm B+ có tính vào điểm trung bình tích lũy/ĐTBTL không
-    - có điểm B+ không
-    - tại sao có điểm B+
-    - tôi muốn hỏi về điểm B+
-    - bạn hãy cho tôi biết điểm B+ là điểm gì
-    - bạn hãy cho tôi biết thông tin chi tiết về điểm B+ đối với sinh viên
-    - bạn có thể cho mình biết điểm B+ từ đâu mà ra
-    - bạn/em/anh hãy cho tôi biết thông tin về điểm B+
-    - điểm B cộng
-    - điểm B cộng là sao
-    - điểm B cộng là gì
-    - điểm B cộng là như thế nào
-    - điểm B cộng là sao vậy
-    - điểm B cộng là bị gì
-    - điểm B cộng đại diện cho điểm gì
-    - điểm B cộng ra sao
-    - điểm B cộng thế nào
-    - điểm B cộng là như nào
-    - điểm B cộng là thế nào
-    - điểm B cộng là bao nhiêu điểm
-    - điểm B cộng là mấy điểm tính theo thang điểm 10
-    - điểm B cộng là mấy điểm tính theo thang điểm 4
-    - điểm B cộng có tác dụng gì
-    - điểm B cộng có quan trọng không
-    - điểm B cộng có tính vào điểm trung bình học kỳ/ĐTBHK không
-    - điểm B cộng có tính vào điểm trung bình tích lũy/ĐTBTL không
-    - có điểm B cộng không
-    - tại sao có điểm B cộng
-    - tôi muốn hỏi về điểm B cộng
-    - bạn hãy cho tôi biết điểm B cộng là điểm gì
-    - bạn hãy cho tôi biết thông tin chi tiết về điểm B cộng đối với sinh viên
-    - bạn có thể cho mình biết điểm B cộng từ đâu mà ra
-    - bạn/em/anh hãy cho tôi biết thông tin về điểm B cộng
+#- intent: ask_diem_B_cong
+#  examples: |
+#    - vậy còn điểm B+ thì sao
+#    - điểm B+
+#    - điểm B+ là sao
+#    - điểm B+ là gì
+#    - điểm B+ là như thế nào
+#    - điểm B+ là sao vậy
+#    - điểm B+ là bị gì
+#    - điểm B+ đại diện cho điểm gì
+#    - điểm B+ ra sao
+#    - điểm B+ thế nào
+#    - điểm B+ là như nào
+#    - điểm B+ là thế nào
+#    - điểm B+ sẽ như thế nào
+#    - điểm B+ là bao nhiêu điểm
+#    - điểm B+ là mấy điểm tính theo thang điểm 10
+#    - điểm B+ là mấy điểm tính theo thang điểm 4
+#    - điểm B+ có tác dụng gì
+#    - điểm B+ có quan trọng không
+#    - điểm B+ có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm B+ có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm B+ không
+#    - tại sao có điểm B+
+#    - tôi muốn hỏi về điểm B+
+#    - bạn hãy cho tôi biết điểm B+ là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm B+ đối với sinh viên
+#    - bạn có thể cho mình biết điểm B+ từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm B+
+#    - vậy còn điểm B cộng thì sao
+#    - điểm B cộng
+#    - điểm B cộng là sao
+#    - điểm B cộng là gì
+#    - điểm B cộng là như thế nào
+#    - điểm B cộng là sao vậy
+#    - điểm B cộng là bị gì
+#    - điểm B cộng đại diện cho điểm gì
+#    - điểm B cộng ra sao
+#    - điểm B cộng thế nào
+#    - điểm B cộng là như nào
+#    - điểm B cộng là thế nào
+#    - điểm B cộng sẽ thế nào
+#    - điểm B cộng là bao nhiêu điểm
+#    - điểm B cộng là mấy điểm tính theo thang điểm 10
+#    - điểm B cộng là mấy điểm tính theo thang điểm 4
+#    - điểm B cộng có tác dụng gì
+#    - điểm B cộng có quan trọng không
+#    - điểm B cộng có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm B cộng có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm B cộng không
+#    - tại sao có điểm B cộng
+#    - tôi muốn hỏi về điểm B cộng
+#    - bạn hãy cho tôi biết điểm B cộng là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm B cộng đối với sinh viên
+#    - bạn có thể cho mình biết điểm B cộng từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm B cộng
 
 - intent: ask_diem_B
   examples: |
+    - vậy còn điểm B thì sao
     - điểm B
     - điểm B là sao
     - điểm B là gì
@@ -7120,6 +7127,7 @@ nlu:
     - điểm B thế nào
     - điểm B là như nào
     - điểm B là thế nào
+    - điểm B sẽ thế nào
     - điểm B là bao nhiêu điểm
     - điểm B là mấy điểm tính theo thang điểm 10
     - điểm B là mấy điểm tính theo thang điểm 4
@@ -7134,3 +7142,209 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm B đối với sinh viên
     - bạn có thể cho mình biết điểm B từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm B
+
+#- intent: ask_diem_C_cong
+#  examples: |
+#    - vậy còn điểm C+ thì sao
+#    - điểm C+
+#    - điểm C+ là sao
+#    - điểm C+ là gì
+#    - điểm C+ là như thế nào
+#    - điểm C+ là sao vậy
+#    - điểm C+ là bị gì
+#    - điểm C+ đại diện cho điểm gì
+#    - điểm C+ ra sao
+#    - điểm C+ thế nào
+#    - điểm C+ là như nào
+#    - điểm C+ là thế nào
+#    - điểm C+ là bao nhiêu điểm
+#    - điểm C+ là mấy điểm tính theo thang điểm 10
+#    - điểm C+ là mấy điểm tính theo thang điểm 4
+#    - điểm C+ có tác dụng gì
+#    - điểm C+ có quan trọng không
+#    - điểm C+ có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm C+ có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm C+ không
+#    - tại sao có điểm C+
+#    - tôi muốn hỏi về điểm C+
+#    - bạn hãy cho tôi biết điểm C+ là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm C+ đối với sinh viên
+#    - bạn có thể cho mình biết điểm C+ từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm C+
+#    - vậy còn điểm C cộng thì sao
+#    - điểm C cộng
+#    - điểm C cộng là sao
+#    - điểm C cộng là gì
+#    - điểm C cộng là như thế nào
+#    - điểm C cộng là sao vậy
+#    - điểm C cộng là bị gì
+#    - điểm C cộng đại diện cho điểm gì
+#    - điểm C cộng ra sao
+#    - điểm C cộng thế nào
+#    - điểm C cộng là như nào
+#    - điểm C cộng là thế nào
+#    - điểm C cộng sẽ như thế nào
+#    - điểm C cộng là bao nhiêu điểm
+#    - điểm C cộng là mấy điểm tính theo thang điểm 10
+#    - điểm C cộng là mấy điểm tính theo thang điểm 4
+#    - điểm C cộng có tác dụng gì
+#    - điểm C cộng có quan trọng không
+#    - điểm C cộng có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm C cộng có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm C cộng không
+#    - tại sao có điểm C cộng
+#    - tôi muốn hỏi về điểm C cộng
+#    - bạn hãy cho tôi biết điểm C cộng là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm C cộng đối với sinh viên
+#    - bạn có thể cho mình biết điểm C cộng từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm C cộng
+
+- intent: ask_diem_C
+  examples: |
+    - vậy còn điểm C thì sao
+    - điểm C
+    - điểm C là sao
+    - điểm C là gì
+    - điểm C là như thế nào
+    - điểm C là sao vậy
+    - điểm C là bị gì
+    - điểm C đại diện cho điểm gì
+    - điểm C ra sao
+    - điểm C thế nào
+    - điểm C là như nào
+    - điểm C là thế nào
+    - điểm C sẽ như thế nào
+    - điểm C là bao nhiêu điểm
+    - điểm C là mấy điểm tính theo thang điểm 10
+    - điểm C là mấy điểm tính theo thang điểm 4
+    - điểm C có tác dụng gì
+    - điểm C có quan trọng không
+    - điểm C có tính vào điểm trung bình học kỳ/ĐTBHK không
+    - điểm C có tính vào điểm trung bình tích lũy/ĐTBTL không
+    - có điểm C không
+    - tại sao có điểm C
+    - tôi muốn hỏi về điểm C
+    - bạn hãy cho tôi biết điểm C là điểm gì
+    - bạn hãy cho tôi biết thông tin chi tiết về điểm C đối với sinh viên
+    - bạn có thể cho mình biết điểm C từ đâu mà ra
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm C
+
+#- intent: ask_diem_D_cong
+#  examples: |
+#    - vậy còn điểm D+ thì sao
+#    - điểm D+
+#    - điểm D+ là sao
+#    - điểm D+ là gì
+#    - điểm D+ là như thế nào
+#    - điểm D+ là sao vậy
+#    - điểm D+ là bị gì
+#    - điểm D+ đại diện cho điểm gì
+#    - điểm D+ ra sao
+#    - điểm D+ thế nào
+#    - điểm D+ là như nào
+#    - điểm D+ là thế nào
+#    - điểm D+ sẽ như thế nào
+#    - điểm D+ là bao nhiêu điểm
+#    - điểm D+ là mấy điểm tính theo thang điểm 10
+#    - điểm D+ là mấy điểm tính theo thang điểm 4
+#    - điểm D+ có tác dụng gì
+#    - điểm D+ có quan trọng không
+#    - điểm D+ có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm D+ có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm D+ không
+#    - tại sao có điểm D+
+#    - tôi muốn hỏi về điểm D+
+#    - bạn hãy cho tôi biết điểm D+ là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm D+ đối với sinh viên
+#    - bạn có thể cho mình biết điểm D+ từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm D+
+#    - vậy còn điểm D cộng thì sao
+#    - điểm D cộng
+#    - điểm D cộng là sao
+#    - điểm D cộng là gì
+#    - điểm D cộng là như thế nào
+#    - điểm D cộng là sao vậy
+#    - điểm D cộng là bị gì
+#    - điểm D cộng đại diện cho điểm gì
+#    - điểm D cộng ra sao
+#    - điểm D cộng thế nào
+#    - điểm D cộng là như nào
+#    - điểm D cộng là thế nào
+#    - điểm D cộng sẽ như thế nào
+#    - điểm D cộng là bao nhiêu điểm
+#    - điểm D cộng là mấy điểm tính theo thang điểm 10
+#    - điểm D cộng là mấy điểm tính theo thang điểm 4
+#    - điểm D cộng có tác dụng gì
+#    - điểm D cộng có quan trọng không
+#    - điểm D cộng có tính vào điểm trung bình học kỳ/ĐTBHK không
+#    - điểm D cộng có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - có điểm D cộng không
+#    - tại sao có điểm D cộng
+#    - tôi muốn hỏi về điểm D cộng
+#    - bạn hãy cho tôi biết điểm D cộng là điểm gì
+#    - bạn hãy cho tôi biết thông tin chi tiết về điểm D cộng đối với sinh viên
+#    - bạn có thể cho mình biết điểm D cộng từ đâu mà ra
+#    - bạn/em/anh hãy cho tôi biết thông tin về điểm D cộng
+
+- intent: ask_diem_D
+  examples: |
+    - vậy còn điểm D thì sao
+    - điểm D
+    - điểm D là sao
+    - điểm D là gì
+    - điểm D là như thế nào
+    - điểm D là sao vậy
+    - điểm D là bị gì
+    - điểm D đại diện cho điểm gì
+    - điểm D ra sao
+    - điểm D thế nào
+    - điểm D là như nào
+    - điểm D là thế nào
+    - điểm D sẽ như thế nào
+    - điểm D là bao nhiêu điểm
+    - điểm D là mấy điểm tính theo thang điểm 10
+    - điểm D là mấy điểm tính theo thang điểm 4
+    - điểm D có tác dụng gì
+    - điểm D có quan trọng không
+    - điểm D có tính vào điểm trung bình học kỳ/ĐTBHK không
+    - điểm D có tính vào điểm trung bình tích lũy/ĐTBTL không
+    - có điểm D không
+    - tại sao có điểm D
+    - tôi muốn hỏi về điểm D
+    - bạn hãy cho tôi biết điểm D là điểm gì
+    - bạn hãy cho tôi biết thông tin chi tiết về điểm D đối với sinh viên
+    - bạn có thể cho mình biết điểm D từ đâu mà ra
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm D
+
+- intent: ask_diem_F
+  examples: |
+    - vậy còn điểm F thì sao
+    - rớt môn là bị điểm gì
+    - bị điểm F là rớt môn đúng không
+    - rớt môn là bị điểm F hả
+    - rớt môn là được điểm gì
+    - điểm F
+    - điểm F là sao
+    - điểm F là gì
+    - điểm F là như thế nào
+    - điểm F là sao vậy
+    - điểm F là bị gì
+    - điểm F đại diện cho điểm gì
+    - điểm F ra sao
+    - điểm F thế nào
+    - điểm F là như nào
+    - điểm F là thế nào
+    - điểm F là bao nhiêu điểm
+    - điểm F là mấy điểm tính theo thang điểm 10
+    - điểm F là mấy điểm tính theo thang điểm 4
+    - điểm F có tác dụng gì
+    - điểm F có quan trọng không
+    - điểm F có tính vào điểm trung bình học kỳ/ĐTBHK không
+    - điểm F có tính vào điểm trung bình tích lũy/ĐTBTL không
+    - có điểm F không
+    - tại sao có điểm F
+    - tôi muốn hỏi về điểm F
+    - bạn hãy cho tôi biết điểm F là điểm gì
+    - bạn hãy cho tôi biết thông tin chi tiết về điểm F đối với sinh viên
+    - bạn có thể cho mình biết điểm F từ đâu mà ra
+    - bạn/em/anh hãy cho tôi biết thông tin về điểm F
