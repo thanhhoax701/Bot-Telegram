@@ -268,11 +268,11 @@ intents:
 
 # Hỏi nhiều hơn
   - ask_diem_A
-#  - ask_diem_B_cong
+  - ask_diem_B_cong
   - ask_diem_B
-#  - ask_diem_C_cong
+  - ask_diem_C_cong
   - ask_diem_C
-#  - ask_diem_D_cong
+  - ask_diem_D_cong
   - ask_diem_D
   - ask_diem_F
 
@@ -1998,38 +1998,50 @@ responses:
     - Thang điểm 10 sẽ nằm trong khoảng từ 9.0 - 10.0 điểm\n
     - Thang điểm 4 sẽ là 4.0 điểm"
   
-#  utter_ask_diem_B_cong:
-#    - text: "Điểm B+ nếu tính theo:\n
-#    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
-#    - Thang điểm 4 sẽ là 3.5 điểm"
+  utter_ask_diem_B_cong:
+    - text: "Điểm B+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
+    - Thang điểm 4 sẽ là 3.5 điểm"
   
   utter_ask_diem_B:
     - text: "Điểm B nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 7.0 - 7.9 điểm\n
     - Thang điểm 4 sẽ là 3.0 điểm"
+      buttons:
+        - title: "Tiếp theo là điểm B+"
+          payload: "/ask_diem_B_cong"
+      button_type: vertical
 
-#  utter_ask_diem_C_cong:
-#    - text: "Điểm C+ nếu tính theo:\n
-#    - Thang điểm 10 sẽ nằm trong khoảng từ 6.5 - 6.9 điểm\n
-#    - Thang điểm 4 sẽ là 2.5 điểm"
+  utter_ask_diem_C_cong:
+    - text: "Điểm C+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 6.5 - 6.9 điểm\n
+    - Thang điểm 4 sẽ là 2.5 điểm"
   
   utter_ask_diem_C:
     - text: "Điểm C nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 5.5 - 6.4 điểm\n
     - Thang điểm 4 sẽ là 2.0 điểm"
+      buttons:
+        - title: "Tiếp theo là điểm C+"
+          payload: "/ask_diem_C_cong"
+      button_type: vertical
 
-#  utter_ask_diem_D_cong:
-#    - text: "Điểm D+ nếu tính theo:\n
-#    - Thang điểm 10 sẽ nằm trong khoảng từ 5.0 - 5.4 điểm\n
-#    - Thang điểm 4 sẽ là 1.5 điểm"
+  utter_ask_diem_D_cong:
+    - text: "Điểm D+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 5.0 - 5.4 điểm\n
+    - Thang điểm 4 sẽ là 1.5 điểm"
   
   utter_ask_diem_D:
     - text: "Điểm D nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 4.0 - 4.9 điểm\n
     - Thang điểm 4 sẽ là 1.0 điểm"
+      buttons:
+        - title: "Tiếp theo là điểm D+"
+          payload: "/ask_diem_D_cong"
+      button_type: vertical
 
   utter_ask_diem_F:
-    - text: "Điểm F nếu tính theo:\n
+    - text: "Điểm F (là trường hợp bạn đã rớt môn) nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng nhỏ hơn 4.0 điểm\n
     - Thang điểm 4 sẽ là 0.0 điểm"
 

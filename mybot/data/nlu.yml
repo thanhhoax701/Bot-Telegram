@@ -7056,8 +7056,8 @@ nlu:
     - bạn có thể cho mình biết điểm A từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm A
 
-#- intent: ask_diem_B_cong
-#  examples: |
+- intent: ask_diem_B_cong
+  examples: |
 #    - vậy còn điểm B+ thì sao
 #    - điểm B+
 #    - điểm B+ là sao
@@ -7143,8 +7143,8 @@ nlu:
     - bạn có thể cho mình biết điểm B từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm B
 
-#- intent: ask_diem_C_cong
-#  examples: |
+- intent: ask_diem_C_cong
+  examples: |
 #    - vậy còn điểm C+ thì sao
 #    - điểm C+
 #    - điểm C+ là sao
@@ -7229,8 +7229,8 @@ nlu:
     - bạn có thể cho mình biết điểm C từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm C
 
-#- intent: ask_diem_D_cong
-#  examples: |
+- intent: ask_diem_D_cong
+  examples: |
 #    - vậy còn điểm D+ thì sao
 #    - điểm D+
 #    - điểm D+ là sao

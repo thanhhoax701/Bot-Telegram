@@ -1317,36 +1317,36 @@ stories:
     - action: utter_hd_doi_mat_khau_may_tinh_cong_b4
 
 
-# Hỏi nhiều hơn
+# Hỏi nhiều hơn về điểm số
 - story: Hỏi điểm A
   steps:
     - intent: ask_diem_A
     - action: utter_ask_diem_A
 
-#- story: Hỏi điểm B cộng
-#  steps:
-#    - intent: ask_diem_B_cong
-#    - action: utter_ask_diem_B_cong
+- story: Hỏi điểm B cộng
+  steps:
+    - intent: ask_diem_B_cong
+    - action: utter_ask_diem_B_cong
 
 - story: Hỏi điểm B
   steps:
     - intent: ask_diem_B
     - action: utter_ask_diem_B
 
-#- story: Hỏi điểm C cộng
-#  steps:
-#    - intent: ask_diem_C_cong
-#    - action: utter_ask_diem_C_cong
+- story: Hỏi điểm C cộng
+  steps:
+    - intent: ask_diem_C_cong
+    - action: utter_ask_diem_C_cong
 
 - story: Hỏi điểm C
   steps:
     - intent: ask_diem_C
     - action: utter_ask_diem_C
 
-#- story: Hỏi điểm D cộng
-#  steps:
-#    - intent: ask_diem_D_cong
-#    - action: utter_ask_diem_D_cong
+- story: Hỏi điểm D cộng
+  steps:
+    - intent: ask_diem_D_cong
+    - action: utter_ask_diem_D_cong
 
 - story: Hỏi điểm D
   steps:
