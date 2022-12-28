@@ -117,6 +117,8 @@ intents:
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
   - ask_dia_chi_tro_giup
   - ask_sdt_tro_giup
+# Bổ sung chi tiết số điện thoại
+#  - sdt_truong_dhct
   - ask_trang_web_tro_giup
   - ask_hoc_truc_tuyen
   - ask_hop_thu_dien_tu
@@ -1139,11 +1141,16 @@ responses:
 
   utter_ask_sdt_tro_giup:
     - text: "Sau đây là các số điện thoại trợ giúp khi cần:\n
-    1. Đại học Cần Thơ: 0292 3832 663\n
-    2. Phòng Đào tạo: 0292 3872 728\n
-    3. Phòng Công tác Sinh viên: 0292 3830 177\n
-    4. Đoàn thanh niên Trường: 0292 3830 309\n
-    5. Trung tâm tu vấn hỗ trợ kỹ năng sinh viên:  0292 3872 284 / 0292 3943 727\n"
+    1. Đại học Cần Thơ: 02923832663\n
+    2. Phòng Đào tạo: 02923872728\n
+    3. Phòng Công tác Sinh viên: 02923830177\n
+    4. Đoàn thanh niên Trường: 02923830309\n
+    5. Trung tâm tư vấn hỗ trợ kỹ năng sinh viên:  02923872284 / 02923943727\n"
+
+# Bổ sung chi tiết số điện thoại
+#  utter_sdt_truong_dhct:
+#    - text: "Đây là số điện thoại của Trường Đại học Cần Thơ: 02923832663"
+
 
   utter_ask_trang_web_tro_giup:
     - text: "Các địa chỉ trang web trợ giúp sinh viên CTU:\n"
@@ -2050,6 +2057,7 @@ session_config:
   carry_over_slots_to_new_session: true
 
 actions:
+#  - action_image_recognition
   - action_ask_point
   - action_give_comment_content
   - action_give_comment_name

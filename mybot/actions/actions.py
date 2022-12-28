@@ -12,7 +12,24 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import mysql.connector
+# import requests
 
+
+# class ImageRecognitionAction(Action):
+#     def name(self):
+#         return "action_image_recognition"
+#
+#     def run(self, dispatcher, tracker, domain):
+#         # Lấy hình ảnh từ slot "image"
+#         image = tracker.get_slot("image")
+#
+#         # Sử dụng API nhận dạng hình ảnh để phân tích hình ảnh và lấy kết quả
+#         response = requests.post("http://image-recognition-api.com/analyze", data={"image": image})
+#         result = response.json()
+#
+#         # Lấy thông tin cần thiết từ kết quả và lưu vào slot "image_description"
+#         image_description = result["description"]
+#         return [SlotSet("image_description", image_description)]
 
 
 

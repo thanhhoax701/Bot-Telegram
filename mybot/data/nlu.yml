@@ -5291,6 +5291,39 @@ nlu:
     - tôi muốn xem Liên hệ hỗ trợ
     - tôi muốn tìm hiểu Liên hệ hỗ trợ
 
+# Bổ sung chi tiết số điện thoại
+#- intent: sdt_truong_dhct
+#  examples: |
+#    - số điện thoại của trường là số mấy
+#    - trường có số điện thoại là số mấy
+#    - số điện thoại trường là số mấy
+#    - liên hệ trường bằng số nào
+#    - số điện thoại của trường mình là gì
+#    - số điện thoại của ctu
+#    - số điện thoại của đại học cần thơ
+#    - tôi muốn hỏi về số điện thoại của trường đại học cần thơ
+#    - bạn cho mình hỏi về số điện thoại của trường với
+#    - bot cho mình hỏi số điện thoại của trường đại học cần thơ được không
+#    - giúp mình tìm ra số điện thoại của trường với
+#    - trả lời dùm mình về số điện thoại của trường đại học cần thơ
+#    - tôi cần biết số điện thoại của trường
+#    - tôi muốn liên hệ với trường bằng số điện thoại
+#    - sdt/sđt/dt/đt của trường là số mấy
+#    - trường có sdt/sđt/dt/đt là số mấy
+#    - sdt/sđt/dt/đt trường là số mấy
+#    - liên hệ trường bằng số nào
+#    - sdt/sđt/dt/đt của trường mình là gì
+#    - sdt/sđt/dt/đt của ctu
+#    - sdt/sđt/dt/đt của đại học cần thơ
+#    - tôi muốn hỏi về sdt/sđt/dt/đt của trường đại học cần thơ
+#    - bạn cho mình hỏi về sdt/sđt/dt/đt của trường với
+#    - bot cho mình hỏi sdt/sđt/dt/đt của trường đại học cần thơ được không
+#    - giúp mình tìm ra sdt/sđt/dt/đt của trường với
+#    - trả lời dùm mình về sdt/sđt/dt/đt của trường đại học cần thơ
+#    - tôi cần biết sdt/sđt/dt/đt của trường
+#    - tôi muốn liên hệ với trường bằng sdt/sđt/dt/đt
+    
+    
 
 - intent: ask_trang_web_tro_giup
   examples: |
@@ -7029,6 +7062,11 @@ nlu:
 - intent: ask_diem_A
   examples: |
     - vậy còn điểm A thì sao
+    - A từ bao nhiêu?
+    - để được điểm A thì cần bao nhiêu điểm
+    - để được A thì cần mấy điểm
+    - bao nhiêu điểm thì được điểm A
+    - nhiêu điểm thì được A
     - điểm A
     - điểm A là sao
     - điểm A là gì
@@ -7055,10 +7093,16 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm A đối với sinh viên
     - bạn có thể cho mình biết điểm A từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm A
+    - bot có thể cho tôi biết điểm A là điểm gì được không?
 
 - intent: ask_diem_B_cong
   examples: |
 #    - vậy còn điểm B+ thì sao
+#    - B+ từ bao nhiêu?
+#    - để được điểm B+ thì cần bao nhiêu điểm
+#    - để được B+ thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm B+
+#    - nhiêu điểm thì được B+
 #    - điểm B+
 #    - điểm B+ là sao
 #    - điểm B+ là gì
@@ -7085,7 +7129,13 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm B+ đối với sinh viên
 #    - bạn có thể cho mình biết điểm B+ từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm B+
+#    - bot có thể cho tôi biết điểm B+ là điểm gì được không?
 #    - vậy còn điểm B cộng thì sao
+#    - B cộng từ bao nhiêu?
+#    - để được điểm B cộng thì cần bao nhiêu điểm
+#    - để được B cộng thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm B cộng
+#    - nhiêu điểm thì được B cộng
 #    - điểm B cộng
 #    - điểm B cộng là sao
 #    - điểm B cộng là gì
@@ -7112,10 +7162,16 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm B cộng đối với sinh viên
 #    - bạn có thể cho mình biết điểm B cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm B cộng
+#    - bot có thể cho tôi biết điểm B cộng là điểm gì được không?
 
 - intent: ask_diem_B
   examples: |
     - vậy còn điểm B thì sao
+    - B từ bao nhiêu?
+    - để được điểm B thì cần bao nhiêu điểm
+    - để được B thì cần mấy điểm
+    - bao nhiêu điểm thì được điểm B
+    - nhiêu điểm thì được B
     - điểm B
     - điểm B là sao
     - điểm B là gì
@@ -7142,10 +7198,16 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm B đối với sinh viên
     - bạn có thể cho mình biết điểm B từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm B
+    - bot có thể cho tôi biết điểm B là điểm gì được không?
 
 - intent: ask_diem_C_cong
   examples: |
 #    - vậy còn điểm C+ thì sao
+#    - C+ từ bao nhiêu?
+#    - để được điểm C+ thì cần bao nhiêu điểm
+#    - để được C+ thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm C+
+#    - nhiêu điểm thì được C+
 #    - điểm C+
 #    - điểm C+ là sao
 #    - điểm C+ là gì
@@ -7171,7 +7233,13 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm C+ đối với sinh viên
 #    - bạn có thể cho mình biết điểm C+ từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm C+
+#    - bot có thể cho tôi biết điểm C+ là điểm gì được không?
 #    - vậy còn điểm C cộng thì sao
+#    - C cộng từ bao nhiêu?
+#    - để được điểm C cộng thì cần bao nhiêu điểm
+#    - để được C cộng thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm C cộng
+#    - nhiêu điểm thì được C cộng
 #    - điểm C cộng
 #    - điểm C cộng là sao
 #    - điểm C cộng là gì
@@ -7198,10 +7266,16 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm C cộng đối với sinh viên
 #    - bạn có thể cho mình biết điểm C cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm C cộng
+#    - bot có thể cho tôi biết điểm C cộng là điểm gì được không?
 
 - intent: ask_diem_C
   examples: |
     - vậy còn điểm C thì sao
+    - C từ bao nhiêu?
+    - để được điểm C thì cần bao nhiêu điểm
+    - để được C thì cần mấy điểm
+    - bao nhiêu điểm thì được điểm C
+    - nhiêu điểm thì được C
     - điểm C
     - điểm C là sao
     - điểm C là gì
@@ -7228,10 +7302,16 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm C đối với sinh viên
     - bạn có thể cho mình biết điểm C từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm C
+    - bot có thể cho tôi biết điểm C là điểm gì được không?
 
 - intent: ask_diem_D_cong
   examples: |
 #    - vậy còn điểm D+ thì sao
+#    - D+ từ bao nhiêu?
+#    - để được điểm D+ thì cần bao nhiêu điểm
+#    - để được D+ thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm D+
+#    - nhiêu điểm thì được D+
 #    - điểm D+
 #    - điểm D+ là sao
 #    - điểm D+ là gì
@@ -7258,7 +7338,13 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm D+ đối với sinh viên
 #    - bạn có thể cho mình biết điểm D+ từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm D+
+#    - bot có thể cho tôi biết điểm D+ là điểm gì được không?
 #    - vậy còn điểm D cộng thì sao
+#    - D cộng từ bao nhiêu?
+#    - để được điểm D cộng thì cần bao nhiêu điểm
+#    - để được D cộng thì cần mấy điểm
+#    - bao nhiêu điểm thì được điểm D cộng
+#    - nhiêu điểm thì được D cộng
 #    - điểm D cộng
 #    - điểm D cộng là sao
 #    - điểm D cộng là gì
@@ -7285,10 +7371,16 @@ nlu:
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm D cộng đối với sinh viên
 #    - bạn có thể cho mình biết điểm D cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm D cộng
+#    - bot có thể cho tôi biết điểm D cộng là điểm gì được không?
 
 - intent: ask_diem_D
   examples: |
     - vậy còn điểm D thì sao
+    - D từ bao nhiêu?
+    - để được điểm D thì cần bao nhiêu điểm
+    - để được D thì cần mấy điểm
+    - bao nhiêu điểm thì được điểm D
+    - nhiêu điểm thì được D
     - điểm D
     - điểm D là sao
     - điểm D là gì
@@ -7315,10 +7407,16 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm D đối với sinh viên
     - bạn có thể cho mình biết điểm D từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm D
+    - bot có thể cho tôi biết điểm D là điểm gì được không?
 
 - intent: ask_diem_F
   examples: |
     - vậy còn điểm F thì sao
+    - F từ bao nhiêu?
+    - để được điểm F thì cần bao nhiêu điểm
+    - để được F thì cần mấy điểm
+    - bao nhiêu điểm thì được điểm F
+    - nhiêu điểm thì được F
     - rớt môn là bị điểm gì
     - bị điểm F là rớt môn đúng không
     - rớt môn là bị điểm F hả
@@ -7348,3 +7446,5 @@ nlu:
     - bạn hãy cho tôi biết thông tin chi tiết về điểm F đối với sinh viên
     - bạn có thể cho mình biết điểm F từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm F
+    - bot có thể cho tôi biết điểm F là điểm gì được không?
+    

@@ -632,6 +632,13 @@ stories:
     - intent: ask_sdt_tro_giup
     - action: utter_ask_sdt_tro_giup
 
+# Bổ sung chi tiết số điện thoại
+#- story:  các số điện thoại liên hệ trợ giúp - Trường đhct
+#  steps:
+#    - intent: sdt_truong_dhct
+#    - action: utter_sdt_truong_dhct
+
+
 - story:  các địa chỉ trang web trợ giúp
   steps:
     - intent: ask_trang_web_tro_giup
@@ -1357,3 +1364,4 @@ stories:
   steps:
     - intent: ask_diem_F
     - action: utter_ask_diem_F
+#    - action: action_image_recognition
