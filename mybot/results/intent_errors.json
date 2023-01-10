@@ -1,74 +1,10 @@
 [
   {
-    "text": "tạm biệt",
-    "intent": "goodbye",
-    "intent_prediction": {
-      "name": "give_comment_name",
-      "confidence": 0.2992079257965088
-    }
-  },
-  {
-    "text": "hay",
-    "intent": "thanks",
-    "intent_prediction": {
-      "name": "praise",
-      "confidence": 0.6424428224563599
-    }
-  },
-  {
-    "text": "tuyệt",
-    "intent": "thanks",
-    "intent_prediction": {
-      "name": "hd_doi_ten_hien_thi",
-      "confidence": 0.07172508537769318
-    }
-  },
-  {
-    "text": "cho anh xem các chức năng của em",
-    "intent": "ask_func_list",
-    "intent_prediction": {
-      "name": "ask_van_de_chung",
-      "confidence": 0.3800937831401825
-    }
-  },
-  {
-    "text": "quá tệ đấy",
-    "intent": "decry",
-    "intent_prediction": {
-      "name": "praise",
-      "confidence": 0.41867953538894653
-    }
-  },
-  {
-    "text": "tôi muốn tìm hiểu và hỏi thông tin về tiết học",
-    "intent": "ask_tiet_hoc",
-    "intent_prediction": {
-      "name": "ask_info_hoc_ky",
-      "confidence": 0.28650933504104614
-    }
-  },
-  {
     "text": "bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ",
     "intent": "ask_tin_chi",
     "intent_prediction": {
       "name": "ask_tin_chi_HK",
-      "confidence": 0.5816357135772705
-    }
-  },
-  {
-    "text": "học được bao nhiêu tín chỉ trong học kỳ",
-    "intent": "ask_tin_chi",
-    "intent_prediction": {
-      "name": "ask_tin_chi_HK",
-      "confidence": 0.6571977734565735
-    }
-  },
-  {
-    "text": "tôi muốn biết là học kỳ đầu tiên thì học bao nhiêu tín chỉ",
-    "intent": "ask_tin_chi",
-    "intent_prediction": {
-      "name": "ask_tin_chi_HK",
-      "confidence": 0.4969395399093628
+      "confidence": 0.5706701278686523
     }
   },
   {
@@ -76,111 +12,7 @@
     "intent": "quy_ho_tro",
     "intent_prediction": {
       "name": "ask_hoc_bong",
-      "confidence": 0.7319933176040649
-    }
-  },
-  {
-    "text": "bạn có thể cho mình biết chi tiết về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.3796159625053406
-    }
-  },
-  {
-    "text": "tôi không biết là sinh viên có tự ý xóa lớp học phần không",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.2559801936149597
-    }
-  },
-  {
-    "text": "tôi muốn biết thông tin về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.5498791933059692
-    }
-  },
-  {
-    "text": "tôi muốn tìm hiểu thông tin về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.5214356780052185
-    }
-  },
-  {
-    "text": "hãy cho tôi biết về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.4676455855369568
-    }
-  },
-  {
-    "text": "hãy cho tôi hỏi về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.5127829909324646
-    }
-  },
-  {
-    "text": "hãy cho tôi xem về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.4494931399822235
-    }
-  },
-  {
-    "text": "hãy cho tôi biết thông tin về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.570931613445282
-    }
-  },
-  {
-    "text": "hãy cho tôi hỏi thông tin về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.5849918127059937
-    }
-  },
-  {
-    "text": "hãy cho tôi xem thông tin về xóa lớp học phần",
-    "intent": "delete_lop_HP",
-    "intent_prediction": {
-      "name": "info_add_delete_HP",
-      "confidence": 0.5331147909164429
-    }
-  },
-  {
-    "text": "hãy cho tôi biết thông tin về thôi học",
-    "intent": "buoc_thoi_hoc",
-    "intent_prediction": {
-      "name": "ask_info_HP",
-      "confidence": 0.3702491521835327
-    }
-  },
-  {
-    "text": "hãy cho tôi hỏi thông tin về thôi học",
-    "intent": "buoc_thoi_hoc",
-    "intent_prediction": {
-      "name": "ask_info_HP",
-      "confidence": 0.4725622236728668
-    }
-  },
-  {
-    "text": "hãy cho tôi xem thông tin về thôi học",
-    "intent": "buoc_thoi_hoc",
-    "intent_prediction": {
-      "name": "ask_info_HP",
-      "confidence": 0.4441455900669098
+      "confidence": 0.7956205010414124
     }
   },
   {
@@ -188,7 +20,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.7995202541351318
+      "confidence": 0.6716306209564209
     }
   },
   {
@@ -196,39 +28,7 @@
     "intent": "dieu_kien_learn",
     "intent_prediction": {
       "name": "learn_2_chuong_trinh",
-      "confidence": 0.812759518623352
-    }
-  },
-  {
-    "text": "các vấn đề về thi",
-    "intent": "tong_hop_thi",
-    "intent_prediction": {
-      "name": "ask_van_de_chung",
-      "confidence": 0.48087865114212036
-    }
-  },
-  {
-    "text": "bạn hãy cho tôi biết thông tin chi tiết về điểm M đối với sinh viên",
-    "intent": "diem_M",
-    "intent_prediction": {
-      "name": "diem_W",
-      "confidence": 0.4775516390800476
-    }
-  },
-  {
-    "text": "bạn hãy cho tôi biết thông tin chi tiết về điểm I đối với sinh viên",
-    "intent": "diem_I",
-    "intent_prediction": {
-      "name": "diem_W",
-      "confidence": 0.4848625659942627
-    }
-  },
-  {
-    "text": "bạn hãy cho tôi biết thi cuối kỳ chung hay riêng",
-    "intent": "to_chuc_thi_CK",
-    "intent_prediction": {
-      "name": "so_lan_thi_CK",
-      "confidence": 0.624514639377594
+      "confidence": 0.6602240204811096
     }
   },
   {
@@ -236,103 +36,7 @@
     "intent": "to_chuc_thi_CK",
     "intent_prediction": {
       "name": "so_lan_thi_CK",
-      "confidence": 0.9275752305984497
-    }
-  },
-  {
-    "text": "tôi muốn biết không thi cuối kỳ thì sẽ ra sao",
-    "intent": "vang_thi_CK",
-    "intent_prediction": {
-      "name": "so_lan_thi_CK",
-      "confidence": 0.5079175233840942
-    }
-  },
-  {
-    "text": "bạn hãy cho tôi biết thông tin về xếp loại khen thưởng",
-    "intent": "xep_loai_khen_thuong",
-    "intent_prediction": {
-      "name": "khen_thuong",
-      "confidence": 0.39959147572517395
-    }
-  },
-  {
-    "text": "tôi không biết là học bao nhiêu chỉ thì được xếp loại khen thưởng",
-    "intent": "xep_loai_khen_thuong",
-    "intent_prediction": {
-      "name": "khen_thuong",
-      "confidence": 0.36993300914764404
-    }
-  },
-  {
-    "text": "tôi muốn biết thông tin về xếp loại khen thưởng",
-    "intent": "xep_loai_khen_thuong",
-    "intent_prediction": {
-      "name": "khen_thuong",
-      "confidence": 0.4761055111885071
-    }
-  },
-  {
-    "text": "tôi muốn tìm hiểu thông tin về xếp loại khen thưởng",
-    "intent": "xep_loai_khen_thuong",
-    "intent_prediction": {
-      "name": "khen_thuong",
-      "confidence": 0.39694979786872864
-    }
-  },
-  {
-    "text": "tôi muốn hỏi thông tin về xếp loại khen thưởng",
-    "intent": "xep_loai_khen_thuong",
-    "intent_prediction": {
-      "name": "khen_thuong",
-      "confidence": 0.43413594365119934
-    }
-  },
-  {
-    "text": "điểm đánh giá học phần là gì",
-    "intent": "ask_course_score",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.7745703458786011
-    }
-  },
-  {
-    "text": "cách đánh giá điểm học phần",
-    "intent": "ask_course_score",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.6833805441856384
-    }
-  },
-  {
-    "text": "Dư Đái Đan Đàm",
-    "intent": "give_comment_name",
-    "intent_prediction": {
-      "name": "hd_dang_nhap_email_android",
-      "confidence": 0.07645215094089508
-    }
-  },
-  {
-    "text": "tôi nghĩ các bạn nên xem lại dịch vụ của bạn chán cực",
-    "intent": "give_comment_content",
-    "intent_prediction": {
-      "name": "hd_classroom_nop_bai",
-      "confidence": 0.14508791267871857
-    }
-  },
-  {
-    "text": "nên xem lại trường chán cực không thể tả được",
-    "intent": "give_comment_content",
-    "intent_prediction": {
-      "name": "hd_classroom_nop_bai",
-      "confidence": 0.1691543012857437
-    }
-  },
-  {
-    "text": "là như thế này nè Bot của các bạn ngu không thể tả được",
-    "intent": "give_comment_content",
-    "intent_prediction": {
-      "name": "praise",
-      "confidence": 0.11076147109270096
+      "confidence": 0.5983655452728271
     }
   },
   {
@@ -340,159 +44,7 @@
     "intent": "ask_comment_replay",
     "intent_prediction": {
       "name": "ask_comment",
-      "confidence": 0.4433632493019104
-    }
-  },
-  {
-    "text": "xem góp ý",
-    "intent": "ask_comment_replay",
-    "intent_prediction": {
-      "name": "ask_comment",
-      "confidence": 0.5228793025016785
-    }
-  },
-  {
-    "text": "xem góp ý cái bot",
-    "intent": "ask_comment_replay",
-    "intent_prediction": {
-      "name": "ask_comment",
-      "confidence": 0.43807661533355713
-    }
-  },
-  {
-    "text": "đánh giá học phần lý thuyết là gì thế bot",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.488729327917099
-    }
-  },
-  {
-    "text": "đánh giá học phần lý thuyết là như thế nào hả bot",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.5101063251495361
-    }
-  },
-  {
-    "text": "đánh giá học phần lý thuyết ra làm sao vậy bot",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.5994830131530762
-    }
-  },
-  {
-    "text": "tôi muốn biết thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4185678958892822
-    }
-  },
-  {
-    "text": "tôi muốn hỏi thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4104575514793396
-    }
-  },
-  {
-    "text": "tôi muốn tìm hiểu thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.45236390829086304
-    }
-  },
-  {
-    "text": "tôi muốn xem thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4263002276420593
-    }
-  },
-  {
-    "text": "hãy nói cho tôi biết thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.42614230513572693
-    }
-  },
-  {
-    "text": "hãy nói cho tôi thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4537447690963745
-    }
-  },
-  {
-    "text": "hãy nói cho tôi xem tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.5072526335716248
-    }
-  },
-  {
-    "text": "hãy nói cho tôi hỏi thông tin về đánh giá học phần lý thuyết",
-    "intent": "danh_gia_HP_ly_thuyet",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4206608235836029
-    }
-  },
-  {
-    "text": "tôi muốn tìm hiểu thông tin về đánh giá học phần thực hành",
-    "intent": "danh_gia_HP_thuc_hanh",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4299323260784149
-    }
-  },
-  {
-    "text": "tôi muốn xem thông tin về đánh giá học phần thực hành",
-    "intent": "danh_gia_HP_thuc_hanh",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.42777687311172485
-    }
-  },
-  {
-    "text": "hãy nói cho tôi biết thông tin về đánh giá học phần thực hành",
-    "intent": "danh_gia_HP_thuc_hanh",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.4183667302131653
-    }
-  },
-  {
-    "text": "hãy nói cho tôi hỏi thông tin về đánh giá học phần thực hành",
-    "intent": "danh_gia_HP_thuc_hanh",
-    "intent_prediction": {
-      "name": "danh_gia_HP",
-      "confidence": 0.41629746556282043
-    }
-  },
-  {
-    "text": "email bằng cách nào",
-    "intent": "hd_dang_nhap_email",
-    "intent_prediction": {
-      "name": "hd_chuyen_email",
-      "confidence": 0.5803973078727722
-    }
-  },
-  {
-    "text": "email bằng cách gì",
-    "intent": "hd_dang_nhap_email",
-    "intent_prediction": {
-      "name": "hd_chuyen_email",
-      "confidence": 0.6323548555374146
+      "confidence": 0.4449120759963989
     }
   }
 ]
