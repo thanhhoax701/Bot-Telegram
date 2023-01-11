@@ -402,7 +402,7 @@ responses:
     - text: "1. Kiến thức của mỗi học phần và toàn khóa học được đo lường bằng tín chỉ (TC). Thời lượng của TC được quy định như sau:
     1 TC = 15 tiết học lý thuyết và 30 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 30 tiết thực hành, thí nghiệm, thảo luận, seminar,... và 15 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 45 tiết thực tập tại cơ sở, làm tiểu luận, bài tập lớn, đồ án, niên luận, tiểu luận tốt nghiệp, luận văn tốt nghiệp.\n
     2. Một tiết học được tính bằng 50 phút.\n
-    3. Khối lượng CTOT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTDT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.\n
+    3. Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTDT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_hoc_bong:
@@ -862,9 +862,9 @@ responses:
     - text: "Mời bạn cung cấp mã sinh viên (gồm 8 kí tự) để lấy thông tin về điểm."
 
   utter_greet:
-    - text: " Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ. 
-    \n  Đây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiểu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
-      Các lĩnh vực hỗ trợ trợ gồm:\n 1) Quy chế học vụ \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ \n 4) Góp ý\n....\n
+    - text: "Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ.\n
+    Đây là kết quả thử nghiệm của đề tài luận văn do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiệu trưởng trường CNTT&TT trực thuộc Đại học Cần Thơ.
+    Các lĩnh vực hỗ trợ gồm:\n 1) Quy chế học vụ; \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ; \n 4) Góp ý; \n....\n
     Mình tên là CTU Students Advisor. Mình có thể hỗ trợ nhanh với những yêu cầu dưới đây. Bạn cũng có thể đặt các câu hỏi ngắn gọn như “quy chế học vụ”, “bảo hiểm y tế”,… mình sẽ giải đáp ngay."
       buttons:
         - title: "Quy chế học vụ"
