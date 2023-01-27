@@ -28,6 +28,12 @@ pipeline:
    - name: FallbackClassifier
      threshold: 0.4
      ambiguity_threshold: 0.1
+#   - name: HFTransformersNLP
+#     model_weights: "vinai/phobert-base"
+#     model_name: "phobert"
+#   - name: LanguageModelTokenizer
+#   - name: LanguageModelFeaturizer
+#   - name: VietnameseTokenizer
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngrok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ngrok.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram-loi&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -40,6 +42,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu" />
+      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\tokenizers" />
+      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\featurizers\dense_featurizer" />
+      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\utils\hugging_face" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,6 +84,11 @@
       <workItem from="1673421378488" duration="2723000" />
       <workItem from="1674473307997" duration="345000" />
       <workItem from="1674784238628" duration="867000" />
+      <workItem from="1674785262657" duration="2706000" />
+      <workItem from="1674789576392" duration="176000" />
+      <workItem from="1674789974190" duration="178000" />
+      <workItem from="1674790209518" duration="1214000" />
+      <workItem from="1674791447431" duration="250000" />
     </task>
     <servers />
   </component>
