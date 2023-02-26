@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0b3l76og/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpi2q1ginc/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpi2q1ginc/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpp2kecw1s/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpp2kecw1s/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvbd3l_fr/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/checkpoint" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/ChatBot-Telegram (nguyen ven)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Learn-Programming/Python/Bot-Telegram-loi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu" />
@@ -92,6 +110,7 @@
       <workItem from="1676961860701" duration="46000" />
       <workItem from="1676961919475" duration="401000" />
       <workItem from="1676963226988" duration="107000" />
+      <workItem from="1677412441592" duration="4380000" />
     </task>
     <servers />
   </component>
