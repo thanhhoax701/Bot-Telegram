@@ -45,6 +45,7 @@ nlu:
     - hi bot
     - hi anh
     - hi bạn
+    - hi nhé
     - chào bạn
     - xin chào bot
     - xin chào kem
@@ -56,11 +57,13 @@ nlu:
     - xin chào nhé
     - start
     - astart
+    - qstart
+    - start
     - bstart
     - hello bot
     - ahello
     - bhello
-- intent: goodbye
+- intent: goodbye #check
   examples: |
     - tạm biệt
     - bye bye
@@ -76,7 +79,7 @@ nlu:
     - ok
     - okay
 
-- intent: thanks
+- intent: thanks #check
   examples: |
     - thanks
     - thanks bot
@@ -98,7 +101,7 @@ nlu:
     - đi à
 
 
-- intent: ask_name
+- intent: ask_name #check
   examples: |
     - bạn tên gì
     - tên gì
@@ -549,6 +552,10 @@ nlu:
     - học kỳ trường mình là sao
     - học kỳ là gì vậy
     - học kỳ
+    - học kỳ
+    - học kỳ
+    - học kỳ
+    - học kỳ
     - học kỳ ra sao
     - học kỳ ra làm sao
     - học kỳ là gì
@@ -751,6 +758,9 @@ nlu:
     - tôi muốn biết các mức học bổng
     - tôi cần thông tin chi tiết về học bổng của trường
     - học bổng
+    - học bổng là sao bot
+    - học bổng như nào hả
+    - học bổng gì thế bây
     - học bổng là như nào
     - học bổng ra sao
     - học bổng như thế nào
@@ -854,7 +864,6 @@ nlu:
     - quỹ hỗ trợ như nào hả bot
     - tôi muốn tìm hiểu thông tin về quỹ hỗ trợ
     - tôi muốn hỏi thông tin về quỹ hỗ trợ
-    - tôi muốn xem thông tin về học bổng
     - tôi muốn biết về quỹ hỗ trợ
     - tôi muốn hỏi về quỹ hỗ trợ
     - tôi muốn xem về quỹ hỗ trợ
@@ -930,7 +939,7 @@ nlu:
     - học phí bên mình như thế nào
     - học phí bên mình ra sao vậy bot
 
-- intent: info_bhyt #check
+- intent: info_bhyt
   examples: |
     - bạn hãy cho tôi biết thông tin về bảo hiểm y tế 
     - tôi không biết quy định về bảo hiểm y tế là như thế nào
@@ -1156,7 +1165,6 @@ nlu:
     - tôi muốn hỏi về tín chỉ học kỳ
     - tôi muốn biết thông tin về tín chỉ học kỳ
     - tín chỉ học kỳ là như thế nào vậy bot
-    - tối đa bao nhiêu tín chỉ học kỳ
     - tôi muốn hỏi về tín chỉ học kỳ
     - tín chỉ học kỳ là sao vậy bot
     - tôi muốn tìm hiểu về tín chỉ học kỳ
@@ -1189,6 +1197,8 @@ nlu:
     - hãy nói cho tôi xem về tín chỉ học kỳ là sao
     - hãy nói cho tôi xem về tín chỉ học kỳ như nào
     - hãy nói cho tôi xem về tín chỉ học kỳ ra sao
+
+#    - tối đa bao nhiêu tín chỉ học kỳ
 - intent: info_add_delete_HP
   examples: |
     - tôi muốn biết về lớp học phần
@@ -1470,16 +1480,23 @@ nlu:
     - hãy cho tôi xem thông tin về thôi học
 - intent: learn_2_chuong_trinh
   examples: |
-    - tôi muốn biết thông tin về việc học cùng lúc hai chương trình
-    - tôi muốn biết thông tin về việc học song song hai ngành
-    - muốn học hai ngành thì làm thế nào
+    - tôi muốn biết thông tin về việc học cùng lúc học hai chương trình
     - học hai chương trình là sao
     - học hai chương trình là gì
-    - làm thế nào để tôi học hai chương trình
     - học hai chương trình thì làm thế nào
     - làm thế nào để học được hai ngành cùng lúc
+    - học cùng lúc 2 chương trình là sao
+    - học cùng lúc 2 chương trình như thế nào
     - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình
-    - tôi muốn biết thông tin về việc học song song 2 ngành
+    - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình là sao
+    - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình là gì
+    - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình như nào
+    - tôi muốn biết thông tin về việc học cùng lúc 2 chương trình ra sao
+    - tôi muốn biết thông tin về việc học cùng lúc 2 ngành
+    - tôi muốn biết thông tin về việc học cùng lúc 2 ngành là sao
+    - tôi muốn biết thông tin về việc học cùng lúc 2 ngành là gì
+    - tôi muốn biết thông tin về việc học cùng lúc 2 ngành như nào
+    - tôi muốn biết thông tin về việc học cùng lúc 2 ngành ra sao
     - muốn học 2 ngành thì làm thế nào
     - học 2 chương trình là sao
     - học 2 chương trình là gì
@@ -1494,7 +1511,6 @@ nlu:
     - tôi muốn hỏi thông tin về học 2 ngành học
     - làm thế nào để tôi học 2 chương trình
     - học 2 chương trình thì làm thế nào
-    - làm thế nào để học được 2 ngành cùng lúc
     - học hai chương trình
     - học hai chương trình là sao
     - học hai chương trình như nào
@@ -1549,6 +1565,8 @@ nlu:
     - hãy nói cho tôi xem về học 2 chương trình như nào
     - hãy nói cho tôi xem về học 2 chương trình ra sao
 
+#
+#    - làm thế nào để tôi học hai chương trình
 - intent: dieu_kien_learn
   examples: |
     - tôi muốn biết thông tin về điều kiện học cùng lúc hai chương trình
@@ -1556,7 +1574,6 @@ nlu:
     - điều kiện học hai ngành như thế nào
     - điều kiện học hai chương trình là như thế nào
     - điều kiện học hai chương trình là gì
-    - làm thế nào để tôi học hai chương trình
     - điều kiện học hai chương trình thì như thế nào
     - điều kiện học hai ngành cùng lúc
     - tôi muốn biết thông tin về điều kiện học cùng lúc 2 chương trình
@@ -1573,7 +1590,6 @@ nlu:
     - tôi muốn hỏi thông tin về điều kiện học 2 chương trình
     - tôi muốn hỏi thông tin về điều kiện học hai chương trình
     - tôi muốn hỏi thông tin về điều kiện học 2 ngành học
-    - làm thế nào để tôi học 2 chương trình
     - điều kiện học 2 chương trình thì như thế nào
     - điều kiện học 2 ngành cùng lúc
     - điều kiện học hai chương trình
@@ -1584,6 +1600,9 @@ nlu:
     - điều kiện học 2 chương trình là sao
     - điều kiện học 2 chương trình thế nào
     - điều kiện học 2 chương trình gì thế
+
+#    - làm thế nào để tôi học hai chương trình
+#    - làm thế nào để tôi học 2 chương trình
 - intent: thu_tuc_learn
   examples: |
     - tôi muốn biết thông tin về thủ tục học hai chương trình
@@ -1748,6 +1767,45 @@ nlu:
     - hãy nói cho tôi xem về các vấn đề về thi là sao thế
     - hãy nói cho tôi xem về các vấn đề về thi như nào vậy
     - hãy nói cho tôi xem về các vấn đề về thi ra sao nè
+
+- intent: ask_course_score
+  examples: |
+    - tôi muốn hỏi về điểm học phần
+    - điểm học phần là gì
+    - điểm học phần là sao vậy
+    - điểm đánh giá học phần là gì
+    - cách đánh giá điểm học phần
+    - điểm học phần là như thế nào
+    - tôi muốn biết về điểm học phần
+    - điểm học phần là sao
+    - hãy cho tôi biết về điểm học phần
+    - điểm học phần ra làm sao
+    - tôi muốn hỏi về điểm học phần
+    - hãy nói cho tôi biết về điểm học phần
+    - hãy cho tôi biết thông tin về điểm học phần
+    - hãy cho tôi hỏi thông tin về điểm học phần
+    - hãy cho tôi biết về điểm học phần
+    - hãy cho tôi hỏi về điểm học phần
+    - cho tôi hỏi về điểm học phần
+    - cho tôi xem về điểm học phần
+    - cho tôi coi về điểm học phần
+    - cho tôi tìm hiểu về điểm học phần
+    - điểm học phần
+    - điểm học phần thế nào
+    - điểm học phần là sao thế bot
+    - điểm học phần ra sao bot
+    - điểm học phần là gì hả
+    - tôi muốn hỏi thông tin về điểm học phần được không bot
+    - tôi muốn biết thông tin về điểm học phần được không bot
+    - tôi muốn tìm hiểu thông tin về điểm học phần được không bot 
+    - tôi muốn coi thông tin về điểm học phần là sao
+    - tôi muốn xem thông tin về điểm học phần gì thế
+    - tôi muốn được biết thông tin về điểm học phần như nào   
+    - tôi muốn coi về điểm học phần là sao
+    - tôi muốn xem về điểm học phần gì thế
+    - tôi muốn được biết về điểm học phần như nào
+    - tôi muốn hỏi về điểm học phần được không bot
+
 - intent: diem_M
   examples: |
     - bạn/em/anh hãy cho tôi biết thông tin về điểm M
@@ -1888,11 +1946,10 @@ nlu:
     - hãy nói cho tôi xem về cuối kỳ thi như nào vậy
     - hãy nói cho tôi xem về cuối kỳ thi ra sao nè
 
-- intent: to_chuc_thi_CK
+- intent: to_chuc_thi_CK #check tổ chức thi
   examples: |
     - anh hãy cho tôi biết thông tin về thời gian tổ chức thi cuối kỳ
     - bạn hãy cho tôi biết thi cuối kỳ chung hay riêng
-    - em muốn biết thi cuối kỳ như thế nào
     - bạn hãy cho tôi biết thông tin về cách tổ chức thi cuối kỳ
     - bạn hãy cho tôi biết giảng viên tự chọn ngày thi hay sinh viên
     - tôi không biết là thi cuối kỳ sẽ do ai sắp xếp
@@ -1922,36 +1979,6 @@ nlu:
     - hãy nói cho tôi xem về tổ chức thi cuối kỳ là sao
     - hãy nói cho tôi xem về tổ chức thi cuối kỳ như nào
     - hãy nói cho tôi xem về tổ chức thi cuối kỳ ra sao
-    - hãy nói cho tôi nghe về tổ chức cuối kỳ thi bot
-    - hãy nói cho tôi nghe về tổ chức cuối kỳ thi là gì thế bot
-    - hãy nói cho tôi nghe về tổ chức cuối kỳ thi là sao hả bot
-    - hãy nói cho tôi nghe về tổ chức cuối kỳ thi như nào vậy
-    - hãy nói cho tôi nghe về tổ chức cuối kỳ thi ra sao thế
-    - hãy nói cho tôi biết về tổ chức cuối kỳ thi gì thế bot
-    - hãy nói cho tôi biết về tổ chức cuối kỳ thi là gì bot
-    - hãy nói cho tôi biết về tổ chức cuối kỳ thi là sao nào bot
-    - hãy nói cho tôi biết về tổ chức cuối kỳ thi như nào hả bot
-    - hãy nói cho tôi biết về tổ chức cuối kỳ thi ra sao vậy
-    - hãy nói cho tôi xem về tổ chức cuối kỳ thi thế nào
-    - hãy nói cho tôi xem về tổ chức cuối kỳ thi là gì hả
-    - hãy nói cho tôi xem về tổ chức cuối kỳ thi là sao thế
-    - hãy nói cho tôi xem về tổ chức cuối kỳ thi như nào vậy
-    - hãy nói cho tôi xem về tổ chức cuối kỳ thi ra sao nè
-    - hãy nói cho tôi nghe về thi cuối kỳ tổ chức
-    - hãy nói cho tôi nghe về thi cuối kỳ tổ chức là gì
-    - hãy nói cho tôi nghe về thi cuối kỳ tổ chức là sao
-    - hãy nói cho tôi nghe về thi cuối kỳ tổ chức như nào
-    - hãy nói cho tôi nghe về thi cuối kỳ tổ chức ra sao
-    - hãy nói cho tôi biết về thi cuối kỳ tổ chức
-    - hãy nói cho tôi biết về thi cuối kỳ tổ chức là gì
-    - hãy nói cho tôi biết về thi cuối kỳ tổ chức là sao
-    - hãy nói cho tôi biết về thi cuối kỳ tổ chức như nào
-    - hãy nói cho tôi biết về thi cuối kỳ tổ chức ra sao
-    - hãy nói cho tôi xem về thi cuối kỳ tổ chức
-    - hãy nói cho tôi xem về thi cuối kỳ tổ chức là gì
-    - hãy nói cho tôi xem về thi cuối kỳ tổ chức là sao
-    - hãy nói cho tôi xem về thi cuối kỳ tổ chức như nào
-    - hãy nói cho tôi xem về thi cuối kỳ tổ chức ra sao
     - hãy nói cho tôi nghe về cuối kỳ thi tổ chức bot
     - hãy nói cho tôi nghe về cuối kỳ thi tổ chức là gì thế bot
     - hãy nói cho tôi nghe về cuối kỳ thi tổ chức là sao hả bot
@@ -1973,7 +2000,6 @@ nlu:
     - tôi muốn biết vắng thi cuối kỳ có sao không
     - bạn hãy cho tôi biết hậu quả khi vắng thi
     - bạn có thể cho mình biết hậu quả khi vắng thi kết thúc học phần
-    - tôi muốn biết không thi cuối kỳ thì sẽ ra sao
     - tôi muốn biết không thi kết thúc học phần thì sẽ ra sao
     - vắng thi thì sao
     - vắng thi bị gì
@@ -2189,7 +2215,6 @@ nlu:
     - điểm trung bình chung năm học ra làm sao bot
     - điểm trung bình chung năm học như nào vậy
     - điểm trung bình chung năm học là thế nào hả
-
     - hãy giải thích giúp tôi về điểm trung bình chung năm học
     - hay nói cho tôi biết về điểm trung bình chung năm học
     - hãy nói cho tôi nghe về điểm trung bình chung năm học
@@ -2377,7 +2402,7 @@ nlu:
     - loại giỏi là sao
     - loại giỏi là sao thế bot
     - loại giỏi là gì vậy bot
-- intent: loai_kha
+- intent: loai_kha # check trùng khen
   examples: |
     - tôi/em muốn biết là loại khá thì được gì
     - bạn hãy cho tôi biết cách để được loại khá thì như thế nào
@@ -2723,6 +2748,8 @@ nlu:
     - hãy nói cho tôi xem về trình độ năm học là sao thế
     - hãy nói cho tôi xem về trình độ năm học như nào vậy
     - hãy nói cho tôi xem về trình độ năm học ra sao nè
+
+#- em muốn biết thi cuối kỳ như thế nào
 # XÉT VÀ CÔNG NHẬN TỐT NGHIỆP
 - intent: ask_tot_nghiep
   examples: |
@@ -2776,28 +2803,14 @@ nlu:
     - tôi muốn biết thông tin về điều kiện tốt nghiệp là sao
     - tôi muốn biết thông tin về điều kiện tốt nghiệp là gì thế
     - tôi muốn biết thông tin về điều kiện tốt nghiệp như nào
-    - tôi muốn biết thông tin về điều kiện tốt nghiệp ra sao
-    - tôi muốn biết thông tin về điều kiện tốt nghiệp thế nào
-    - tôi muốn biết thông tin về điều kiện tốt nghiệp như thế nào
-    - tôi muốn xem thông tin về điều kiện tốt nghiệp
-    - tôi muốn xem thông tin về điều kiện tốt nghiệp là sao
-    - tôi muốn xem thông tin về điều kiện tốt nghiệp là gì thế
-    - tôi muốn xem thông tin về điều kiện tốt nghiệp như nào
     - tôi muốn xem thông tin về điều kiện tốt nghiệp ra sao
     - tôi muốn xem thông tin về điều kiện tốt nghiệp thế nào
     - tôi muốn xem thông tin về điều kiện tốt nghiệp như thế nào
     - tôi muốn coi thông tin về điều kiện tốt nghiệp
     - tôi muốn coi thông tin về điều kiện tốt nghiệp là sao
-    - tôi muốn coi thông tin về điều kiện tốt nghiệp là gì thế
-    - tôi muốn coi thông tin về điều kiện tốt nghiệp như nào
-    - tôi muốn coi thông tin về điều kiện tốt nghiệp ra sao
     - tôi muốn coi thông tin về điều kiện tốt nghiệp thế nào
     - tôi muốn coi thông tin về điều kiện tốt nghiệp như thế nào
     - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp
-    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp là sao
-    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp là gì thế
-    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp như nào
-    - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp ra sao
     - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp thế nào
     - tôi muốn tìm hiểu thông tin về điều kiện tốt nghiệp như thế nào
     - điều kiện tốt nghiệp là gì vậy
@@ -2830,34 +2843,6 @@ nlu:
     - cho tôi xem về điều kiện tốt nghiệp là gì
     - cho tôi xem về điều kiện tốt nghiệp là sao
     - cho tôi xem về điều kiện tốt nghiệp như nào
-    - cho tôi xem về điều kiện tốt nghiệp ra sao
-    - cho tôi coi về điều kiện tốt nghiệp
-    - cho tôi coi về điều kiện tốt nghiệp là gì
-    - cho tôi coi về điều kiện tốt nghiệp là sao
-    - cho tôi coi về điều kiện tốt nghiệp như nào
-    - cho tôi coi về điều kiện tốt nghiệp ra sao
-    - cho tôi nghe về điều kiện tốt nghiệp bot
-    - cho tôi nghe về điều kiện tốt nghiệp là gì thế bot
-    - cho tôi nghe về điều kiện tốt nghiệp là sao hả bot
-    - cho tôi nghe về điều kiện tốt nghiệp như nào vậy
-    - cho tôi nghe về điều kiện tốt nghiệp ra sao thế
-    - cho tôi biết về điều kiện tốt nghiệp gì thế bot
-    - cho tôi biết về điều kiện tốt nghiệp là gì bot
-    - cho tôi biết về điều kiện tốt nghiệp là sao nào bot
-    - cho tôi biết về điều kiện tốt nghiệp như nào hả bot
-    - cho tôi biết về điều kiện tốt nghiệp ra sao vậy
-    - cho tôi xem về điều kiện tốt nghiệp thế nào
-    - cho tôi xem về điều kiện tốt nghiệp là gì hả
-    - cho tôi xem về điều kiện tốt nghiệp là sao thế
-    - cho tôi xem về điều kiện tốt nghiệp như nào vậy
-    - cho tôi xem về điều kiện tốt nghiệp ra sao nè
-    - cho tôi coi về điều kiện tốt nghiệp thế nào
-    - cho tôi coi về điều kiện tốt nghiệp là gì hả
-    - cho tôi coi về điều kiện tốt nghiệp là sao thế
-    - cho tôi coi về điều kiện tốt nghiệp như nào vậy
-    - cho tôi coi về điều kiện tốt nghiệp ra sao nè
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp là gì
     - hãy nói cho tôi nghe về điều kiện tốt nghiệp là sao
     - hãy nói cho tôi nghe về điều kiện tốt nghiệp như nào
     - hãy nói cho tôi nghe về điều kiện tốt nghiệp ra sao
@@ -2872,14 +2857,6 @@ nlu:
     - hãy nói cho tôi xem về điều kiện tốt nghiệp như nào
     - hãy nói cho tôi xem về điều kiện tốt nghiệp ra sao
     - hãy nói cho tôi nghe về điều kiện tốt nghiệp bot
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp là sao hả bot
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp như nào vậy
-    - hãy nói cho tôi nghe về điều kiện tốt nghiệp ra sao thế
-    - hãy nói cho tôi biết về điều kiện tốt nghiệp gì thế bot
-    - hãy nói cho tôi biết về điều kiện tốt nghiệp là gì bot
-    - hãy nói cho tôi biết về điều kiện tốt nghiệp là sao nào bot
-    - hãy nói cho tôi biết về điều kiện tốt nghiệp như nào hả bot
     - hãy nói cho tôi biết về điều kiện tốt nghiệp ra sao vậy
     - hãy nói cho tôi xem về điều kiện tốt nghiệp thế nào
     - hãy nói cho tôi xem về điều kiện tốt nghiệp là gì hả
@@ -2888,28 +2865,6 @@ nlu:
     - hãy nói cho tôi xem về điều kiện tốt nghiệp ra sao nè
     - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp
     - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp là gì
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp là sao
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp như nào
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp ra sao
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp là gì
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp là sao
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp như nào
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp ra sao
-    - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp
-    - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp là gì
-    - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp là sao
-    - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp như nào
-    - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp ra sao
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp bot
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp là sao hả bot
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp như nào vậy
-    - hãy nói cho tôi nghe về thông tin điều kiện tốt nghiệp ra sao thế
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp gì thế bot
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp là gì bot
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp là sao nào bot
-    - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp như nào hả bot
     - hãy nói cho tôi biết về thông tin điều kiện tốt nghiệp ra sao vậy
     - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp thế nào
     - hãy nói cho tôi xem về thông tin điều kiện tốt nghiệp là gì hả
@@ -2939,29 +2894,7 @@ nlu:
     - cho mình nghe về điều kiện tốt nghiệp bot
     - cho mình nghe về điều kiện tốt nghiệp là gì thế bot
     - cho mình nghe về điều kiện tốt nghiệp là sao hả bot
-    - cho mình nghe về điều kiện tốt nghiệp như nào vậy
-    - cho mình nghe về điều kiện tốt nghiệp ra sao thế
-    - cho mình biết về điều kiện tốt nghiệp gì thế bot
-    - cho mình biết về điều kiện tốt nghiệp là gì bot
-    - cho mình biết về điều kiện tốt nghiệp là sao nào bot
-    - cho mình biết về điều kiện tốt nghiệp như nào hả bot
-    - cho mình biết về điều kiện tốt nghiệp ra sao vậy
-    - cho mình xem về điều kiện tốt nghiệp thế nào
-    - cho mình xem về điều kiện tốt nghiệp là gì hả
-    - cho mình xem về điều kiện tốt nghiệp là sao thế
-    - cho mình xem về điều kiện tốt nghiệp như nào vậy
-    - cho mình xem về điều kiện tốt nghiệp ra sao nè
-    - cho mình coi về điều kiện tốt nghiệp thế nào
-    - cho mình coi về điều kiện tốt nghiệp là gì hả
-    - cho mình coi về điều kiện tốt nghiệp là sao thế
-    - cho mình coi về điều kiện tốt nghiệp như nào vậy
-    - cho mình coi về điều kiện tốt nghiệp ra sao nè
-    - cho mình coi về điều kiện tốt nghiệp thế nào bot
-    - cho mình coi về điều kiện tốt nghiệp là gì hả bot
-    - cho mình coi về điều kiện tốt nghiệp là sao thế bot
-    - cho mình coi về điều kiện tốt nghiệp như nào vậy bây
-    - cho mình coi về điều kiện tốt nghiệp ra sao hả
-- intent: thoi_gian_tot_nghiep
+- intent: thoi_gian_tot_nghiep  #check
   examples: |
     - bạn có thể cho mình biết thời gian tốt nghiệp
     - tôi muốn biết về thời gian tốt nghiệp vào tháng mấy
@@ -3002,47 +2935,12 @@ nlu:
     - hãy nói cho tôi nghe về thời gian tốt nghiệp ra sao
     - hãy nói cho tôi biết về thời gian tốt nghiệp
     - hãy nói cho tôi biết về thời gian tốt nghiệp là gì
-    - hãy nói cho tôi biết về thời gian tốt nghiệp là sao
-    - hãy nói cho tôi biết về thời gian tốt nghiệp như nào
-    - hãy nói cho tôi biết về thời gian tốt nghiệp ra sao
-    - hãy nói cho tôi xem về thời gian tốt nghiệp
-    - hãy nói cho tôi xem về thời gian tốt nghiệp là gì
-    - hãy nói cho tôi xem về thời gian tốt nghiệp là sao
-    - hãy nói cho tôi xem về thời gian tốt nghiệp như nào
-    - hãy nói cho tôi xem về thời gian tốt nghiệp ra sao
-    - hãy nói cho tôi nghe về thời gian tốt nghiệp bot
-    - hãy nói cho tôi nghe về thời gian tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về thời gian tốt nghiệp là sao hả bot
-    - hãy nói cho tôi nghe về thời gian tốt nghiệp như nào vậy
     - hãy nói cho tôi nghe về thời gian tốt nghiệp ra sao thế
     - hãy nói cho tôi biết về thời gian tốt nghiệp gì thế bot
     - hãy nói cho tôi biết về thời gian tốt nghiệp là gì bot
     - hãy nói cho tôi biết về thời gian tốt nghiệp là sao nào bot
     - hãy nói cho tôi biết về thời gian tốt nghiệp như nào hả bot
     - hãy nói cho tôi biết về thời gian tốt nghiệp ra sao vậy
-    - hãy nói cho tôi xem về thời gian tốt nghiệp thế nào
-    - hãy nói cho tôi xem về thời gian tốt nghiệp là gì hả
-    - hãy nói cho tôi xem về thời gian tốt nghiệp là sao thế
-    - hãy nói cho tôi xem về thời gian tốt nghiệp như nào vậy
-    - hãy nói cho tôi xem về thời gian tốt nghiệp ra sao nè
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp là gì
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp là sao
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp như nào
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp ra sao
-    - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp
-    - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp là gì
-    - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp là sao
-    - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp như nào
-    - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp ra sao
-    - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp
-    - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp là gì
-    - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp là sao
-    - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp như nào
-    - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp ra sao
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp bot
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp là sao hả bot
     - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp như nào vậy
     - hãy nói cho tôi nghe về thông tin thời gian tốt nghiệp ra sao thế
     - hãy nói cho tôi biết về thông tin thời gian tốt nghiệp gì thế bot
@@ -3056,7 +2954,7 @@ nlu:
     - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp như nào vậy
     - hãy nói cho tôi xem về thông tin thời gian tốt nghiệp ra sao nè
 
-- intent: qua_han_tot_nghiep
+- intent: qua_han_tot_nghiep #check
   examples: |
     - tôi muốn biết thông tin về quá hạn
     - tôi muốn biết thông tin về quá hạn là sao
@@ -3075,37 +2973,6 @@ nlu:
     - hãy nói cho tôi nghe về quá hạn
     - hãy nói cho tôi nghe về quá hạn là gì
     - hãy nói cho tôi nghe về quá hạn là sao
-    - hãy nói cho tôi nghe về quá hạn như nào
-    - hãy nói cho tôi nghe về quá hạn ra sao
-    - hãy nói cho tôi biết về quá hạn
-    - hãy nói cho tôi biết về quá hạn là gì
-    - hãy nói cho tôi biết về quá hạn là sao
-    - hãy nói cho tôi biết về quá hạn như nào
-    - hãy nói cho tôi biết về quá hạn ra sao
-    - hãy nói cho tôi xem về quá hạn
-    - hãy nói cho tôi xem về quá hạn là gì
-    - hãy nói cho tôi xem về quá hạn là sao
-    - hãy nói cho tôi xem về quá hạn như nào
-    - hãy nói cho tôi xem về quá hạn ra sao
-    - hãy nói cho tôi nghe về quá hạn bot
-    - hãy nói cho tôi xem về thông tin quá hạn
-    - hãy nói cho tôi xem về thông tin quá hạn là gì
-    - hãy nói cho tôi xem về thông tin quá hạn là sao
-    - hãy nói cho tôi xem về thông tin quá hạn như nào
-    - hãy nói cho tôi xem về thông tin quá hạn ra sao
-    - hãy nói cho tôi nghe về thông tin quá hạn bot
-    - hãy nói cho tôi nghe về thông tin quá hạn là gì thế bot
-    - hãy nói cho tôi nghe về thông tin quá hạn là sao hả bot
-    - hãy nói cho tôi nghe về thông tin quá hạn như nào vậy
-    - hãy nói cho tôi nghe về thông tin quá hạn ra sao thế
-    - hãy nói cho tôi biết về thông tin quá hạn gì thế bot
-    - hãy nói cho tôi biết về thông tin quá hạn là gì bot
-    - hãy nói cho tôi biết về thông tin quá hạn là sao nào bot
-    - hãy nói cho tôi biết về thông tin quá hạn như nào hả bot
-    - hãy nói cho tôi biết về thông tin quá hạn ra sao vậy
-    - hãy nói cho tôi xem về thông tin quá hạn thế nào
-    - hãy nói cho tôi xem về thông tin quá hạn là gì hả
-    - hãy nói cho tôi xem về thông tin quá hạn là sao thế
     - hãy nói cho tôi xem về thông tin quá hạn như nào vậy
     - hãy nói cho tôi xem về thông tin quá hạn ra sao nè
     - bạn hãy cho tôi biết khi quá hạn tốt nghiệp thì có bị sao không
@@ -3123,23 +2990,9 @@ nlu:
     - tôi muốn biết về quá hạn tốt nghiệp
     - tôi muốn biết thông tin về quá hạn tốt nghiệp
     - tôi muốn biết thông tin về quá hạn tốt nghiệp là sao
-    - tôi muốn biết thông tin về quá hạn tốt nghiệp là gì thế
-    - tôi muốn biết thông tin về quá hạn tốt nghiệp như nào
-    - tôi muốn biết thông tin về quá hạn tốt nghiệp ra sao
     - tôi muốn biết thông tin về quá hạn tốt nghiệp thế nào
-    - tôi muốn biết thông tin về quá hạn tốt nghiệp như thế nào
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp là sao
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp là gì thế
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp như nào
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp ra sao
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp thế nào
-    - tôi muốn xem thông tin về quá hạn tốt nghiệp như thế nào
     - tôi muốn coi thông tin về quá hạn tốt nghiệp
     - tôi muốn coi thông tin về quá hạn tốt nghiệp là sao
-    - tôi muốn coi thông tin về quá hạn tốt nghiệp là gì thế
-    - tôi muốn coi thông tin về quá hạn tốt nghiệp như nào
-    - tôi muốn coi thông tin về quá hạn tốt nghiệp ra sao
     - tôi muốn coi thông tin về quá hạn tốt nghiệp thế nào
     - tôi muốn coi thông tin về quá hạn tốt nghiệp như thế nào
     - quá hạn tốt nghiệp là gì vậy
@@ -3160,28 +3013,6 @@ nlu:
     - quá hạn tốt nghiệp ra thế nào hả
     - quá hạn tốt nghiệp là gì thế bot
     - hãy nói cho tôi nghe về quá hạn tốt nghiệp
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp là gì
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp là sao
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp như nào
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp là gì
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp là sao
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp như nào
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi xem về quá hạn tốt nghiệp
-    - hãy nói cho tôi xem về quá hạn tốt nghiệp là gì
-    - hãy nói cho tôi xem về quá hạn tốt nghiệp là sao
-    - hãy nói cho tôi xem về quá hạn tốt nghiệp như nào
-    - hãy nói cho tôi xem về quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp bot
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp là sao hả bot
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp như nào vậy
-    - hãy nói cho tôi nghe về quá hạn tốt nghiệp ra sao thế
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp gì thế bot
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp là gì bot
-    - hãy nói cho tôi biết về quá hạn tốt nghiệp là sao nào bot
     - hãy nói cho tôi biết về quá hạn tốt nghiệp như nào hả bot
     - hãy nói cho tôi biết về quá hạn tốt nghiệp ra sao vậy
     - hãy nói cho tôi xem về quá hạn tốt nghiệp thế nào
@@ -3194,23 +3025,6 @@ nlu:
     - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp là sao
     - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp như nào
     - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp là gì
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp là sao
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp như nào
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi xem về thông tin quá hạn tốt nghiệp
-    - hãy nói cho tôi xem về thông tin quá hạn tốt nghiệp là gì
-    - hãy nói cho tôi xem về thông tin quá hạn tốt nghiệp là sao
-    - hãy nói cho tôi xem về thông tin quá hạn tốt nghiệp như nào
-    - hãy nói cho tôi xem về thông tin quá hạn tốt nghiệp ra sao
-    - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp bot
-    - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp là gì thế bot
-    - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp là sao hả bot
-    - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp như nào vậy
-    - hãy nói cho tôi nghe về thông tin quá hạn tốt nghiệp ra sao thế
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp gì thế bot
-    - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp là gì bot
     - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp là sao nào bot
     - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp như nào hả bot
     - hãy nói cho tôi biết về thông tin quá hạn tốt nghiệp ra sao vậy
@@ -3226,35 +3040,8 @@ nlu:
     - cho tôi nghe về quá hạn tốt nghiệp ra sao thế
     - cho tôi biết về quá hạn tốt nghiệp gì thế bot
     - cho tôi biết về quá hạn tốt nghiệp là gì bot
-    - cho tôi biết về quá hạn tốt nghiệp là sao nào bot
-    - cho tôi biết về quá hạn tốt nghiệp như nào hả bot
-    - cho tôi biết về quá hạn tốt nghiệp ra sao vậy
-    - cho tôi xem về quá hạn tốt nghiệp thế nào
-    - cho tôi xem về quá hạn tốt nghiệp là gì hả
-    - cho tôi xem về quá hạn tốt nghiệp là sao thế
-    - cho tôi xem về quá hạn tốt nghiệp như nào vậy
-    - cho tôi xem về quá hạn tốt nghiệp ra sao nè
-    - cho tôi coi về quá hạn tốt nghiệp thế nào
-    - cho tôi coi về quá hạn tốt nghiệp là gì hả
-    - cho tôi coi về quá hạn tốt nghiệp là sao thế
-    - cho tôi coi về quá hạn tốt nghiệp như nào vậy
-    - cho tôi coi về quá hạn tốt nghiệp ra sao nè
-    - cho tôi nghe về thông tin quá hạn tốt nghiệp bot
-    - cho tôi nghe về thông tin quá hạn tốt nghiệp là gì thế bot
-    - cho tôi nghe về thông tin quá hạn tốt nghiệp là sao hả bot
-    - cho tôi nghe về thông tin quá hạn tốt nghiệp như nào vậy
     - cho tôi nghe về thông tin quá hạn tốt nghiệp ra sao thế
     - cho tôi biết về thông tin quá hạn tốt nghiệp gì thế bot
-    - cho tôi biết về thông tin quá hạn tốt nghiệp là gì bot
-    - cho tôi biết về thông tin quá hạn tốt nghiệp là sao nào bot
-    - cho tôi biết về thông tin quá hạn tốt nghiệp như nào hả bot
-    - cho tôi biết về thông tin quá hạn tốt nghiệp ra sao vậy
-    - cho tôi xem về thông tin quá hạn tốt nghiệp thế nào
-    - cho tôi xem về thông tin quá hạn tốt nghiệp là gì hả
-    - cho tôi xem về thông tin quá hạn tốt nghiệp là sao thế
-    - cho tôi xem về thông tin quá hạn tốt nghiệp như nào vậy
-    - cho tôi xem về thông tin quá hạn tốt nghiệp ra sao nè
-    - cho tôi coi về thông tin quá hạn tốt nghiệp thế nào
     - cho tôi coi về thông tin quá hạn tốt nghiệp là gì hả
     - cho tôi coi về thông tin quá hạn tốt nghiệp là sao thế
     - cho tôi coi về thông tin quá hạn tốt nghiệp như nào vậy
@@ -3388,6 +3175,51 @@ nlu:
     - thủ tục nhập học ra làm sao
 
 
+########## hoi nganh
+- intent: give_majors_code
+  examples: |
+    - Tôi muốn hỏi về ngành [An toàn thông tin](majors_code) có dạy không
+    - ngành [Truyền thông đa phương tiện](majors_code) không
+    - trường mình có ngành [Khoa học máy tính](majors_code) không
+    - trường mình có ngành [Công nghệ thông tin](majors_code) không hả
+    - trường mình có ngành [Kỹ thuật phần mềm](majors_code) không bot
+    - trường mình có ngành [Kỹ thuật máy tính](majors_code) không thế
+    - ngành [Kỹ thuật máy tính](majors_code) có không
+    - ngành [Mạng máy tính](majors_code) có không
+    - ngành [Mạng máy tính và truyền thông dữ liệu](majors_code) có không
+    - ngành [Hệ thống thông tin](majors_code) có không
+    - ngành [Công nghệ thông tin](majors_code) có không
+    - đại học cần thơ có ngành [Mạng máy tính và truyền thông dữ liệu](majors_code) không
+    - đại học cần thơ có ngành [Hệ thống thông tin](majors_code) không
+    - đại học cần thơ có ngành [An toàn thông tin](majors_code) không
+    - đại học cần thơ có ngành [Kỹ thuật máy tính](majors_code) không
+    - đại học cần thơ có ngành [Công nghệ thông tin](majors_code) không
+    - trường có ngành [Kỹ thuật phần mềm] không vậy
+    - trường mình có ngành [Hệ thống thông tin]
+    - ngành [Công nghệ thông tin] có trong trường không thế
+- intent: ask_majors_point
+  examples: |
+    - Trường mình năm rồi lấy bao nhiêu điểm vậy
+    - Trường mình năm trước lấy bao nhiêu điểm vậy hả
+    - Trường mình năm rồi là lấy bao nhiêu điểm vậy bot
+    - Ngành này năm vừa rồi bao nhiêu điểm
+    - điểm ngành này năm rồi bao nhiêu điểm
+    - điểm ngành này năm trước là nhiêu
+    - điểm ngành này năm 2022
+    - điểm ngành này năm trước là bao nhiêu
+    - ngành này năm trước lấy bao nhiêu điểm
+    - năm trước lấy bao nhiêu điểm vậy
+    - năm trước bao nhiêu điểm
+    - ngành này năm trước bao nhiêu điểm
+    - ngành này trước bao nhiêu điểm
+    - ngành này năm 2022 là bao nhiêu
+    - năm trước ngành này lấy bao nhiêu điểm vậy
+    - thế ngành này năm vừa rồi bao nhiêu điểm vậy
+    - thế ngành này năm vừa rồi bao nhiêu điểm
+    - thế ngành này năm vừa rồi bao nhiêu điểm vậy bot
+    - thế ngành này năm vừa rồi bao nhiêu điểm thế hả
+    - thế ngành này năm vừa rồi bao nhiêu điểm hả bot
+####################
 - regex: student_code
   examples: |
     - \d{8,9}
@@ -3735,44 +3567,8 @@ nlu:
     - [b2402345](student_code)
     - [b2304567](student_code)
     - [b2206789](student_code)
-###########################
-- intent: ask_course_score
-  examples: |
-    - tôi muốn hỏi về điểm học phần
-    - điểm học phần là gì
-    - điểm học phần là sao vậy
-    - điểm đánh giá học phần là gì
-    - cách đánh giá điểm học phần
-    - điểm học phần là như thế nào
-    - tôi muốn biết về điểm học phần
-    - điểm học phần là sao
-    - hãy cho tôi biết về điểm học phần
-    - điểm học phần ra làm sao
-    - tôi muốn hỏi về điểm học phần
-    - hãy nói cho tôi biết về điểm học phần
-    - hãy cho tôi biết thông tin về điểm học phần
-    - hãy cho tôi hỏi thông tin về điểm học phần
-    - hãy cho tôi biết về điểm học phần
-    - hãy cho tôi hỏi về điểm học phần
-    - cho tôi hỏi về điểm học phần
-    - cho tôi xem về điểm học phần
-    - cho tôi coi về điểm học phần
-    - cho tôi tìm hiểu về điểm học phần
-    - điểm học phần
-    - điểm học phần thế nào
-    - điểm học phần là sao thế bot
-    - điểm học phần ra sao bot
-    - điểm học phần là gì hả
-    - tôi muốn hỏi thông tin về điểm học phần được không bot
-    - tôi muốn biết thông tin về điểm học phần được không bot
-    - tôi muốn tìm hiểu thông tin về điểm học phần được không bot 
-    - tôi muốn coi thông tin về điểm học phần là sao
-    - tôi muốn xem thông tin về điểm học phần gì thế
-    - tôi muốn được biết thông tin về điểm học phần như nào   
-    - tôi muốn coi về điểm học phần là sao
-    - tôi muốn xem về điểm học phần gì thế
-    - tôi muốn được biết về điểm học phần như nào
-    - tôi muốn hỏi về điểm học phần được không bot
+##########################
+
 ######### gop y
 - intent: ask_comment
   examples: |
@@ -3781,19 +3577,31 @@ nlu:
     - tôi đóng góp góp ý như này nè
     - tôi đóng góp ý với nhà trường nè
     - tôi muốn góp ý như vầy nè
-    - tôi đóng góp góp ý như vầy nhà trường 
+    - tôi đóng góp góp ý như vầy nhà trường
     - tôi muốn góp ý như thế này
     - tôi đóng góp ý như thế này nhà trường
     - tôi muốn góp ý như thế này nè
     - tôi muốn góp ý như thế này nè trường
     - góp ý chút nhé
     - tôi muốn góp ý cái
+    - tôi muốn góp ý cái bot
+    - tôi muốn góp ý như này
+    - tôi muốn góp ý như này bot
+    - tôi muốn góp ý như này nè
+    - tôi muốn góp ý như này nè bot
+    - tôi muốn góp ý thế này
+    - tôi muốn góp ý với bot
+    - tôi muốn góp ý với bot như này
+    - tôi muốn góp ý bot như thế này
+    - góp ý cái
+    - góp ý như này
+    - góp ý thế này
     - góp ý nè
     - góp ý cái bot
     - góp ý như thế này
     - góp ý thế này nè
     - góp ý như này
-    - muốn góp 
+    - muốn góp
     - tôi muốn góp ý với trường
     - góp ý cái bạn
     - anh có ý kiến góp ý
@@ -3891,7 +3699,7 @@ nlu:
     - tên anh là [Lê Hoàng Thảo](student_name)
     - [Nguyễn Minh Trung](student_name)
     - tên tôi [Võ Huỳnh Trâm](student_name)
-    - tên chị là [Trương Minh Thái](student_name) 
+    - tên chị là [Trương Minh Thái](student_name)
     - [Huỳnh Xuân Hiệp](student_name)
     - tên anh là [Trương Thị Thanh Tuyền](student_name)
     - [Lâm Hoài Bảo](student_name)
@@ -3903,7 +3711,7 @@ nlu:
     - tên chị là [Hồ Quang Thái](student_name)
     - [Nguyễn Văn Linh](student_name)
     - [Trương Xuân Việt](student_name)
-    - [Cù Vĩnh Lộc](student_name)  
+    - [Cù Vĩnh Lộc](student_name)
     - [Ngô Quyền](student_name) em nhé
     - [Triệu Quang Phục](student_name)
     - [Đinh Bộ Lĩnh](student_name)
@@ -3915,7 +3723,7 @@ nlu:
     - [Trần Quốc Toản](student_name)
     - [Hồ Quý Ly](student_name)
     - tên tôi [Hồ Nguyên Trừng](student_name)
-    - tên chị là [Lê Lợi](student_name) 
+    - tên chị là [Lê Lợi](student_name)
     - [Lê Tư Thành](student_name)
     - tên anh là [Mạc Đăng Dung](student_name)
     - [Mạc Đăng Doanh](student_name)
@@ -3927,7 +3735,7 @@ nlu:
     - tên chị là [Tôn Thất Tùng](student_name)
     - [Tôn Đức Thắng](student_name)
     - [Phạm Tuân](student_name)
-    - [Hoàng Phủ Ngọc Tường](student_name)  
+    - [Hoàng Phủ Ngọc Tường](student_name)
     - [Phan Văn Tài Em](student_name) em nhé
     - [Nguyễn Phong Hồng Duy](student_name)
     - [Nguyễn Văn Toàn](student_name)
@@ -3941,7 +3749,7 @@ nlu:
     - [Lê Chân](student_name)
     - [Triệu Thị Trinh](student_name)
     - tên tôi [Lý Thiên Hinh](student_name)
-    - tên chị là [Nguyễn Thị Ngọc Bảo](student_name) 
+    - tên chị là [Nguyễn Thị Ngọc Bảo](student_name)
     - [Hồ Xuân Hương](student_name)
     - tên anh là [Lâm Thị Mỹ Dạ](student_name)
     - [Tôn Nữ Thị Ninh](student_name)
@@ -3953,7 +3761,7 @@ nlu:
     - tên chị là [Ấu Bá Bạc Bạch](student_name)
     - [Bàn Bàng Bành Bảo](student_name)
     - [Bế Bì Biện Bình](student_name)
-    - [Bồ Chriêng Ca Cà](student_name)  
+    - [Bồ Chriêng Ca Cà](student_name)
     - [Cái Cai Cam Cảnh](student_name) em nhé
     - [Cao Cáp Cát Cầm](student_name)
     - [Cấn Chế Chiêm Chu](student_name)
@@ -4027,8 +3835,234 @@ nlu:
     - [như hoài hồng cúc](student_name)
     - [đẹp ngọc bích hương](student_name)
     - [thảo vy lộc lam](student_name)
+
+
+- intent: give_comment_name
+  examples: |
+    - tên anh là [Nguyễn Phú Trọng](student_name)
+    - [Huỳnh Đại Thắng](student_name)
+    - tên tôi [Vương Đình Huệ](student_name)
+    - tên chị là [Nguyễn Thị Kim Ngân](student_name)
+    - [Đinh Lê Hoàng](student_name)
+    - [Võ Thị Hồng Anh](student_name)
+    - [Nguyễn Thái Luyện](student_name)
+    - [Nguyễn Xuân Phúc](student_name) em nhé
+    - [Nhân](student_name)
+    - [Trần Thanh Luyến](student_name)
+    - [trấn thành](student_name)
+    - [nguyễn văn phi](student_name)
+    - [phan thiệu huy](student_name)
+    - [trần hoài nhân](student_name)
+    - tên anh là [phan quang nghiêm](student_name)
+    - [ngô trọng phúc](student_name)
+    - tên tôi [dương tuấn kiệt](student_name)
+    - tên chị là [phan thị ngọc trâm](student_name)
+    - tên anh là [Nguyễn Phú Trọng](student_name)
+    - [Trần Thanh Hòa](student_name)
+    - tên tôi [Nguyễn dương thuận lợi](student_name)
+    - tên chị là [Ngô bá hùng](student_name)
+    - [Đỗ thanh nghị](student_name)
+    - [Nguyễn Hữu Hòa](student_name)
+    - [Nguyễn Nhị Gia Vinh](student_name)
+    - [Hồ Văn Tú](student_name) em nhé
+    - [Phạm Trương Hồng Ngân](student_name)
+    - [Trần Hoàng Việt](student_name)
+    - [Bùi Quốc Chính](student_name)
+    - [Vũ Duy Linh](student_name)
+    - [Nguyễn Đức Khoa](student_name)
+    - [Hoàng Minh Trí](student_name)
+    - tên anh là [Lê Thị Diễm](student_name)
+    - [Nguyễn Thị Thùy Linh](student_name)
+    - tên tôi [Huỳnh Phụng Toàn](student_name)
+    - tên chị là [Võ Hải Đăng](student_name)
+    - tên anh là [Nguyễn Công Huy](student_name)
+    - [Phạm Hữu Tài](student_name)
+    - tên tôi [Phan Thượng Cang](student_name)
+    - tên chị là [Trần Thanh Điền](student_name)
+    - [Lâm Chí Nguyện](student_name)
+    - [Nguyễn Cao Hồng Ngọc](student_name)
+    - [Hà Duy An](student_name)
+    - [Nguyễn Hữu Vân Long](student_name) em nhé
+    - [Triệu Thanh Ngoan](student_name)
+    - [Trần Thị Tố Quyên](student_name)
+    - [Lưu Trùng Dương](student_name)
+    - [Trần Thanh Điện](student_name)
+    - [Lê Quyết Thắng](student_name)
+    - [Đoàn Hòa Minh](student_name)
+    - tên anh là [Nguyễn Hồng Vân](student_name)
+    - [Nguyễn Trọng Nghĩa](student_name)
+    - tên tôi [Nguyễn Thái Nghe](student_name)
+    - tên chị là [Phan Tấn Tài](student_name)
+    - [Phạm Thị Ngọc Diễm](student_name)
+    - [Trương Quốc Định](student_name)
+    - [Trần Nguyễn Minh Thái](student_name)
+    - [Nguyễn Thanh Hải](student_name)
+    - tên anh là [Bùi Đăng Hà Phương](student_name)
+    - [Nguyễn Minh Khiêm](student_name)
+    - tên tôi [Phạm Ngọc Quyền](student_name)
+    - tên chị là [Phạm Thị Xuân Lộc](student_name)
+    - tên anh là [Lê Đức Thắng](student_name)
+    - [Mai Thị Cẩm Nhung](student_name)
+    - tên tôi [Phạm Thế Phi](student_name)
+    - tên chị là [Trần Công Án](student_name)
+    - [Trần Ngân Bình](student_name)
+    - [Lâm Nhựt Khang](student_name)
+    - [Thái Minh Tuấn](student_name)
+    - [Bùi Võ Quốc Bảo](student_name) em nhé
+    - [Phạm Thị Xuân Diễm](student_name)
+    - [Nguyễn Ngọc Mỹ](student_name)
+    - [Trần Cao Đệ](student_name)
+    - [Lê Văn Lâm](student_name)
+    - [Trần Minh Hùng](student_name)
+    - [Trần Minh Tân](student_name)
+    - tên anh là [Lê Hoàng Thảo](student_name)
+    - [Nguyễn Minh Trung](student_name)
+    - tên tôi [Võ Huỳnh Trâm](student_name)
+    - tên chị là [Trương Minh Thái](student_name)
+    - [Huỳnh Xuân Hiệp](student_name)
+    - tên anh là [Trương Thị Thanh Tuyền](student_name)
+    - [Lâm Hoài Bảo](student_name)
+    - tên tôi [Phan Huy Cường](student_name)
+    - tên chị là [Huỳnh Quang Nghi](student_name)
+    - tên anh là [Phan Phương Lan](student_name)
+    - [Nguyễn Công Danh](student_name)
+    - tên tôi [Trần Văn Hoàng](student_name)
+    - tên chị là [Hồ Quang Thái](student_name)
+    - [Nguyễn Văn Linh](student_name)
+    - [Trương Xuân Việt](student_name)
+    - [Cù Vĩnh Lộc](student_name)
+    - [Ngô Quyền](student_name) em nhé
+    - [Triệu Quang Phục](student_name)
+    - [Đinh Bộ Lĩnh](student_name)
+    - [Lê Hoàn](student_name)
+    - [Lý Công Uẩn](student_name)
+    - [Trần Thủ Độ](student_name)
+    - [Trần Cảnh](student_name)
+    - tên anh là [Trần Quốc Tuấn](student_name)
+    - [Trần Quốc Toản](student_name)
+    - [Hồ Quý Ly](student_name)
+    - tên tôi [Hồ Nguyên Trừng](student_name)
+    - tên chị là [Lê Lợi](student_name)
+    - [Lê Tư Thành](student_name)
+    - tên anh là [Mạc Đăng Dung](student_name)
+    - [Mạc Đăng Doanh](student_name)
+    - tên tôi [Trịnh Kiểm](student_name)
+    - tên chị là [Nguyễn Hoàng](student_name)
+    - tên anh là [Nguyễn Phúc Ánh](student_name)
+    - [Nguyễn Phúc Vĩnh San](student_name)
+    - tên tôi [Tôn Thất Thuyết](student_name)
+    - tên chị là [Tôn Thất Tùng](student_name)
+    - [Tôn Đức Thắng](student_name)
+    - [Phạm Tuân](student_name)
+    - [Hoàng Phủ Ngọc Tường](student_name)
+    - [Phan Văn Tài Em](student_name) em nhé
+    - [Nguyễn Phong Hồng Duy](student_name)
+    - [Nguyễn Văn Toàn](student_name)
+    - [Nguyễn Ngọc Trường Sơn](student_name)
+    - [Trần Lê Quốc Toàn](student_name)
+    - [Trương Văn Thái Quý](student_name)
+    - [Dương tuấn kiệt](student_name)
+    - [Trần Nam Long](student_name)
+    - [Bùi Hoàng Việt Anh](student_name)
+    - tên anh là [Trưng Trắc](student_name)
+    - [Lê Chân](student_name)
+    - [Triệu Thị Trinh](student_name)
+    - tên tôi [Lý Thiên Hinh](student_name)
+    - tên chị là [Nguyễn Thị Ngọc Bảo](student_name)
+    - [Hồ Xuân Hương](student_name)
+    - tên anh là [Lâm Thị Mỹ Dạ](student_name)
+    - [Tôn Nữ Thị Ninh](student_name)
+    - tên tôi [Nguyễn Doãn Cẩm Vân](student_name)
+    - tên chị là [Nguyễn Thị Ánh Viên](student_name)
+    - tên anh là [Bùi Nguyễn Diễm Phúc](student_name)
+    - [Ái An Anh Ao](student_name)
+    - tên tôi [Ánh Ân Âu Dương](student_name)
+    - tên chị là [Ấu Bá Bạc Bạch](student_name)
+    - [Bàn Bàng Bành Bảo](student_name)
+    - [Bế Bì Biện Bình](student_name)
+    - [Bồ Chriêng Ca Cà](student_name)
+    - [Cái Cai Cam Cảnh](student_name) em nhé
+    - [Cao Cáp Cát Cầm](student_name)
+    - [Cấn Chế Chiêm Chu](student_name)
+    - [Châu Chắng Chung Chúng](student_name)
+    - [Chương Chử Cồ Cổ](student_name)
+    - [Công Cống Cung Cù](student_name)
+    - [Cự Dã Danh Diêm](student_name)
+    - tên anh là [Diệp Doãn Du Duy](student_name)
+    - [Dư Đái Đan Đàm](student_name)
+    - [Đào Đăng Đắc Đầu](student_name)
+    - tên tôi [Đậu Đèo Điêu Điền](student_name)
+    - tên chị là [Điều Đinh Đình Đoái](student_name)
+    - [Đoàn Đoạn Đôn](student_name)
+    - [Đống Đồ Đồng Đổng](student_name)
+    - [Đới Đái Đương Đường](student_name)
+    - [Đức Giả Giao Giang](student_name) em nhé
+    - [Giàng Giản Giảng Giáp](student_name)
+    - [Hưng H' ma nia](student_name)
+    - [Hầu Hà Hạ Hàn](student_name)
+    - [Hàng Hán Hề Hi](student_name)
+    - [Hình Hoa Hoà Hoài](student_name)
+    - [Hoàng Phủ Hồng Hứa](student_name)
+    - tên anh là [Hướng Kinh Kông Kiểu](student_name)
+    - [Kha Khà Khai Khâu](student_name)
+    - [Khiếu Khoa Khổng Khu](student_name)
+    - tên tôi [Khuất Khúc Khương Khưu](student_name)
+    - tên chị là [Kiều Kim Ly Lý](student_name)
+    - [La Lã Lữ Lành](student_name)
+    - [Lãnh Lạc Lại Lăng](student_name)
+    - [Lâm Lầu Lèng Lều](student_name)
+    - [Liên Liệp Liêu Liễu](student_name) em nhé
+    - [Linh Loan Lò Lô](student_name)
+    - [Lỗ Lộ Lộc Luyện](student_name)
+    - [Lục Lư Lương Lường](student_name)
+    - [Lưu Ma Mai Mang](student_name)
+    - [Mã Mạc Mạch Mạnh](student_name)
+    - [Mâu Mầu Mẫn Minh](student_name)
+    - tên anh là [Mộc Mông Mùa Mục](student_name)
+    - [Miêu Niê Ngạc Ngân](student_name)
+    - [Nghiêm Nghị Ngọ Ngọc](student_name)
+    - tên tôi [Ngôn Ngũ Ngụy Nhan](student_name)
+    - tên chị là [Nhâm Nhữ Ninh Nông](student_name)
+    - [Ong Ông Phi Phí](student_name)
+    - [Phó Phong Phù Phú](student_name)
+    - [Phùng Phương Quản Quán](student_name)
+    - [Quang Quàng Quảng Quách](student_name) em nhé
+    - [Quế Quốc Quyền Sái](student_name)
+    - [Sâm Sầm Sơn Sử](student_name)
+    - [Sùng Sỳ Tán Tào](student_name)
+    - [Tạ Tăng Tấn Tất](student_name)
+    - [Tề Thang Thanh Thái](student_name)
+    - [Thành Thào Thạch Thân](student_name)
+    - tên anh là [Thẩm Thập Thế Thi](student_name)
+    - [Thiều Thiệu Thịnh Thiềm](student_name)
+    - [Thoa Thôi Thóng Thục](student_name)
+    - tên tôi [Tiêu Tiết Tiếp Tinh](student_name)
+    - tên chị là [Tòng Tô Tôn Nữ](student_name)
+    - [Tôn Thất Tông Tống](student_name)
+    - [Trang Tráng Trác Trà](student_name)
+    - [Trâu Tri Trì Triệu](student_name)
+    - [Trình Trịnh Trung Trưng](student_name) em nhé
+    - [hữu muội cẩm đặng](student_name) em nhé
+    - [mỵ đoan trang như](student_name) em nhé
+    - [Tuấn Từ Tưởng Tướng](student_name)
+    - [Ty Uông Ung Ưng](student_name)
+    - [Ứng Vàng Vâng Vạn](student_name)
+    - [Văn Vi Vĩnh Viêm](student_name)
+    - [Viên Việt Vòng Vừ](student_name)
+    - [Vương Vưu Vu Xan](student_name)
+    - tên anh là [Xung Y Yên phụng](student_name)
+    - [như hoài hồng cúc](student_name)
+    - [đẹp ngọc bích hương](student_name)
+    - [thảo vy lộc lam](student_name)
+
 - intent: give_comment_content
   examples: |
+    - tôi thấy [dịch vụ cũng hay đấy](comment_content)
+    - tôi thấy [dịch vụ cũng hay đó](comment_content)
+    - tôi thấy [dịch vụ hay lắm](comment_content)
+    - tôi thấy [botcũng hay đấy](comment_content)
+    - tôi thấy [botcũng hay đó](comment_content)
+    - tôi thấy [bot hay lắm](comment_content)
     - chất lượng [dịch vụ tuyệt vời](comment_content)
     - mình thấy [trường dạy tốt lắm](comment_content)
     - mình cảm thấy [ngồi trướng tốt nhất từng biết](comment_content)
@@ -4057,6 +4091,7 @@ nlu:
     - Tôi muốn xem lại góp ý của mình
     - Tôi muốn xem lại góp ý của tôi như thế nào
     - Tôi muốn xem lại góp ý của mình ra sao
+    - xem lại góp ý
     - xem lại góp ý đi
     - xem lại góp ý nào
     - Xem ý kiến lại cái
@@ -4297,6 +4332,7 @@ nlu:
     - Tôi muốn biết thông tin về tổ chức đào tạo của trường Đại học cần thơ
     - tổ chức đào tạo về trường
     - tổ chức đào tạo
+    - tổ chức đào tạo như thế nào
     - tổ chức đào tạo là sao
     - tổ chức đào tạo là gì
     - tổ chức đào tạo thế nào
@@ -4705,7 +4741,7 @@ nlu:
     - tôi muốn hỏi Trách nhiệm của trường trong việc đăng ký học phần
     - tôi muốn tìm hiểu thông tin Trách nhiệm của trường trong việc đăng ký học phần
     - tôi muốn xem Trách nhiệm của trường trong việc đăng ký học phần
-    - Tôi muốn biết thông tin trách nhiệm của trường khi sinh viên đăng ký học phần
+    - Tôi muốn coi thông tin trách nhiệm của trường khi đăng ký học phần
     - trách nhiệm của nhà trường là gì
     - trách nhiệm của nhà trường là sao
     - trách nhiệm của nhà trường
@@ -4731,7 +4767,7 @@ nlu:
     - tôi muốn hỏi Trách nhiệm của nhà trường trong việc đăng ký học phần
     - tôi muốn tìm hiểu thông tin Trách nhiệm của nhà trường trong việc đăng ký học phần
     - tôi muốn xem Trách nhiệm của nhà trường trong việc đăng ký học phần
-    - Tôi muốn biết thông tin trách nhiệm của nhà trường khi sinh viên đăng ký học phần
+    - Tôi muốn coi thông tin trách nhiệm của nhà trường đăng ký học phần
     - cho tôi hỏi về trách nhiệm của trường là gì thế
     - cho tôi hỏi về trách nhiệm của nhà trường là sao vậy
     - cho tôi hỏi về trách nhiệm của trường là sao vậy
@@ -5291,1774 +5327,7 @@ nlu:
     - tôi muốn xem Liên hệ hỗ trợ
     - tôi muốn tìm hiểu Liên hệ hỗ trợ
 
-# Bổ sung chi tiết số điện thoại
-#- intent: sdt_truong_dhct
-#  examples: |
-#    - số điện thoại của trường là số mấy
-#    - trường có số điện thoại là số mấy
-#    - số điện thoại trường là số mấy
-#    - liên hệ trường bằng số nào
-#    - số điện thoại của trường mình là gì
-#    - số điện thoại của ctu
-#    - số điện thoại của đại học cần thơ
-#    - tôi muốn hỏi về số điện thoại của trường đại học cần thơ
-#    - bạn cho mình hỏi về số điện thoại của trường với
-#    - bot cho mình hỏi số điện thoại của trường đại học cần thơ được không
-#    - giúp mình tìm ra số điện thoại của trường với
-#    - trả lời dùm mình về số điện thoại của trường đại học cần thơ
-#    - tôi cần biết số điện thoại của trường
-#    - tôi muốn liên hệ với trường bằng số điện thoại
-#    - sdt/sđt/dt/đt của trường là số mấy
-#    - trường có sdt/sđt/dt/đt là số mấy
-#    - sdt/sđt/dt/đt trường là số mấy
-#    - liên hệ trường bằng số nào
-#    - sdt/sđt/dt/đt của trường mình là gì
-#    - sdt/sđt/dt/đt của ctu
-#    - sdt/sđt/dt/đt của đại học cần thơ
-#    - tôi muốn hỏi về sdt/sđt/dt/đt của trường đại học cần thơ
-#    - bạn cho mình hỏi về sdt/sđt/dt/đt của trường với
-#    - bot cho mình hỏi sdt/sđt/dt/đt của trường đại học cần thơ được không
-#    - giúp mình tìm ra sdt/sđt/dt/đt của trường với
-#    - trả lời dùm mình về sdt/sđt/dt/đt của trường đại học cần thơ
-#    - tôi cần biết sdt/sđt/dt/đt của trường
-#    - tôi muốn liên hệ với trường bằng sdt/sđt/dt/đt
-    
-    
-
-- intent: ask_trang_web_tro_giup
-  examples: |
-    - trang web trợ giúp
-    - trang web trợ giúp là sao
-    - trang web trợ giúp là gì thế bot
-    - trang web trợ giúp như thế nào vậy bot
-    - trang web trợ giúp ra sao thế
-    - trang web trợ giúp ra như nào bot
-    - trang web trợ giúp là sao vậy bot
-    - trang web trợ giúp là gì vậy
-    - tôi muốn biết thông tin về trang web trợ giúp
-    - tôi muốn xem thông tin về trang web trợ giúp
-    - tôi muốn tìm hiểu thông tin về trang web trợ giúp
-    - tôi muốn hỏi thông tin về trang web trợ giúp
-    - tôi muốn được biết biết thông tin về trang web trợ giúp
-    - tôi muốn tìm hiểu thông tin về trang web trợ giúp
-    - tôi muốn hỏi thêm thông tin về trang web trợ giúp
-    - tôi muốn biết về trang web trợ giúp
-    - tôi muốn xem về trang web trợ giúp
-    - tôi muốn tìm hiểu về trang web trợ giúp
-    - tôi muốn hỏi về trang web trợ giúp
-    - tôi muốn được biết biết về trang web trợ giúp
-    - tôi muốn tìm hiểu về trang web trợ giúp
-    - tôi muốn hỏi thêm về trang web trợ giúp
-    - hãy nói cho tôi biết thông tin về trang web trợ giúp
-    - hãy cho tôi biết thông tin về trang web trợ giúp
-    - hãy nói cho tôi xem thông tin về trang web trợ giúp
-    - hãy nói cho tôi nghe thông tin về trang web trợ giúp
-- intent: ask_hoc_truc_tuyen
-  examples: |
-    - công cụ học trực tuyến
-    - công cụ học trực tuyến là sao
-    - công cụ học trực tuyến là gì thế bot
-    - công cụ học trực tuyến như thế nào vậy bot
-    - công cụ học trực tuyến ra sao thế
-    - công cụ học trực tuyến ra như nào bot
-    - công cụ học trực tuyến là sao vậy bot
-    - công cụ học trực tuyến là gì vậy
-    - tôi muốn biết thông tin về công cụ học trực tuyến
-    - tôi muốn xem thông tin về công cụ học trực tuyến
-    - tôi muốn tìm hiểu thông tin về công cụ học trực tuyến
-    - tôi muốn hỏi thông tin về công cụ học trực tuyến
-    - tôi muốn được biết biết thông tin về công cụ học trực tuyến
-    - tôi muốn tìm hiểu thông tin về công cụ học trực tuyến
-    - tôi muốn hỏi thêm thông tin về công cụ học trực tuyến
-    - tôi muốn biết về công cụ học trực tuyến
-    - tôi muốn xem về công cụ học trực tuyến
-    - tôi muốn tìm hiểu về công cụ học trực tuyến
-    - tôi muốn hỏi về công cụ học trực tuyến
-    - tôi muốn được biết biết về công cụ học trực tuyến
-    - tôi muốn tìm hiểu về công cụ học trực tuyến
-    - tôi muốn hỏi thêm về công cụ học trực tuyến
-    - hãy nói cho tôi biết thông tin về công cụ học trực tuyến
-    - hãy cho tôi biết thông tin về công cụ học trực tuyến
-    - hãy nói cho tôi xem thông tin về công cụ học trực tuyến
-    - hãy nói cho tôi nghe thông tin về công cụ học trực tuyến
-- intent: ask_hop_thu_dien_tu
-  examples: |
-    - thư điện tử
-    - thư điện tử là sao
-    - thư điện tử là gì thế bot
-    - thư điện tử như thế nào vậy bot
-    - thư điện tử ra sao thế
-    - thư điện tử ra như nào bot
-    - thư điện tử là sao vậy bot
-    - thư điện tử là gì vậy
-    - tôi muốn biết thông tin về thư điện tử
-    - tôi muốn xem thông tin về thư điện tử
-    - tôi muốn tìm hiểu thông tin về thư điện tử
-    - tôi muốn hỏi thông tin về thư điện tử
-    - tôi muốn được biết biết thông tin về thư điện tử
-    - tôi muốn tìm hiểu thông tin về thư điện tử
-    - tôi muốn hỏi thêm thông tin về thư điện tử
-    - tôi muốn biết về thư điện tử
-    - tôi muốn xem về thư điện tử
-    - tôi muốn tìm hiểu về thư điện tử
-    - tôi muốn hỏi về thư điện tử
-    - tôi muốn được biết biết về thư điện tử
-    - tôi muốn tìm hiểu về thư điện tử
-    - tôi muốn hỏi thêm về thư điện tử
-    - hãy nói cho tôi biết thông tin về thư điện tử
-    - hãy cho tôi biết thông tin về thư điện tử
-    - hãy nói cho tôi xem thông tin về thư điện tử
-    - hãy nói cho tôi nghe thông tin về thư điện tử
-
-- intent: ask_he_thong_tich_hop # tào lao
-  examples: |
-    - hệ thống tích hợp
-    - hệ thống tích hợp là sao
-    - hệ thống tích hợp là gì thế bot
-    - hệ thống tích hợp như thế nào vậy bot
-    - hệ thống tích hợp ra sao thế
-    - hệ thống tích hợp ra như nào bot
-    - hệ thống tích hợp là sao vậy bot
-    - hệ thống tích hợp là gì vậy
-    - tôi muốn biết thông tin về hệ thống tích hợp
-    - tôi muốn xem thông tin về hệ thống tích hợp
-    - tôi muốn tìm hiểu thông tin về hệ thống tích hợp
-    - tôi muốn hỏi thông tin về hệ thống tích hợp
-    - tôi muốn được biết biết thông tin về hệ thống tích hợp
-    - tôi muốn tìm hiểu thông tin về hệ thống tích hợp
-    - tôi muốn hỏi thêm thông tin về hệ thống tích hợp
-    - tôi muốn biết về hệ thống tích hợp
-    - tôi muốn xem về hệ thống tích hợp
-    - tôi muốn tìm hiểu về hệ thống tích hợp
-    - tôi muốn hỏi về hệ thống tích hợp
-    - tôi muốn được biết biết về hệ thống tích hợp
-    - tôi muốn tìm hiểu về hệ thống tích hợp
-    - tôi muốn hỏi thêm về hệ thống tích hợp
-    - hãy nói cho tôi biết thông tin về hệ thống tích hợp
-    - hãy cho tôi biết thông tin về thư hệ thống tích hợp
-    - hãy nói cho tôi xem thông tin về thệ thống tích hợp
-    - hãy nói cho tôi nghe thông tin về hệ thống tích hợp
-## Chi tiết về Học trực tuyến
-# 1) Hướng dẫn sử dụng hệ thống E-Learning
-- intent: hd_elearning
-  examples: |
-    - elearning
-    - elearning là sao
-    - elearning là gì
-    - elearning thế nào
-    - elearning ra sao
-    - elearning bằng cách nào
-    - elearning bằng cách gì
-    - elearning như thế nào
-    - hướng dẫn sử dụng elearning
-    - hướng dẫn sử dụng elearning là như nào thế bot
-    - hướng dẫn sử dụng elearning là sao
-    - hướng dẫn sử dụng elearning là gì
-    - hướng dẫn sử dụng elearning là thế nào
-    - hướng dẫn sử dụng elearning ra làm sao
-    - hướng dẫn sử dụng elearning như nào
-    - hướng dẫn sử dụng elearning bằng cách nào
-    - hướng dẫn sử dụng elearning là sao thế
-    - tôi muốn biết thông tin hướng dẫn sử dụng elearning ra sao
-    - tôi muốn thông tin hướng dẫn sử dụng elearning ra sao
-    - tôi muốn hỏi thông tin hướng dẫn sử dụng elearning ra sao
-    - tôi muốn biết hướng dẫn sử dụng elearning ra sao
-    - tôi muốn hỏi hướng dẫn sử dụng elearning ra sao
-    - tôi muốn xem thông tin hướng dẫn sử dụng elearning ra sao
-    - tôi muốn xem hướng dẫn sử dụng elearning ra sao
-    - hướng dẫn sử dụng elearning là gì thế bot nhỉ
-    - hướng dẫn sử dụng elearning là sao hả
-    - hướng dẫn sử dụng elearning là gì vậy
-    - hướng dẫn sử dụng elearning như thế nào bot
-    - hướng dẫn sử dụng elearning ra sao thế
-    - hướng dẫn sử dụng elearning bằng cách nào hả 
-    - hướng dẫn sử dụng elearning bằng cách gì thế bot
-    - hướng dẫn sử dụng elearning như nào vậy
-- intent: hd_elearning_dang_nhap
-  examples: |
-    - elearning đăng nhập
-    - elearning đăng nhập là sao
-    - elearning đăng nhập là gì
-    - elearning đăng nhập thế nào
-    - elearning đăng nhập ra sao
-    - elearning đăng nhập bằng cách nào
-    - elearning đăng nhập bằng cách gì
-    - elearning đăng nhập như thế nào
-    - elearning đăng nhập như nào
-    - elearning đăng nhập là gì thế
-    - elearning đăng nhập là sao thế
-    - đăng nhập elearning
-    - đăng nhập elearning là sao
-    - đăng nhập elearning là gì
-    - đăng nhập elearning thế nào
-    - đăng nhập elearning ra sao
-    - đăng nhập elearning bằng cách nào
-    - đăng nhập elearning bằng cách gì
-    - đăng nhập elearning như thế nào
-    - hướng dẫn đăng nhập elearning
-    - hướng dẫn đăng nhập elearning là như nào thế bot
-    - hướng dẫn đăng nhập elearning là sao
-    - hướng dẫn đăng nhập elearning là gì
-    - hướng dẫn đăng nhập elearning là thế nào
-    - hướng dẫn đăng nhập elearning ra làm sao
-    - hướng dẫn đăng nhập elearning như nào
-    - hướng dẫn đăng nhập elearning bằng cách nào
-    - hướng dẫn đăng nhập elearning là sao thế
-    - tôi muốn biết thông tin hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn thông tin hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn hỏi thông tin hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn biết hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn hỏi hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn xem thông tin hướng dẫn đăng nhập elearning ra sao
-    - tôi muốn xem hướng dẫn đăng nhập elearning ra sao
-    - hướng dẫn đăng nhập elearning là gì thế bot nhỉ
-    - hướng dẫn đăng nhập elearning là sao hả
-    - hướng dẫn đăng nhập elearning là gì vậy
-    - hướng dẫn đăng nhập elearning như thế nào bot
-    - hướng dẫn đăng nhập elearning ra sao thế
-    - hướng dẫn đăng nhập elearning bằng cách nào hả 
-    - hướng dẫn đăng nhập elearning bằng cách gì thế bot
-    - hướng dẫn đăng nhập elearning như nào vậy
-    - tôi muốn biết thông tin đăng nhập elearning ra sao
-    - tôi muốn thông tin đăng nhập elearning ra sao
-    - tôi muốn hỏi thông tin đăng nhập elearning ra sao
-    - tôi muốn biết đăng nhập elearning ra sao
-    - tôi muốn hỏi đăng nhập elearning ra sao
-    - tôi muốn xem thông tin đăng nhập elearning ra sao
-    - tôi muốn xem đăng nhập elearning ra sao
-    - hãy nói cho tôi cách đăng nhập elearning như nào
-    - hãy nói cho tôi cách đăng nhập elearning ra sao
-    - hãy nói cho tôi cách đăng nhập elearning thế nào
-    - hãy nói cho tôi cách đăng nhập elearning gì thế
-    - hãy nói cho tôi cách đăng nhập elearning là sao
-    - hãy nói cho tôi cách đăng nhập elearning như thế nào
-    - hãy nói cho tôi cách đăng nhập elearning sao thế
-    - hãy nói cho tôi cách đăng nhập elearning
-
-- intent: hd_elearning_dang_nhap_b1
-  examples: |
-
-- intent: hd_elearning_dang_nhap_b2
-  examples: |
-
-- intent: hd_elearning_dang_xuat
-  examples: |
-    - đăng xuất elearning
-    - đăng xuất elearning là sao
-    - đăng xuất elearning là gì
-    - đăng xuất elearning thế nào
-    - đăng xuất elearning ra sao
-    - đăng xuất elearning bằng cách nào
-    - đăng xuất elearning bằng cách gì
-    - đăng xuất elearning như thế nào
-    - hướng dẫn đăng xuất elearning
-    - hướng dẫn đăng xuất elearning là như nào thế bot
-    - hướng dẫn đăng xuất elearning là sao
-    - hướng dẫn đăng xuất elearning là gì
-    - hướng dẫn đăng xuất elearning là thế nào
-    - hướng dẫn đăng xuất elearning ra làm sao
-    - hướng dẫn đăng xuất elearning như nào
-    - hướng dẫn đăng xuất elearning bằng cách nào
-    - hướng dẫn đăng xuất elearning là sao thế
-    - tôi muốn biết thông tin hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn thông tin hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn hỏi thông tin hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn biết hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn hỏi hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn xem thông tin hướng dẫn đăng xuất elearning ra sao
-    - tôi muốn xem hướng dẫn đăng xuất elearning ra sao
-    - hướng dẫn đăng xuất elearning là gì thế bot nhỉ
-    - hướng dẫn đăng xuất elearning là sao hả
-    - hướng dẫn đăng xuất elearning là gì vậy
-    - hướng dẫn đăng xuất elearning như thế nào bot
-    - hướng dẫn đăng xuất elearning ra sao thế
-    - hướng dẫn đăng xuất elearning bằng cách nào hả 
-    - hướng dẫn đăng xuất elearning bằng cách gì thế bot
-    - hướng dẫn đăng xuất elearning như nào vậy
-    - hãy nói cho tôi cách đăng xuất elearning như nào
-    - hãy nói cho tôi cách đăng xuất elearning ra sao
-    - hãy nói cho tôi cách đăng xuất elearning thế nào
-    - hãy nói cho tôi cách đăng xuất elearning gì thế
-    - hãy nói cho tôi cách đăng xuất elearning là sao
-    - hãy nói cho tôi cách đăng xuất elearning như thế nào
-    - hãy nói cho tôi cách đăng xuất elearning sao thế
-    - hãy nói cho tôi cách đăng xuất elearning
-
-- intent: hd_elearning_dang_xuat_b1
-  examples: |
-
-- intent: hd_elearning_dang_xuat_b2
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh
-  examples: |
-    - tìm kiếm ghi danh
-    - tìm kiếm ghi danh là sao
-    - tìm kiếm ghi danh là gì
-    - tìm kiếm ghi danh thế nào
-    - tìm kiếm ghi danh ra sao
-    - tìm kiếm ghi danh bằng cách nào
-    - tìm kiếm ghi danh bằng cách gì
-    - tìm kiếm ghi danh như thế nào
-    - hướng dẫn tìm kiếm ghi danh
-    - hướng dẫn tìm kiếm ghi danh là như nào thế bot
-    - hướng dẫn tìm kiếm ghi danh là sao
-    - hướng dẫn tìm kiếm ghi danh là gì
-    - hướng dẫn tìm kiếm ghi danh là thế nào
-    - hướng dẫn tìm kiếm ghi danh ra làm sao
-    - hướng dẫn tìm kiếm ghi danh như nào
-    - hướng dẫn tìm kiếm ghi danh bằng cách nào
-    - hướng dẫn tìm kiếm ghi danh là sao thế
-    - tôi muốn biết thông tin hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn thông tin hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn hỏi thông tin hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn biết hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn hỏi hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn xem thông tin hướng dẫn tìm kiếm ghi danh ra sao
-    - tôi muốn xem hướng dẫn tìm kiếm ghi danh ra sao
-    - hướng dẫn tìm kiếm ghi danh là gì thế bot nhỉ
-    - hướng dẫn tìm kiếm ghi danh là sao hả
-    - hướng dẫn tìm kiếm ghi danh là gì vậy
-    - hướng dẫn tìm kiếm ghi danh như thế nào bot
-    - hướng dẫn tìm kiếm ghi danh ra sao thế
-    - hướng dẫn tìm kiếm ghi danh bằng cách nào hả 
-    - hướng dẫn tìm kiếm ghi danh bằng cách gì thế bot
-    - hướng dẫn tìm kiếm ghi danh như nào vậy
-- intent: hd_elearning_tim_kiem_ghi_danh_b1 #check
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh_b2
-  examples: |
-
-- intent: hd_elearning_tim_kiem_ghi_danh_b3
-  examples: |
-
-- intent: hd_elearning_rut_ten
-  examples: |
-    - rút tên elearning
-    - rút tên elearning là sao
-    - rút tên elearning là gì
-    - rút tên elearning thế nào
-    - rút tên elearning ra sao
-    - rút tên elearning bằng cách nào
-    - rút tên elearning bằng cách gì
-    - rút tên elearning như thế nào
-    - hướng dẫn rút tên elearning
-    - hướng dẫn rút tên elearning là như nào thế bot
-    - hướng dẫn rút tên elearning là sao
-    - hướng dẫn rút tên elearning là gì
-    - hướng dẫn rút tên elearning là thế nào
-    - hướng dẫn rút tên elearning ra làm sao
-    - hướng dẫn rút tên elearning như nào
-    - hướng dẫn rút tên elearning bằng cách nào
-    - hướng dẫn rút tên elearning là sao thế
-    - tôi muốn biết thông tin hướng dẫn rút tên elearning ra sao
-    - tôi muốn thông tin hướng dẫn rút tên elearning ra sao
-    - tôi muốn hỏi thông tin hướng dẫn rút tên elearning ra sao
-    - tôi muốn biết hướng dẫn rút tên elearning ra sao
-    - tôi muốn hỏi hướng dẫn rút tên elearning ra sao
-    - tôi muốn xem thông tin hướng dẫn rút tên elearning ra sao
-    - tôi muốn xem hướng dẫn rút tên elearning ra sao
-    - hướng dẫn rút tên elearning là gì thế bot nhỉ
-    - hướng dẫn rút tên elearning là sao hả
-    - hướng dẫn rút tên elearning là gì vậy
-    - hướng dẫn rút tên elearning như thế nào bot
-    - hướng dẫn rút tên elearning ra sao thế
-    - hướng dẫn rút tên elearning bằng cách nào hả 
-    - hướng dẫn rút tên elearning bằng cách gì thế bot
-    - hướng dẫn rút tên elearning như nào vậy
-    - hãy nói cho tôi cách rút tên elearning như nào
-    - hãy nói cho tôi cách rút tên elearning ra sao
-    - hãy nói cho tôi cách rút tên elearning thế nào
-    - hãy nói cho tôi cách rút tên elearning gì thế
-    - hãy nói cho tôi cách rút tên elearning là sao
-    - hãy nói cho tôi cách rút tên elearning như thế nào
-    - hãy nói cho tôi cách rút tên elearning sao thế
-    - hãy nói cho tôi cách rút tên elearning    
-
-- intent: hd_elearning_rut_ten_b1 #check
-  examples: |
-
-- intent: hd_elearning_rut_ten_b2
-  examples: |
-
-# 2) Hướng dẫn sử dụng Google Classroom
-- intent: hd_classroom
-  examples: |
-    - classroom
-    - classroom là sao
-    - classroom là gì
-    - classroom thế nào
-    - classroom ra sao
-    - classroom bằng cách nào
-    - classroom bằng cách gì
-    - google classroom
-    - google classroom là sao
-    - google classroom là gì
-    - google classroom thế nào
-    - google classroom ra sao
-    - google classroom bằng cách nào
-    - google classroom bằng cách gì
-    - google classroom như thế nào
-    - hướng dẫn sử dụng google classroom
-    - hướng dẫn sử dụng google classroom là như nào thế bot
-    - hướng dẫn sử dụng google classroom là sao
-    - hướng dẫn sử dụng google classroom là gì
-    - hướng dẫn sử dụng google classroom là thế nào
-    - hướng dẫn sử dụng google classroom ra làm sao
-    - hướng dẫn sử dụng google classroom như nào
-    - hướng dẫn sử dụng google classroom bằng cách nào
-    - hướng dẫn sử dụng google classroom là sao thế
-    - tôi muốn biết thông tin hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn thông tin hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn hỏi thông tin hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn biết hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn hỏi hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn xem thông tin hướng dẫn sử dụng google classroom ra sao
-    - tôi muốn xem hướng dẫn sử dụng google classroom ra sao
-    - hướng dẫn sử dụng google classroom là gì thế bot nhỉ
-    - hướng dẫn sử dụng google classroom là sao hả
-    - hướng dẫn sử dụng google classroom là gì vậy
-    - hướng dẫn sử dụng google classroom như thế nào bot
-    - hướng dẫn sử dụng google classroom ra sao thế
-    - hướng dẫn sử dụng google classroom bằng cách nào hả 
-    - hướng dẫn sử dụng google classroom bằng cách gì thế bot
-    - hướng dẫn sử dụng google classroom như nào vậy
-    - hãy nói cho tôi sử dụng google classroom như nào
-    - hãy nói cho tôi sử dụng google classroom ra sao
-    - hãy nói cho tôi sử dụng google classroom thế nào
-    - hãy nói cho tôi sử dụng google classroom gì thế
-    - hãy nói cho tôi sử dụng google classroom là sao
-    - hãy nói cho tôi sử dụng google classroom như thế nào
-    - hãy nói cho tôi sử dụng google classroom sao thế
-    - hãy nói cho tôi sử dụng google classroom    
-
-- intent: hd_classroom_b1_one
-  examples: |
-
-- intent: hd_classroom_b2
-  examples: |
-
-- intent: hd_classroom_b3_three
-  examples: |
-
-- intent: hd_classroom_b4
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop
-  examples: |
-    - tham gia classroom
-    - tham gia classroom là sao
-    - tham gia classroom là gì
-    - tham gia classroom thế nào
-    - tham gia classroom ra sao
-    - tham gia classroom bằng cách nào
-    - tham gia classroom bằng cách gì
-    - tham gia google classroom
-    - tham gia google classroom là sao
-    - tham gia google classroom là gì
-    - tham gia google classroom thế nào
-    - tham gia google classroom ra sao
-    - tham gia google classroom bằng cách nào
-    - tham gia google classroom bằng cách gì
-    - tham gia google classroom như thế nào
-    - hướng dẫn tham gia google classroom
-    - hướng dẫn tham gia google classroom là như nào thế bot
-    - hướng dẫn tham gia google classroom là sao
-    - hướng dẫn tham gia google classroom là gì
-    - hướng dẫn tham gia google classroom là thế nào
-    - hướng dẫn tham gia google classroom ra làm sao
-    - hướng dẫn tham gia google classroom như nào
-    - hướng dẫn tham gia google classroom bằng cách nào
-    - hướng dẫn tham gia google classroom là sao thế
-    - tôi muốn biết thông tin hướng dẫn tham gia google classroom ra sao
-    - tôi muốn thông tin hướng dẫn tham gia google classroom ra sao
-    - tôi muốn hỏi thông tin hướng dẫn tham gia google classroom ra sao
-    - tôi muốn biết hướng dẫn tham gia google classroom ra sao
-    - tôi muốn hỏi hướng dẫn tham gia google classroom ra sao
-    - tôi muốn xem thông tin hướng dẫn tham gia google classroom ra sao
-    - tôi muốn xem hướng dẫn tham gia google classroom ra sao
-    - hướng dẫn tham gia google classroom là gì thế bot nhỉ
-    - hướng dẫn tham gia google classroom là sao hả
-    - hướng dẫn tham gia google classroom là gì vậy
-    - hướng dẫn tham gia google classroom như thế nào bot
-    - hướng dẫn tham gia google classroom ra sao thế
-    - hướng dẫn tham gia google classroom bằng cách nào hả 
-    - hướng dẫn tham gia google classroom bằng cách gì thế bot
-    - hướng dẫn tham gia google classroom như nào vậy
-    - hãy nói cho tôi tham gia google classroom như nào
-    - hãy nói cho tôi tham gia google classroom ra sao
-    - hãy nói cho tôi tham gia google classroom thế nào
-    - hãy nói cho tôi tham gia google classroom gì thế
-    - hãy nói cho tôi tham gia google classroom là sao
-    - hãy nói cho tôi tham gia google classroom như thế nào
-    - hãy nói cho tôi tham gia google classroom sao thế
-    - hãy nói cho tôi tham gia google classroom
-- intent: hd_classroom_tham_gia_lop_b1
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop_b2
-  examples: |
-
-- intent: hd_classroom_tham_gia_lop_b3
-  examples: |
-
-- intent: hd_classroom_nop_bai
-  examples: |
-    - nộp bài classroom
-    - nộp bài classroom là sao
-    - nộp bài classroom là gì
-    - nộp bài classroom thế nào
-    - nộp bài classroom ra sao
-    - nộp bài classroom bằng cách nào
-    - nộp bài classroom bằng cách gì
-    - nộp bài google classroom
-    - nộp bài google classroom là sao
-    - nộp bài google classroom là gì
-    - nộp bài google classroom thế nào
-    - nộp bài google classroom ra sao
-    - nộp bài google classroom bằng cách nào
-    - nộp bài google classroom bằng cách gì
-    - nộp bài google classroom như thế nào
-    - hướng dẫn nộp bài google classroom
-    - hướng dẫn nộp bài google classroom là như nào thế bot
-    - hướng dẫn nộp bài google classroom là sao
-    - hướng dẫn nộp bài google classroom là gì
-    - hướng dẫn nộp bài google classroom là thế nào
-    - hướng dẫn nộp bài google classroom ra làm sao
-    - hướng dẫn nộp bài google classroom như nào
-    - hướng dẫn nộp bài google classroom bằng cách nào
-    - hướng dẫn nộp bài google classroom là sao thế
-    - tôi muốn biết thông tin hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn thông tin hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn hỏi thông tin hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn biết hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn hỏi hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn xem thông tin hướng dẫn nộp bài google classroom ra sao
-    - tôi muốn xem hướng dẫn nộp bài google classroom ra sao
-    - hướng dẫn nộp bài google classroom là gì thế bot nhỉ
-    - hướng dẫn nộp bài google classroom là sao hả
-    - hướng dẫn nộp bài google classroom là gì vậy
-    - hướng dẫn nộp bài google classroom như thế nào bot
-    - hướng dẫn nộp bài google classroom ra sao thế
-    - hướng dẫn nộp bài google classroom bằng cách nào hả 
-    - hướng dẫn nộp bài google classroom bằng cách gì thế bot
-    - hướng dẫn nộp bài google classroom như nào vậy
-    - hãy nói cho tôi về cách nộp bài google classroom như nào
-    - hãy nói cho tôi về cách nộp bài google classroom ra sao
-    - hãy nói cho tôi về cách nộp bài google classroom thế nào
-    - hãy nói cho tôi về cách nộp bài google classroom gì thế
-    - hãy nói cho tôi về cách nộp bài google classroom là sao
-    - hãy nói cho tôi về cách nộp bài google classroom như thế nào
-    - hãy nói cho tôi về cách nộp bài google classroom sao thế
-    - hãy nói cho tôi về cách nộp bài google classroom
-    - hãy nói cho tôi cách nộp bài google classroom như nào
-    - hãy nói cho tôi cách nộp bài google classroom ra sao
-    - hãy nói cho tôi cách nộp bài google classroom thế nào
-    - hãy nói cho tôi cách nộp bài google classroom gì thế
-    - hãy nói cho tôi cách nộp bài google classroom là sao
-    - hãy nói cho tôi cách nộp bài google classroom như thế nào
-    - hãy nói cho tôi cách nộp bài google classroom sao thế
-    - hãy nói cho tôi cách nộp bài google classroom
-- intent: hd_classroom_nop_bai_b1_one
-  examples: |
-
-- intent: hd_classroom_nop_bai_b2
-  examples: |
-
-- intent: hd_classroom_nop_bai_b3
-  examples: |
-
-- intent: hd_classroom_nop_bai_b4
-  examples: |
-
-- intent: hd_classroom_nop_bai_b5
-  examples: |
-
-
-- intent: hd_classroom_nop_bai_b6_six
-  examples: |
-
-- intent: hd_classroom_nop_bai_b7
-  examples: |
-
-
-- intent: hd_classroom_mobile
-  examples: |
-    - classroom mobile
-    - classroom mobile là sao
-    - classroom mobile là gì
-    - classroom mobile thế nào
-    - classroom mobile ra sao
-    - classroom mobile bằng cách nào
-    - classroom mobile bằng cách gì
-    - google classroom mobile
-    - google classroom mobile là sao
-    - google classroom mobile là gì
-    - google classroom mobile thế nào
-    - google classroom mobile ra sao
-    - google classroom mobile bằng cách nào
-    - google classroom mobile bằng cách gì
-    - google classroom mobile như thế nào
-    - hướng dẫn sử dụng google classroom mobile
-    - hướng dẫn sử dụng google classroom mobile là như nào thế bot
-    - hướng dẫn sử dụng google classroom mobile là sao
-    - hướng dẫn sử dụng google classroom mobile là gì
-    - hướng dẫn sử dụng google classroom mobile là thế nào
-    - hướng dẫn sử dụng google classroom mobile ra làm sao
-    - hướng dẫn sử dụng google classroom mobile như nào
-    - hướng dẫn sử dụng google classroom mobile bằng cách nào
-    - hướng dẫn sử dụng google classroom mobile là sao thế
-    - tôi muốn biết thông tin hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn thông tin hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn hỏi thông tin hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn biết hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn hỏi hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn xem thông tin hướng dẫn sử dụng google classroom mobile ra sao
-    - tôi muốn xem hướng dẫn sử dụng google classroom mobile ra sao
-    - hướng dẫn sử dụng google classroom mobile là gì thế bot nhỉ
-    - hướng dẫn sử dụng google classroom mobile là sao hả
-    - hướng dẫn sử dụng google classroom mobile là gì vậy
-    - hướng dẫn sử dụng google classroom mobile như thế nào bot
-    - hướng dẫn sử dụng google classroom mobile ra sao thế
-    - hướng dẫn sử dụng google classroom mobile bằng cách nào hả 
-    - hướng dẫn sử dụng google classroom mobile bằng cách gì thế bot
-    - hướng dẫn sử dụng google classroom mobile như nào vậy
-
-- intent: hd_classroom_mobile_b1
-  examples: |
-
-- intent: hd_classroom_mobile_b2
-  examples: |
-
-- intent: hd_classroom_mobile_b3
-  examples: |
-
-- intent: hd_classroom_mobile_b4
-  examples: |
-
-- intent: hd_classroom_mobile_b5
-  examples: |
-
-- intent: hd_classroom_mobile_b6
-  examples: |
-
-
-# 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
-- intent: hd_quay_man_hinh
-  examples: |
-    - quay màn hình
-    - quay màn hình là sao
-    - quay màn hình là gì
-    - quay màn hình thế nào
-    - quay màn hình ra sao
-    - quay màn hình bằng cách nào
-    - quay màn hình bằng cách gì
-    - quay màn hình như thế nào
-    - hướng dẫn quay màn hình
-    - hướng dẫn quay màn hình là như nào thế bot
-    - hướng dẫn quay màn hình là sao
-    - hướng dẫn quay màn hình là gì
-    - hướng dẫn quay màn hình là thế nào
-    - hướng dẫn quay màn hình ra làm sao
-    - hướng dẫn quay màn hình như nào
-    - hướng dẫn quay màn hình bằng cách nào
-    - hướng dẫn quay màn hình là sao thế
-    - tôi muốn biết thông tin hướng dẫn quay màn hình ra sao
-    - tôi muốn thông tin hướng dẫn quay màn hình ra sao
-    - tôi muốn hỏi thông tin hướng dẫn quay màn hình ra sao
-    - tôi muốn biết hướng dẫn quay màn hình ra sao
-    - tôi muốn hỏi hướng dẫn quay màn hình ra sao
-    - tôi muốn xem thông tin hướng dẫn quay màn hình ra sao
-    - tôi muốn xem hướng dẫn quay màn hình ra sao
-    - hướng dẫn quay màn hình là gì thế bot nhỉ
-    - hướng dẫn quay màn hình là sao hả
-    - hướng dẫn quay màn hình là gì vậy
-    - hướng dẫn quay màn hình như thế nào bot
-    - hướng dẫn quay màn hình ra sao thế
-    - hướng dẫn quay màn hình bằng cách nào hả 
-    - hướng dẫn quay màn hình bằng cách gì thế bot
-    - hướng dẫn quay màn hình như nào vậy
-
-- intent: hd_quay_man_hinh_cai_dat
-  examples: |
-    - cài đặt quay màn hình
-    - cài đặt quay màn hình là sao
-    - cài đặt quay màn hình là gì
-    - cài đặt quay màn hình thế nào
-    - cài đặt quay màn hình ra sao
-    - cài đặt quay màn hình bằng cách nào
-    - cài đặt quay màn hình bằng cách gì
-    - cài đặt quay màn hình như thế nào
-    - hướng dẫn cài đặt quay màn hình
-    - hướng dẫn cài đặt quay màn hình là như nào thế bot
-    - hướng dẫn cài đặt quay màn hình là sao
-    - hướng dẫn cài đặt quay màn hình là gì
-    - hướng dẫn cài đặt quay màn hình là thế nào
-    - hướng dẫn cài đặt quay màn hình ra làm sao
-    - hướng dẫn cài đặt quay màn hình như nào
-    - hướng dẫn cài đặt quay màn hình bằng cách nào
-    - hướng dẫn cài đặt quay màn hình là sao thế
-    - tôi muốn biết thông tin hướng dẫn cài đặt quay màn hình ra sao
-    - tôi muốn thông tin hướng dẫn cài đặt quay màn hình ra sao
-    - tôi muốn hỏi thông tin hướng dẫn cài đặt quay màn hình ra sao
-    - tôi muốn biết hướng dẫn quay cài đặt màn hình ra sao
-    - tôi muốn hỏi hướng dẫn quay cài đặt màn hình ra sao
-    - tôi muốn xem thông tin hướng dẫn cài đặt quay màn hình ra sao
-    - tôi muốn xem hướng dẫn cài đặt quay màn hình ra sao
-    - hướng dẫn quay cài đặt màn hình là gì thế bot nhỉ
-    - hướng dẫn quay cài đặt màn hình là sao hả
-    - hướng dẫn quay cài đặt màn hình là gì vậy
-    - hướng dẫn quay cài đặt màn hình như thế nào bot
-    - hướng dẫn quay cài đặt màn hình ra sao thế
-    - hướng dẫn quay cài đặt màn hình bằng cách nào hả 
-    - hướng dẫn quay cài đặt màn hình bằng cách gì thế bot
-    - hướng dẫn quay cài đặt màn hình như nào vậy
-- intent: hd_quay_man_hinh_su_dung
-  examples: |
-    - sử dụng quay màn hình
-    - sử dụng quay màn hình là sao
-    - sử dụng quay màn hình là gì
-    - sử dụng quay màn hình thế nào
-    - sử dụng quay màn hình ra sao
-    - sử dụng quay màn hình bằng cách nào
-    - sử dụng quay màn hình bằng cách gì
-    - sử dụng quay màn hình như thế nào
-    - sử dụng quay màn hình như nào
-    - sử dụng quay màn hình sao thế
-    - sử dụng quay màn hình gì thế
-    - sử dụng quay màn hình cách gì
-    - sử dụng quay màn hình cách nào
-    - sử dụng quay màn hình ra làm sao
-    - sử dụng quay màn hình ra như nào
-    - sử dụng quay màn hình là thế nào
-    - hướng dẫn sử dụng quay màn hình
-    - hướng dẫn sử dụng quay màn hình là như nào thế bot
-    - hướng dẫn sử dụng quay màn hình là sao
-    - hướng dẫn sử dụng quay màn hình là gì
-    - hướng dẫn sử dụng quay màn hình là thế nào
-    - hướng dẫn sử dụng quay màn hình ra làm sao
-    - hướng dẫn sử dụng quay màn hình như nào
-    - hướng dẫn sử dụng quay màn hình bằng cách nào
-    - hướng dẫn sử dụng quay màn hình là sao thế
-    - tôi muốn biết thông tin hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn thông tin hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn hỏi thông tin hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn biết hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn hỏi hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn xem thông tin hướng dẫn sử dụng quay màn hình ra sao
-    - tôi muốn xem hướng dẫn sử dụng quay màn hình ra sao
-    - hướng dẫn sử dụng quay màn hình là gì thế bot nhỉ
-    - hướng dẫn sử dụng quay màn hình là sao hả
-    - hướng dẫn sử dụng quay màn hình là gì vậy
-    - hướng dẫn sử dụng quay màn hình như thế nào bot
-    - hướng dẫn sử dụng quay màn hình ra sao thế
-    - hướng dẫn sử dụng quay màn hình bằng cách nào hả 
-    - hướng dẫn sử dụng quay màn hình bằng cách gì thế bot
-    - hướng dẫn sử dụng quay màn hình như nào vậy
-    - hãy nói cho tôi cách sử dụng quay màn hình như nào
-    - hãy nói cho tôi cách sử dụng quay màn hình ra sao
-    - hãy nói cho tôi cách sử dụng quay màn hình thế nào
-    - hãy nói cho tôi cách sử dụng quay màn hình gì thế
-    - hãy nói cho tôi cách sử dụng quay màn hình là sao
-    - hãy nói cho tôi cách sử dụng quay màn hình như thế nào
-    - hãy nói cho tôi cách sử dụng quay màn hình sao thế
-    - hãy nói cho tôi cách sử dụng quay màn hình  
-
-- intent: hd_quay_man_hinh_su_dung_b1
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b2
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b3
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b4_four
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b5
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b6_six
-  examples: |
-
-- intent: hd_quay_man_hinh_su_dung_b7_seven
-  examples: |
-
-# 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
-- intent: hd_zoom
-  examples: |
-    - hướng dẫn sử dụng zoom
-    - hướng dẫn sử dụng zoom là như nào thế bot
-    - hướng dẫn sử dụng zoom là sao
-    - hướng dẫn sử dụng zoom là gì
-    - hướng dẫn sử dụng zoom là thế nào
-    - hướng dẫn sử dụng zoom ra làm sao
-    - hướng dẫn sử dụng zoom như nào
-    - hướng dẫn sử dụng zoom bằng cách nào
-    - hướng dẫn sử dụng zoom là sao thế
-    - tôi muốn biết thông tin hướng dẫn sử dụng zoom ra sao
-    - tôi muốn thông tin hướng dẫn sử dụng zoom ra sao
-    - tôi muốn hỏi thông tin hướng dẫn sử dụng zoom ra sao
-    - tôi muốn biết hướng dẫn sử dụng zoom ra sao
-    - tôi muốn hỏi hướng dẫn sử dụng zoom ra sao
-    - tôi muốn xem thông tin hướng dẫn sử dụng zoom ra sao
-    - tôi muốn xem hướng dẫn sử dụng zoom ra sao
-    - hướng dẫn sử dụng zoom là gì thế bot nhỉ
-    - hướng dẫn sử dụng zoom là sao hả
-    - hướng dẫn sử dụng zoom là gì vậy
-    - hướng dẫn sử dụng zoom như thế nào bot
-    - hướng dẫn sử dụng zoom ra sao thế
-    - hướng dẫn sử dụng zoom bằng cách nào hả
-    - hướng dẫn sử dụng zoom bằng cách gì thế bot
-    - hướng dẫn sử dụng zoom như nào vậy
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom như nào
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom ra sao
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom thế nào
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom gì thế
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom là sao
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom như thế nào
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom sao thế
-    - hãy nói cho tôi cách hướng dẫn sử dụng zoom
-- intent: hd_zoom_b1
-  examples: |
-
-- intent: hd_zoom_b2
-  examples: |
-
-- intent: hd_zoom_b3
-  examples: |
-
-- intent: hd_zoom_b4
-  examples: |
-
-- intent: hd_zoom_b5
-  examples: |
-
-- intent: hd_zoom_b6sa
-  examples: |
-
-- intent: hd_zoom_b7
-  examples: |
-
-- intent: hd_zoom_b8
-  examples: |
-
-
-## Chi tiết về Hộp thư điện tử
-# 1) Hướng dẫn đổi tên hiển thị trên Gmail
-- intent: hd_doi_ten_hien_thi
-  examples: |
-    - hiển thị đổi tên
-    - hiển thị đổi tên là như nào thế bot
-    - hiển thị đổi tên là sao
-    - hiển thị đổi tên là gì
-    - hiển thị đổi tên là thế nào
-    - hiển thị đổi tên ra làm sao
-    - hiển thị đổi tên như nào
-    - hiển thị đổi tên bằng cách nào
-    - hiển thị đổi tên là sao thế
-    - tôi muốn biết thông tin hiển thị đổi tên ra sao
-    - tôi muốn thông tin hiển thị đổi tên ra sao
-    - tôi muốn hỏi thông tin hiển thị đổi tên ra sao
-    - tôi muốn biết hiển thị đổi tên ra sao
-    - tôi muốn hỏi hiển thị đổi tên ra sao
-    - tôi muốn xem thông tin hiển thị đổi tên ra sao
-    - tôi muốn xem hiển thị đổi tên ra sao
-    - hiển thị đổi tên là gì thế bot nhỉ
-    - hiển thị đổi tên là sao hả
-    - hiển thị đổi tên là gì vậy
-    - hiển thị đổi tên như thế nào bot
-    - hiển thị đổi tên ra sao thế
-    - hiển thị đổi tên bằng cách nào hả
-    - hiển thị đổi tên bằng cách gì thế bot
-    - hiển thị đổi tên như nào vậy 
-
-- intent: hd_doi_ten_hien_thi_b1
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b2
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b3
-  examples: |
-
-- intent: hd_doi_ten_hien_thi_b4c
-  examples: |
-
-# 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
-- intent: hd_dang_nhap_email
-  examples: |
-    - email
-    - email là sao
-    - email là gì
-    - email thế nào
-    - email ra sao
-    - email bằng cách nào
-    - email bằng cách gì
-    - đăng nhập email
-    - đăng nhập email là sao
-    - đăng nhập email là gì
-    - đăng nhập email thế nào
-    - đăng nhập email ra sao
-    - đăng nhập email bằng cách nào
-    - đăng nhập email bằng cách gì
-    - đăng nhập email như thế nào
-    - hướng dẫn đăng nhập email
-    - hướng dẫn đăng nhập email là như nào thế bot
-    - hướng dẫn đăng nhập email là sao
-    - hướng dẫn đăng nhập email là gì
-    - hướng dẫn đăng nhập email là thế nào
-    - hướng dẫn đăng nhập email ra làm sao
-    - hướng dẫn đăng nhập email như nào
-    - hướng dẫn đăng nhập email bằng cách nào
-    - hướng dẫn đăng nhập email là sao thế
-    - tôi muốn biết thông tin hướng dẫn đăng nhập email ra sao
-    - tôi muốn thông tin hướng dẫn đăng nhập email ra sao
-    - tôi muốn hỏi thông tin hướng dẫn đăng nhập email ra sao
-    - tôi muốn biết hướng dẫn đăng nhập email ra sao
-    - tôi muốn hỏi hướng dẫn đăng nhập email ra sao
-    - tôi muốn xem thông tin hướng dẫn đăng nhập email ra sao
-    - tôi muốn xem hướng dẫn đăng nhập email ra sao
-    - hướng dẫn đăng nhập email là gì thế bot nhỉ
-    - hướng dẫn đăng nhập email là sao hả
-    - hướng dẫn đăng nhập email là gì vậy
-    - hướng dẫn đăng nhập email như thế nào bot
-    - hướng đăng nhập email ra sao thế
-    - hướng dẫn đăng nhập email bằng cách nào hả 
-    - hướng dẫn đăng nhập email bằng cách gì thế bot
-    - hướng dẫn đăng nhập email như nào vậy
-- intent: hd_dang_nhap_email_android
-  examples: |
-    - email android
-    - email android là sao
-    - email android là gì
-    - email android thế nào
-    - email android ra sao
-    - email android bằng cách nào
-    - email android bằng cách gì
-    - đăng nhập email android
-    - đăng nhập email android là sao
-    - đăng nhập email android là gì
-    - đăng nhập email android thế nào
-    - đăng nhập email android ra sao
-    - đăng nhập email android bằng cách nào
-    - đăng nhập email android bằng cách gì
-    - đăng nhập email android như thế nào
-    - hướng dẫn đăng nhập email android
-    - hướng dẫn đăng nhập email android là như nào thế bot
-    - hướng dẫn đăng nhập email android là sao
-    - hướng dẫn đăng nhập email android là gì
-    - hướng dẫn đăng nhập email android là thế nào
-    - hướng dẫn đăng nhập email android ra làm sao
-    - hướng dẫn đăng nhập email android như nào
-    - hướng dẫn đăng nhập email android bằng cách nào
-    - hướng dẫn đăng nhập email android là sao thế
-    - tôi muốn biết thông tin hướng dẫn đăng nhập email android ra sao
-    - tôi muốn thông tin hướng dẫn đăng nhập email android ra sao
-    - tôi muốn hỏi thông tin hướng dẫn đăng nhập email android ra sao
-    - tôi muốn biết hướng dẫn đăng nhập email android ra sao
-    - tôi muốn hỏi hướng dẫn đăng nhập email android ra sao
-    - tôi muốn xem thông tin hướng dẫn đăng nhập email android ra sao
-    - tôi muốn xem hướng dẫn đăng nhập email android ra sao
-    - hướng dẫn đăng nhập email android là gì thế bot nhỉ
-    - hướng dẫn đăng nhập email android là sao hả
-    - hướng dẫn đăng nhập email android là gì vậy
-    - hướng dẫn đăng nhập email android như thế nào bot
-    - hướng đăng nhập email android ra sao thế
-    - hướng dẫn đăng nhập email android bằng cách nào hả 
-    - hướng dẫn đăng nhập email android bằng cách gì thế bot
-    - hướng dẫn đăng nhập email android như nào vậy
-
-- intent: hd_dang_nhap_email_android_b1
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b2_two
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b3
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b4
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b5
-  examples: |
-
-
-- intent: hd_dang_nhap_email_android_b6
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b7
-  examples: |
-
-- intent: hd_dang_nhap_email_android_b8
-  examples: |
-
-
-- intent: hd_dang_nhap_email_ios #check
-  examples: |
-    - ios
-    - ios là sao
-    - ios là gì
-    - ios thế nào
-    - ios ra sao
-    - ios bằng cách nào
-    - ios bằng cách gì
-    - ios như nào
-    - ios là sao thế bot
-    - ios là gì thế bot
-    - ios thế nào bot
-    - ios ra sao bot
-    - ios bằng cách nào bot
-    - ios bằng cách gì bot
-    - ios như nào bot
-    - ios là sao bot
-    - ios là gì bot
-    - ios thế nào bot
-    - ios ra sao bot
-    - ios bằng cách nào thế bot
-    - ios bằng cách gì thế bot
-    - email ios
-    - email ios là sao
-    - email ios là gì
-    - email ios thế nào
-    - email ios ra sao
-    - email ios bằng cách nào
-    - email ios bằng cách gì
-    - email ios như nào
-    - email ios là sao thế bot
-    - email ios là gì thế bot
-    - email ios thế nào bot
-    - email ios ra sao bot
-    - email ios bằng cách nào bot
-    - email ios bằng cách gì bot
-    - email ios như nào bot
-    - email ios là sao bot
-    - email ios là gì bot
-    - email ios thế nào bot
-    - email ios ra sao bot
-    - email ios bằng cách nào thế bot
-    - email ios bằng cách gì thế bot
-    - đăng nhập email ios
-    - đăng nhập email ios là sao
-    - đăng nhập email ios là gì
-    - đăng nhập email ios thế nào
-    - đăng nhập email ios ra sao
-    - đăng nhập email ios bằng cách nào
-    - đăng nhập email ios bằng cách gì
-    - đăng nhập email ios như thế nào
-    - hướng dẫn đăng nhập email ios
-    - hướng dẫn đăng nhập email ios là như nào thế bot
-    - hướng dẫn đăng nhập email ios là sao
-    - hướng dẫn đăng nhập email ios là gì
-    - hướng dẫn đăng nhập email ios là thế nào
-    - hướng dẫn đăng nhập email iosra làm sao
-    - hướng dẫn đăng nhập email ios như nào
-    - hướng dẫn đăng nhập email ios bằng cách nào
-    - hướng dẫn đăng nhập email ios là sao thế
-    - tôi muốn biết thông tin hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn thông tin hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn hỏi thông tin hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn biết hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn hỏi hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn xem thông tin hướng dẫn đăng nhập email ios ra sao
-    - tôi muốn xem hướng dẫn đăng nhập email ios ra sao
-    - hướng dẫn đăng nhập email ios là gì thế bot nhỉ
-    - hướng dẫn đăng nhập email ios là sao hả
-    - hướng dẫn đăng nhập email ios là gì vậy
-    - hướng dẫn đăng nhập email ios như thế nào bot
-    - hướng đăng nhập email ios ra sao thế
-    - hướng dẫn đăng nhập email ios bằng cách nào hả 
-    - hướng dẫn đăng nhập email ios bằng cách gì thế bot
-    - hướng dẫn đăng nhập email ios như nào vậy
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios như nào
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios ra sao
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios thế nào
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios gì thế
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios là sao
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios như thế nào
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios sao thế
-    - hãy nói cho tôi cách hướng dẫn đăng nhập email ios
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios như nào
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios ra sao
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios thế nào
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios gì thế
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios là sao
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios như thế nào
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios sao thế
-    - hãy nói cho tôi thông tin cách hướng dẫn đăng nhập email ios  
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios như nào
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios ra sao
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios thế nào
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios gì thế
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios là sao
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios như thế nào
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios sao thế
-    - hãy nói cho tôi nghe cách hướng dẫn đăng nhập email ios 
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios như nào
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios ra sao
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios thế nào
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios gì thế
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios là sao
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios như thế nào
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios sao thế
-    - hãy nói cho tôi xem cách hướng dẫn đăng nhập email ios
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios như nào
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios ra sao
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios thế nào
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios gì thế
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios là sao
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios như thế nào
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios sao thế
-    - hãy nói cho tôi biết cách hướng dẫn đăng nhập email ios    
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios như nào
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios thế nào
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios gì thế
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios là sao
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios như thế nào
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios sao thế
-    - tôi muốn biết cách hướng dẫn đăng nhập email ios    
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios như nào
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios thế nào
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios gì thế
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios là sao
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios như thế nào
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios sao thế
-    - tôi muốn hỏi cách hướng dẫn đăng nhập email ios   
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios như nào
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios thế nào
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios gì thế
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios là sao
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios như thế nào
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios sao thế
-    - tôi muốn xem cách hướng dẫn đăng nhập email ios     
-
-- intent: hd_dang_nhap_email_ios_b1_one
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b2_two
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b3
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b4 #check
-  examples: |
-
-- intent: hd_dang_nhap_email_ios_b5
-  examples: |
-
-# 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
-- intent: hd_doi_mat_khau
-  examples: |
-    - Hướng dẫn đổi mật khẩu
-    - Hướng dẫn đổi mật khẩu là sao
-    - Hướng dẫn đổi mật khẩu là gì
-    - Hướng dẫn đổi mật khẩu thế nào
-    - Hướng dẫn đổi mật khẩu ra sao
-    - Hướng dẫn đổi mật khẩu bằng cách nào
-    - Hướng dẫn đổi mật khẩu bằng cách gì
-    - Hướng dẫn đổi mật khẩu Trường
-    - Hướng dẫn đổi mật khẩu là sao
-    - Hướng dẫn đổi mật khẩu là gì
-    - Hướng dẫn đổi mật khẩu thế nào
-    - Hướng dẫn đổi mật khẩu ra sao
-    - Hướng dẫn đổi mật khẩu bằng cách nào
-    - Hướng dẫn đổi mật khẩu bằng cách gì
-    - Hướng dẫn đổi mật khẩu như thế nào
-    - Hướng dẫn đổi mật khẩu
-    - Hướng dẫn đổi mật khẩu Trường là như nào thế bot
-    - Hướng dẫn đổi mật khẩu Trường là sao
-    - Hướng dẫn đổi mật khẩu là gì
-    - Hướng dẫn đổi mật khẩu là thế nào
-    - Hướng dẫn đổi mật khẩu ra làm sao
-    - Hướng dẫn đổi mật khẩu như nào
-    - Hướng dẫn đổi mật khẩu bằng cách nào
-    - Hướng dẫn đổi mật khẩu là sao thế
-    - tôi muốn biết thông tin Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn thông tin Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn hỏi thông tin Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn biết Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn xem thông tin Hướng dẫn đổi mật khẩu ra sao
-    - tôi muốn xem Hướng dẫn đổi mật khẩu ra sao
-    - Hướng dẫn đổi mật khẩu là gì thế bot nhỉ
-    - Hướng dẫn đổi mật khẩu là sao hả
-    - Hướng dẫn đổi mật khẩu là gì vậy
-    - Hướng dẫn đổi mật khẩu như thế nào bot
-    - Hướng dẫn đổi mật khẩu ra sao thế
-    - Hướng dẫn đổi mật khẩu bằng cách nào hả 
-    - Hướng dẫn đổi mật khẩu bằng cách gì thế bot
-    - Hướng dẫn đổi mật khẩu như nào vậy   
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu như nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu ra sao
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu thế nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu gì thế
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu là sao
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu như thế nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu sao thế
-    - hãy nói cho tôi thông tin cách Hướng dẫn đổi mật khẩu 
-    - hãy nói cho tôi nghe cách Hướng dẫn đổi mật khẩu như nào
-    - hãy nói cho tôi nghe cách Hướng dẫn đổi mật khẩu ra sao
-    - hãy nói cho tôi nghe cách Hướng dẫn đổi mật khẩu thế nào
-    - hãy nói cho tôi nghe cách Hướng dẫn đổi mật khẩu gì thế
-    - hãy nói cho tôi nghe cách Hướng dẫn đổi mật khẩu là sao
-    - hãy nói cho tôi nghe Hướng dẫn đổi mật khẩu như thế nào
-    - hãy nói cho tôi nghe Hướng dẫn đổi mật khẩu sao thế
-    - hãy nói cho tôi nghe Hướng dẫn đổi mật khẩu
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu như nào
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu ra sao
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu thế nào
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu gì thế
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu là sao
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu như thế nào
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu sao thế
-    - hãy nói cho tôi xem cách Hướng dẫn đổi mật khẩu
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu như nào
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu ra sao
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu thế nào
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu gì thế
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu là sao
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu như thế nào
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu sao thế
-    - hãy nói cho tôi biết cách Hướng dẫn đổi mật khẩu   
-    - tôi muốn biết Hướng dẫn đổi mật khẩu như nào
-    - tôi muốn biết cách Hướng dẫn đổi mật khẩu thế nào
-    - tôi muốn biết Hướng dẫn đổi mật khẩu gì thế
-    - tôi muốn biết Hướng dẫn đổi mật khẩu là sao
-    - tôi muốn biết cách Hướng dẫn đổi mật khẩu như thế nào
-    - tôi muốn biết cách Hướng dẫn đổi mật khẩu sao thế
-    - tôi muốn biết cách Hướng dẫn đổi mật khẩu    
-    - tôi muốn hỏi cách Hướng dẫn đổi mật khẩu như nào
-    - tôi muốn hỏi cách Hướng dẫn đổi mật khẩu thế nào
-    - tôi muốn hỏi cách Hướng dẫn đổi mật khẩu gì thế
-    - tôi muốn hỏi cách Hướng dẫn đổi mật khẩu là sao
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu như thế nào
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu sao thế
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu   
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu như nào
-    - tôi muốn xem Hướng dẫn đổi mật khẩu thế nào
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu gì thế
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu là sao
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu như thế nào
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu sao thế
-    - tôi muốn xem cách Hướng dẫn đổi mật khẩu
-- intent: hd_doi_mat_khau_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_b2
-  examples: |
-
-- intent: hd_doi_mat_khau_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_b4
-  examples: |
-
-- intent: hd_doi_mat_khau_b5
-  examples: |
-
-- intent: hd_doi_mat_khau_b6
-  examples: |
-
-- intent: hd_doi_mat_khau_b7
-  examples: |
-
-- intent: hd_doi_mat_khau_b8
-  examples: |
-
-- intent: hd_doi_mat_khau_b9
-  examples: |
-
-# 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
-- intent: hd_chuyen_email #check
-  examples: |
-    - Hướng dẫn chuyển email
-    - Hướng dẫn chuyển email là sao
-    - Hướng dẫn chuyển email là gì
-    - Hướng dẫn chuyển email thế nào
-    - Hướng dẫn chuyển email ra sao
-    - Hướng dẫn chuyển email bằng cách nào
-    - Hướng dẫn chuyển email bằng cách gì
-    - Hướng dẫn chuyển email Trường
-    - Hướng dẫn chuyển email Trường là sao
-    - Hướng dẫn chuyển email Trường là gì
-    - Hướng dẫn chuyển email Trường thế nào
-    - Hướng dẫn chuyển email Trường ra sao
-    - Hướng dẫn chuyển email Trường bằng cách nào
-    - Hướng dẫn chuyển email Trường bằng cách gì
-    - Hướng dẫn chuyển email Trường như thế nào
-    - Hướng dẫn chuyển email Trường
-    - Hướng dẫn chuyển email Trường là như nào thế bot
-    - Hướng dẫn chuyển email Trường là sao
-    - Hướng dẫn chuyển email Trường là gì
-    - Hướng dẫn chuyển email Trường là thế nào
-    - Hướng dẫn chuyển email Trường ra làm sao
-    - Hướng dẫn chuyển email Trường như nào
-    - Hướng dẫn chuyển email Trường bằng cách nào
-    - Hướng dẫn chuyển email Trường là sao thế
-    - tôi muốn biết thông tin Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn thông tin Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn hỏi thông tin Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn biết Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn hỏi Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn xem thông tin Hướng dẫn chuyển email Trường ra sao
-    - tôi muốn xem Hướng dẫn chuyển email Trường ra sao
-    - Hướng dẫn chuyển email Trường là gì thế bot nhỉ
-    - Hướng dẫn chuyển email Trường là sao hả
-    - Hướng dẫn chuyển email Trường là gì vậy
-    - Hướng dẫn chuyển email như thế nào bot
-    - Hướng dẫn chuyển email ra sao thế
-    - Hướng dẫn chuyển email bằng cách nào hả 
-    - Hướng dẫn chuyển email Trường bằng cách gì thế bot
-    - Hướng dẫn chuyển email Trường như nào vậy
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email như nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email ra sao
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email thế nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email gì thế
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email là sao
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email như thế nào
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email sao thế
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email  
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email như nào
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email ra sao
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email thế nào
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email gì thế
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email là sao
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email như thế nào
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email sao thế
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email như nào
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email ra sao
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email thế nào
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email gì thế
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email là sao
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email như thế nào
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email sao thế
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email như nào
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email ra sao
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email thế nào
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email gì thế
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email là sao
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email như thế nào
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email sao thế
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email   
-    - tôi muốn biết Hướng dẫn chuyển email như nào
-    - tôi muốn biết cách Hướng dẫn chuyển email thế nào
-    - tôi muốn biết Hướng dẫn chuyển email gì thế
-    - tôi muốn biết Hướng dẫn chuyển email là sao
-    - tôi muốn biết cách Hướng dẫn chuyển email như thế nào
-    - tôi muốn biết cách Hướng dẫn chuyển email sao thế
-    - tôi muốn biết cách Hướng dẫn chuyển email    
-    - tôi muốn hỏi cách Hướng dẫn chuyển email như nào
-    - tôi muốn hỏi cách Hướng dẫn chuyển email thế nào
-    - tôi muốn hỏi cách Hướng dẫn chuyển email gì thế
-    - tôi muốn hỏi cách Hướng dẫn chuyển email là sao
-    - tôi muốn hỏi Hướng dẫn chuyển email như thế nào
-    - tôi muốn hỏi Hướng dẫn chuyển email sao thế
-    - tôi muốn hỏi Hướng dẫn chuyển email
-    - tôi muốn xem cách Hướng dẫn chuyển email như nào
-    - tôi muốn xem Hướng dẫn chuyển email thế nào
-    - tôi muốn xem cách Hướng dẫn chuyển email gì thế
-    - tôi muốn xem cách Hướng dẫn chuyển email là sao
-    - tôi muốn xem cách Hướng dẫn chuyển email như thế nào
-    - tôi muốn xem cách Hướng dẫn chuyển email sao thế
-    - tôi muốn xem cách Hướng dẫn chuyển email  
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email như nào
-    - tôi muốn tìm hiểu Hướng dẫn chuyển email thế nào
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email gì thế
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email là sao
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email như thế nào
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email sao thế
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email như nào bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email ra sao bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email thế nào vậy bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email gì thế bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email là sao vậy bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email như thế nào thế bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email sao thế bot
-    - hãy nói cho tôi thông tin cách Hướng dẫn chuyển email là gì bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email như nào bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email ra sao bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email thế nào vậy bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email gì thế bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email là sao vậy bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email như thế nào thế bot
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email sao thế bo
-    - hãy nói cho tôi nghe cách Hướng dẫn chuyển email là gì bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email như nào thế bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email ra sao bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email thế nào vậy bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email gì thế bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email là sao bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email như thế nào hả bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email sao thế hả bot
-    - hãy nói cho tôi xem cách Hướng dẫn chuyển email là gì bot   
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email như nào thế bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email ra sao bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email thế nào vậy bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email gì thế bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email là sao bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email như thế nào hả bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email sao thế hả bot
-    - hãy nói cho tôi biết cách Hướng dẫn chuyển email là gì bot
-    - tôi muốn biết Hướng dẫn chuyển email như nào thế bot
-    - tôi muốn biết cách Hướng dẫn chuyển email thế nào hả bot
-    - tôi muốn biết Hướng dẫn chuyển email gì thế bot
-    - tôi muốn biết Hướng dẫn chuyển email là sao bot
-    - tôi muốn biết cách Hướng dẫn chuyển email như thế nào hả bot
-    - tôi muốn biết cách Hướng dẫn chuyển email sao thế bot
-    - tôi muốn biết cách Hướng dẫn chuyển email là gì thế bot
-    - tôi muốn hỏi cách Hướng dẫn chuyển email như nào thế bot
-    - tôi muốn hỏi cách Hướng dẫn chuyển email thế nào bot
-    - tôi muốn hỏi cách Hướng dẫn chuyển email gì thế bot
-    - tôi muốn hỏi cách Hướng dẫn chuyển email là sao hả bot
-    - tôi muốn hỏi Hướng dẫn chuyển email như thế nào hả bot
-    - tôi muốn hỏi Hướng dẫn chuyển email sao thế bot
-    - tôi muốn hỏi Hướng dẫn chuyển email là gì bot
-    - tôi muốn xem cách Hướng dẫn chuyển email như nào thế bot
-    - tôi muốn xem Hướng dẫn chuyển email thế nào hả bot
-    - tôi muốn xem cách Hướng dẫn chuyển email gì thế bot
-    - tôi muốn xem cách Hướng dẫn chuyển email là sao bot
-    - tôi muốn xem cách Hướng dẫn chuyển email như thế nào vậy bot
-    - tôi muốn xem cách Hướng dẫn chuyển email sao thế bot
-    - tôi muốn xem cách Hướng dẫn chuyển email là gì thế bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email như nào hả bot
-    - tôi muốn tìm hiểu Hướng dẫn chuyển email thế nào bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email gì thế bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email là sao vậy bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email như thế nào hả bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email sao thế bot
-    - tôi muốn tìm hiểu cách Hướng dẫn chuyển email là gì bot
-
-- intent: hd_chuyen_email_b1
-  examples: |
-
-- intent: hd_chuyen_email_b2
-  examples: |
-
-- intent: hd_chuyen_email_b3_lki
-  examples: |
-
-- intent: hd_chuyen_email_b4_four
-  examples: |
-
-- intent: hd_chuyen_email_b5
-  examples: |
-
-- intent: hd_chuyen_email_b6hg #check
-  examples: |
-
-- intent: hd_chuyen_email_b7_seven
-  examples: |
-
-- intent: hd_chuyen_email_b8
-  examples: |
-
-- intent: hd_chuyen_email_b9_nine #check
-  examples: |
-
-- intent: hd_chuyen_email_b10
-  examples: |
-
-- intent: hd_chuyen_email_b11
-  examples: |
-
-- intent: hd_chuyen_email_b12
-  examples: |
-
-- intent: hd_chuyen_email_b13
-  examples: |
-
-- intent: hd_chuyen_email_b14
-  examples: |
-
-- intent: hd_chuyen_email_b15 #check
-  examples: |
-
-- intent: hd_chuyen_email_b16cd
-  examples: |
-
-- intent: hd_chuyen_email_b17 #check
-  examples: |
-
-- intent: hd_chuyen_email_b18
-  examples: |
-
-- intent: hd_chuyen_email_b19ef
-  examples: |
-
-- intent: hd_chuyen_email_b20_twenty
-  examples: |
-
-- intent: hd_chuyen_email_b21_twenty_one
-  examples: |
-
-
-## Chi tiết về Hệ thống tích hợp
-# 1) Đăng nhập hệ thống tích hợp
-- intent: hd_dang_nhap_he_thong_tich_hop
-  examples: |
-    - Hướng dẫn đăng nhập hệ thống tích hợp
-    - Hướng dẫn đăng nhập hệ thống tích hợp là sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp là gì
-    - Hướng dẫn đăng nhập hệ thống tích hợp thế nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp bằng cách nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp bằng cách gì
-    - Hướng dẫn đăng nhập hệ thống tích hợp Trường
-    - Hướng dẫn đăng nhập hệ thống tích hợp Trường là sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp là gì
-    - Hướng dẫn đăng nhập hệ thống tích hợp thế nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp bằng cách nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp bằng cách gì
-    - Hướng dẫn đăng nhập hệ thống tích hợp như thế nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp
-    - Hướng dẫn đăng nhập hệ thống tích hợp là như nào thế bot
-    - Hướng dẫn đăng nhập hệ thống tích hợp là sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp là gì
-    - Hướng dẫn đăng nhập hệ thống tích hợp là thế nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp ra làm sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp như nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp bằng cách nào
-    - Hướng dẫn đăng nhập hệ thống tích hợp là sao thế
-    - tôi muốn biết thông tin Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn thông tin Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn hỏi thông tin Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn biết Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn hỏi Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn xem thông tin Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - tôi muốn xem Hướng dẫn đăng nhập hệ thống tích hợp ra sao
-    - Hướng dẫn đăng nhập hệ thống tích hợp là gì thế bot nhỉ
-    - Hướng dẫn đăng nhập hệ thống tích hợp là sao hả
-    - Hướng dẫn đăng nhập hệ thống tích hợp là gì vậy
-    - Hướng dẫn đăng nhập hệ thống tích hợp như thế nào bot
-    - Hướng dẫn đăng nhập hệ thống tích hợp ra sao thế
-    - Hướng dẫn đăng nhập hệ thống tích hợp email bằng cách nào hả 
-    - Hướng dẫn đăng nhập hệ thống tích hợp Trường bằng cách gì thế bot
-    - Hướng dẫn đăng nhập hệ thống tích hợp Trường như nào vậy
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b1
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b2_two
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b3
-  examples: |
-
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b4a
-  examples: |
-
-- intent: hd_dang_nhap_he_thong_tich_hop_b5
-  examples: |
-
-# 2) Đổi mật khẩu tài khoản máy tính
-- intent: hd_doi_mat_khau_may_tinh #check
-  examples: |
-    - Hướng dẫn đổi mật khẩu máy tính
-    - Hướng dẫn đổi mật khẩu máy tính là sao
-    - Hướng dẫn đổi mật khẩu máy tính là gì
-    - Hướng dẫn đổi mật khẩu máy tính thế nào
-    - Hướng dẫn đổi mật khẩu máy tính ra sao
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách gì
-    - Hướng dẫn đổi mật khẩu máy tính Trường
-    - Hướng dẫn đổi mật khẩu máy tính Trường là sao
-    - Hướng dẫn đổi mật khẩu máy tính là gì
-    - Hướng dẫn đổi mật khẩu máy tính thế nào
-    - Hướng dẫn đổi mật khẩu máy tính ra sao
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách gì
-    - Hướng dẫn đổi mật khẩu máy tính như thế nào
-    - Hướng dẫn đổi mật khẩu máy tính là sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là như nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là sao
-    - Hướng dẫn đổi mật khẩu máy tính là gì
-    - Hướng dẫn đổi mật khẩu máy tính là thế nào
-    - Hướng dẫn đổi mật khẩu máy tính ra làm sao
-    - Hướng dẫn đổi mật khẩu máy tính như nào
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính là sao thế
-    - Hướng dẫn đổi mật khẩu máy tính là sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là gì thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là thế nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính ra làm sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính như nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính là sao bot
-    - Hướng dẫn đổi mật khẩu máy tính là gì bot
-    - Hướng dẫn đổi mật khẩu máy tính thế nào bot
-    - Hướng dẫn đổi mật khẩu máy tính ra sao bot
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách nào bot
-    - Hướng dẫn đổi mật khẩu máy tính bằng cách gì bot
-    - Hướng dẫn đổi mật khẩu máy tính Trường bot
-    - Hướng dẫn đổi mật khẩu máy tính Trường là sao bot
-    - Hướng dẫn đổi mật khẩu máy tính là gì bot
-    - Hướng dẫn đổi mật khẩu máy tính thế nào bot 
-    - Hướng dẫn đổi mật khẩu máy tính ra sao bot
-    - Hướng dẫn đổi mật khẩu máy tính là gì thế
-    - Hướng dẫn đổi mật khẩu máy tính là gì thế bot nhỉ
-    - tôi muốn biết thông tin Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn thông tin Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn hỏi thông tin Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn biết Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn xem thông tin Hướng dẫn đổi mật khẩu máy tính ra sao
-    - tôi muốn xem Hướng dẫn đổi mật khẩu máy tính ra sao
-    - Hướng dẫn đổi mật khẩu máy tính là gì thế bot nhỉ
-    - Hướng dẫn đổi mật khẩu máy tính là sao hả
-    - Hướng dẫn đổi mật khẩu máy tính là gì vậy
-    - Hướng dẫn đổi mật khẩu máy tính như thế nào bot
-    - Hướng dẫn đổi mật khẩu máy tính ra sao thế
-    - Hướng dẫn đổi mật khẩu máy tính email bằng cách nào hả 
-    - Hướng dẫn đổi mật khẩu máy tính Trường bằng cách gì thế bot
-    - Hướng dẫn đổi mật khẩu máy tính Trường như nào vậy
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính như nào
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính ra sao
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính thế nào
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính gì thế
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính là sao
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính như thế nào
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính sao thế
-    - hãy nói cho tôi cách Hướng dẫn đổi mật khẩu máy tính
-- intent: hd_doi_mat_khau_may_tinh_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b2 #check
-  examples: |
-- intent: hd_doi_mat_khau_may_tinh_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b4
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_b5
-  examples: |
-
-# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-- intent: hd_doi_mat_khau_may_tinh_cong
-  examples: |
-    - Hướng dẫn đổi mật khẩu máy tính công
-    - Hướng dẫn đổi mật khẩu máy tính công là sao
-    - Hướng dẫn đổi mật khẩu máy tính công là gì
-    - Hướng dẫn đổi mật khẩu máy tính công thế nào
-    - Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách gì
-    - Hướng dẫn đổi mật khẩu máy tính công Trường
-    - Hướng dẫn đổi mật khẩu máy tính công Trường là sao
-    - Hướng dẫn đổi mật khẩu máy tính công là gì
-    - Hướng dẫn đổi mật khẩu máy tính công thế nào
-    - Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách gì
-    - Hướng dẫn đổi mật khẩu máy tính công như thế nào
-    - Hướng dẫn đổi mật khẩu máy tính công
-    - Hướng dẫn đổi mật khẩu máy tính công là như nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công là sao
-    - Hướng dẫn đổi mật khẩu máy tính công là gì
-    - Hướng dẫn đổi mật khẩu máy tính công là thế nào
-    - Hướng dẫn đổi mật khẩu máy tính công ra làm sao
-    - Hướng dẫn đổi mật khẩu máy tính công như nào
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào
-    - Hướng dẫn đổi mật khẩu máy tính công là sao thế
-    - Hướng dẫn đổi mật khẩu máy tính công là sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công là gì thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công là thế nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công ra làm sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công như nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công là sao thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công là sao bot
-    - Hướng dẫn đổi mật khẩu máy tính công là gì bot
-    - Hướng dẫn đổi mật khẩu máy tính công thế nào bot
-    - Hướng dẫn đổi mật khẩu máy tính công ra sao bot
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào bot
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách gì bot
-    - Hướng dẫn đổi mật khẩu máy tính công Trường bot
-    - Hướng dẫn đổi mật khẩu máy tính công Trường là sao bot
-    - Hướng dẫn đổi mật khẩu máy tính công là gì bot
-    - Hướng dẫn đổi mật khẩu máy tính công thế nào bot 
-    - Hướng dẫn đổi mật khẩu máy tính công ra sao bot
-    - Hướng dẫn đổi mật khẩu máy tính công là gì thế
-    - Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - tôi muốn biết thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn biết Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn hỏi Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn xem thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - tôi muốn xem Hướng dẫn đổi mật khẩu máy tính công ra sao
-    - Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - hãy nói cho tôi biết thông tin Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - hãy nói cho tôi nghe thông tin Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - hãy nói cho tôi được biết thông tin Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - hãy nói cho tôi xem thông tin Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy    
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công là gì thế bot nhỉ
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công là sao hả
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công là gì vậy
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công như thế nào bot
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công ra sao thế
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công bằng cách nào hả 
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công Trường bằng cách gì thế bot
-    - hãy nói cho tôi hỏi thông tin Hướng dẫn đổi mật khẩu máy tính công Trường như nào vậy
-- intent: hd_doi_mat_khau_may_tinh_cong_b1
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b2
-  examples: |
-#
-- intent: hd_doi_mat_khau_may_tinh_cong_b3
-  examples: |
-
-- intent: hd_doi_mat_khau_may_tinh_cong_b4
-  examples: |
-    
-
-# Hỏi nhiều hơn
+## Hỏi nhiều hơn
 - intent: ask_diem_A
   examples: |
     - vậy còn điểm A thì sao
@@ -7094,9 +5363,9 @@ nlu:
     - bạn có thể cho mình biết điểm A từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm A
     - bot có thể cho tôi biết điểm A là điểm gì được không?
-
-- intent: ask_diem_B_cong
-  examples: |
+#
+#- intent: ask_diem_B_cong
+#  examples: |
 #    - vậy còn điểm B+ thì sao
 #    - B+ từ bao nhiêu?
 #    - để được điểm B+ thì cần bao nhiêu điểm
@@ -7163,7 +5432,7 @@ nlu:
 #    - bạn có thể cho mình biết điểm B cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm B cộng
 #    - bot có thể cho tôi biết điểm B cộng là điểm gì được không?
-
+#
 - intent: ask_diem_B
   examples: |
     - vậy còn điểm B thì sao
@@ -7199,9 +5468,9 @@ nlu:
     - bạn có thể cho mình biết điểm B từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm B
     - bot có thể cho tôi biết điểm B là điểm gì được không?
-
-- intent: ask_diem_C_cong
-  examples: |
+#
+#- intent: ask_diem_C_cong
+#  examples: |
 #    - vậy còn điểm C+ thì sao
 #    - C+ từ bao nhiêu?
 #    - để được điểm C+ thì cần bao nhiêu điểm
@@ -7267,7 +5536,7 @@ nlu:
 #    - bạn có thể cho mình biết điểm C cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm C cộng
 #    - bot có thể cho tôi biết điểm C cộng là điểm gì được không?
-
+#
 - intent: ask_diem_C
   examples: |
     - vậy còn điểm C thì sao
@@ -7303,9 +5572,9 @@ nlu:
     - bạn có thể cho mình biết điểm C từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm C
     - bot có thể cho tôi biết điểm C là điểm gì được không?
-
-- intent: ask_diem_D_cong
-  examples: |
+#
+#- intent: ask_diem_D_cong
+#  examples: |
 #    - vậy còn điểm D+ thì sao
 #    - D+ từ bao nhiêu?
 #    - để được điểm D+ thì cần bao nhiêu điểm
@@ -7372,7 +5641,7 @@ nlu:
 #    - bạn có thể cho mình biết điểm D cộng từ đâu mà ra
 #    - bạn/em/anh hãy cho tôi biết thông tin về điểm D cộng
 #    - bot có thể cho tôi biết điểm D cộng là điểm gì được không?
-
+#
 - intent: ask_diem_D
   examples: |
     - vậy còn điểm D thì sao
@@ -7408,7 +5677,7 @@ nlu:
     - bạn có thể cho mình biết điểm D từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm D
     - bot có thể cho tôi biết điểm D là điểm gì được không?
-
+#
 - intent: ask_diem_F
   examples: |
     - vậy còn điểm F thì sao
@@ -7447,4 +5716,3 @@ nlu:
     - bạn có thể cho mình biết điểm F từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm F
     - bot có thể cho tôi biết điểm F là điểm gì được không?
-    

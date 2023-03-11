@@ -88,7 +88,7 @@ intents:
   - give_student_code
   - ask_point
   - ask_comment_replay
-############ xay dựng cốt chuyện quy chế học vụ
+############ xây dựng cốt truyện quy chế học vụ
   - ask_van_de_chung
   - ask_to_chuc_dao_tao
   - ask_danh_gia_ket_qua_hoc_tap
@@ -114,169 +114,22 @@ intents:
   - thu_tuc_ra_truong
   - quan_ly_bang_tot_nghiep
 
+## Hỏi nhiều hơn
+  - ask_diem_A
+#  - ask_diem_B_cong
+  - ask_diem_B
+#  - ask_diem_C_cong
+  - ask_diem_C
+#  - ask_diem_D_cong
+  - ask_diem_D
+  - ask_diem_F
+
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
   - ask_dia_chi_tro_giup
   - ask_sdt_tro_giup
-# Bổ sung chi tiết số điện thoại
-#  - sdt_truong_dhct
-  - ask_trang_web_tro_giup
-  - ask_hoc_truc_tuyen
-  - ask_hop_thu_dien_tu
-  - ask_he_thong_tich_hop
 
-## Chi tiết về Học trực tuyến
-# 1) Hướng dẫn sử dụng hệ thống E-Learning
-  - hd_elearning
-  - hd_elearning_dang_nhap
-  - hd_elearning_dang_nhap_b1
-  - hd_elearning_dang_nhap_b2
-  - hd_elearning_dang_xuat
-  - hd_elearning_dang_xuat_b1
-  - hd_elearning_dang_xuat_b2
-  - hd_elearning_tim_kiem_ghi_danh
-  - hd_elearning_tim_kiem_ghi_danh_b1
-  - hd_elearning_tim_kiem_ghi_danh_b2
-  - hd_elearning_tim_kiem_ghi_danh_b3
-  - hd_elearning_rut_ten
-  - hd_elearning_rut_ten_b1
-  - hd_elearning_rut_ten_b2
-# 2) Hướng dẫn sử dụng Google Classroom
-  - hd_classroom
-  - hd_classroom_b1_one
-  - hd_classroom_b2
-  - hd_classroom_b3_three
-  - hd_classroom_b4
-  - hd_classroom_tham_gia_lop
-  - hd_classroom_tham_gia_lop_b1
-  - hd_classroom_tham_gia_lop_b2
-  - hd_classroom_tham_gia_lop_b3
-  - hd_classroom_nop_bai
-  - hd_classroom_nop_bai_b1_one
-  - hd_classroom_nop_bai_b2
-  - hd_classroom_nop_bai_b3
-  - hd_classroom_nop_bai_b4
-  - hd_classroom_nop_bai_b5
-  - hd_classroom_nop_bai_b6_six
-  - hd_classroom_nop_bai_b7
-  - hd_classroom_mobile
-  - hd_classroom_mobile_b1
-  - hd_classroom_mobile_b2
-  - hd_classroom_mobile_b3
-  - hd_classroom_mobile_b4
-  - hd_classroom_mobile_b5
-  - hd_classroom_mobile_b6
-# 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
-  - hd_quay_man_hinh
-  - hd_quay_man_hinh_cai_dat
-  - hd_quay_man_hinh_su_dung
-  - hd_quay_man_hinh_su_dung_b1
-  - hd_quay_man_hinh_su_dung_b2
-  - hd_quay_man_hinh_su_dung_b3
-  - hd_quay_man_hinh_su_dung_b4_four
-  - hd_quay_man_hinh_su_dung_b5
-  - hd_quay_man_hinh_su_dung_b6_six
-  - hd_quay_man_hinh_su_dung_b7_seven
-# 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
-  - hd_zoom
-  - hd_zoom_b1
-  - hd_zoom_b2
-  - hd_zoom_b3
-  - hd_zoom_b4
-  - hd_zoom_b5
-  - hd_zoom_b6sa
-  - hd_zoom_b7
-  - hd_zoom_b8
-## Chi tiết về Hộp thư điện tử
-# 1) Hướng dẫn đổi tên hiển thị trên Gmail
-  - hd_doi_ten_hien_thi
-  - hd_doi_ten_hien_thi_b1
-  - hd_doi_ten_hien_thi_b2
-  - hd_doi_ten_hien_thi_b3
-  - hd_doi_ten_hien_thi_b4c
-# 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
-  - hd_dang_nhap_email
-  - hd_dang_nhap_email_android
-  - hd_dang_nhap_email_android_b1
-  - hd_dang_nhap_email_android_b2_two
-  - hd_dang_nhap_email_android_b3
-  - hd_dang_nhap_email_android_b4
-  - hd_dang_nhap_email_android_b5
-  - hd_dang_nhap_email_android_b6
-  - hd_dang_nhap_email_android_b7
-  - hd_dang_nhap_email_android_b8
-  - hd_dang_nhap_email_ios
-  - hd_dang_nhap_email_ios_b1_one
-  - hd_dang_nhap_email_ios_b2_two
-  - hd_dang_nhap_email_ios_b3
-  - hd_dang_nhap_email_ios_b4
-  - hd_dang_nhap_email_ios_b5
-# 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
-  - hd_doi_mat_khau
-  - hd_doi_mat_khau_b1
-  - hd_doi_mat_khau_b2
-  - hd_doi_mat_khau_b3
-  - hd_doi_mat_khau_b4
-  - hd_doi_mat_khau_b5
-  - hd_doi_mat_khau_b6
-  - hd_doi_mat_khau_b7
-  - hd_doi_mat_khau_b8
-  - hd_doi_mat_khau_b9
-# 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
-  - hd_chuyen_email
-  - hd_chuyen_email_b1
-  - hd_chuyen_email_b2
-  - hd_chuyen_email_b3_lki
-  - hd_chuyen_email_b4_four
-  - hd_chuyen_email_b5
-  - hd_chuyen_email_b6hg
-  - hd_chuyen_email_b7_seven
-  - hd_chuyen_email_b8
-  - hd_chuyen_email_b9_nine
-  - hd_chuyen_email_b10
-  - hd_chuyen_email_b11
-  - hd_chuyen_email_b12
-  - hd_chuyen_email_b13
-  - hd_chuyen_email_b14
-  - hd_chuyen_email_b15
-  - hd_chuyen_email_b16cd
-  - hd_chuyen_email_b17
-  - hd_chuyen_email_b18
-  - hd_chuyen_email_b19ef
-  - hd_chuyen_email_b20_twenty
-  - hd_chuyen_email_b21_twenty_one
-
-
-## Chi tiết về Hệ thống tích hợp
-# 1) Đăng nhập hệ thống tích hợp
-  - hd_dang_nhap_he_thong_tich_hop
-  - hd_dang_nhap_he_thong_tich_hop_b1
-  - hd_dang_nhap_he_thong_tich_hop_b2_two
-  - hd_dang_nhap_he_thong_tich_hop_b3
-  - hd_dang_nhap_he_thong_tich_hop_b4a
-  - hd_dang_nhap_he_thong_tich_hop_b5
-# 2) Đổi mật khẩu tài khoản máy tính
-  - hd_doi_mat_khau_may_tinh
-  - hd_doi_mat_khau_may_tinh_b1
-  - hd_doi_mat_khau_may_tinh_b2
-  - hd_doi_mat_khau_may_tinh_b3
-  - hd_doi_mat_khau_may_tinh_b4
-  - hd_doi_mat_khau_may_tinh_b5
-# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-  - hd_doi_mat_khau_may_tinh_cong
-  - hd_doi_mat_khau_may_tinh_cong_b1
-  - hd_doi_mat_khau_may_tinh_cong_b2
-  - hd_doi_mat_khau_may_tinh_cong_b3
-  - hd_doi_mat_khau_may_tinh_cong_b4
-
-# Hỏi nhiều hơn
-  - ask_diem_A
-  - ask_diem_B_cong
-  - ask_diem_B
-  - ask_diem_C_cong
-  - ask_diem_C
-  - ask_diem_D_cong
-  - ask_diem_D
-  - ask_diem_F
+  - give_majors_code
+  - ask_majors_point
 
 entities: [student_name,comment_content,student_code]
 slots:
@@ -363,8 +216,7 @@ responses:
           payload: "/hoc_ky_phu"
 
   utter_hoc_ky_chinh:
-    - text: "- Học kỳ I và HK II là các HK chính kéo dài 20 tuần.\n
-    - Trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK.\n
+    - text: "- Học kỳ I và HK II là các HK chính kéo dài 20 tuần.\n- Trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK.\n
     - Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12, HK II bắt đầu từ tháng 01 đến cuối tháng 5.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -402,7 +254,7 @@ responses:
     - text: "1. Kiến thức của mỗi học phần và toàn khóa học được đo lường bằng tín chỉ (TC). Thời lượng của TC được quy định như sau:
     1 TC = 15 tiết học lý thuyết và 30 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 30 tiết thực hành, thí nghiệm, thảo luận, seminar,... và 15 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 45 tiết thực tập tại cơ sở, làm tiểu luận, bài tập lớn, đồ án, niên luận, tiểu luận tốt nghiệp, luận văn tốt nghiệp.\n
     2. Một tiết học được tính bằng 50 phút.\n
-    3. Khối lượng CTĐT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTDT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.\n
+    3. Khối lượng CTOT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTDT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_hoc_bong:
@@ -456,6 +308,7 @@ responses:
         - title: "Chuyển hình thức đào tạo"
           payload: "/change_hinh_thuc_dao_tao"
       button_type: vertical
+
   utter_change_co_so_dao_tao:
     - text: "Sinh viên được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:\n
     a) Không đang là SV trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại Điều 5 của Quy định này.\n
@@ -564,6 +417,7 @@ responses:
         - title: "Thủ tục đăng ký học thêm chương trình thứ hai"
           payload: "/thu_tuc_learn"
       button_type: vertical
+
   utter_dieu_kien_learn:
     - text: "Điều kiện để học cùng lúc hai chương trình:\n
     a)	Ngành đào tạo có chương trình thứ hai phải khác ngành đào tạo ở chương trình thứ nhất.\n
@@ -862,9 +716,9 @@ responses:
     - text: "Mời bạn cung cấp mã sinh viên (gồm 8 kí tự) để lấy thông tin về điểm."
 
   utter_greet:
-    - text: "Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ.\n
-    Đây là kết quả thử nghiệm của đề tài luận văn do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiệu trưởng trường CNTT&TT trực thuộc Đại học Cần Thơ.
-    Các lĩnh vực hỗ trợ gồm:\n 1) Quy chế học vụ; \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ; \n 4) Góp ý; \n....\n
+    - text: " Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ. 
+    \n  Đây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiểu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
+      Các lĩnh vực hỗ trợ trợ gồm:\n 1) Quy chế học vụ \n 2) Các địa chỉ liên hệ trợ giúp; \n 3) Tra cứu kết quả trình độ ngoại ngữ \n 4) Góp ý\n....\n
     Mình tên là CTU Students Advisor. Mình có thể hỗ trợ nhanh với những yêu cầu dưới đây. Bạn cũng có thể đặt các câu hỏi ngắn gọn như “quy chế học vụ”, “bảo hiểm y tế”,… mình sẽ giải đáp ngay."
       buttons:
         - title: "Quy chế học vụ"
@@ -884,12 +738,12 @@ responses:
     - text: "Xin tạm biệt và hẹn gặp lại. Chúc bạn luôn vui vẻ!"
 
 
-  utter_ask_timetable_student_code:
-    - text: "Mời bạn cung cấp mã số sinh viên (gồm 8 kí tự) để xem về thời khóa biểu hôm nay"
+#  utter_ask_timetable_student_code:
+#    - text: "Mời bạn cung cấp mã số sinh viên (gồm 8 kí tự) để xem về thời khóa biểu hôm nay"
 
-  utter_ask_no_case:
-    - text: "Bạn muốn hỏi về thông tin gì vậy ạ ?"
-
+#  utter_ask_no_case:
+#    - text: "Bạn muốn hỏi về thông tin gì vậy ạ ?"
+#
   utter_comment_replay:
     - text: "Vui lòng nhập họ tên của bạn lúc góp ý: "
 
@@ -1037,6 +891,7 @@ responses:
         - title: "Chương trình giảng dạy"
           payload: "/ask_ctgd"
       button_type: vertical
+
   utter_ask_ctdt:
     - text: "Chương trình đào tạo của mọi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
@@ -1076,6 +931,7 @@ responses:
           payload: "/trach_nhiem_truong"
         - title: "Trách nhệm của sinh viên"
           payload: "/trach_nhiem_sinh_vien"
+
   utter_trach_nhiem_truong:
     - text: "a)	Đầu khóa học, Trường cung cấp cho sinh viên (SV) kế hoạch học tập chuẩn toàn khóa của ngành học, quy định về công tác học vụ và bố trí Cố vấn học tập (CVHT) cho từng lớp chuyên ngành.\n
         b)	Cán bộ làm CVHT chịu trách nhiệm quản lý SV; căn cứ kế hoạch học tập chuẩn toàn khóa, tư vấn SV xây dựng kế hoạch học tập toàn khóa (KHHTTK) và thực hiện quá trình học tập theo đúng quy định của Trường.\n
@@ -1113,6 +969,7 @@ responses:
   utter_danh_gia_HP_thuc_hanh:
     - text: "Điểm học phần được tính bằng điểm trung bình của các bài thực hành.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
+
   utter_thong_bao_kq_hoc_tap:
     - text: "Thông báo kết quả học tập:\n
         1.	Giảng viên chịu trách nhiệm: giải đáp thắc mắc (nếu có) của sinh viên (SV) về kết quả học tập của học phần; nhập điểm học phần vào hệ thống quản lý trực tuyến và in hai (02) bản điểm, ký tên, gửi Khoa quản lý học phần. Khoa quản lý học phần lưu một (01) bản và gửi về Phòng Đào tạo một (01) bản chậm nhất là 10 ngày kể từ ngày kết thúc kế hoạch nhập điểm của học kỳ. Trưởng khoa quản lý học phần ký duyệt bảng điểm và xử lý tất cả khiếu nại liên quan đến kết quả học tập của học phần do Khoa quản lý và chỉ thực hiện trong thòi gian 1 tuần kể từ ngày công bố điểm.\n
@@ -1135,918 +992,64 @@ responses:
       buttons:
         - title: "Các số điện thoại cần thiết"
           payload: "/ask_sdt_tro_giup"
-        - title: "Các trang web trợ giúp sinh viên"
-          payload: "/ask_trang_web_tro_giup"
       button_type: vertical
 
   utter_ask_sdt_tro_giup:
     - text: "Sau đây là các số điện thoại trợ giúp khi cần:\n
-    1. Đại học Cần Thơ: 02923832663\n
-    2. Phòng Đào tạo: 02923872728\n
-    3. Phòng Công tác Sinh viên: 02923830177\n
-    4. Đoàn thanh niên Trường: 02923830309\n
-    5. Trung tâm tư vấn hỗ trợ kỹ năng sinh viên:  02923872284 / 02923943727\n"
-
-# Bổ sung chi tiết số điện thoại
-#  utter_sdt_truong_dhct:
-#    - text: "Đây là số điện thoại của Trường Đại học Cần Thơ: 02923832663"
-
-
-  utter_ask_trang_web_tro_giup:
-    - text: "Các địa chỉ trang web trợ giúp sinh viên CTU:\n"
-      buttons:
-        - title: "Học trực tuyến"
-          payload: "/ask_hoc_truc_tuyen"
-        - title: "Hộp thư điện tử"
-          payload: "/ask_hop_thu_dien_tu"
-        - title: "Hệ thống tích hợp"
-          payload: "/ask_he_thong_tich_hop"
-      button_type: vertical
-
-  utter_ask_hoc_truc_tuyen:
-    - text: "Các hướng dẫn liên quan đến công cụ trong việc học trực tuyến dành cho sinh viên:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen.html"
-      buttons:
-        - title: "Hướng dẫn sử dụng hệ thống E-Learning"
-          payload: "/hd_elearning"
-        - title: "Hướng dẫn sử dụng Google Classroom"
-          payload: "/hd_classroom"
-        - title: "Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam"
-          payload: "/hd_quay_man_hinh"
-        - title: "Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng"
-          payload: "/hd_zoom"
-        - title: "Hướng dẫn sử dụng hệ thống thi trực tuyến trên nền Moodle"
-          payload: "/hd_thi"
-      button_type: vertical
-
-  utter_hop_thu_dien_tu:
-    - text: "Các hướng dẫn liên quan đến hộp thư điện dành cho sinh viên:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu"
-      buttons:
-        - title: "Hướng dẫn đổi tên hiển thị trên Gmail"
-          payload: "/hd_doi_ten_hien_thi"
-        - title: "Hướng dẫn đăng nhập thư điện tử trên điện thoại"
-          payload: "/hd_dang_nhap_email"
-        - title: "ướng dẫn đổi mật khẩu hộp thư điện tử"
-          payload: "/hd_doi_mat_khau"
-        - title: "Hướng dẫn chuyển email Trường ra tài khoản Gmail mới"
-          payload: "/hd_chuyen_email"
-      button_type: vertical
-
-  utter_he_thong_tich_hop:
-    - text: "
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/"
-
-
-## Chi tiết về Học trực tuyến
-# 1) Hướng dẫn sử dụng hệ thống E-Learning
-  utter_hd_elearning:
-    - text: "Thực hiện theo các bước sau để sử dụng hệ thống E-Learning: \n
-        Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/67-hdsd-elearning-tren-nen-moodle.html"
-      buttons:
-        - title: "Đăng nhập"
-          payload: "/hd_elearning_dang_nhap"
-        - title: "Đăng xuất"
-          payload: "/hd_elearning_dang_xuat"
-        - title: "Tìm kiếm và ghi danh"
-          payload: "/hd_elearning_tim_kiem_ghi_danh"
-        - title: "Rút tên khỏi khóa học"
-          payload: "/hd_elearning_rut_ten"
-      button_type: vertical
-
-  utter_hd_elearning_dang_nhap:
-    - text: "Thực hiện theo các bước sau để đăng nhập vào hệ thống E-learning:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/67-hdsd-elearning-tren-nen-moodle.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_elearning_dang_nhap_b1"
-        - title: "Bước 2"
-          payload: "/hd_elearning_dang_nhap_b2"
-      button_type: vertical
-
-  utter_hd_elearning_dang_nhap_b1:
-    - text: "Bước 1: Nhập MSSV và mật khẩu (Tài khoản máy tính)"
-
-  utter_hd_elearning_dang_nhap_b2:
-    - text: "Bước 2: Click Đăng nhập"
-      image: "https://imgur.com/gallery/ZT2pDCZ"
-
-  utter_hd_elearning_dang_xuat:
-    - text: "Thực hiện theo các bước sau để đăng xuất ra khỏi hệ thống E-learning:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/67-hdsd-elearning-tren-nen-moodle.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_elearning_dang_xuat_b1"
-        - title: "Bước 2"
-          payload: "/hd_elearning_dang_xuat_b2"
-      button_type: vertical
-
-  utter_hd_elearning_dang_xuat_b1:
-    - text: "Bước 1: Click tên người dùng (Góc trên, bên phải)"
-      image: "https://imgur.com/gallery/8dvoYG1"
-
-  utter_hd_elearning_dang_xuat_b2:
-    - text: "Bước 2: Chọn Thoát"
-      image: "https://imgur.com/gallery/TxvsZsj"
-
-  utter_hd_elearning_tim_kiem_ghi_danh:
-    - text: "Thực hiện theo các bước sau để tìm kiếm và ghi danh khóa học trên hệ thống E-learning:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/67-hdsd-elearning-tren-nen-moodle.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_elearning_tim_kiem_ghi_danh_b1"
-        - title: "Bước 2"
-          payload: "/hd_elearning_tim_kiem_ghi_danh_b2"
-        - title: "Bước 3"
-          payload: "/hd_elearning_tim_kiem_ghi_danh_b3"
-      button_type: vertical
-
-  utter_hd_elearning_tim_kiem_ghi_danh_b1:
-    - text: "Bước 1: Nhập tên khóa học hoặc từ khóa cần tìm vào khung tìm kiếm"
-      image: "https://imgur.com/gallery/TBSh6bS"
-
-  utter_hd_elearning_tim_kiem_ghi_danh_b2:
-    - text: "Bước 2: Chọn khóa học"
-      image: "https://imgur.com/gallery/noUD5cH"
-
-  utter_hd_elearning_tim_kiem_ghi_danh_b3:
-    - text: "Bước 3: Ghi danh"
-      image: "https://imgur.com/gallery/CpoqXRp"
-
-  utter_hd_elearning_rut_ten:
-    - text: "Thực hiện theo các bước sau để rút tên khỏi khóa học trên hệ thống E-learning:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/67-hdsd-elearning-tren-nen-moodle.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_elearning_tim_kiem_ghi_danh_b1"
-        - title: "Bước 2"
-          payload: "/hd_elearning_tim_kiem_ghi_danh_b2"
-      button_type: vertical
-
-  utter_hd_elearning_rut_ten_b1:
-    - text: "Bước 1: Vào khóa học"
-
-  utter_hd_elearning_rut_ten_b2:
-    - text: "Bước 2: Ở khu vực quản trị chọn “Rút tên tôi khỏi khóa học…”"
-      image: "https://imgur.com/gallery/VydQK95"
-
-# 2) Hướng dẫn sử dụng Google Classroom
-  utter_hd_classroom:
-    - text: "Thực hiện theo các bước sau để sử dụng  Google Classroom:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/23-google-classroom.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_classroom_b1_one"
-        - title: "Bước 2"
-          payload: "/hd_classroom_b2"
-        - title: "Bước 3"
-          payload: "/hd_classroom_b3_three"
-        - title: "Bước 4"
-          payload: "/hd_classroom_b4"
-      button_type: vertical
-
-  utter_hd_classroom_b1_one:
-    - text: "Bước 1: Đăng nhập vào  email của Trường"
-
-  utter_hd_classroom_b2:
-    - text: "Bước 2: Click vào biểu tượng Google Apps chọn Classroom"
-      image: "https://imgur.com/gallery/YTI1q1A"
-
-  utter_hd_classroom_b3_three:
-    - text: "Bước 3: Click Tiếp tục"
-      image: "https://imgur.com/gallery/Qlf6t67"
-
-  utter_hd_classroom_b4:
-    - text: "Bước 4: Nếu là sinh viên, chọn Tôi là Sinh viên. Nếu là giảng viên, chọn Tôi là Giảng viên"
-      image: "https://imgur.com/gallery/oia7bKd"
-
-  utter_hd_classroom_tham_gia_lop:
-    - text: "Thực hiện theo các bước sau để tham gia lớp học trên Google Classroom:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/23-google-classroom.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_classroom_tham_gia_lop_b1"
-        - title: "Bước 2"
-          payload: "/hd_classroom_tham_gia_lop_b2"
-        - title: "Bước 3"
-          payload: "/hd_classroom_tham_gia_lop_b3"
-      button_type: vertical
-
-  utter_hd_classroom_tham_gia_lop_b1:
-    - text: "Bước 1: Sau khi được Giảng viên thêm vào lớp học, sinh viên đăng nhập vào hệ thống email Trường sẽ nhận được thông báo qua email như sau:"
-      image: "https://imgur.com/gallery/a3qqpga"
-
-  utter_hd_classroom_tham_gia_lop_b2:
-    - text: "Bước 2: Sinh viên click Tham gia để tham gia lớp học. Hoặc sinh viên có thể truy cập vào lớp học bằng cách nhập mã lớp học"
-      image: "https://imgur.com/gallery/93bBAJA"
-
-  utter_hd_classroom_tham_gia_lop_b3:
-    - text: "Bước 3: Nhập mã của lớp học do Giảng viên cung cấp sau đó click Tham gia"
-      image: "https://imgur.com/gallery/p6MHSp0"
-
-  utter_hd_classroom_nop_bai:
-    - text: "Thực hiện theo các bước sau để nộp bài trên Google Classroom:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/23-google-classroom.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_classroom_nop_bai_b1_one"
-        - title: "Bước 2"
-          payload: "/hd_classroom_nop_bai_b2"
-        - title: "Bước 3"
-          payload: "/hd_classroom_nop_bai_b3"
-        - title: "Bước 4"
-          payload: "/hd_classroom_nop_bai_b4"
-        - title: "Bước 5"
-          payload: "/hd_classroom_nop_bai_b5"
-        - title: "Bước 6"
-          payload: "/hd_classroom_nop_bai_b6_six"
-        - title: "Bước 7"
-          payload: "/hd_classroom_nop_bai_b7"
-      button_type: vertical
-  utter_hd_classroom_nop_bai_b1_one:
-    - text: "Bước 1: Click chọn bài tập"
-      image: "https://imgur.com/gallery/XvyTG50"
-
-  utter_hd_classroom_nop_bai_b2:
-    - text: "Bước 2: Xem bài tập đã nộp"
-      image: "https://imgur.com/gallery/RSeQiXg"
-
-  utter_hd_classroom_nop_bai_b3:
-    - text: "Bước 3: Chọn Thêm hoặc tạo"
-      image: "https://imgur.com/gallery/R3o7CeN"
-
-  utter_hd_classroom_nop_bai_b4:
-    - text: "Bước 4: Chọn Tệp để upload file từ máy tính"
-      image: "https://imgur.com/gallery/9o79pCR"
-
-  utter_hd_classroom_nop_bai_b5:
-    - text: "Bước 5: Click Browse"
-      image: "https://imgur.com/gallery/M3PwzlC"
-
-  utter_hd_classroom_nop_bai_b6_six:
-    - text: "Bước 6: Tìm tập tin trong máy tính. Chọn tập tin, click Open"
-      image: "https://imgur.com/gallery/JkYVzB7"
-
-  utter_hd_classroom_nop_bai_b7:
-    - text: "Bước 7: Sau đó chọn Nộp bài"
-      image: "https://imgur.com/gallery/GMembWn"
-
-  utter_hd_classroom_mobile:
-    - text: "Thực hiện theo các bước sau để sử dụng Google Classroom trên mobile app:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/23-google-classroom.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_classroom_mobile_b1"
-        - title: "Bước 2"
-          payload: "/hd_classroom_mobile_b2"
-        - title: "Bước 3"
-          payload: "/hd_classroom_mobile_b3"
-        - title: "Bước 4"
-          payload: "/hd_classroom_mobile_b4"
-        - title: "Bước 5"
-          payload: "/hd_classroom_mobile_b5"
-        - title: "Bước 6"
-          payload: "/hd_classroom_mobile_b6"
-      button_type: vertical
-
-  utter_hd_classroom_mobile_b1:
-    - text: "Bước 1: Mở CH Play (Android) hoặc App Store (Iphone), gõ từ khóa Classroom"
-      image: "https://imgur.com/gallery/RcokEsl"
-
-  utter_hd_classroom_mobile_b2:
-    - text: "Bước 2: Sau khi cài đặt thành công, mở ứng dụng lên bấm nút Bắt đầu"
-      image: "https://imgur.com/gallery/zbfqpj9"
-
-  utter_hd_classroom_mobile_b3:
-    - text: "Bước 3: Chọn 1 tài khoản email"
-      image: "https://imgur.com/gallery/2Dopz1Y"
-
-  utter_hd_classroom_mobile_b4:
-    - text: "Bước 4: Giao diện lớp học như trên hình"
-      image: "https://imgur.com/gallery/kqQzdA3"
-
-  utter_hd_classroom_mobile_b5:
-    - text: "Bước 5: Bấm vào nút menu"
-      image: "https://imgur.com/gallery/mDYP8rn"
-
-  utter_hd_classroom_mobile_b6:
-    - text: "Bước 6: Giao diện lớp học như hình, các thao tác tiếp theo tương tự trên web"
-      image: "https://imgur.com/gallery/MKTAgq4"
-
-
-# 3) Hướng dẫn quay phim màn hình cùng với âm thanh sử dụng công cụ Free Cam
-  # chuưa train quay màn hình
-  utter_hd_quay_man_hinh:
-    - text: "Thực hiện theo các bước sau để cài đặt công cụ Free Cam:\n
-    Bước 1: Download công cụ Free Cam tại: https://helpdesk.ctu.edu.vn/images/upload/Free_Cam/free_cam_8_7_0.7z\n
-    Bước 2: Bước 2: Nhắp đúp lên file cài đặt mới download về và làm theo hướng dẫn để cài đặt (chỉ cần bấn Next để cài đặt với các tham số mặc định).\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/80-huong-dan-su-dung-free-cam.html"
-
-  utter_hd_quay_man_hinh_cai_dat:
-    - text: "Thực hiện theo các bước sau để cài đặt công cụ Free Cam:\n
-    Bước 1: Download công cụ Free Cam tại: https://helpdesk.ctu.edu.vn/images/upload/Free_Cam/free_cam_8_7_0.7z\n
-    Bước 2: Nhấp đúp lên file cài đặt mới download về và làm theo hướng dẫn để cài đặt (chỉ cần bấn Next để cài đặt với các tham số mặc định).\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/80-huong-dan-su-dung-free-cam.html"
-
-  utter_hd_quay_man_hinh_su_dung:
-    - text: "Thực hiện theo các bước sau để sử dụng công cụ Free Cam:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/80-huong-dan-su-dung-free-cam.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_quay_man_hinh_su_dung_b1"
-        - title: "Bước 2"
-          payload: "/hd_quay_man_hinh_su_dung_b2"
-        - title: "Bước 3"
-          payload: "/hd_quay_man_hinh_su_dung_b3"
-        - title: "Bước 4"
-          payload: "/hd_quay_man_hinh_su_dung_b4_four"
-        - title: "Bước 5"
-          payload: "/hd_quay_man_hinh_su_dung_b5"
-        - title: "Bước 6"
-          payload: "/hd_quay_man_hinh_su_dung_b6_six"
-        - title: "Bước 7"
-          payload: "/hd_quay_man_hinh_su_dung_b7_seven"
-      button_type: vertical
-
-  utter_hd_quay_man_hinh_su_dung_b1:
-    - text: "Bước 1: Trên màn hình làm việc của chương trình, click New Recording để bắt đầu."
-      image: "https://imgur.com/gallery/Z5omBBY"
-
-  utter_hd_quay_man_hinh_su_dung_b2:
-    - text: "Bước 2: Sau đó, sẽ có 1 đường viền trắng - đen xuất hiện trên màn hình, đó là khu vực được ghi hình"
-      image: "https://imgur.com/gallery/DIlRbLc"
-
-  utter_hd_quay_man_hinh_su_dung_b3:
-    - text: "Bước 3: Khi click vào cài đặt: Ở tab General, click vào Microphone để sử dụng âm thanh thu từ Mic."
-      image: "https://imgur.com/gallery/L9FO9z5"
-
-  utter_hd_quay_man_hinh_su_dung_b4_four:
-    - text: "Bước 4: Ở tab Advanced, Click vào Highlight mouse cursor nếu muốn highlight trỏ chuột. Cuối cùng, khi hoàn tất, nhấn phím ESC để kết thúc."
-      image: "https://imgur.com/gallery/E3lSRNC"
-
-  utter_hd_quay_man_hinh_su_dung_b5:
-    - text: "Bước 5: Để chỉnh sửa, chọn Edit"
-      image: "https://imgur.com/gallery/Hi8iyfW"
-
-  utter_hd_quay_man_hinh_su_dung_b6_six:
-    - text: "Bước 6: Kéo chọn phần cần chỉnh sửa"
-      image: "https://imgur.com/gallery/ksWqCpQ"
-
-  utter_hd_quay_man_hinh_su_dung_b7_seven:
-    - text: "Bước 7: Để xuất video, chọn Export → WMV Video."
-      image: "https://imgur.com/gallery/OxaKmMe"
-
-
-# 4) Hướng dẫn sử dụng Zoom để họp (đào tạo) qua mạng
-  utter_hd_zoom:
-    - text: "Thực hiện theo các bước sau để sử dụng Zoom:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/day-hoc-truc-tuyen/83-hdsd-zoom.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_zoom_b1"
-        - title: "Bước 2"
-          payload: "/hd_zoom_b2"
-        - title: "Bước 3"
-          payload: "/hd_zoom_b3"
-        - title: "Bước 4"
-          payload: "/hd_zoom_b4"
-        - title: "Bước 5"
-          payload: "/hd_zoom_b5"
-        - title: "Bước 6"
-          payload: "/hd_zoom_b6sa"
-        - title: "Bước 7"
-          payload: "/hd_zoom_b7"
-        - title: "Lưu ý"
-          payload: "/hd_zoom_b8"
-      button_type: vertical
-  utter_hd_zoom_b1:
-    - text: "Bước 1: Vào trang web https://zoom.us/ và Click SIGN IN"
-
-  utter_hd_zoom_b2:
-    - text: "Bước 2: Click chọn Sign in with Google"
-      image: "https://imgur.com/gallery/x7gh2dV"
-
-  utter_hd_zoom_b3:
-    - text: "Bước 3: Click chọn (nhập) địa chỉ email và nhập mật khẩu (Lưu ý: Nếu Thầy/Cô đang mở email thì hệ thống sẽ vào luôn không cần nhập mật khẩu)"
-      image: "https://imgur.com/gallery/IIDAkXK"
-
-  utter_hd_zoom_b4:
-    - text: "Bước 4: Nhập ngày tháng năm sinh để xác nhận (đủ tuổi sử dụng ứng dụng, theo qui định của Zoom)"
-      image: "https://imgur.com/gallery/BnBbOQB"
-
-  utter_hd_zoom_b5:
-    - text: "Bước 5: Tiếp theo chọn nút Create Account "
-      image: "https://imgur.com/gallery/70d0nF5"
-
-  utter_hd_zoom_b6sa:
-    - text: "Bước 6: Trên màn hình Join Trường Đại học Cần Thơ's Zoom Account chọn Join The Account (Bước này chủ chó đối với việc tạo tài khoản sử dụng email của Trường Đại học Cần Thơ cấp) "
-      image: "https://imgur.com/gallery/Ibc8n1c"
-
-  utter_hd_zoom_b7:
-    - text: "Bước 7: Hệ thống tiến hành tạo tài khoản, khi tạo xong sẽ chuyển hướng đến trang cá nhân của quý Thầy/Cô"
-      image: "https://imgur.com/gallery/FpZrh6J"
-
-  utter_hd_zoom_b8:
-    - text: "Bước 8: Để tải Zoom Client for meetings và cài đặt vào máy tính, thiết bị cầm tay, vào địa chỉ https://zoom.us/download chọn phiên bản cài trên máy tính, nếu sử dụng thiết bị di động thì chọn tải Zoom Mobile Apps."
-
-
-
-## Chi tiết về Hộp thư điện tử
-# 1) Hướng dẫn đổi tên hiển thị trên Gmail
-  utter_hd_doi_ten_hien_thi:
-    - text: "Thực hiện theo các bước sau để đổi tên hiển thị trên Gmail:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu/90-huong-dan-doi-ten-hien-thi-gmail.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_doi_ten_hien_thi_b1"
-        - title: "Bước 2"
-          payload: "/hd_doi_ten_hien_thi_b2"
-        - title: "Bước 3"
-          payload: "/hd_doi_ten_hien_thi_b3"
-        - title: "Bước 4"
-          payload: "/hd_doi_ten_hien_thi_b4c"
-      button_type: vertical
-
-  utter_hd_doi_ten_hien_thi_b1:
-    - text: "Bước 1: Đăng nhập vào Gmail"
-
-  utter_hd_doi_ten_hien_thi_b2:
-    - text: "Bước 2: Chọn Cài đặt  →  Xem tất cả chế độ cài đặt"
-      image: "https://imgur.com/gallery/8Puviv7"
-
-  utter_hd_doi_ten_hien_thi_b3:
-    - text: "Bước 3: Chọn Tài khoản → Chỉnh sửa thông tin"
-      image: "https://imgur.com/gallery/e3ypzUo"
-
-  utter_hd_doi_ten_hien_thi_b4c:
-    - text: "Bước 4: Nhập tên hiển thị vào ô như hình (Ví dụ: Tran Thi Tieu Loc B123456)"
-      image: "https://imgur.com/gallery/yl99dks"
-
-
-# 2) Hướng dẫn đăng nhập thư điện tử trên điện thoại
-  utter_hd_dang_nhap_email:
-    - text: "Thực hiện theo các bước sau để đăng nhập thư điện tử trên điện thoại:\n
-        Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu/73-dang-nhap-email-tren-dien-thoai.html"
-      buttons:
-        - title: "Đăng nhập trên hệ điều hành Android"
-          payload: "/hd_dang_nhap_email_android"
-        - title: "Đăng nhập trên hệ điều hành IOS"
-          payload: "/hd_dang_nhap_email_ios"
-      button_type: vertical
-
-  utter_hd_dang_nhap_email_android:
-    - text: "Thực hiện theo các bước sau để đăng nhập trên hệ điều hành Android"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_dang_nhap_email_android_b1"
-        - title: "Bước 2"
-          payload: "/hd_dang_nhap_email_android_b2_two"
-        - title: "Bước 3"
-          payload: "/hd_dang_nhap_email_android_b3"
-        - title: "Bước 4"
-          payload: "/hd_dang_nhap_email_android_b4"
-        - title: "Bước 5"
-          payload: "/hd_dang_nhap_email_android_b5"
-        - title: "Bước 6"
-          payload: "/hd_dang_nhap_email_android_b6"
-        - title: "Bước 7"
-          payload: "/hd_dang_nhap_email_android_b7"
-      button_type: vertical
-
-  utter_hd_dang_nhap_email_android_b1:
-    - text: "Bước 1: Mở Ứng dụng Gmail"
-      image: "https://imgur.com/gallery/ovIKtcQ"
-
-  utter_hd_dang_nhap_email_android_b2_two:
-    - text: "Bước 2: Mở menu"
-      image: "https://imgur.com/gallery/yqics0m"
-
-  utter_hd_dang_nhap_email_android_b3:
-    - text: "Bước 3: Chọn Cài đặt"
-      image: "https://imgur.com/gallery/sldhGxU"
-
-  utter_hd_dang_nhap_email_android_b4:
-    - text: "Bước 4: Chọn Thêm tài khoản"
-      image: "https://imgur.com/gallery/FxZzaNW"
-
-  utter_hd_dang_nhap_email_android_b5:
-    - text: "Bước 5: Chọn Google"
-      image: "https://imgur.com/gallery/oggVx60"
-
-  utter_hd_dang_nhap_email_android_b6:
-    - text: "Bước 6: Nhập email"
-      image: "https://imgur.com/gallery/xPfK840"
-
-  utter_hd_dang_nhap_email_android_b7:
-    - text: "Bước 7: Nhập mật khẩu"
-      image: "https://imgur.com/gallery/mhieiyv"
-
-  utter_hd_dang_nhap_email_android_b8:
-    - text: "Bước 8: Nhấn nút Tôi đồng ý"
-      image: "https://imgur.com/gallery/PYZCqHG"
-
-
-  utter_hd_dang_nhap_email_ios:
-    - text: "Thực hiện theo các bước sau để đăng nhập trên hệ điều hành ios"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_dang_nhap_email_ios_b1_one"
-        - title: "Bước 2"
-          payload: "/hd_dang_nhap_email_ios_b2_two"
-        - title: "Bước 3"
-          payload: "/hd_dang_nhap_email_ios_b3"
-        - title: "Bước 4"
-          payload: "/hd_dang_nhap_email_ios_b4"
-        - title: "Bước 5"
-          payload: "/hd_dang_nhap_email_ios_b5"
-      button_type: vertical
-
-  utter_hd_dang_nhap_email_ios_b1_one:
-    - text: "Bước 1: Mở Ứng dụng Mail"
-      image: "https://imgur.com/gallery/DXOulGU"
-  utter_hd_dang_nhap_email_ios_b2_two:
-    - text: "Bước 2: Chọn Google"
-      image: "https://imgur.com/gallery/sDN1Vj3"
-
-  utter_hd_dang_nhap_email_ios_b3:
-    - text: "Bước 3: Nhập email"
-      image: "https://imgur.com/gallery/8DFENX9"
-
-  utter_hd_dang_nhap_email_ios_b4:
-    - text: "Bước 4: Nhập mật khẩu"
-      image: "https://imgur.com/gallery/omEetyX"
-
-  utter_hd_dang_nhap_email_ios_b5:
-    - text: "Bước 5: Lưu"
-      image: "https://imgur.com/gallery/t5745NB"
-
-# 3) Hướng dẫn đổi mật khẩu hộp thư điện tử
-  utter_hd_doi_mat_khau:
-    - text: "Thực hiện theo các bước sau để đổi mật khẩu hộp thư điện tử:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/doi-mat-khau.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_doi_mat_khau_b1"
-        - title: "Bước 2"
-          payload: "/hd_doi_mat_khau_b2"
-        - title: "Bước 3"
-          payload: "/hd_doi_mat_khau_b3"
-        - title: "Bước 4"
-          payload: "/hd_doi_mat_khau_b4"
-        - title: "Bước 5"
-          payload: "/hd_doi_mat_khau_b5"
-        - title: "Bước 6"
-          payload: "/hd_doi_mat_khau_b6"
-        - title: "Bước 7"
-          payload: "/hd_doi_mat_khau_b7"
-        - title: "Bước 8"
-          payload: "/hd_doi_mat_khau_b6"
-        - title: "Bước 9"
-          payload: "/hd_doi_mat_khau_b7"
-      button_type: vertical
-
-  utter_hd_doi_mat_khau_b1:
-    - text: "Bước 1: Đăng nhập vào tài khoản Email của bạn tại https://mail.google.com"
-
-  utter_hd_doi_mat_khau_b2:
-    - text: "Bước 2: Trong hộp thư, tại vị trí góc phải phía trên hộp thư, chọn biểu tượng tên tài khoản mail; Chọn tiếp Tài khoản của tôi như hình bên dưới:"
-      image: "https://imgur.com/gallery/TokQnDl"
-
-  utter_hd_doi_mat_khau_b3:
-    - text: "Bước 3: Trong màn hình chọn mục Đăng nhập và Bảo mật."
-      image: "https://imgur.com/gallery/z5YlvwU"
-
-  utter_hd_doi_mat_khau_b4:
-    - text: "Bước 4: Chọn tiếp phần Mật khẩu."
-      image: "https://imgur.com/gallery/FMHIx8z"
-
-  utter_hd_doi_mat_khau_b5:
-    - text: "Bước 5: Nhập vào mật khẩu hiện tại --> Nhấp nút Next"
-      image: "https://imgur.com/gallery/0DeArB3"
-
-  utter_hd_doi_mat_khau_b6:
-    - text: "Bước 6: Nhập vào mật khẩu mới 2 lần (Lưu ý: mật khẩu phải có ít nhất 08 ký tự,bao gồm các loại ký tự HOA, thường, số, ký tự đặc biệt như !@#$%*) --> Nhấp nút ĐỔI MẬT KHẨU"
-      image: "https://imgur.com/EYXdHvJ"
-
-  utter_hd_doi_mat_khau_b7:
-    - text: "Bước 7: Màn hình thông báo đổi mật khẩu thành công --> Nhấp nút BẮT ĐẦU"
-      image: "https://imgur.com/gallery/9ivCcKn"
-
-  utter_hd_doi_mat_khau_b8:
-    - text: "Bước 8: Màn hình Thêm thông tin khôi phục --> Nhấp nút BỎ QUA"
-      image: "https://imgur.com/gallery/BayPPBx"
-
-  utter_hd_doi_mat_khau_b9:
-    - text: "Bước 9: Đổi mật khẩu xong --> Nhấp nút TIẾP TỤC VỚI CÀI ĐẶT TÀI KHOẢN. Bây giờ bạn có thể Đăng xuất (thoát) ra khỏi hộp thư và đăng nhập lại với mật khẩu mới. Nếu bạn không biết cách đăng xuất (thoát) hộp thư, xem hướng dẫn tại: https://helpdesk.ctu.edu.vn/dang-nhap#logout"
-      image: "https://imgur.com/gallery/53iat8L"
-
-
-# 4) Hướng dẫn chuyển email Trường ra tài khoản Gmail mới
-  utter_hd_chuyen_email:
-    - text: "Thực hiện theo các bước sau để chuyển email Trường ra tài khoản Gmail mới:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/hop-thu-dien-tu/32-huong-dan-chuyen-email-truong-ra-tai-khoan-gmail-moi.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_chuyen_email_b1"
-        - title: "Bước 2"
-          payload: "/hd_chuyen_email_b2"
-        - title: "Bước 3"
-          payload: "/hd_chuyen_email_b3_lki"
-        - title: "Bước 4"
-          payload: "/hd_chuyen_email_b4_four"
-        - title: "Bước 5"
-          payload: "/hd_chuyen_email_b5"
-        - title: "Bước 6"
-          payload: "/hd_chuyen_email_b6hg"
-        - title: "Bước 7"
-          payload: "/hd_chuyen_email_b7_seven"
-        - title: "Bước 8"
-          payload: "/hd_chuyen_email_b8"
-        - title: "Bước 9"
-          payload: "/hd_chuyen_email_b9_nine"
-        - title: "Bước 10"
-          payload: "/hd_chuyen_email_b10"
-        - title: "Bước 11"
-          payload: "/hd_chuyen_email_b11"
-        - title: "Bước 12"
-          payload: "/hd_chuyen_email_b12"
-        - title: "Bước 13"
-          payload: "/hd_chuyen_email_b13"
-        - title: "Bước 14"
-          payload: "/hd_chuyen_email_b14"
-        - title: "Bước 15"
-          payload: "/hd_chuyen_email_b15"
-        - title: "Bước 16"
-          payload: "/hd_chuyen_email_b16cd"
-        - title: "Bước 17"
-          payload: "/hd_chuyen_email_b17"
-        - title: "Bước 18"
-          payload: "/hd_chuyen_email_b18"
-        - title: "Bước 19"
-          payload: "/hd_chuyen_email_b19ef"
-        - title: "Bước 20"
-          payload: "/hd_chuyen_email_b20_twenty"
-        - title: "Bước 21"
-          payload: "/hd_chuyen_email_b21_twenty_one"
-      button_type: vertical
-
-  utter_hd_chuyen_email_b1:
-    - text: "Bước 1: Đăng nhập vào tài khoản email student"
-      image: "https://imgur.com/gallery/9tZC2JX"
-
-  utter_hd_chuyen_email_b2:
-    - text: "Bước 2: Chọn cài đặt bằng cách click chọn biểu tượng ở góc bên phải"
-      image: "https://imgur.com/gallery/BqQqi0F"
-
-  utter_hd_chuyen_email_b3_lki:
-    - text: "Bước 3: Ta chọn tiếp thẻ 'Chuyển tiếp và POP/IMAP'"
-      image: "https://imgur.com/gallery/Z93cDW8"
-
-  utter_hd_chuyen_email_b4_four:
-    - text: "Bước 4: Tại mục Tải xuống POP, ta click chọn 'Bật chức năng tải POP cho tất cả các thư (thậm chí cả thư đã được tải xuống)'"
-      image: "https://imgur.com/gallery/W2of6XH"
-
-  utter_hd_chuyen_email_b5:
-    - text: "Bước 5: Sau đó kéo xuống dưới chọn 'Lưu Thay đổi'"
-      image: "https://imgur.com/gallery/D9ee5ad"
-
-  utter_hd_chuyen_email_b6hg:
-    - text: "Bước 6: Sau khi đã lưu lại, ta tiếp tục truy cập vào địa chỉ sau https://www.google.com/settings/security/lesssecureapps chọn 'Bật' để bật chế độ kém bảo mật cho phép chuyển mail."
-      image: "https://imgur.com/gallery/WOFotrB"
-
-  utter_hd_chuyen_email_b7_seven:
-    - text: "Bước 7: Tiếp theo truy cập vào địa chỉ: https://accounts.google.com/b/0/DisplayUnlockCaptcha và chọn 'Tiếp tục' để cho phép truy cập vào tài khoản student."
-      image: "https://imgur.com/gallery/iNGBNOY"
-
-  utter_hd_chuyen_email_b8:
-    - text: "Bước 8: Sau khi thiết lập ở tài khoản email student, ta mở một trình duyệt khác để đăng nhập vào tài khoản gmail mới"
-      image: "https://imgur.com/gallery/kUsBN5A"
-
-  utter_hd_chuyen_email_b9_nine:
-    - text: "Bước 9: Chọn cài đặt bằng cách click chọn biểu tượng ở góc bên phải"
-      image: "https://imgur.com/gallery/SgfZfiy"
-
-  utter_hd_chuyen_email_b10:
-    - text: "Bước 10: Chọn thẻ Tài khoản"
-      image: "https://imgur.com/gallery/EOPxNOV"
-
-  utter_hd_chuyen_email_b11:
-    - text: "Bước 11: Ở mục Kiểm tra thư tài khoản khác (sử dụng POP3) ta chọn 'Thêm tài khoản thư POP3 của bạn'."
-      image: "https://imgur.com/gallery/7gfWWhU"
-
-  utter_hd_chuyen_email_b12:
-    - text: "Bước 12: Một cửa sổ khác hiển thị. Nhập địa chỉ tài khoản email student vào và chọn Bước tiếp theo"
-      image: "https://imgur.com/gallery/b4DtRkq"
-
-  utter_hd_chuyen_email_b13:
-    - text: "Bước 13: Ta nhập mật khẩu của tài khoản gmail cũ, chọn Máy chủ POP là stmp.gmail.com và Cổng 995.\n
-      - Click chọn Luôn sử dụng kết nối bảo mật (SSL) khi tải thư về\n
-      - Chọn Thêm tài khoản"
-      image: "https://imgur.com/gallery/RNds7g6"
-
-  utter_hd_chuyen_email_b14:
-    - text: "Bước 14: Chọn Có ở bước này và chọn Bước tiếp theo"
-      image: "https://imgur.com/gallery/TL5C3ou"
-
-  utter_hd_chuyen_email_b15:
-    - text: "Bước 15: Tiếp tục chọn Bước tiếp theo"
-      image: "https://imgur.com/gallery/GMEo9Ve"
-
-  utter_hd_chuyen_email_b16cd:
-    - text: "Bước 16: Chọn gửi qua Gmail và tiếp tục"
-      image: "https://imgur.com/gallery/cJmBhx5"
-
-  utter_hd_chuyen_email_b17:
-    - text: "Bước 17: Chọn gửi xác minh để gửi mã xác minh đến tài khoản gmail student"
-      image: "https://imgur.com/gallery/A9kW7tz"
-
-  utter_hd_chuyen_email_b18:
-    - text: "Bước 18: Trở về tài khoản email student ta sẽ nhận được email  chứa mã xác minh (nếu vẫn chưa có thư mới ta bấm F5 để load lại trang)"
-      image: "https://imgur.com/gallery/EBpqJ9s"
-
-  utter_hd_chuyen_email_b19ef:
-    - text: "Bước 19: Mở thư mới từ Gmail và copy Mã xác nhận"
-      image: "https://imgur.com/gallery/q9oEB91"
-
-  utter_hd_chuyen_email_b20_twenty:
-    - text: "Bước 20: Nhập mã xác nhận và chọn Xác minh"
-      image: "https://imgur.com/gallery/ScGH6fX"
-
-  utter_hd_chuyen_email_b21_twenty_one:
-    - text: "Bước 21: Hoàn tất việc thiết lập, hệ thống sẽ mất một thời gian để kiểm tra và tải thư về tài khoản mới. Những thư không chuyển được sẽ được hệ thống thông báo."
-      image: "https://imgur.com/gallery/4KR81km"
-
-
-## Chi tiết về Hệ thống tích hợp
-# 1) Đăng nhập hệ thống tích hợp
-  utter_hd_dang_nhap_he_thong_tich_hop:
-    - text: "Thực hiện theo các bước sau để đăng nhập hệ thống tích hợp:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/gioi-thieu-tai-khoan-may-tinh.html"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_dang_nhap_he_thong_tich_hop_b1"
-        - title: "Bước 2"
-          payload: "/hd_dang_nhap_he_thong_tich_hop_b2_two"
-        - title: "Bước 3"
-          payload: "/hd_dang_nhap_he_thong_tich_hop_b3"
-        - title: "Bước 4"
-          payload: "/hd_dang_nhap_he_thong_tich_hop_b4a"
-        - title: "Bước 5"
-          payload: "/hd_dang_nhap_he_thong_tich_hop_b5"
-      button_type: vertical
-
-  utter_hd_dang_nhap_he_thong_tich_hop_b1:
-    - text: "Bước 1: Truy cập vào địa chỉ hệ thống tích hợp: https://htql.ctu.edu.vn/htql/login.php\n
-      - Tài khoản và mật khẩu: sử dụng tài khoản máy tính.\n
-      - Đối với sinh viên khóa 40 trở về sau tài khoản máy tính được in trong Phiếu thu nhận hồ sơ được phát cho sinh viên khi làm thủ tục nhập học.\n
-      - Sinh viên các khóa 39 trở về trước đã được phát phiêu cung cấp tài khoản máy tính và email khi mới vào Trường."
-
-  utter_hd_dang_nhap_he_thong_tich_hop_b2_two:
-    - text: "Bước 2: Giao diện đăng nhập của HTTT như hình bên dưới. Cán bộ/Sinh viên nhập Mã số vào ô “Mã số đăng nhập”, nhập mật khẩu được cấp vào ô “Mật khẩu”, mã bảo vệ theo hình hiển thị và nhấp chuột vào nút “ĐĂNG NHẬP” để đăng nhập vào HTTT."
-      image: "https://imgur.com/gallery/nLKLMic"
-
-  utter_hd_dang_nhap_he_thong_tich_hop_b3:
-    - text: "Bước 3: Sau khi đăng nhập vào HTTT lần đầu tiên, hệ thống yêu cầu sinh viên nhập vào thông tin cá nhân như hình bên dưới:"
-      image: "https://imgur.com/gallery/93aFF7q"
-
-  utter_hd_dang_nhap_he_thong_tich_hop_b4a:
-    - text: "Bước 4: Giao diện chính của hệ thống hiện lên như hình bên dưới. Đối với sinh viên, giao diện này gồm 2 phần chính:\n
-      (1) Thông tin liên quan đến sinh viên: cá nhân, gia đình và cố vấn học tập.\n
-      (2) Danh sách các phân hệ."
-
-  utter_hd_dang_nhap_he_thong_tich_hop_b5:
-    - text: "Bước 5: Để tìm hiểu cách sử dụng các chức năng của các phân hệ sinh viên nhấp vào liên kết “Hướng dẫn” ở góc trên bên phải của giao diện chính."
-      image: "https://imgur.com/gallery/AyP1uLn"
-
-
-# 2) Đổi mật khẩu tài khoản máy tính
-  utter_hd_doi_mat_khau_may_tinh:
-    - text: "Để giúp cho việc đổi mật khẩu được dễ dàng và tiện lợi, Trường đã phát triển một trang web cho phép đổi mật khẩu Tài khoản máy tính. Để đổi mật khẩu sử dụng giao diện web chúng ta thực hiện các bước sau:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/doi-mat-khau-tkmt.html\n
-    Tài khoản đăng nhập vào HTTT là Tài khoản máy tính. Do đó, quí thầy cô và các bạn sinh viên có thể đổi mật khẩu của tài khoản này sử dụng tiện ích được cung cấp bởi hệ điều hành, xem chi tiết tại: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt-pmtc"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_doi_mat_khau_may_tinh_b1"
-        - title: "Bước 2"
-          payload: "/hd_doi_mat_khau_may_tinh_b2"
-        - title: "Bước 3"
-          payload: "/hd_doi_mat_khau_may_tinh_b3"
-        - title: "Bước 4"
-          payload: "/hd_doi_mat_khau_may_tinh_b4"
-        - title: "Bước 5"
-          payload: "/hd_doi_mat_khau_may_tinh_b5"
-      button_type: vertical
-
-  utter_hd_doi_mat_khau_may_tinh_b1:
-    - text: "Bước 1: Mở trình duyệt web gõ vào địa chỉ https://dmk.ctu.edu.vn\n
-      Chúng ta nhập <tên tài khoản> (là mã số cán bộ hoặc mã số sinh viên) vào ô phía trên và mật khẩu vào ô phía dưới. Tài khoản và mật khẩu là tài khoản máy tính được cấp bởi Trung tâm Thông tin - Quản Trị mạng."
-      image: "https://imgur.com/gallery/5c23mPt"
-
-  utter_hd_doi_mat_khau_may_tinh_b2:
-    - text: "Bước 2: Trang đổi mật khẩu có giao diện như hình bên dưới. Click vào link Change password"
-      image: "https://imgur.com/gallery/4qWsX0F"
-
-  utter_hd_doi_mat_khau_may_tinh_b3:
-    - text: "Bước 3: Tiến hành đổi mật khẩu mới:\n
-      1. Nhập vào tài khoản theo dạng ctu\tên tài khoản\n
-      2. Nhập vào mật khẩu cũ\n
-      3. Nhập vào mật khẩu mới\n
-      4. Nhập lại mật khẩu mới lần nữa\n
-      5. Nhấp nút Submit\n
-      Lưu ý: Mật khẩu phải được đặt ở dạng phức tạp, có nghĩa là trong đó phải có 3 trong 4 loại ký tự sau: ký tự thường, ký tự HOA, ký tự số, ký tự đặt biệt như ! @ # $ - và mật khẩu phải có độ dài ít nhất 06 ký tự."
-      image: "https://imgur.com/gallery/8HEEXZQ"
-
-  utter_hd_doi_mat_khau_may_tinh_b4:
-    - text: "Bước 4: Nếu mật khẩu cũ và mới được chấp nhận, thông báo đổi mật khẩu thành công được hiện lên như hình bên dưới. Nhấp nút OK để hoàn tất và quay về trang chủ"
-      image: "https://imgur.com/gallery/rd7uiL4"
-
-  utter_hd_doi_mat_khau_may_tinh_b5:
-    - text: "Bước 5: Bấm Sign out để thoát ra"
-      image: "https://imgur.com/gallery/dmw1YwI"
-
-# 3) Đổi mật khẩu tài khoản máy tính tại các phòng máy tính công
-  utter_hd_doi_mat_khau_may_tinh_cong:
-    - text: "Quí thầy cô và các sinh viên có thể đổi mật khẩu Tài khoản máy tính bằng cách đến các phòng máy tính công của Trường và thực hiện theo các bước như sau:\n
-    Để biết thêm chi tiết xin vui lòng truy cập: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt-pmtc\n
-    Ngoài cách trên Quí thầy cô và các bạn sinh viên có thể đổi mật khẩu Tài khoản đăng nhập máy tính thông qua Website https://dmk.ctu.edu.vn (Xem chi tiết hướng dẫn tại: https://helpdesk.ctu.edu.vn/index.php/doi-mat-khau-tkmt)"
-      buttons:
-        - title: "Bước 1"
-          payload: "/hd_doi_mat_khau_may_tinh_cong_b1"
-        - title: "Bước 2"
-          payload: "/hd_doi_mat_khau_may_tinh_cong_b2"
-        - title: "Bước 3"
-          payload: "/hd_doi_mat_khau_may_tinh_cong_b3"
-        - title: "Bước 4"
-          payload: "/hd_doi_mat_khau_may_tinh_cong_b4"
-      button_type: vertical
-
-  utter_hd_doi_mat_khau_may_tinh_cong_b1:
-    - text: "Bước 1: Đăng nhập vào miền CTU với username và password đã được cung cấp."
-      image: "https://imgur.com/gallery/T31k7MJ"
-
-  utter_hd_doi_mat_khau_may_tinh_cong_b2:
-    - text: "Bước 2: Sau khi đăng nhập thành công nhấn tổ hợp phím Ctrl + Alt + Del, hộp thoại Windows Security xuất hiện. Click chọn Change Password…"
-      image: "https://imgur.com/gallery/0yKk18l"
-#
-  utter_hd_doi_mat_khau_may_tinh_cong_b3:
-    - text: "Bước 3: Hộp thoại Change Pasword xuất hiện, tiến hành nhập password  cũ, sau đó nhập password mới 02 lần. Click OK.\n
-      Lưu ý: Password phải có tối thiểu 06 ký tự, trong đó có ít nhất 01 ký tự hoa, 01 ký tự thường, 01 ký tự đặc biệt hoặc số. Password không trùng với họ và tên của mình."
-      image: "https://imgur.com/gallery/4S6miKw"
-#
-  utter_hd_doi_mat_khau_may_tinh_cong_b4:
-    - text: "Bước 4: Hộp thoại thông báo đổi password thành công xuất hiện. Click OK, sau đó Logoff và Login với mật khẩu mới."
-      image: "https://imgur.com/gallery/L5XzurY"
-
-
-
-# Hỏi nhiều hơn
+    1. Đại học Cần Thơ: 0292 3832 663\n
+    2. Phòng Đào tạo: 0292 3872 728\n
+    3. Phòng Công tác Sinh viên: 0292 3830 177\n
+    4. Đoàn thanh niên Trường: 0292 3830 309\n
+    5. Trung tâm tu vấn hỗ trợ kỹ năng sinh viên:  0292 3872 284 / 0292 3943 727\n"
+
+## Hỏi nhiều hơn
   utter_ask_diem_A:
     - text: "Điểm A nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 9.0 - 10.0 điểm\n
     - Thang điểm 4 sẽ là 4.0 điểm"
-  
-  utter_ask_diem_B_cong:
-    - text: "Điểm B+ nếu tính theo:\n
-    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
-    - Thang điểm 4 sẽ là 3.5 điểm"
-  
+#
+#  utter_ask_diem_B_cong:
+#    - text: "Điểm B+ nếu tính theo:\n
+#    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
+#    - Thang điểm 4 sẽ là 3.5 điểm"
+#
   utter_ask_diem_B:
     - text: "Điểm B nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 7.0 - 7.9 điểm\n
     - Thang điểm 4 sẽ là 3.0 điểm"
-      buttons:
-        - title: "Tiếp theo là điểm B+"
-          payload: "/ask_diem_B_cong"
-      button_type: vertical
-
-  utter_ask_diem_C_cong:
-    - text: "Điểm C+ nếu tính theo:\n
-    - Thang điểm 10 sẽ nằm trong khoảng từ 6.5 - 6.9 điểm\n
-    - Thang điểm 4 sẽ là 2.5 điểm"
-  
+#      buttons:
+#        - title: "Tiếp theo là điểm B+"
+#          payload: "/ask_diem_B_cong"
+#      button_type: vertical
+#
+#  utter_ask_diem_C_cong:
+#    - text: "Điểm C+ nếu tính theo:\n
+#    - Thang điểm 10 sẽ nằm trong khoảng từ 6.5 - 6.9 điểm\n
+#    - Thang điểm 4 sẽ là 2.5 điểm"
+#
   utter_ask_diem_C:
     - text: "Điểm C nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 5.5 - 6.4 điểm\n
     - Thang điểm 4 sẽ là 2.0 điểm"
-      buttons:
-        - title: "Tiếp theo là điểm C+"
-          payload: "/ask_diem_C_cong"
-      button_type: vertical
-
-  utter_ask_diem_D_cong:
-    - text: "Điểm D+ nếu tính theo:\n
-    - Thang điểm 10 sẽ nằm trong khoảng từ 5.0 - 5.4 điểm\n
-    - Thang điểm 4 sẽ là 1.5 điểm"
-  
+#      buttons:
+#        - title: "Tiếp theo là điểm C+"
+#          payload: "/ask_diem_C_cong"
+#      button_type: vertical
+#
+#  utter_ask_diem_D_cong:
+#    - text: "Điểm D+ nếu tính theo:\n
+#    - Thang điểm 10 sẽ nằm trong khoảng từ 5.0 - 5.4 điểm\n
+#    - Thang điểm 4 sẽ là 1.5 điểm"
+#
   utter_ask_diem_D:
     - text: "Điểm D nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 4.0 - 4.9 điểm\n
     - Thang điểm 4 sẽ là 1.0 điểm"
-      buttons:
-        - title: "Tiếp theo là điểm D+"
-          payload: "/ask_diem_D_cong"
-      button_type: vertical
-
+#      buttons:
+#        - title: "Tiếp theo là điểm D+"
+#          payload: "/ask_diem_D_cong"
+#      button_type: vertical
+#
   utter_ask_diem_F:
     - text: "Điểm F (là trường hợp bạn đã rớt môn) nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng nhỏ hơn 4.0 điểm\n
@@ -2057,8 +1060,9 @@ session_config:
   carry_over_slots_to_new_session: true
 
 actions:
-#  - action_image_recognition
   - action_ask_point
   - action_give_comment_content
+  - action_ask_majors
+  - action_ask_majors_point
   - action_give_comment_name
   - action_ask_comment_replay

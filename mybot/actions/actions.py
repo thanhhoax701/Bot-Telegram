@@ -9,29 +9,21 @@
 
 from typing import Any, Text, Dict, List
 from rasa_sdk.events import SlotSet
+# from rasa_sdk.events import EventType
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import mysql.connector
-# import requests
 
 
-# class ImageRecognitionAction(Action):
-#     def name(self):
-#         return "action_image_recognition"
+# from rasa.utils.io import utf8_file
 #
-#     def run(self, dispatcher, tracker, domain):
-#         # Lấy hình ảnh từ slot "image"
-#         image = tracker.get_slot("image")
-#
-#         # Sử dụng API nhận dạng hình ảnh để phân tích hình ảnh và lấy kết quả
-#         response = requests.post("http://image-recognition-api.com/analyze", data={"image": image})
-#         result = response.json()
-#
-#         # Lấy thông tin cần thiết từ kết quả và lưu vào slot "image_description"
-#         image_description = result["description"]
-#         return [SlotSet("image_description", image_description)]
+# training_data_file = "data/nlu.md"
+# training_data = utf8_file(training_data_file)
 
-
+# from rasa.core.domain import Domain
+#
+# domain_file = "domain.yml"
+# domain = Domain.load(domain_file, utf8=True)
 
 ################### xem diem anh van
 
@@ -49,7 +41,7 @@ class action_ask_point(Action):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="vlxx.com@tth",
+            password="123456789",
             database="cda_chatbot"
         )
 
@@ -58,7 +50,7 @@ class action_ask_point(Action):
         mycursor.execute("SELECT * FROM tblMarks WHERE student_code = '" + student_code + "'")
 
         myresult = mycursor.fetchall()
-        df =  None
+        df = None
         for x in myresult:
             df = x
             print(x)
@@ -114,12 +106,12 @@ class action_give_comment_content(Action):
         comment_name = tracker.get_slot('comment_name')
         # comment_content = tracker.latest_message["text"]
         comment_content = next(tracker.get_latest_entity_values("comment_content"), None)
-        print(comment_name, comment_content)
+        print("Cảm ơn " + comment_name, "đã góp ý với nội dung: " + comment_content)
 
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="vlxx.com@tth",
+            password="123456789",
             database="cda_chatbot"
         )
 
@@ -131,7 +123,7 @@ class action_give_comment_content(Action):
 
         mydb.commit()
 
-        print(mycursor.rowcount, "Thanh Cong.")
+        print(mycursor.rowcount, "Góp ý thành công.")
 
         return []
 
@@ -151,7 +143,7 @@ class action_ask_comment_replay(Action):
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="vlxx.com@tth",
+            password="123456789",
             database="cda_chatbot"
         )
 
@@ -160,7 +152,7 @@ class action_ask_comment_replay(Action):
         mycursor.execute("SELECT * FROM tblComments WHERE comment_name = '" + student_name + "'")
 
         myresult = mycursor.fetchall()
-        df =  None
+        df = None
         for x in myresult:
             df = x
             print(x)
@@ -174,3 +166,31 @@ class action_ask_comment_replay(Action):
         return []
 
 
+
+################# hỏi ngành chuyên sâu
+#######################################
+class action_ask_majors(Action):
+
+    def name(self) -> Text:
+        return "action_ask_majors"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Ngành này có nha bạn với các tổ hợp xét tuyển như: A00, A01")
+
+        return []
+
+class action_ask_majors_point(Action):
+
+    def name(self) -> Text:
+        return "action_ask_majors_point"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        dispatcher.utter_message(text="Ngành công nghệ thông tin năm trước điểm học bạ là 21 điểm và điểm xét tuyển là 25 điểm. Xin cảm ơn!")
+
+        return []

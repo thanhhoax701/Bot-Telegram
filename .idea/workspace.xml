@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0b3l76og/patterns.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpi2q1ginc/oov_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpi2q1ginc/vocabularies.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpp2kecw1s/oov_words.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpp2kecw1s/vocabularies.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvbd3l_fr/feature_to_idx_dict.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.data_example.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.label_data.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/DIETClassifier.tf_model.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpyqsso9mx/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" afterPath="$PROJECT_DIR$/../Bot-Telegram-loi" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -46,23 +28,20 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Learn-Programming/Python/Bot-Telegram-loi",
+    "last_opened_file_path": "D:/Learn-Programming/Python/ChatBot-Telegram (nguyen ven)",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu" />
-      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\tokenizers" />
-      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\featurizers\dense_featurizer" />
-      <recent name="D:\Learn-Programming\Python\Bot-Telegram\venv\Lib\site-packages\rasa\nlu\utils\hugging_face" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -97,20 +76,15 @@
       <workItem from="1673421378488" duration="2723000" />
       <workItem from="1674473307997" duration="345000" />
       <workItem from="1674784238628" duration="867000" />
-      <workItem from="1674785262657" duration="2706000" />
-      <workItem from="1674789576392" duration="176000" />
-      <workItem from="1674789974190" duration="178000" />
-      <workItem from="1674790209518" duration="1214000" />
-      <workItem from="1674791447431" duration="250000" />
-      <workItem from="1675130340902" duration="285000" />
-      <workItem from="1675924408537" duration="644000" />
-      <workItem from="1675925193001" duration="52000" />
-      <workItem from="1675926972572" duration="1222000" />
-      <workItem from="1675928356162" duration="335000" />
-      <workItem from="1676961860701" duration="46000" />
-      <workItem from="1676961919475" duration="401000" />
-      <workItem from="1676963226988" duration="107000" />
-      <workItem from="1677412441592" duration="4380000" />
+      <workItem from="1675925249652" duration="727000" />
+      <workItem from="1675925983736" duration="305000" />
+      <workItem from="1675926293872" duration="315000" />
+      <workItem from="1675926619363" duration="349000" />
+      <workItem from="1675927594832" duration="520000" />
+      <workItem from="1676962330855" duration="316000" />
+      <workItem from="1678509962849" duration="100000" />
+      <workItem from="1678510106754" duration="1202000" />
+      <workItem from="1678512142829" duration="18219000" />
     </task>
     <servers />
   </component>

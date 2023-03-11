@@ -1,0 +1,6 @@
+[
+  {
+    "name": "student_code",
+    "pattern": "\\d{8,9}"
+  }
+]
