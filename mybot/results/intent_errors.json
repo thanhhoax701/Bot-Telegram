@@ -4,47 +4,23 @@
     "intent": "ask_tin_chi",
     "intent_prediction": {
       "name": "ask_tin_chi_HK",
-      "confidence": 0.5706701278686523
+      "confidence": 0.6735538244247437
     }
   },
   {
-    "text": "tôi muốn xem thông tin về học bổng",
-    "intent": "quy_ho_tro",
+    "text": "điểm đánh giá học phần là gì",
+    "intent": "ask_course_score",
     "intent_prediction": {
-      "name": "ask_hoc_bong",
-      "confidence": 0.7956205010414124
+      "name": "danh_gia_HP",
+      "confidence": 0.6927744150161743
     }
   },
   {
-    "text": "làm thế nào để tôi học hai chương trình",
-    "intent": "dieu_kien_learn",
+    "text": "cách đánh giá điểm học phần",
+    "intent": "ask_course_score",
     "intent_prediction": {
-      "name": "learn_2_chuong_trinh",
-      "confidence": 0.6716306209564209
-    }
-  },
-  {
-    "text": "làm thế nào để tôi học 2 chương trình",
-    "intent": "dieu_kien_learn",
-    "intent_prediction": {
-      "name": "learn_2_chuong_trinh",
-      "confidence": 0.6602240204811096
-    }
-  },
-  {
-    "text": "em muốn biết thi cuối kỳ như thế nào",
-    "intent": "to_chuc_thi_CK",
-    "intent_prediction": {
-      "name": "so_lan_thi_CK",
-      "confidence": 0.5983655452728271
-    }
-  },
-  {
-    "text": "Coi lại ý kiến góp ý cái",
-    "intent": "ask_comment_replay",
-    "intent_prediction": {
-      "name": "ask_comment",
-      "confidence": 0.4449120759963989
+      "name": "danh_gia_HP",
+      "confidence": 0.46963006258010864
     }
   }
 ]

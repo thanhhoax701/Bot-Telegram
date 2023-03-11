@@ -117,7 +117,7 @@ class action_give_comment_content(Action):
 
         mycursor = mydb.cursor()
 
-        sql = "INSERT INTO tblComments (comment_date, comment_name, comment_content) VALUES (NOW(),%s, %s)"
+        sql = "INSERT INTO tblComments (comment_date, comment_name, comment_content) VALUES (NOW(),%s, %s)create table tblComments(    comment_date    int null,    comment_name    int null,    comment_content int null);"
         val = (comment_name, comment_content)
         mycursor.execute(sql, val)
 

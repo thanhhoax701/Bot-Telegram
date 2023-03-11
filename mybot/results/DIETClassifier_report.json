@@ -1,8 +1,8 @@
 {
   "student_name": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
+    "recall": 0.9986486486486487,
+    "f1-score": 0.9993238674780256,
     "support": 740,
     "confused_with": {}
   },
@@ -13,30 +13,37 @@
     "support": 332,
     "confused_with": {}
   },
-  "comment_content": {
-    "precision": 0.9803921568627451,
+  "majors_code": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.99009900990099,
-    "support": 100,
+    "f1-score": 1.0,
+    "support": 72,
+    "confused_with": {}
+  },
+  "comment_content": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 123,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 0.9982964224872232,
-    "recall": 1.0,
-    "f1-score": 0.9991474850809888,
-    "support": 1172
+    "precision": 1.0,
+    "recall": 0.9992107340173638,
+    "f1-score": 0.9996052112120015,
+    "support": 1267
   },
   "macro avg": {
-    "precision": 0.9934640522875817,
-    "recall": 1.0,
-    "f1-score": 0.9966996699669967,
-    "support": 1172
+    "precision": 1.0,
+    "recall": 0.9996621621621622,
+    "f1-score": 0.9998309668695065,
+    "support": 1267
   },
   "weighted avg": {
-    "precision": 0.9983269758415311,
-    "recall": 1.0,
-    "f1-score": 0.9991552056229512,
-    "support": 1172
+    "precision": 1.0,
+    "recall": 0.9992107340173638,
+    "f1-score": 0.9996051001844822,
+    "support": 1267
   },
-  "accuracy": 0.9999647365822696
+  "accuracy": 0.9999758757116665
 }

@@ -1,58 +1,21 @@
 [
   {
-    "text": "tôi muốn góp ý là trường chất lượng cao",
+    "text": "Phan Văn Tài Em em nhé",
     "entities": [
       {
-        "start": 18,
-        "end": 39,
-        "value": "trường chất lượng cao",
-        "entity": "comment_content"
+        "start": 0,
+        "end": 15,
+        "value": "Phan Văn Tài Em",
+        "entity": "student_name"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "comment_content",
-        "start": 13,
-        "end": 14,
-        "confidence_entity": 0.8611946105957031,
-        "value": "ý",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "comment_content",
-        "start": 18,
-        "end": 39,
-        "confidence_entity": 0.9910987019538879,
-        "value": "trường chất lượng cao",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "tôi nghĩ các bạn nên xem lại dịch vụ của bạn chán cực",
-    "entities": [
-      {
-        "start": 29,
-        "end": 53,
-        "value": "dịch vụ của bạn chán cực",
-        "entity": "comment_content"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "comment_content",
-        "start": 25,
-        "end": 28,
-        "confidence_entity": 0.6938137412071228,
-        "value": "lại",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "comment_content",
-        "start": 29,
-        "end": 53,
-        "confidence_entity": 0.9888517260551453,
-        "value": "dịch vụ của bạn chán cực",
+        "entity": "student_name",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9932478666305542,
+        "value": "Phan Văn Tài",
         "extractor": "DIETClassifier"
       }
     ]
