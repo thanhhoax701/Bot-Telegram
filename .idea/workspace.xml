@@ -5,27 +5,99 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bot-Telegram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSDL/CSDL_cda_chatbot.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CSDL/CSDL_cda_chatbot.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSDL/cda_chatbot_tblcomments.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CSDL/cda_chatbot_tblcomments.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSDL/cda_chatbot_tblmarks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/CSDL/cda_chatbot_tblmarks.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.fake_features.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.label_quantiles.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.meta.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.priority.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp0rgqfpcz/unexpected_intent_policy.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp2bfdedmb/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp4sw50kbg/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp4sw50kbg/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp8g83zzwu/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp8g83zzwu/rule_only_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp8g83zzwu/rule_policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp8xnbe3yc/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmp8xnbe3yc/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpc12umn2u/feature_to_idx_dict.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpdjotxa_h/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpdjotxa_h/rule_only_data.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpdjotxa_h/rule_policy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpf6b7jhzk/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.fake_features.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.meta.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.priority.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpfrf722ag/ted_policy.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmph25xt5xe/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpk4cyvv3u/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpk4cyvv3u/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpkamg6xn9/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpkamg6xn9/memorized_turns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpq9qhvo3_/oov_words.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpq9qhvo3_/vocabularies.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpr80d2cat/patterns.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.index_label_id_mapping.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.sparse_feature_sizes.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/DIETClassifier.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmputrvxy7w/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpuxvu02o0/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpuxvu02o0/memorized_turns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.fake_features.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.label_quantiles.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.meta.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.priority.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpv7uu_dx4/unexpected_intent_policy.tf_model.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/featurizer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.data_example.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.entity_tag_specs.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.fake_features.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.label_data.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.meta.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.priority.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.tf_model.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/tmpvguddf1w/ted_policy.tf_model.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/actions/actions.py" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/actions/actions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_errors.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/DIETClassifier_errors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_errors.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/intent_errors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_histogram.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/intent_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_report.json" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/intent_report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/endpoints.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/endpoints.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ngrok.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +120,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot Telegram&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -109,6 +181,9 @@
       <workItem from="1678542920307" duration="512000" />
       <workItem from="1678543439746" duration="1151000" />
       <workItem from="1678545045007" duration="877000" />
+      <workItem from="1679292853666" duration="309000" />
+      <workItem from="1679293170508" duration="799000" />
+      <workItem from="1679293985788" duration="6663000" />
     </task>
     <servers />
   </component>

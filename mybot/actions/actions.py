@@ -13,6 +13,7 @@ from rasa_sdk.events import SlotSet
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import mysql.connector
+# import pandas as pd
 
 
 # from rasa.utils.io import utf8_file
@@ -50,7 +51,7 @@ class action_ask_point(Action):
         mycursor.execute("SELECT * FROM tblMarks WHERE student_code = '" + student_code + "'")
 
         myresult = mycursor.fetchall()
-        df = None
+        df =  None
         for x in myresult:
             df = x
             print(x)
@@ -106,7 +107,7 @@ class action_give_comment_content(Action):
         comment_name = tracker.get_slot('comment_name')
         # comment_content = tracker.latest_message["text"]
         comment_content = next(tracker.get_latest_entity_values("comment_content"), None)
-        print("Cảm ơn " + comment_name, "đã góp ý với nội dung: " + comment_content)
+        print(comment_name, comment_content)
 
         mydb = mysql.connector.connect(
             host="localhost",
@@ -117,13 +118,13 @@ class action_give_comment_content(Action):
 
         mycursor = mydb.cursor()
 
-        sql = "INSERT INTO tblComments (comment_date, comment_name, comment_content) VALUES (NOW(),%s, %s)create table tblComments(    comment_date    int null,    comment_name    int null,    comment_content int null);"
+        sql = "INSERT INTO tblComments (comment_date, comment_name, comment_content) VALUES (NOW(),%s, %s)"
         val = (comment_name, comment_content)
         mycursor.execute(sql, val)
 
         mydb.commit()
 
-        print(mycursor.rowcount, "Góp ý thành công.")
+        print(mycursor.rowcount, "Thanh Cong.")
 
         return []
 
@@ -152,7 +153,7 @@ class action_ask_comment_replay(Action):
         mycursor.execute("SELECT * FROM tblComments WHERE comment_name = '" + student_name + "'")
 
         myresult = mycursor.fetchall()
-        df = None
+        df =  None
         for x in myresult:
             df = x
             print(x)
@@ -166,6 +167,7 @@ class action_ask_comment_replay(Action):
         return []
 
 
+ #
 
 ################# hỏi ngành chuyên sâu
 #######################################
@@ -178,7 +180,7 @@ class action_ask_majors(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Ngành này có nha bạn với các tổ hợp xét tuyển như: A00, A01")
+        dispatcher.utter_message(text="Ngành có nha bạn với các tổ hợp xét tuyển như: A00, A01")
 
         return []
 
@@ -191,6 +193,7 @@ class action_ask_majors_point(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message(text="Ngành công nghệ thông tin năm trước điểm học bạ là 21 điểm và điểm xét tuyển là 25 điểm. Xin cảm ơn!")
+        dispatcher.utter_message(text="Ngành công nghệ thông tin năm trước điểm học bạ là 21 điểm và điểm xét tuyển là 25 điểm. Xin cảm ơn! ")
 
         return []
+
