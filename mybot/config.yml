@@ -11,6 +11,10 @@ pipeline:
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
    - name: WhitespaceTokenizer
+   - name: LanguageModelFeaturizer
+     model_name: bert
+     model_weights: rasa/LaBSE
+     cache_dir: null
    - name: RegexFeaturizer
    - name: LexicalSyntacticFeaturizer
    - name: CountVectorsFeaturizer
