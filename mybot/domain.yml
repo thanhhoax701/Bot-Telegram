@@ -128,17 +128,24 @@ intents:
   - ask_dia_chi_tro_giup
   - ask_sdt_tro_giup
 
+################################################
   - give_majors_code
   - ask_majors_point
 
-entities: [student_name,comment_content,student_code]
+entities: [student_name,comment_content,student_code,majors_code]
 slots:
-
   comment_name:
     type: text
     influence_conversation: false
     mappings:
       - type: custom
+
+  name:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
+
 
 responses:
   utter_thanks:
@@ -329,7 +336,8 @@ responses:
     - text: "Sinh viên được xem xét chuyển từ đào tạo theo hình thức chính quy sang hình thức vừa học vừa làm hoặc đào tạo từ xa của Trường nếu còn đủ thời gian học tập theo quy định đối với hình thức chuyển đến và được sự đồng ý của Hiệu trưởng\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
-# TỔ CHỨC ĐÀO TẠO
+
+###################### TỔ CHỨC ĐÀO TẠO
   utter_tin_chi_HK:
     - text: "Để đảm bảo tiến độ thời gian hoàn thành khóa học và đảm bảo chất lượng học tập, mỗi học kỳ sinh viên đăng ký với số lượng tín chỉ (TC) như sau:\n
     1. Học kỳ chính:\n
@@ -469,6 +477,7 @@ responses:
           payload: "/diem_I"
         - title: "Điểm W"
           payload: "/diem_W"
+
   utter_diem_M:
     - text: "Điểm M (tương đương điểm R của Thông tư 08/2021/TT-BGDĐT):\n
     - Dùng để xác nhận học phần sinh viên được miễn học do đã tích lũy được bằng các hình thức khác.\n
@@ -737,7 +746,6 @@ responses:
   utter_goodbye:
     - text: "Xin tạm biệt và hẹn gặp lại. Chúc bạn luôn vui vẻ!"
 
-
 #  utter_ask_timetable_student_code:
 #    - text: "Mời bạn cung cấp mã số sinh viên (gồm 8 kí tự) để xem về thời khóa biểu hôm nay"
 
@@ -750,8 +758,8 @@ responses:
   utter_ask_comment:
     - text: "Xin vui lòng cung cấp họ tên của bạn:"
 
-###################### xây dựng cốt chuyện quy chế học vụ
 
+###################### Xây dựng cốt truyện quy chế học vụ
   utter_van_de_chung:
     - text: "Vấn đề chung trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
@@ -807,7 +815,6 @@ responses:
         - title: "Học hai chương trình"
           payload: "/learn_2_chuong_trinh"
       button_type: vertical
-
 
   utter_Danh_gia_hoc_tap:
     - text: "Đánh giá kết quả học tập trong quy chế học vụ bao gồm 10 điều được tổng hợp thành các nội dung chính sau đây:"
@@ -923,6 +930,7 @@ responses:
     Cụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để SV hoàn thành CTĐT giảm tương ứng là 1 HK chính (ví dụ được công nhận và chuyển đổi ít hơn 9 TC thì không giảm thời gian học tập tối đa, từ 9 TC đến 17 TC thì thời gian học tập tối đa giảm 1 HK chính, từ 18 TC đến 26 TC thì thời gian học tập tối đa giảm 2 HK chính, ...).\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
+
 # ============= TỔ CHỨC ĐÀO TẠO =============
   utter_ask_trach_nhiem:
     - text: "Trách nhệm của Trường và sinh viên trong việc đăng ký học phần"
@@ -931,7 +939,6 @@ responses:
           payload: "/trach_nhiem_truong"
         - title: "Trách nhệm của sinh viên"
           payload: "/trach_nhiem_sinh_vien"
-
   utter_trach_nhiem_truong:
     - text: "a)	Đầu khóa học, Trường cung cấp cho sinh viên (SV) kế hoạch học tập chuẩn toàn khóa của ngành học, quy định về công tác học vụ và bố trí Cố vấn học tập (CVHT) cho từng lớp chuyên ngành.\n
         b)	Cán bộ làm CVHT chịu trách nhiệm quản lý SV; căn cứ kế hoạch học tập chuẩn toàn khóa, tư vấn SV xây dựng kế hoạch học tập toàn khóa (KHHTTK) và thực hiện quá trình học tập theo đúng quy định của Trường.\n
@@ -950,8 +957,9 @@ responses:
       -	Chậm nhất là tuần lễ thứ 8 của HK chính và tuần lễ thứ 2 của HK phụ nếu thấy việc học khó khăn có thể dẫn đến kết quả kém, SV có thể rút bớt học phần đã đăng ký nhưng không được trả lại học phí. Muốn rút bớt học phần, SV vào hệ thống quản lý trực tuyến của Trường để thực hiện. Những học phần đã rút sẽ nhận điểm W trong bảng điểm của HK đó.\n
       -	Sinh viên đã đăng ký học phần nhưng không đi học hoặc không đi thi kết thúc học phần sẽ bị điểm F của học phần đó.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
-############# đánh giá kết quả học tập
 
+
+############# Đánh giá kết quả học tập
   utter_danh_gia_HP:
     - text: "Gồm đánh giá học phần lý thuyết và thực hành:"
       buttons:
@@ -959,6 +967,7 @@ responses:
           payload: "/danh_gia_HP_ly_thuyet"
         - title: "Đánh giá học phần thực hành"
           payload: "/danh_gia_HP_thuc_hanh"
+
   utter_danh_gia_HP_ly_thuyet:
     - text: "Học phần lý thuyết hoặc lý thuyết kết hợp thực hành:\n
       - Điểm học phần được đánh giá qua tối thiểu hai điểm thành phần như: Điểm bài tập, điểm kiểm tra giữa kỳ, điểm thực hành, điểm đánh giá nhận thức, điểm tham gia thảo luận, điểm chuyên cần, điểm đồ án,... và điểm thi kết thúc học phần.\n
@@ -986,7 +995,6 @@ responses:
     - text: "Bằng tốt nghiệp chỉ cấp một lần. Trường hợp bằng tốt nghiệp bị mất hoặc bị hỏng, sinh viên có thể nộp đơn cho Trường thông qua Phòng Đào tạo đề nghị cấp bản sao bằng tốt nghiệp.\n
     Để biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
-
   utter_ask_dia_chi_tro_giup:
     - text: "Các địa chỉ liên hệ trợ giúp sinh viên CTU:\n"
       buttons:
@@ -1012,11 +1020,16 @@ responses:
 #    - text: "Điểm B+ nếu tính theo:\n
 #    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
 #    - Thang điểm 4 sẽ là 3.5 điểm"
-#
+
   utter_ask_diem_B:
-    - text: "Điểm B nếu tính theo:\n
+    - text: "
+    Điểm B nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 7.0 - 7.9 điểm\n
-    - Thang điểm 4 sẽ là 3.0 điểm"
+    - Thang điểm 4 sẽ là 3.0 điểm
+    Đối với điểm B+:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 8.0 - 8.9 điểm\n
+    - Thang điểm 4 sẽ là 3.5 điểm"
+
 #      buttons:
 #        - title: "Tiếp theo là điểm B+"
 #          payload: "/ask_diem_B_cong"
@@ -1030,7 +1043,10 @@ responses:
   utter_ask_diem_C:
     - text: "Điểm C nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 5.5 - 6.4 điểm\n
-    - Thang điểm 4 sẽ là 2.0 điểm"
+    - Thang điểm 4 sẽ là 2.0 điểm
+     Đối với điểm C+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 6.5 - 6.9 điểm\n
+    - Thang điểm 4 sẽ là 2.5 điểm"
 #      buttons:
 #        - title: "Tiếp theo là điểm C+"
 #          payload: "/ask_diem_C_cong"
@@ -1044,7 +1060,10 @@ responses:
   utter_ask_diem_D:
     - text: "Điểm D nếu tính theo:\n
     - Thang điểm 10 sẽ nằm trong khoảng từ 4.0 - 4.9 điểm\n
-    - Thang điểm 4 sẽ là 1.0 điểm"
+    - Thang điểm 4 sẽ là 1.0 điểm
+    Đối với điểm D+ nếu tính theo:\n
+    - Thang điểm 10 sẽ nằm trong khoảng từ 5.0 - 5.4 điểm\n
+    - Thang điểm 4 sẽ là 1.5 điểm"
 #      buttons:
 #        - title: "Tiếp theo là điểm D+"
 #          payload: "/ask_diem_D_cong"

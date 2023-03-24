@@ -63,9 +63,16 @@ nlu:
     - hello bot
     - ahello
     - bhello
+
 - intent: goodbye #check
   examples: |
     - tạm biệt
+    - tạm biệt nha
+    - tạm biệt bạn
+    - tạm biệt cậu
+    - tạm biệt bot
+    - tạm biệt nhé
+    - tạm biệt bot nha
     - bye bye
     - cee you later
     - good night
@@ -86,20 +93,17 @@ nlu:
     - thank you so much
     - greet! Thanks
     - good job
-    - hay
-    - siêu
-    - tuyệt
+    - good job man
+    - good job bot
     - cảm ơn em nhiều nhé
     - cảm ơn
     - cảm ơn nha
     - cảm ơn bot nha
+    - cảm ơn cậu
+    - cảm ơn nhé
+    - cảm ơn nhá
     - gặp sau nha
     - hẹn lần khác
-    - lúc khác nói tiếp sau
-    - thôi nha
-    - gặp sau
-    - đi à
-
 
 - intent: ask_name #check
   examples: |
@@ -181,7 +185,6 @@ nlu:
     - em biết làm gì?
     - em hỗ trợ anh như thế nào?
     - cho anh xem các chức năng của em
-
 
 - intent: praise
   examples: |
@@ -271,6 +274,7 @@ nlu:
     - ngốc quá bot
     - rồi làm được gì nhau
     - sai rồi, chán ghê á
+
 - intent: ask_university
   examples: |
     - tôi cần biết thông tin về trường
@@ -305,6 +309,7 @@ nlu:
     - cho tôi biết thông tin về trường
     - cho tôi hỏi thông tin về trường
     - cho tôi xem thông tin về trường
+
 - intent: ask_quy_che_hoc_vu
   examples: |
     - tôi muốn hỏi về quy chế học vụ ctu
@@ -368,6 +373,7 @@ nlu:
     - hãy nói cho tôi nghe về thời gian học tại trường
     - hãy nói cho tôi nghe về thời gian học ở trường
     - hãy nói cho tôi nghe về thời gian học của trường
+
 - intent: time_chuan
   examples: |
     - tôi muốn hỏi về thời gian chuẩn theo CTDT
@@ -397,7 +403,6 @@ nlu:
     - thời gian chuẩn theo CTDT là sao
     - thời gian chuẩn theo CTDT là gì thế
     - thời gian chuẩn theo CTDT như nào
-    
 
 - intent: time_toi_da
   examples: |
@@ -417,11 +422,12 @@ nlu:
     - thời gian tối đa như nào
     - tôi muốn hỏi thời gian tối đa tại trường là như thế nào
     - tôi muốn tìm hiểu thời gian tối đa học được bao nhiêu vậy
-    - tôi muốn hỏi thời gian tôi đa học tại trường mình là bao lâu vậy
+    - tôi muốn hỏi thời gian tối đa học tại trường mình là bao lâu vậy
     - thời gian tối đa theo CTDT
     - thời gian tối đa theo CTDT là sao
     - thời gian tối đa theo CTDT là gì thế
     - thời gian tối đa theo CTDT như nào
+
 - intent: ask_drl
   examples: |
     - tôi muốn hỏi về điểm rèn luyện của trường đại học cần thơ
@@ -444,7 +450,6 @@ nlu:
     - điểm rèn luyện như nào
     - điểm rèn luyện là gì vậy
     - điểm rèn luyện ra sao
-    
 
 - intent: ask_tiet_hoc
   examples: |
@@ -490,7 +495,6 @@ nlu:
     - hãy nói cho tôi xem về thông tin tiết học là sao
     - hãy nói cho tôi xem về thông tin tiết học như nào
     - hãy nói cho tôi xem về thông tin tiết học ra sao
-    
 
 - intent: ask_khht
   examples: |
@@ -654,6 +658,7 @@ nlu:
     - hãy nói cho tôi xem về học kỳ phụ là sao
     - hãy nói cho tôi xem về học kỳ phụ như nào
     - hãy nói cho tôi xem về học kỳ phụ ra sao
+
 - intent: ask_info_HP
   examples: |
     - hãy cho tôi biết học phần là gì
@@ -705,6 +710,7 @@ nlu:
     - hãy nói cho tôi xem về học phần là sao
     - hãy nói cho tôi xem về học phần như nào
     - hãy nói cho tôi xem về học phần ra sao
+
 - intent: ask_tin_chi
   examples: |
     - tôi không biết tín chỉ là gì
@@ -718,7 +724,9 @@ nlu:
     - tín chỉ là sao vậy
     - tín chỉ là như thế nào
     - tôi muốn biết thông tin về tín chỉ
-    - bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ
+    - tôi muốn tìm hiểu thông tin về tín chỉ là sao
+    - tôi muốn tìm hiểu thông tin về tín chỉ ra sao
+    - tôi muốn tìm hiểu thông tin về tín chỉ như nào
     - tôi muốn tìm hiểu thông tin về tín chỉ
     - tôi muốn hỏi thêm thông tin về tín chỉ
     - tôi muốn xem thông tin về tín chỉ
@@ -726,8 +734,6 @@ nlu:
     - kỳ đầu tiên học tối đa bao nhiêu tín chỉ
     - tôi muốn học được bao nhiêu tín chỉ
     - tôi muốn biết được bao nhiêu tín chỉ
-    - học được bao nhiêu tín chỉ trong học kỳ
-    - tôi muốn biết là học kỳ đầu tiên thì học bao nhiêu tín chỉ
     - tín chỉ là gì hả bot
     - tín chỉ là sao thế bot
     - tôi muốn biết thông tin về tín chỉ
@@ -749,6 +755,7 @@ nlu:
     - hãy nói cho tôi xem về tín chỉ là sao
     - hãy nói cho tôi xem về tín chỉ như nào
     - hãy nói cho tôi xem về tín chỉ ra sao
+
 - intent: ask_hoc_bong
   examples: |
     - bạn hãy cho tôi biết học bổng của trường đại học cần thơ
@@ -781,6 +788,7 @@ nlu:
     - học bổng như nào để đạt được
     - cách để đạt được học bổng
     - cách nào để đạt được học bổng thế bot
+
 - intent: hoc_bong_khuyen_khich
   examples: |
     - bạn hãy cho tôi biết học bổng khuyến khích là gì
@@ -812,7 +820,6 @@ nlu:
     - học bổng khuyến khích như thế nào
     - học bổng khuyến khích ra sao
     - học bổng khuyến khích sao vậy
-    
 
 - intent: hoc_bong_tai_tro
   examples: |
@@ -848,6 +855,7 @@ nlu:
     - học bổng tài trợ như thế nào
     - học bổng tài trợ ra sao
     - học bổng tài trợ sao vậy
+
 - intent: quy_ho_tro
   examples: |
     - bạn hãy cho tôi biết về quỹ hỗ trợ sinh viên
@@ -859,6 +867,7 @@ nlu:
     - quỹ hỗ trợ là như thế nào
     - làm thế nào để có quỹ hỗ trợ
     - tôi muốn có quỹ hỗ trợ
+    - tôi muốn có được quỹ hỗ trợ
     - tôi muốn có quỹ hỗ trợ thì phải làm sao
     - muốn đạt được quỹ hỗ trợ thì phải như thế nào
     - quỹ hỗ trợ như nào hả bot
@@ -980,6 +989,7 @@ nlu:
     - hãy nói cho tôi xem về bảo hiểm y tế là sao
     - hãy nói cho tôi xem về bảo hiểm y tế như nào
     - hãy nói cho tôi xem về bảo hiểm y tế ra sao
+
 - intent: change_ctdt
   examples: |
     - tôi muốn biết về việc chuyển đổi chương trình đào tạo
@@ -1101,6 +1111,7 @@ nlu:
     - hãy nói cho tôi xem về chuyển ngành đào tạo là sao
     - hãy nói cho tôi xem về chuyển ngành đào tạo như nào
     - hãy nói cho tôi xem về chuyển ngành đào tạo ra sao
+
 - intent: change_hinh_thuc_dao_tao
   examples: |
     - bạn có thể cho mình biết chuyển hình thức đào tạo là sao không
@@ -1148,10 +1159,11 @@ nlu:
     - hãy nói cho tôi xem về chuyển hình thức đào tạo là sao
     - hãy nói cho tôi xem về chuyển hình thức đào tạo như nào
     - hãy nói cho tôi xem về chuyển hình thức đào tạo ra sao
+    
+
 # TỔ CHỨC ĐÀO TẠO
 - intent: ask_tin_chi_HK
   examples: |
-    - bạn có thể cho mình biết một học kỳ học được bao nhiêu tín chỉ học kỳ
     - tôi muốn biết 1 kỳ học tối đa mấy tín chỉ học kỳ
     - kỳ đầu tiên học tối đa bao nhiêu tín chỉ học kỳ
     - học được bao nhiêu tín chỉ học kỳ trong học kỳ
@@ -1197,8 +1209,8 @@ nlu:
     - hãy nói cho tôi xem về tín chỉ học kỳ là sao
     - hãy nói cho tôi xem về tín chỉ học kỳ như nào
     - hãy nói cho tôi xem về tín chỉ học kỳ ra sao
-
 #    - tối đa bao nhiêu tín chỉ học kỳ
+
 - intent: info_add_delete_HP
   examples: |
     - tôi muốn biết về lớp học phần
@@ -1246,6 +1258,7 @@ nlu:
     - hãy nói cho tôi xem về lớp học phần là sao
     - hãy nói cho tôi xem về lớp học phần như nào
     - hãy nói cho tôi xem về lớp học phần ra sao
+
 - intent: delete_lop_HP
   examples: |
     - bạn có thể cho mình biết chi tiết về xóa lớp học phần
@@ -1271,6 +1284,7 @@ nlu:
     - hãy cho tôi biết thông tin về xóa lớp học phần
     - hãy cho tôi hỏi thông tin về xóa lớp học phần
     - hãy cho tôi xem thông tin về xóa lớp học phần
+
 - intent: add_lop_HP
   examples: |
     - tôi/em muốn mở thêm lớp học phần thì phải làm sao
@@ -1303,6 +1317,7 @@ nlu:
     - hãy cho tôi biết thông tin về mở thêm lớp học phần
     - hãy cho tôi hỏi thông tin về mở thêm lớp học phần
     - hãy cho tôi xem thông tin về mở thêm lớp học phần
+
 - intent: info_dang_ky_hoc_lai
   examples: |
     - tôi muốn đăng ký học lại
@@ -1411,6 +1426,7 @@ nlu:
     - hãy cho tôi biết thông tin về cảnh báo học tập
     - hãy cho tôi hỏi thông tin về cảnh báo học tập
     - hãy cho tôi xem thông tin về cảnh báo học tập
+
 - intent: dinh_chi_hoc_tap
   examples: |
     - đình chỉ học tập là sao
@@ -1442,6 +1458,7 @@ nlu:
     - hãy cho tôi biết thông tin về đình chỉ học tập
     - hãy cho tôi hỏi thông tin về đình chỉ học tập
     - hãy cho tôi xem thông tin về đình chỉ học tập
+
 - intent: buoc_thoi_hoc
   examples: |
     - buộc thôi học là sao
@@ -1478,6 +1495,7 @@ nlu:
     - hãy cho tôi biết thông tin về thôi học
     - hãy cho tôi hỏi thông tin về thôi học
     - hãy cho tôi xem thông tin về thôi học
+
 - intent: learn_2_chuong_trinh
   examples: |
     - tôi muốn biết thông tin về việc học cùng lúc học hai chương trình
@@ -1564,9 +1582,8 @@ nlu:
     - hãy nói cho tôi xem về học 2 chương trình là sao
     - hãy nói cho tôi xem về học 2 chương trình như nào
     - hãy nói cho tôi xem về học 2 chương trình ra sao
-
-#
 #    - làm thế nào để tôi học hai chương trình
+
 - intent: dieu_kien_learn
   examples: |
     - tôi muốn biết thông tin về điều kiện học cùng lúc hai chương trình
@@ -1600,9 +1617,9 @@ nlu:
     - điều kiện học 2 chương trình là sao
     - điều kiện học 2 chương trình thế nào
     - điều kiện học 2 chương trình gì thế
-
 #    - làm thế nào để tôi học hai chương trình
 #    - làm thế nào để tôi học 2 chương trình
+
 - intent: thu_tuc_learn
   examples: |
     - tôi muốn biết thông tin về thủ tục học hai chương trình
@@ -1655,6 +1672,8 @@ nlu:
     - thủ tục học 2 chương trình là sao
     - thủ tục học 2 chương trình thế nào
     - thủ tục học 2 chương trình gì thế
+    
+
 # ĐÁNH GIÁ HỌC TẬP
 - intent: learn_truc_truyen
   examples: |
@@ -1712,7 +1731,6 @@ nlu:
     - hãy nói cho tôi xem về thi trực tuyến như nào vậy
     - hãy nói cho tôi xem về thi trực tuyến ra sao nè
 
-# Hỏi điểm M, I, W
 
 - intent: tong_hop_thi
   examples: |
@@ -1773,8 +1791,12 @@ nlu:
     - tôi muốn hỏi về điểm học phần
     - điểm học phần là gì
     - điểm học phần là sao vậy
-    - điểm đánh giá học phần là gì
+    - điểm học phần đánh giá như nào
+    - điểm học phần đánh giá ra sao
+    - điểm học phần đánh giá
     - cách đánh giá điểm học phần
+    - cách đánh giá điểm học phần ra sao
+    - cách đánh giá điểm học phần như thế nào
     - điểm học phần là như thế nào
     - tôi muốn biết về điểm học phần
     - điểm học phần là sao
@@ -1792,6 +1814,7 @@ nlu:
     - cho tôi tìm hiểu về điểm học phần
     - điểm học phần
     - điểm học phần thế nào
+    - điểm học phần thế nào vậy bạn
     - điểm học phần là sao thế bot
     - điểm học phần ra sao bot
     - điểm học phần là gì hả
@@ -1806,6 +1829,8 @@ nlu:
     - tôi muốn được biết về điểm học phần như nào
     - tôi muốn hỏi về điểm học phần được không bot
 
+
+# Hỏi điểm M, I, W
 - intent: diem_M
   examples: |
     - bạn/em/anh hãy cho tôi biết thông tin về điểm M
@@ -1829,6 +1854,7 @@ nlu:
     - điểm M thế nào
     - điểm M ra như nào
     - điểm M là thế nào
+
 - intent: diem_I
   examples: |
     - bạn/em/anh hãy cho tôi biết thông tin về điểm I
@@ -1851,6 +1877,7 @@ nlu:
     - điểm I thế nào
     - điểm I ra như nào
     - điểm I là thế nào
+
 - intent: diem_W
   examples: |
     - bạn hãy cho tôi biết thông tin về điểm W
@@ -1885,6 +1912,8 @@ nlu:
     - điểm W thế nào vậy bot
     - điểm W ra như nào thế
     - điểm W là thế nào hả
+    
+
 - intent: so_lan_thi_CK
   examples: |
     - bạn hãy cho tôi biết cuối kỳ thì thi mấy lần
@@ -2051,8 +2080,9 @@ nlu:
     - hãy nói cho tôi xem về vắng cuối kỳ thi là sao thế
     - hãy nói cho tôi xem về vắng cuối kỳ thi như nào vậy
     - hãy nói cho tôi xem về vắng cuối kỳ thi ra sao nè
-# Điểm trung bình chung
 
+
+# Điểm trung bình chung
 - intent: diem_tbchung
   examples: |
     - bạn hãy cho tôi biết điểm trung bình chung là gì
@@ -2177,6 +2207,7 @@ nlu:
     - hãy nói cho tôi xem về điểm trung bình chung học kỳ là sao thế
     - hãy nói cho tôi xem về điểm trung bình chung học kỳ như nào vậy
     - hãy nói cho tôi xem về điểm trung bình chung học kỳ ra sao nè
+
 - intent: diem_tbcnh
   examples: |
     - hãy cho tôi biết thông tin về điểm trung bình chung năm học là gì
@@ -2247,6 +2278,7 @@ nlu:
     - hãy nói cho tôi xem về điểm trung bình chung năm học là sao thế
     - hãy nói cho tôi xem về điểm trung bình chung năm học như nào vậy
     - hãy nói cho tôi xem về điểm trung bình chung năm học ra sao nè
+
 - intent: diem_tbctl
   examples: |
     - điểm trung bình chung tích lũy là sao
@@ -2282,8 +2314,8 @@ nlu:
     - điểm trung bình chung tích lũy là sao vậy trường
     - điểm trung bình chung tích lũy là như thế nào
     - hãy cho tôi biết thông tin về điểm trung bình chung tích lũy là điểm gì
-    - tôi muốn biết điểm tổng trung bình chung tích chung lũy của học kỳ
-    - tôi muốn biết cách tính điểm trung bình chung tích luy của học kỳ
+    - tôi muốn biết điểm trung bình chung tích lũy của học kỳ
+    - tôi muốn biết cách tính điểm trung bình chung tích lũy của học kỳ
     - bạn hãy cho tôi biết cách tính điểm trung bình chung tích lũy
     - tôi muốn biết công thức tính điểm trung bình chung tích lũy
     - tôi không biết là tính điểm trung bình chung tích lũy bằng cách nào
@@ -2306,6 +2338,7 @@ nlu:
     - điểm trung bình chung tích lũy ra làm sao bot
     - điểm trung bình chung tích lũy như nào vậy
     - điểm trung bình chung tích lũy là thế nào hả
+
 - intent: rank_hoc_tap
   examples: |
     - hãy cho tôi biết thông tin về xếp loại học tập
@@ -2330,6 +2363,8 @@ nlu:
     - xếp loại học tập ra sao hả
     - xếp loại học tập như nào thế
     - xếp loại học tập thế nào vậy
+    
+
 # Xếp loại khen thưởng
 - intent: xep_loai_khen_thuong
   examples: |
@@ -2376,6 +2411,7 @@ nlu:
     - loại xuất sắc ra sao vậy
     - loại xuất sắc như nào hả
     - loại xuất sắc thế nào bây
+
 - intent: loai_gioi
   examples: |
     - tôi muốn biết là loại giỏi thì được gì
@@ -2402,6 +2438,7 @@ nlu:
     - loại giỏi là sao
     - loại giỏi là sao thế bot
     - loại giỏi là gì vậy bot
+
 - intent: loai_kha # check trùng khen
   examples: |
     - tôi/em muốn biết là loại khá thì được gì
@@ -2427,12 +2464,13 @@ nlu:
     - loại khá là gì
     - loại khá là gì vậy
     - loại khá như thế nào vậy bot
+
 - intent: khen_thuong
   examples: |
     - bạn có thể cho mình biết quy định về việc khen thưởng sinh viên
     - tôi muốn biết khen thưởng những trường hợp nào
     - bạn hãy cho tôi biết cách để được khen thưởng
-    - tôi không biết là khen thưởng từ loại nào
+    - tôi không biết là khen thưởng như thế nào
     - như thế nào mới được khen thưởng
     - khen thưởng như thế nào
     - như thế nào mới được khen thưởng
@@ -2455,6 +2493,7 @@ nlu:
     - khen thưởng ra sao thế
     - khen thưởng như nào hả
     - khen thưởng như thế nào vậy bot
+
 - intent: quy_dinh_kiem_tra
   examples: |
     - bạn có thể cho mình biết quy định về kiểm tra
@@ -2514,6 +2553,7 @@ nlu:
     - hãy nói cho tôi xem về quy định kiểm tra là sao thế
     - hãy nói cho tôi xem về quy định kiểm tra như nào vậy
     - hãy nói cho tôi xem về quy định kiểm tra ra sao nè
+
 - intent: xu_ly_sv_vi_pham_quy_dinh
   examples: |
     - tôi/em muốn biết thông tin về việc xử lý sinh viên vi phạm
@@ -2538,6 +2578,7 @@ nlu:
     - tôi muốn biết xử lý sinh viên vi phạm như thế nào
     - tôi muốn biết xử lý sinh viên vi phạm ra sao
     - tôi muốn biết xử lý sinh viên vi phạm là sao
+
 - intent: khien_trach_sv
   examples: |
     - tôi muốn biết khiển trách sinh viên khi nào
@@ -2579,6 +2620,7 @@ nlu:
     - khiển trách là gì thế
     - khiển trách như nào hả
     - khiển trách ra thế nào vậy
+
 - intent: canh_cao_sv
   examples: |
     - cảnh cáo sinh viên khi nào
@@ -2614,6 +2656,7 @@ nlu:
     - cảnh cáo sinh viên như nào vậy
     - cảnh cáo sinh viên ra thế nào hả
     - cảnh cáo sinh viên là gì thế bot
+
 - intent: dinh_chi_sv
   examples: |
     - bạn hãy cho tôi biết về việc đình chỉ sinh viên
@@ -2685,6 +2728,7 @@ nlu:
     - thi hộ như nào vậy
     - viên thi hộ ra thế nào hả
     - thi hộ là gì thế bot
+
 - intent: trinh_do_nam_hoc
   examples: |
     - tôi không biết là trình độ năm học là gì
@@ -2748,8 +2792,8 @@ nlu:
     - hãy nói cho tôi xem về trình độ năm học là sao thế
     - hãy nói cho tôi xem về trình độ năm học như nào vậy
     - hãy nói cho tôi xem về trình độ năm học ra sao nè
+    
 
-#- em muốn biết thi cuối kỳ như thế nào
 # XÉT VÀ CÔNG NHẬN TỐT NGHIỆP
 - intent: ask_tot_nghiep
   examples: |
@@ -2784,6 +2828,7 @@ nlu:
     - tốt nghiệp như nào hả
     - tốt nghiệp ra thế nào hả
     - tốt nghiệp là gì thế bot
+
 - intent: dieu_kien_tot_nghiep #check
   examples: |
     - bạn hãy cho tôi biết về điều kiện tốt nghiệp
@@ -2894,6 +2939,7 @@ nlu:
     - cho mình nghe về điều kiện tốt nghiệp bot
     - cho mình nghe về điều kiện tốt nghiệp là gì thế bot
     - cho mình nghe về điều kiện tốt nghiệp là sao hả bot
+
 - intent: thoi_gian_tot_nghiep  #check
   examples: |
     - bạn có thể cho mình biết thời gian tốt nghiệp
@@ -3046,6 +3092,7 @@ nlu:
     - cho tôi coi về thông tin quá hạn tốt nghiệp là sao thế
     - cho tôi coi về thông tin quá hạn tốt nghiệp như nào vậy
     - cho tôi coi về thông tin quá hạn tốt nghiệp ra sao nè
+
 - intent: rank_tot_nghiep
   examples: |
     - bạn hãy cho tôi biết về xếp hạng tốt nghiệp
@@ -3111,9 +3158,11 @@ nlu:
     - hãy nói cho tôi xem về xếp hạng tốt nghiệp là sao thế
     - hãy nói cho tôi xem về xếp hạng tốt nghiệp như nào vậy
     - hãy nói cho tôi xem về xếp hạng tốt nghiệp ra sao nè
-################
+    
+    
 
-
+################################################
+################################################
 - intent: ask_point
   examples: |
     - tôi muốn xem điểm anh văn
@@ -3197,6 +3246,7 @@ nlu:
     - trường có ngành [Kỹ thuật phần mềm] không vậy
     - trường mình có ngành [Hệ thống thông tin]
     - ngành [Công nghệ thông tin] có trong trường không thế
+
 - intent: ask_majors_point
   examples: |
     - Trường mình năm rồi lấy bao nhiêu điểm vậy
@@ -3567,9 +3617,10 @@ nlu:
     - [b2402345](student_code)
     - [b2304567](student_code)
     - [b2206789](student_code)
-##########################
+    
 
-######### gop y
+################################################
+######### Góp ý
 - intent: ask_comment
   examples: |
     - tôi muốn góp ý như này
@@ -3616,226 +3667,6 @@ nlu:
     - ý kiến
     - góp ý cái bot
     - ý kiến cái bot
-
-
-- intent: give_comment_name
-  examples: |
-    - tên anh là [Nguyễn Phú Trọng](student_name)
-    - [Huỳnh Đại Thắng](student_name)
-    - tên tôi [Vương Đình Huệ](student_name)
-    - tên chị là [Nguyễn Thị Kim Ngân](student_name)
-    - [Đinh Lê Hoàng](student_name)
-    - [Võ Thị Hồng Anh](student_name)
-    - [Nguyễn Thái Luyện](student_name)
-    - [Nguyễn Xuân Phúc](student_name) em nhé
-    - [Nhân](student_name)
-    - [Trần Thanh Luyến](student_name)
-    - [trấn thành](student_name)
-    - [nguyễn văn phi](student_name)
-    - [phan thiệu huy](student_name)
-    - [trần hoài nhân](student_name)
-    - tên anh là [phan quang nghiêm](student_name)
-    - [ngô trọng phúc](student_name)
-    - tên tôi [dương tuấn kiệt](student_name)
-    - tên chị là [phan thị ngọc trâm](student_name)
-    - tên anh là [Nguyễn Phú Trọng](student_name)
-    - [Trần Thanh Hòa](student_name)
-    - tên tôi [Nguyễn dương thuận lợi](student_name)
-    - tên chị là [Ngô bá hùng](student_name)
-    - [Đỗ thanh nghị](student_name)
-    - [Nguyễn Hữu Hòa](student_name)
-    - [Nguyễn Nhị Gia Vinh](student_name)
-    - [Hồ Văn Tú](student_name) em nhé
-    - [Phạm Trương Hồng Ngân](student_name)
-    - [Trần Hoàng Việt](student_name)
-    - [Bùi Quốc Chính](student_name)
-    - [Vũ Duy Linh](student_name)
-    - [Nguyễn Đức Khoa](student_name)
-    - [Hoàng Minh Trí](student_name)
-    - tên anh là [Lê Thị Diễm](student_name)
-    - [Nguyễn Thị Thùy Linh](student_name)
-    - tên tôi [Huỳnh Phụng Toàn](student_name)
-    - tên chị là [Võ Hải Đăng](student_name)
-    - tên anh là [Nguyễn Công Huy](student_name)
-    - [Phạm Hữu Tài](student_name)
-    - tên tôi [Phan Thượng Cang](student_name)
-    - tên chị là [Trần Thanh Điền](student_name)
-    - [Lâm Chí Nguyện](student_name)
-    - [Nguyễn Cao Hồng Ngọc](student_name)
-    - [Hà Duy An](student_name)
-    - [Nguyễn Hữu Vân Long](student_name) em nhé
-    - [Triệu Thanh Ngoan](student_name)
-    - [Trần Thị Tố Quyên](student_name)
-    - [Lưu Trùng Dương](student_name)
-    - [Trần Thanh Điện](student_name)
-    - [Lê Quyết Thắng](student_name)
-    - [Đoàn Hòa Minh](student_name)
-    - tên anh là [Nguyễn Hồng Vân](student_name)
-    - [Nguyễn Trọng Nghĩa](student_name)
-    - tên tôi [Nguyễn Thái Nghe](student_name)
-    - tên chị là [Phan Tấn Tài](student_name)
-    - [Phạm Thị Ngọc Diễm](student_name)
-    - [Trương Quốc Định](student_name)
-    - [Trần Nguyễn Minh Thái](student_name)
-    - [Nguyễn Thanh Hải](student_name)
-    - tên anh là [Bùi Đăng Hà Phương](student_name)
-    - [Nguyễn Minh Khiêm](student_name)
-    - tên tôi [Phạm Ngọc Quyền](student_name)
-    - tên chị là [Phạm Thị Xuân Lộc](student_name)
-    - tên anh là [Lê Đức Thắng](student_name)
-    - [Mai Thị Cẩm Nhung](student_name)
-    - tên tôi [Phạm Thế Phi](student_name)
-    - tên chị là [Trần Công Án](student_name)
-    - [Trần Ngân Bình](student_name)
-    - [Lâm Nhựt Khang](student_name)
-    - [Thái Minh Tuấn](student_name)
-    - [Bùi Võ Quốc Bảo](student_name) em nhé
-    - [Phạm Thị Xuân Diễm](student_name)
-    - [Nguyễn Ngọc Mỹ](student_name)
-    - [Trần Cao Đệ](student_name)
-    - [Lê Văn Lâm](student_name)
-    - [Trần Minh Hùng](student_name)
-    - [Trần Minh Tân](student_name)
-    - tên anh là [Lê Hoàng Thảo](student_name)
-    - [Nguyễn Minh Trung](student_name)
-    - tên tôi [Võ Huỳnh Trâm](student_name)
-    - tên chị là [Trương Minh Thái](student_name)
-    - [Huỳnh Xuân Hiệp](student_name)
-    - tên anh là [Trương Thị Thanh Tuyền](student_name)
-    - [Lâm Hoài Bảo](student_name)
-    - tên tôi [Phan Huy Cường](student_name)
-    - tên chị là [Huỳnh Quang Nghi](student_name)
-    - tên anh là [Phan Phương Lan](student_name)
-    - [Nguyễn Công Danh](student_name)
-    - tên tôi [Trần Văn Hoàng](student_name)
-    - tên chị là [Hồ Quang Thái](student_name)
-    - [Nguyễn Văn Linh](student_name)
-    - [Trương Xuân Việt](student_name)
-    - [Cù Vĩnh Lộc](student_name)
-    - [Ngô Quyền](student_name) em nhé
-    - [Triệu Quang Phục](student_name)
-    - [Đinh Bộ Lĩnh](student_name)
-    - [Lê Hoàn](student_name)
-    - [Lý Công Uẩn](student_name)
-    - [Trần Thủ Độ](student_name)
-    - [Trần Cảnh](student_name)
-    - tên anh là [Trần Quốc Tuấn](student_name)
-    - [Trần Quốc Toản](student_name)
-    - [Hồ Quý Ly](student_name)
-    - tên tôi [Hồ Nguyên Trừng](student_name)
-    - tên chị là [Lê Lợi](student_name)
-    - [Lê Tư Thành](student_name)
-    - tên anh là [Mạc Đăng Dung](student_name)
-    - [Mạc Đăng Doanh](student_name)
-    - tên tôi [Trịnh Kiểm](student_name)
-    - tên chị là [Nguyễn Hoàng](student_name)
-    - tên anh là [Nguyễn Phúc Ánh](student_name)
-    - [Nguyễn Phúc Vĩnh San](student_name)
-    - tên tôi [Tôn Thất Thuyết](student_name)
-    - tên chị là [Tôn Thất Tùng](student_name)
-    - [Tôn Đức Thắng](student_name)
-    - [Phạm Tuân](student_name)
-    - [Hoàng Phủ Ngọc Tường](student_name)
-    - [Phan Văn Tài Em](student_name) em nhé
-    - [Nguyễn Phong Hồng Duy](student_name)
-    - [Nguyễn Văn Toàn](student_name)
-    - [Nguyễn Ngọc Trường Sơn](student_name)
-    - [Trần Lê Quốc Toàn](student_name)
-    - [Trương Văn Thái Quý](student_name)
-    - [Dương tuấn kiệt](student_name)
-    - [Trần Nam Long](student_name)
-    - [Bùi Hoàng Việt Anh](student_name)
-    - tên anh là [Trưng Trắc](student_name)
-    - [Lê Chân](student_name)
-    - [Triệu Thị Trinh](student_name)
-    - tên tôi [Lý Thiên Hinh](student_name)
-    - tên chị là [Nguyễn Thị Ngọc Bảo](student_name)
-    - [Hồ Xuân Hương](student_name)
-    - tên anh là [Lâm Thị Mỹ Dạ](student_name)
-    - [Tôn Nữ Thị Ninh](student_name)
-    - tên tôi [Nguyễn Doãn Cẩm Vân](student_name)
-    - tên chị là [Nguyễn Thị Ánh Viên](student_name)
-    - tên anh là [Bùi Nguyễn Diễm Phúc](student_name)
-    - [Ái An Anh Ao](student_name)
-    - tên tôi [Ánh Ân Âu Dương](student_name)
-    - tên chị là [Ấu Bá Bạc Bạch](student_name)
-    - [Bàn Bàng Bành Bảo](student_name)
-    - [Bế Bì Biện Bình](student_name)
-    - [Bồ Chriêng Ca Cà](student_name)
-    - [Cái Cai Cam Cảnh](student_name) em nhé
-    - [Cao Cáp Cát Cầm](student_name)
-    - [Cấn Chế Chiêm Chu](student_name)
-    - [Châu Chắng Chung Chúng](student_name)
-    - [Chương Chử Cồ Cổ](student_name)
-    - [Công Cống Cung Cù](student_name)
-    - [Cự Dã Danh Diêm](student_name)
-    - tên anh là [Diệp Doãn Du Duy](student_name)
-    - [Dư Đái Đan Đàm](student_name)
-    - [Đào Đăng Đắc Đầu](student_name)
-    - tên tôi [Đậu Đèo Điêu Điền](student_name)
-    - tên chị là [Điều Đinh Đình Đoái](student_name)
-    - [Đoàn Đoạn Đôn](student_name)
-    - [Đống Đồ Đồng Đổng](student_name)
-    - [Đới Đái Đương Đường](student_name)
-    - [Đức Giả Giao Giang](student_name) em nhé
-    - [Giàng Giản Giảng Giáp](student_name)
-    - [Hưng H' ma nia](student_name)
-    - [Hầu Hà Hạ Hàn](student_name)
-    - [Hàng Hán Hề Hi](student_name)
-    - [Hình Hoa Hoà Hoài](student_name)
-    - [Hoàng Phủ Hồng Hứa](student_name)
-    - tên anh là [Hướng Kinh Kông Kiểu](student_name)
-    - [Kha Khà Khai Khâu](student_name)
-    - [Khiếu Khoa Khổng Khu](student_name)
-    - tên tôi [Khuất Khúc Khương Khưu](student_name)
-    - tên chị là [Kiều Kim Ly Lý](student_name)
-    - [La Lã Lữ Lành](student_name)
-    - [Lãnh Lạc Lại Lăng](student_name)
-    - [Lâm Lầu Lèng Lều](student_name)
-    - [Liên Liệp Liêu Liễu](student_name) em nhé
-    - [Linh Loan Lò Lô](student_name)
-    - [Lỗ Lộ Lộc Luyện](student_name)
-    - [Lục Lư Lương Lường](student_name)
-    - [Lưu Ma Mai Mang](student_name)
-    - [Mã Mạc Mạch Mạnh](student_name)
-    - [Mâu Mầu Mẫn Minh](student_name)
-    - tên anh là [Mộc Mông Mùa Mục](student_name)
-    - [Miêu Niê Ngạc Ngân](student_name)
-    - [Nghiêm Nghị Ngọ Ngọc](student_name)
-    - tên tôi [Ngôn Ngũ Ngụy Nhan](student_name)
-    - tên chị là [Nhâm Nhữ Ninh Nông](student_name)
-    - [Ong Ông Phi Phí](student_name)
-    - [Phó Phong Phù Phú](student_name)
-    - [Phùng Phương Quản Quán](student_name)
-    - [Quang Quàng Quảng Quách](student_name) em nhé
-    - [Quế Quốc Quyền Sái](student_name)
-    - [Sâm Sầm Sơn Sử](student_name)
-    - [Sùng Sỳ Tán Tào](student_name)
-    - [Tạ Tăng Tấn Tất](student_name)
-    - [Tề Thang Thanh Thái](student_name)
-    - [Thành Thào Thạch Thân](student_name)
-    - tên anh là [Thẩm Thập Thế Thi](student_name)
-    - [Thiều Thiệu Thịnh Thiềm](student_name)
-    - [Thoa Thôi Thóng Thục](student_name)
-    - tên tôi [Tiêu Tiết Tiếp Tinh](student_name)
-    - tên chị là [Tòng Tô Tôn Nữ](student_name)
-    - [Tôn Thất Tông Tống](student_name)
-    - [Trang Tráng Trác Trà](student_name)
-    - [Trâu Tri Trì Triệu](student_name)
-    - [Trình Trịnh Trung Trưng](student_name) em nhé
-    - [hữu muội cẩm đặng](student_name) em nhé
-    - [mỵ đoan trang như](student_name) em nhé
-    - [Tuấn Từ Tưởng Tướng](student_name)
-    - [Ty Uông Ung Ưng](student_name)
-    - [Ứng Vàng Vâng Vạn](student_name)
-    - [Văn Vi Vĩnh Viêm](student_name)
-    - [Viên Việt Vòng Vừ](student_name)
-    - [Vương Vưu Vu Xan](student_name)
-    - tên anh là [Xung Y Yên phụng](student_name)
-    - [như hoài hồng cúc](student_name)
-    - [đẹp ngọc bích hương](student_name)
-    - [thảo vy lộc lam](student_name)
-
 
 - intent: give_comment_name
   examples: |
@@ -4057,12 +3888,6 @@ nlu:
 
 - intent: give_comment_content
   examples: |
-    - tôi thấy [dịch vụ cũng hay đấy](comment_content)
-    - tôi thấy [dịch vụ cũng hay đó](comment_content)
-    - tôi thấy [dịch vụ hay lắm](comment_content)
-    - tôi thấy [botcũng hay đấy](comment_content)
-    - tôi thấy [botcũng hay đó](comment_content)
-    - tôi thấy [bot hay lắm](comment_content)
     - chất lượng [dịch vụ tuyệt vời](comment_content)
     - mình thấy [trường dạy tốt lắm](comment_content)
     - mình cảm thấy [ngồi trướng tốt nhất từng biết](comment_content)
@@ -4073,6 +3898,9 @@ nlu:
     - là như này [Bot tệ quá đấy](comment_content)
     - [Bot gì ngu dữ vậy](comment_content)
     - tôi thấy [dịch vụ chán quá](comment_content)
+    - [dịch vụ kém](comment_content)
+    - [chất lượng tệ](comment_content)
+    - [cần xem lại](comment_content)
     - bot gì mà [hại tồi lắm](comment_content)
     - tôi nghĩ các bạn nên xem lại [dịch vụ của bạn chán cực](comment_content)
     - nên xem lại [trường chán cực không thể tả được](comment_content)
@@ -4083,8 +3911,9 @@ nlu:
     - cảm giác [bot còn kém lắm](comment_content)
     - là như thế này nè [Bot của các bạn ngu không thể tả được](comment_content)
     - nói thật là [dịch vụ bên bạn chả tốt tí nào](comment_content)
-##################3333
 
+
+##################
 - intent: ask_comment_replay # hoi lai
   examples: |
     - Tôi muốn xem lại góp ý của tôi
@@ -4095,6 +3924,8 @@ nlu:
     - xem lại góp ý đi
     - xem lại góp ý nào
     - Xem ý kiến lại cái
+    - Xem ý kiến lại cái bot
+    - Xem ý kiến lại cái bạn
     - Coi lại ý kiến góp ý cái
     - xem lại góp ý cái
     - xem góp ý cái
@@ -4112,11 +3943,13 @@ nlu:
     - tôi muốn xem lại góp ý
     - xem lại góp ý
     - xem góp ý
+    - xem lại góp ý cái nha
     - xem lại góp ý được hong
     - xem lại ý kiến của tôi
     - tôi muốn xem lại ý kiến
 
-######################### cốt chuyện hỏi
+################################################
+######################### Cốt truyện hỏi
 - intent: ask_van_de_chung
   examples: |
     - Tôi muốn biết một số vấn đề chung
@@ -4397,7 +4230,9 @@ nlu:
     - xét và công nhận tốt nghiệp như thế nào
     - xét và công nhận tốt nghiệp là gì thế bot
 
-############### bo sung
+
+################################################
+############### BỔ SUNG
 # Điều 1: Phạm vi điều chỉnh và đối tượng áp dụng # check het điều 1
 - intent: ask_pham_vi_doi_tuong
   examples: |
@@ -4504,6 +4339,7 @@ nlu:
     - hãy cho tôi hỏi về đối tượng gồm những ai
     - hãy cho tôi xem về đối tượng gồm những ai
     - hãy cho tôi tìm hiểu về đối tượng gồm những ai
+
 # Điều 2: Sinh viên
 - intent: ask_sinh_vien
   examples: |
@@ -4527,7 +4363,6 @@ nlu:
     - tôi muốn hỏi về nội quy sinh viên
     - tôi muốn xem về nội quy sinh viên
     - tôi muốn tìm hiểu về nội quy sinh viên
-    
 
 ## Điều 3. Chương trình đào tạo, Bản mô tả chương trình đào tạo và chương trình dạy học
 - intent: ask_ctdt_mt_ctgd
@@ -4571,6 +4406,7 @@ nlu:
     - hãy cho tôi tìm hiểu về chương trình đào tạo, bản mô tả và chương trình dạy học ra sao
     - hãy cho tôi tìm hiểu về chương trình đào tạo, bản mô tả và chương trình dạy học thế nào
     - hãy cho tôi tìm hiểu về chương trình đào tạo, bản mô tả và chương trình dạy học như thế nào
+
 - intent: ask_ctdt
   examples: |
     - chương trình đào tạo
@@ -4594,6 +4430,7 @@ nlu:
     - hãy cho tôi biết thông tin về chương trình đào tạo là gì thế bot
     - hãy nói cho tôi hỏi thông tin về chương trình đào tạo là như nào
     - hãy cho tôi xem về chương trình đào tạo ra sao
+
 - intent: ask_mota
   examples: |
     - bản mô tả chương trình đào tạo
@@ -4618,6 +4455,7 @@ nlu:
     - bản mô tả là gì thế bot
     - bản mô tả là như nào vậy bot
     - bản mô tả ra làm sao
+
 - intent: ask_ctgd
   examples: |
     - chương trình dạy học
@@ -4661,7 +4499,7 @@ nlu:
     - hãy cho tôi tìm hiểu về chương trình dạy học ra sao
     - hãy cho tôi tìm hiểu về chương trình dạy học thế nào
     - hãy cho tôi tìm hiểu về chương trình dạy học như thế nào
-#
+
 # Điều 5: Bổ sung
 - intent: ask_time_lien_thong
   examples: |
@@ -4705,6 +4543,7 @@ nlu:
     - hãy cho tôi tìm hiểu về sinh viên liên thông ra sao
     - hãy cho tôi tìm hiểu về sinh viên liên thông thế nào
     - hãy cho tôi tìm hiểu về sinh viên liên thông như thế nào
+
 
 # ============= TỔ CHỨC ĐÀO TẠO =============
 # Trách nhệm của Trường và sinh viên trong việc đăng ký học phần
@@ -4952,7 +4791,6 @@ nlu:
     - hãy cho tôi tìm hiểu về trách nhiệm của sinh viên ra sao
     - hãy cho tôi tìm hiểu về trách nhiệm của sinh viên thế nào
     - hãy cho tôi tìm hiểu về trách nhiệm của sinh viên như thế nào
-    
 
 - intent: ask_quy_trinh_dkhp
   examples: |
@@ -4985,8 +4823,9 @@ nlu:
     - cho tôi hỏi về quy trình đăng ký học phần ra sao vậy
     - cho tôi hỏi về quy trình đăng ký học phần là gì
     - cho tôi hỏi về quy trình đăng ký học phần là thế nào
-# ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
+    
 
+# ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
 - intent: danh_gia_HP
   examples: |
     - đánh giá học phần
@@ -5136,6 +4975,7 @@ nlu:
     - hãy nói cho tôi xem tin về đánh giá học phần lý thuyết
     - hãy nói cho tôi hỏi thông tin về đánh giá học phần lý thuyết
     - hãy nói cho tôi hỏi về đánh giá học phần lý thuyết
+
 - intent: danh_gia_HP_thuc_hanh
   examples: |
     - đánh giá học phần thực hành
@@ -5193,6 +5033,8 @@ nlu:
     - cho tôi coi về thông báo kết quả học tập là như nào
     - cho tôi coi về thông báo kết quả học tập ra làm sao
     - cho tôi coi về thông báo kết quả học tập là thế nào
+    
+
 # ============= XÉT VÀ CÔNG NHẬN TỐT NGHIỆP =============
 - intent: thu_tuc_ra_truong
   examples: |
@@ -5224,6 +5066,7 @@ nlu:
     - cho tôi coi về thủ tục ra trường là như nào
     - cho tôi coi về thủ tục ra trường ra làm sao
     - cho tôi coi về thủ tục ra trường là thế nào
+
 - intent: quan_ly_bang_tot_nghiep
   examples: |
     - quản lý bằng tốt nghiệp
@@ -5258,6 +5101,8 @@ nlu:
     - cho tôi coi về quản lý bằng tốt nghiệp là như nào
     - cho tôi coi về quản lý bằng tốt nghiệp ra làm sao
     - cho tôi coi về quản lý bằng tốt nghiệp là thế nào
+    
+
 #################################################################
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
 - intent: ask_dia_chi_tro_giup
@@ -5353,8 +5198,6 @@ nlu:
     - điểm A là mấy điểm tính theo thang điểm 4
     - điểm A có tác dụng gì
     - điểm A có quan trọng không
-    - điểm A có tính vào điểm trung bình học kỳ/ĐTBHK không
-    - điểm A có tính vào điểm trung bình tích lũy/ĐTBTL không
     - có điểm A không
     - tại sao có điểm A
     - tôi muốn hỏi về điểm A
@@ -5389,15 +5232,15 @@ nlu:
 #    - điểm B+ là mấy điểm tính theo thang điểm 4
 #    - điểm B+ có tác dụng gì
 #    - điểm B+ có quan trọng không
-#    - điểm B+ có tính vào điểm trung bình học kỳ/ĐTBHK không
-#    - điểm B+ có tính vào điểm trung bình tích lũy/ĐTBTL không
+#    - điểm B+ có tính vào điểm trung bình học kỳ không
+#    - điểm B+ có tính vào điểm trung bình tích lũy không
 #    - có điểm B+ không
 #    - tại sao có điểm B+
 #    - tôi muốn hỏi về điểm B+
 #    - bạn hãy cho tôi biết điểm B+ là điểm gì
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm B+ đối với sinh viên
 #    - bạn có thể cho mình biết điểm B+ từ đâu mà ra
-#    - bạn/em/anh hãy cho tôi biết thông tin về điểm B+
+#    - bạn hãy cho tôi biết thông tin về điểm B+
 #    - bot có thể cho tôi biết điểm B+ là điểm gì được không?
 #    - vậy còn điểm B cộng thì sao
 #    - B cộng từ bao nhiêu?
@@ -5422,15 +5265,13 @@ nlu:
 #    - điểm B cộng là mấy điểm tính theo thang điểm 4
 #    - điểm B cộng có tác dụng gì
 #    - điểm B cộng có quan trọng không
-#    - điểm B cộng có tính vào điểm trung bình học kỳ/ĐTBHK không
-#    - điểm B cộng có tính vào điểm trung bình tích lũy/ĐTBTL không
 #    - có điểm B cộng không
 #    - tại sao có điểm B cộng
 #    - tôi muốn hỏi về điểm B cộng
 #    - bạn hãy cho tôi biết điểm B cộng là điểm gì
 #    - bạn hãy cho tôi biết thông tin chi tiết về điểm B cộng đối với sinh viên
 #    - bạn có thể cho mình biết điểm B cộng từ đâu mà ra
-#    - bạn/em/anh hãy cho tôi biết thông tin về điểm B cộng
+#    - bạn hãy cho tôi biết thông tin về điểm B cộng
 #    - bot có thể cho tôi biết điểm B cộng là điểm gì được không?
 #
 - intent: ask_diem_B
@@ -5458,15 +5299,13 @@ nlu:
     - điểm B là mấy điểm tính theo thang điểm 4
     - điểm B có tác dụng gì
     - điểm B có quan trọng không
-    - điểm B có tính vào điểm trung bình học kỳ/ĐTBHK không
-    - điểm B có tính vào điểm trung bình tích lũy/ĐTBTL không
     - có điểm B không
     - tại sao có điểm B
     - tôi muốn hỏi về điểm B
     - bạn hãy cho tôi biết điểm B là điểm gì
     - bạn hãy cho tôi biết thông tin chi tiết về điểm B đối với sinh viên
     - bạn có thể cho mình biết điểm B từ đâu mà ra
-    - bạn/em/anh hãy cho tôi biết thông tin về điểm B
+    - bạn hãy cho tôi biết thông tin về điểm B
     - bot có thể cho tôi biết điểm B là điểm gì được không?
 #
 #- intent: ask_diem_C_cong
@@ -5677,7 +5516,7 @@ nlu:
     - bạn có thể cho mình biết điểm D từ đâu mà ra
     - bạn/em/anh hãy cho tôi biết thông tin về điểm D
     - bot có thể cho tôi biết điểm D là điểm gì được không?
-#
+
 - intent: ask_diem_F
   examples: |
     - vậy còn điểm F thì sao

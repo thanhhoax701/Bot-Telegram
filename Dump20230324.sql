@@ -1,0 +1,106 @@
+-- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
+--
+-- Host: localhost    Database: cda_chatbot
+-- ------------------------------------------------------
+-- Server version	8.0.31
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `tblcomments`
+--
+
+DROP TABLE IF EXISTS `tblcomments`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tblcomments` (
+  `comment_id` int NOT NULL AUTO_INCREMENT,
+  `comment_name` varchar(5000) DEFAULT NULL,
+  `comment_content` varchar(5000) DEFAULT NULL,
+  `comment_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`comment_id`),
+  UNIQUE KEY `comment_UNIQUE` (`comment_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tblcomments`
+--
+
+LOCK TABLES `tblcomments` WRITE;
+/*!40000 ALTER TABLE `tblcomments` DISABLE KEYS */;
+INSERT INTO `tblcomments` VALUES (34,'Trần Thanh Hoà','Dịch vụ','2022-12-14 08:04:44'),(35,'Trần Thanh Hoà','Dịch vụ','2022-12-14 08:36:04'),(36,'Trần Thanh Luyến','dịch vụ tốt','2022-12-14 09:23:10'),(37,'thảo vy','dịch vụ tốt','2022-12-20 20:07:23'),(38,'trần thanh luyến','dịch vụ tốt','2023-03-08 14:27:58'),(39,'dương thảo vy','dịch vụ','2023-03-08 14:36:54'),(40,'thảo vy','dịch vụ tệ','2023-03-11 15:41:44'),(41,'trần thanh luyến',NULL,'2023-03-23 13:49:47');
+/*!40000 ALTER TABLE `tblcomments` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tblmajors`
+--
+
+DROP TABLE IF EXISTS `tblmajors`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tblmajors` (
+  `id_majors` int NOT NULL,
+  `Name_majors` varchar(255) DEFAULT NULL,
+  `CT_majors` int DEFAULT NULL,
+  `TH_majors` varchar(255) DEFAULT NULL,
+  `DHB_majors` int DEFAULT NULL,
+  `DT_majors` int DEFAULT NULL,
+  PRIMARY KEY (`id_majors`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tblmajors`
+--
+
+LOCK TABLES `tblmajors` WRITE;
+/*!40000 ALTER TABLE `tblmajors` DISABLE KEYS */;
+INSERT INTO `tblmajors` VALUES (7320104,'Truyền thông đa phương tiện',100,'A00, A01,D01',28,25),(7480101,'Khoa học máy tính',60,'A00, A01',27,25),(7480102,'Mạng máy tính và truyền thông dữ liệu',60,'A00, A01',25,24),(7480103,'Kỹ thuật phần mềm',60,'A00, A01',28,25),(7480104,'Hệ thống thông tin',60,'A00, A01',26,24),(7480106,'Kỹ thuật máy tính',60,'A00, A01',25,24),(7480201,'Công nghệ thông tin',60,'A00, A01',29,26),(7480202,'An toàn thông tin',40,'A00, A01',26,24);
+/*!40000 ALTER TABLE `tblmajors` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tblmarks`
+--
+
+DROP TABLE IF EXISTS `tblmarks`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `tblmarks` (
+  `student_code` varchar(20) NOT NULL,
+  `student_point` float DEFAULT NULL,
+  PRIMARY KEY (`student_code`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tblmarks`
+--
+
+LOCK TABLES `tblmarks` WRITE;
+/*!40000 ALTER TABLE `tblmarks` DISABLE KEYS */;
+INSERT INTO `tblmarks` VALUES ('B1908378',48),('B1908380',55),('B1908381',68),('B1908382',75),('B1908384',78),('B1908385',30),('B1908386',50),('B1908387',72),('B1908391',68),('B1908392',75),('B1908393',55),('B1908395',30),('B1908396',78),('B1908398',72),('B1908399',68),('B1908401',75),('B1908405',55),('B1908406',30),('B1908408',78),('B1908409',72),('B1908411',68),('B1908412',75),('B1908413',55),('B1908414',30),('B1908416',78),('B1908417',72),('B1908419',68),('B1908421',75),('B1908422',55),('B1908423',30),('B1908424',78),('B1908425',72),('B1908426',68),('B1908427',75),('B1908428',55),('B1908429',30),('B1908430',78),('B1908432',72),('B1908434',68),('B1908435',75);
+/*!40000 ALTER TABLE `tblmarks` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2023-03-24 14:24:54
