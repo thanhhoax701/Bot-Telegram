@@ -543,7 +543,6 @@ nlu:
     - học kỳ là sao vậy bot
     - cho em hỏi là mỗi năm có mấy học kỳ
     - tôi muốn biết một năm học có mấy kỳ
-    - học kỳ mình có học kỳ hè không vậy bot
     - tôi muốn biết thông tin về học kỳ
     - tôi muốn tìm hiểu thông tin về học kỳ
     - tôi muốn tìm kiếm thông tin về học kỳ
@@ -555,10 +554,6 @@ nlu:
     - học kỳ như thế nào
     - học kỳ trường mình là sao
     - học kỳ là gì vậy
-    - học kỳ
-    - học kỳ
-    - học kỳ
-    - học kỳ
     - học kỳ
     - học kỳ ra sao
     - học kỳ ra làm sao

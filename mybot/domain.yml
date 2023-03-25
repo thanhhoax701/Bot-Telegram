@@ -189,7 +189,7 @@ responses:
           payload: "/time_toi_da"
 
   utter_time_chuan:
-    - text: "Thời gian thiết kế  của CTDT\n
+    - text: "Thời gian thiết kế của CTDT\n
               a) 4 năm\n
               b) 4,5 năm\n
               c) 5 năm
@@ -223,16 +223,16 @@ responses:
           payload: "/hoc_ky_phu"
 
   utter_hoc_ky_chinh:
-    - text: "- Học kỳ I và HK II là các HK chính kéo dài 20 tuần.\n- Trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK.\n
-    - Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12, HK II bắt đầu từ tháng 01 đến cuối tháng 5.
+    - text: "- Học kỳ I và HK II là các HK chính kéo dài 20 tuần; trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK.
+    \n- Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12, HK II bắt đầu từ tháng 01 đến cuối tháng 5.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_hoc_ky_phu:
-    - text: "- Học kỳ III là HK phụ kéo dài 8 tuần.\n- Trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả.\n
-    - Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6.\n
-    - Học kỳ III giúp SV rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc SV phải học HK III.\n
-    - Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỉ luật SV.
-    nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
+    - text: "- Học kỳ III là HK phụ kéo dài 8 tuần; trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả.
+    \n- Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6.
+    \n- Học kỳ III giúp SV rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc SV phải học HK III.
+    \n- Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỉ luật SV.
+    \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 
   utter_tiet_hoc:
