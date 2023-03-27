@@ -726,7 +726,6 @@ nlu:
     - tôi muốn hỏi thêm thông tin về tín chỉ
     - tôi muốn xem thông tin về tín chỉ
     - tôi muốn biết thêm thông tin về tín chỉ
-    - kỳ đầu tiên học tối đa bao nhiêu tín chỉ
     - tôi muốn học được bao nhiêu tín chỉ
     - tôi muốn biết được bao nhiêu tín chỉ
     - tín chỉ là gì hả bot
@@ -1160,7 +1159,6 @@ nlu:
 - intent: ask_tin_chi_HK
   examples: |
     - tôi muốn biết 1 kỳ học tối đa mấy tín chỉ học kỳ
-    - kỳ đầu tiên học tối đa bao nhiêu tín chỉ học kỳ
     - học được bao nhiêu tín chỉ học kỳ trong học kỳ
     - tôi muốn biết là học kỳ đầu tiên thì học bao nhiêu tín chỉ học kỳ
     - tín chỉ học kỳ
@@ -1204,7 +1202,31 @@ nlu:
     - hãy nói cho tôi xem về tín chỉ học kỳ là sao
     - hãy nói cho tôi xem về tín chỉ học kỳ như nào
     - hãy nói cho tôi xem về tín chỉ học kỳ ra sao
-#    - tối đa bao nhiêu tín chỉ học kỳ
+#    - ở học kỳ đầu tiên, sinh viên được học bao nhiêu tín chỉ trong học kỳ đó
+#    - trường quy định học bao nhiêu tín chỉ ở học kỳ đầu tiên
+#    - trường quy định thế nào về số tín chỉ mà sinh viên học ở học kỳ đầu tiên
+#    - học kỳ chính thì nên học bao nhiêu tín chỉ
+#    - học kỳ chính thì được học bao nhiêu tín chỉ
+#    - số tín chỉ được học trong học
+#    - số tín chỉ tối đa được học trong học kỳ chính
+#    - số tín chỉ tối đa được đăng ký trong học kỳ chính
+#    - sinh viên được học tối đa bao nhiêu tín chỉ trong học kỳ chính
+#    - sinh viên được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ chính
+#    - nên đăng ký bao nhiêu tín chỉ ở học kỳ chính
+#    - cần đăng ký bao nhiêu tín chỉ ở học kỳ chính
+#    - nên học bao nhiêu tín chỉ ở học kỳ chính
+#    - ở học kỳ chính thì nên học bao nhiêu tín chỉ
+#    - học kỳ phụ thì nên học bao nhiêu tín chỉ
+#    - học kỳ phụ thì được học bao nhiêu tín chỉ
+#    - số tín chỉ được học trong học kỳ phụ
+#    - số tín chỉ tối đa được học trong học kỳ phụ
+#    - số tín chỉ được đăng ký tối đa trong học kỳ phụ
+#    - sinh viên được học tối đa bao nhiêu tín chỉ trong học kỳ phụ
+#    - sinh viên được đăng ký tối đa bao nhiêu tín chỉ trong học kỳ chính
+#    - nên đăng ký bao nhiêu tín chỉ ở học kỳ phụ
+#    - cần đăng ký bao nhiêu tín chỉ ở học kỳ phụ
+#    - nên học bao nhiêu tín chỉ ở học kỳ phụ
+#    - ở học kỳ phụ thì nên học bao nhiêu tín chỉ
 
 - intent: info_add_delete_HP
   examples: |

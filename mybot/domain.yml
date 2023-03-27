@@ -343,8 +343,8 @@ responses:
     1. Học kỳ chính:\n
     a) Sinh viên được đăng ký học tối đa 25 TC/HK.\n
     b) Đối với HK đầu tiên, sinh viên không phải đăng ký học phần. Các học phần của HK này sẽ do Trường bố trí.\n
-    2. Học kỳ phụ: Sinh viên đăng ký tối đa 8 TC/HK. Trường không bắt buộc sinh viên phải học HK này.\n
-    Tùy theo năng lực học tập và điều kiện cá nhân, sinh viên nên đăng ký học với số TC phù hợp để đạt kết quả học tập tốt.
+    2. Học kỳ phụ: Sinh viên đăng ký tối đa 8 TC/HK. Trường không bắt buộc sinh viên phải học HK này.
+    \nTùy theo năng lực học tập và điều kiện cá nhân, sinh viên nên đăng ký học với số TC phù hợp để đạt kết quả học tập tốt.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_info_add_delete_HP:
