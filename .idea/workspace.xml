@@ -9,22 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230326-212151-isothermal-pergola.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230326-215313-blazing-rack.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230327-071041-aquamarine-language.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/failed_test_stories.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/stories_with_warnings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/story_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ngrok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ngrok.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
     </list>
@@ -130,6 +114,8 @@
       <workItem from="1679994874664" duration="499000" />
       <workItem from="1679996481537" duration="281000" />
       <workItem from="1680021986699" duration="1087000" />
+      <workItem from="1680597838049" duration="1287000" />
+      <workItem from="1680601748484" duration="432000" />
     </task>
     <servers />
   </component>
