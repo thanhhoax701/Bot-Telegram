@@ -1,9 +1,9 @@
 {
-  "comment_content": {
+  "majors_code": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 109,
+    "support": 72,
     "confused_with": {}
   },
   "student_code": {
@@ -13,18 +13,18 @@
     "support": 332,
     "confused_with": {}
   },
+  "comment_content": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 109,
+    "confused_with": {}
+  },
   "student_name": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 740,
-    "confused_with": {}
-  },
-  "majors_code": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 72,
     "confused_with": {}
   },
   "micro avg": {
