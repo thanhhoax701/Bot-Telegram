@@ -4,27 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="">
+    <list default="true" id="40c255ea-75e9-4dde-8e2b-1ae2204bf855" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230328-135417-proper-stucco.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230328-161532-isomorphic-cedar.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230404-154509-some-bastion.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/models/20230404-165031-direct-narrative.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/failed_test_stories.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_histogram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/intent_report.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/stories_with_warnings.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/results/story_report.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
     </list>
@@ -34,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IwTYyXxkOiqhHEmGlNLahRnWzQ" />
+  <component name="ProjectId" id="2NM1joP4UcZiHAQZAGi33GL0M3s" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -49,108 +30,76 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/Bot-Telegram&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Learn-Programming/Python/LuanVan&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
-    ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\84815\PycharmProjects\AI-Telegram\NLMMT" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="handoff_actions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="NLMMT" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mybot/actions" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mybot/actions/handoff_actions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.handoff_actions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b4adf86-7404-47f8-b219-e0b9c2c97df3" name="Changes" comment="" />
-      <created>1671091703908</created>
+      <changelist id="40c255ea-75e9-4dde-8e2b-1ae2204bf855" name="Changes" comment="" />
+      <created>1679459274309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1671091703908</updated>
-      <workItem from="1671091706760" duration="839000" />
-      <workItem from="1671092552433" duration="179000" />
-      <workItem from="1671092788636" duration="2335000" />
-      <workItem from="1671099161228" duration="251000" />
-      <workItem from="1671100389180" duration="1920000" />
-      <workItem from="1671105095907" duration="857000" />
-      <workItem from="1671170473808" duration="139000" />
-      <workItem from="1671192364601" duration="447000" />
-      <workItem from="1671350423271" duration="644000" />
-      <workItem from="1671351375162" duration="676000" />
-      <workItem from="1671352525666" duration="1691000" />
-      <workItem from="1671452152073" duration="5911000" />
-      <workItem from="1671501871277" duration="8996000" />
-      <workItem from="1671532335882" duration="4666000" />
-      <workItem from="1671591160826" duration="4241000" />
-      <workItem from="1671705298420" duration="7000" />
-      <workItem from="1671705586530" duration="9953000" />
-      <workItem from="1671763466620" duration="6464000" />
-      <workItem from="1672055277732" duration="4221000" />
-      <workItem from="1672212109706" duration="5017000" />
-      <workItem from="1673315151353" duration="1366000" />
-      <workItem from="1673418441829" duration="610000" />
-      <workItem from="1673419299798" duration="1787000" />
-      <workItem from="1673421378488" duration="2723000" />
-      <workItem from="1674473307997" duration="345000" />
-      <workItem from="1674784238628" duration="867000" />
-      <workItem from="1675925249652" duration="727000" />
-      <workItem from="1675925983736" duration="305000" />
-      <workItem from="1675926293872" duration="315000" />
-      <workItem from="1675926619363" duration="349000" />
-      <workItem from="1675927594832" duration="520000" />
-      <workItem from="1676962330855" duration="316000" />
-      <workItem from="1678509962849" duration="100000" />
-      <workItem from="1678510106754" duration="1202000" />
-      <workItem from="1678512142829" duration="18219000" />
-      <workItem from="1678542273306" duration="493000" />
-      <workItem from="1678542920307" duration="512000" />
-      <workItem from="1678543439746" duration="1151000" />
-      <workItem from="1678545045007" duration="877000" />
-      <workItem from="1679292853666" duration="309000" />
-      <workItem from="1679293170508" duration="799000" />
-      <workItem from="1679293985788" duration="6663000" />
-      <workItem from="1679487793373" duration="564000" />
-      <workItem from="1679493477488" duration="2383000" />
-      <workItem from="1679537308437" duration="3236000" />
-      <workItem from="1679643423314" duration="3605000" />
-      <workItem from="1679649162964" duration="560000" />
-      <workItem from="1679649730748" duration="3569000" />
-      <workItem from="1679656455617" duration="829000" />
-      <workItem from="1679673982523" duration="13000" />
-      <workItem from="1679713880378" duration="4248000" />
-      <workItem from="1679750531735" duration="5790000" />
-      <workItem from="1679831135363" duration="8581000" />
-      <workItem from="1679875733248" duration="4608000" />
-      <workItem from="1679986158695" duration="935000" />
-      <workItem from="1679987423847" duration="818000" />
-      <workItem from="1679994874664" duration="499000" />
-      <workItem from="1679996481537" duration="281000" />
-      <workItem from="1680021986699" duration="1087000" />
-      <workItem from="1680597838049" duration="1287000" />
-      <workItem from="1680601748484" duration="432000" />
-      <workItem from="1681087467024" duration="123000" />
-      <workItem from="1681087772733" duration="1131000" />
-      <workItem from="1681371958149" duration="1078000" />
-      <workItem from="1682407643469" duration="3049000" />
+      <updated>1679459274309</updated>
+      <workItem from="1682598907307" duration="882000" />
+      <workItem from="1682599794052" duration="249000" />
+      <workItem from="1682600048605" duration="264000" />
+      <workItem from="1682601059299" duration="4965000" />
+      <workItem from="1682607702101" duration="1290000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mybot/actions/handoff_actions.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

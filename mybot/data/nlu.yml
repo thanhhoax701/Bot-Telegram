@@ -422,7 +422,6 @@ nlu:
     - thời gian tối đa như nào
     - tôi muốn hỏi thời gian tối đa tại trường là như thế nào
     - tôi muốn tìm hiểu thời gian tối đa học được bao nhiêu vậy
-    - tôi muốn hỏi thời gian tối đa học tại trường mình là bao lâu vậy
     - thời gian tối đa theo CTDT
     - thời gian tối đa theo CTDT là sao
     - thời gian tối đa theo CTDT là gì thế
@@ -1811,9 +1810,9 @@ nlu:
     - điểm học phần đánh giá như nào
     - điểm học phần đánh giá ra sao
     - điểm học phần đánh giá
-    - cách đánh giá điểm học phần
-    - cách đánh giá điểm học phần ra sao
-    - cách đánh giá điểm học phần như thế nào
+    - cách tính điểm học phần
+    - cách tính điểm học phần ra sao
+    - cách tính điểm học phần như thế nào
     - điểm học phần là như thế nào
     - tôi muốn biết về điểm học phần
     - điểm học phần là sao
@@ -2332,7 +2331,6 @@ nlu:
     - điểm trung bình chung tích lũy là như thế nào
     - hãy cho tôi biết thông tin về điểm trung bình chung tích lũy là điểm gì
     - tôi muốn biết điểm trung bình chung tích lũy của học kỳ
-    - tôi muốn biết cách tính điểm trung bình chung tích lũy của học kỳ
     - bạn hãy cho tôi biết cách tính điểm trung bình chung tích lũy
     - tôi muốn biết công thức tính điểm trung bình chung tích lũy
     - tôi không biết là tính điểm trung bình chung tích lũy bằng cách nào

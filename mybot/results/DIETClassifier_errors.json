@@ -1,0 +1,44 @@
+[
+  {
+    "text": "Phan Văn Tài Em em nhé",
+    "entities": [
+      {
+        "start": 0,
+        "end": 15,
+        "value": "Phan Văn Tài Em",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 0,
+        "end": 22,
+        "confidence_entity": 0.624003529548645,
+        "value": "Phan Văn Tài Em em nhé",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "mỵ đoan trang như em nhé",
+    "entities": [
+      {
+        "start": 0,
+        "end": 17,
+        "value": "mỵ đoan trang như",
+        "entity": "student_name"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "student_name",
+        "start": 0,
+        "end": 20,
+        "confidence_entity": 0.6973438262939453,
+        "value": "mỵ đoan trang như em",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

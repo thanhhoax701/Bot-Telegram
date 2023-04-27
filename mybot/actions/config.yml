@@ -1,0 +1,133 @@
+# Token bot Admin
+token_serverbot: "6070509150:AAEm-32qqXqSQLZnoOV66sYqrnreAp1iB2U"
+# Token bot chinh
+token_bot: "5514263376:AAG5wnmaSzIy0gXX8cBzPn3_rIEaHAteQwE"
+#ID cua acc Telegram
+admin_idchat: "2019603316"
+
+map_intent_text:
+  greet: chào hỏi
+  goodbye: tạm biệt
+  ask_university: hỏi về đại học
+  thanks: cảm ơn
+  ask_name: hỏi tên
+  ask_func_list: hỏi về các chức năng có trong bot
+  praise: khen
+  decry: phàn nàn
+  ask_quy_che_hoc_vu: hỏi quy chế học vụ
+  ask_time_study: hỏi về thời gian học
+  time_chuan: hỏi về thời gian chuẩn
+  time_toi_da: hỏi về thời gian tối đa
+  ask_drl: hỏi về điểm rèn luyện
+  ask_tiet_hoc: hỏi về tiết học
+  ask_khht: hỏi về kế hoạch học tập
+  ask_info_hoc_ky: hỏi về học kỳ
+  hoc_ky_chinh: hỏi về học kỳ chính
+  hoc_ky_phu: hỏi về học kỳ phụ
+  ask_info_HP: hỏi về học phần
+  ask_tin_chi: hỏi về tín chỉ
+  ask_hoc_bong: hỏi về học bổng
+  hoc_bong_khuyen_khich: hỏi về học bổng khuyến khích
+  hoc_bong_tai_tro: hỏi về học bổng tài trợ
+  quy_ho_tro: hỏi về quỹ hỗ trợ
+  tro_cap_xa_hoi: hỏi về trợ cấp xã hội
+  ask_fee: hỏi về học phí của trường
+  info_bhyt: hỏi về bảo hiểm y tế
+  change_ctdt: hỏi về chương trình đào tạo
+  change_co_so_dao_tao: hỏi về cơ sở đào tạo
+  change_nganh_dao_tao: hỏi về ngành đào tạo
+  change_hinh_thuc_dao_tao: hỏi về hình thức đào tạo
+# TỔ CHỨC ĐÀO TẠO
+  ask_tin_chi_HK: hỏi về tín chỉ học kỳ
+  info_add_delete_HP: hỏi về xóa và mở lớp học phần
+  delete_lop_HP: hỏi về xóa học phần
+  add_lop_HP: hỏi về mở học phần
+  info_dang_ky_hoc_lai: hỏi về đăng ký học lại
+#  info_hoc_tap_khong_tot
+  nghi_hoc_tam_thoi: hỏi về nghỉ học tạm thời
+  canh_bao_hoc_tap: hỏi về cảnh báo học tập
+  dinh_chi_hoc_tap: hỏi về đình chỉ học tập
+  buoc_thoi_hoc: hỏi về buộc thôi học
+  learn_2_chuong_trinh: hỏi về học 2 chương trình
+  dieu_kien_learn: hỏi về điều kiện học 2 chương trình
+  thu_tuc_learn: hỏi về thủ tục học 2 chương trình
+# ĐÁNH GIÁ HỌC TẬP
+  tong_hop_thi: hỏi về tổng hợp thi
+  learn_truc_truyen: hỏi về thi trực tuyến
+  ask_course_score: hỏi về điểm học phần
+  diem_M: hỏi về điểm M
+  diem_I: hỏi về điểm I
+  diem_W: hỏi về điểm W
+  so_lan_thi_CK: hỏi về số lần thi cuối kỳ
+  to_chuc_thi_CK: hỏi về tổ chức thi cuối kỳ
+  vang_thi_CK: hỏi về vắng thi cuối kỳ
+  diem_tbchung: hỏi về điểm trung bình chung
+  diem_tbchk: hỏi về điểm trung bình học kỳ
+  diem_tbcnh: hỏi về điểm trung bình năm học
+  diem_tbctl: hỏi về điểm trung bình tích lũy
+  rank_hoc_tap: hỏi về xếp hạng học tập
+  xep_loai_khen_thuong: hỏi về xếp loại khen thưởng
+  loai_xuat_sac: hỏi về loại xuất sắc
+  loai_gioi: hỏi về loại giỏi
+  loai_kha: hỏi về loại khá
+  khen_thuong: hỏi về khen thưởng
+  quy_dinh_kiem_tra: hỏi về quy định kiểm tra
+  xu_ly_sv_vi_pham_quy_dinh: hỏi về xử lý sinh viên vi phạm
+  khien_trach_sv: hỏi về khiển trách sinh viên
+  canh_cao_sv: hỏi về cảnh cáo sinh viên
+  dinh_chi_sv: hỏi về đình chỉ sinh viên
+  sv_thi_ho: hỏi về sinh viên thi hộ
+  trinh_do_nam_hoc: hỏi về trình độ năm học
+  ask_tot_nghiep: hỏi về tốt nghiệp
+  dieu_kien_tot_nghiep: hỏi về điều kiện tốt nghiệp
+  thoi_gian_tot_nghiep: hỏi về thời gian tốt nghiệp
+  qua_han_tot_nghiep: hỏi về quá hạn tốt nghiệp
+  rank_tot_nghiep: hỏi về xếp hạng tốt nghiệp
+  ask_entry: hỏi về thủ tục nhập học
+  ask_comment: đóng góp ý kiến
+  give_comment_content: góp ý nội dung ý kiến
+  give_comment_name: nhập tên ý kiến của bạn
+  give_student_code: nhập mã số sinh viên để có thể xem điểm số tiếng anh đầu vào
+  ask_point: hỏi về điểm tiếng anh đầu vào
+  ask_comment_replay: xem lại đóng góp ý kiến
+############ xay dựng cốt chuyện quy chế học vụ
+  ask_van_de_chung: hỏi về vấn đề chung
+  ask_to_chuc_dao_tao: hỏi về tổ chức đào tạo
+  ask_danh_gia_ket_qua_hoc_tap: hỏi về đánh giá kết quả học tập
+  ask_xet_va_cong_nhan_tot_nghiep: hỏi về xét và công nhận tốt nghiệp
+################ bổ sung các điều còn thiếu
+  ask_pham_vi_doi_tuong: hỏi về phạm vi đối tượng
+  pham_vi: hỏi về phạm vi
+  doi_tuong: hỏi về đối tượng
+  ask_sinh_vien: hỏi về sinh viên
+  ask_ctdt_mt_ctgd: hỏi về chương trình đào tạo, bản mô tả và chương trình dạy học
+  ask_ctdt: hỏi về chương trình đào tạo
+  ask_mota: hỏi về bản mô tả
+  ask_ctgd: hỏi về chương trình dạy học
+  ask_time_lien_thong: hỏi về thời gian liên thông
+  ask_trach_nhiem: hỏi về trách nhiệm
+  trach_nhiem_truong: hỏi về trách nhiệm trường
+  trach_nhiem_sinh_vien: hỏi về trách nhiệm sinh viên
+  ask_quy_trinh_dkhp: hỏi về quy trình đăng ký học phần
+  danh_gia_HP: hỏi về đánh giá học phần
+  danh_gia_HP_ly_thuyet: hỏi về đánh giá học phần lý thuyết
+  danh_gia_HP_thuc_hanh: hỏi về đánh giá học phần thực hành
+  thong_bao_kq_hoc_tap: hỏi về thông báo kết quả học tập
+  thu_tuc_ra_truong: hỏi về thủ tục ra trường
+  quan_ly_bang_tot_nghiep: hỏi về quản lý bằng tốt nghiệp
+# Hỏi nhiều hơn
+  ask_diem_A: hỏi về điểm A
+#  ask_diem_B_cong
+  ask_diem_B: hỏi về điểm B
+#  ask_diem_C_cong
+  ask_diem_C: hỏi về điểm C
+#  ask_diem_D_cong
+  ask_diem_D: hỏi về điểm D
+  ask_diem_F: hỏi về điểm F
+
+# ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
+  ask_dia_chi_tro_giup: hỏi về địa chỉ trợ giúp
+  ask_sdt_tro_giup: hỏi về số điện thoại trợ giúp
+  give_majors_code: hỏi về ngành học có hoặc không tại trường
+
+

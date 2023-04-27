@@ -6,7 +6,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-
 - story: s2
   steps:
   - intent: goodbye
@@ -422,13 +421,6 @@ stories:
 #  - action: utter_ask_no_case
 
 
-- story: ask_major # xem nganh
-  steps:
-  - intent: give_majors_code
-  - action: action_ask_majors
-  - intent: ask_majors_point
-  - action: action_ask_majors_point
-
 - story: ask_point_student
   steps:
   - intent: ask_point
@@ -436,38 +428,12 @@ stories:
   - intent: give_student_code
   - action: action_ask_point
 
-- story: ask_point_studenta
+- story: ask_major # xem nganh
   steps:
-  - action: utter_ask_point
-  - intent: give_student_code
-  - action: action_ask_point
-
-- story: ask_point_studentb
-  steps:
-  - intent: ask_point
-  - action: utter_ask_point
-  - intent: give_student_code
-
-- story: s13 #xem lai gop y
-  steps:
-  - intent: ask_comment_replay
-  - action: utter_comment_replay
-  - intent: give_comment_name
-  - action: action_ask_comment_replay
-
-- story: s13 thêm #xem lai gop y
-  steps:
-  - intent: ask_comment_replay
-  - action: utter_comment_replay
-  - intent: give_comment_name
-  - action: action_ask_comment_replay
-
-
-- story: s13b #xem lai gop y
-  steps:
-  - action: utter_comment_replay
-  - intent: give_comment_name
-  - action: action_ask_comment_replay
+  - intent: give_majors_code
+  - action: action_ask_majors
+  - intent: ask_majors_point
+  - action: action_ask_majors_point
 
 - story: s12 # gop y
   steps:
@@ -477,7 +443,6 @@ stories:
   - action: action_give_comment_name # tên
   - intent: give_comment_content # nhaập góp ý
   - action: action_give_comment_content # góp ý
-
 
 - story: s12b # gop y
   steps:
@@ -494,6 +459,26 @@ stories:
   - intent: give_comment_content # nhaập góp ý
   - action: action_give_comment_content # góp ý
 
+
+- story: s13 #xem lai gop y
+  steps:
+  - intent: ask_comment_replay
+  - action: utter_comment_replay
+  - intent: give_comment_name
+  - action: action_ask_comment_replay
+
+#- story: s13 thêm #xem lai gop y
+#  steps:
+#  - intent: ask_comment_replay
+#  - action: utter_comment_replay
+#  - intent: give_comment_name
+#  - action: action_ask_comment_replay
+
+- story: s13b #xem lai gop y
+  steps:
+  - action: utter_comment_replay
+  - intent: give_comment_name
+  - action: action_ask_comment_replay
 
 
 ################# xây dựng cốt chuyện quy chế học vụ
@@ -523,8 +508,6 @@ stories:
   steps:
     - intent: ask_xet_va_cong_nhan_tot_nghiep
     - action: utter_xet_va_cong_nhan_tot_nghiep
-
-
 
 ######################## bổ sung các điều còn thiếu
 
@@ -573,7 +556,6 @@ stories:
     - intent: ask_time_lien_thong
     - action: utter_ask_time_lien_thong
 
-
 # ============= TỔ CHỨC ĐÀO TẠO =============
 - story: hỏi về trách nhệm của Trường và sinh viên trong việc đăng ký học phần
   steps:
@@ -594,7 +576,6 @@ stories:
   steps:
     - intent: ask_quy_trinh_dkhp
     - action: utter_ask_quy_trinh_dkhp
-
 
 # ============= ĐÁNH GIÁ KẾT QUẢ HỌC TẬP =============
 - story:  đánh giá học phần
@@ -621,7 +602,6 @@ stories:
     - intent: thong_bao_kq_hoc_tap
     - action: utter_thong_bao_kq_hoc_tap
 
-
 # ============= XÉT VÀ CÔNG NHẬN TỐT NGHIỆP =============
 - story:  thủ tục ra trường
   steps:
@@ -632,7 +612,6 @@ stories:
   steps:
     - intent: quan_ly_bang_tot_nghiep
     - action: utter_quan_ly_bang_tot_nghiep
-
 
 # ============= CÁC ĐỊA CHỈ LIÊN HỆ TRỢ GIÚP =============
 - story:  các địa chỉ liên hệ trợ giúp
@@ -645,33 +624,32 @@ stories:
     - intent: ask_sdt_tro_giup
     - action: utter_ask_sdt_tro_giup
 
-
 # Hỏi nhiều hơn về điểm số
 - story: Hỏi điểm A
   steps:
     - intent: ask_diem_A
     - action: utter_ask_diem_A
-#
+
 #- story: Hỏi điểm B cộng
 #  steps:
 #    - intent: ask_diem_B_cong
 #    - action: utter_ask_diem_B_cong
-#
+
 - story: Hỏi điểm B
   steps:
     - intent: ask_diem_B
     - action: utter_ask_diem_B
-#
+
 #- story: Hỏi điểm C cộng
 #  steps:
 #    - intent: ask_diem_C_cong
 #    - action: utter_ask_diem_C_cong
-#
+
 - story: Hỏi điểm C
   steps:
     - intent: ask_diem_C
     - action: utter_ask_diem_C
-#
+
 #- story: Hỏi điểm D cộng
 #  steps:
 #    - intent: ask_diem_D_cong
@@ -681,8 +659,10 @@ stories:
   steps:
     - intent: ask_diem_D
     - action: utter_ask_diem_D
-#
+
 - story: Hỏi điểm F
   steps:
     - intent: ask_diem_F
     - action: utter_ask_diem_F
+#    - action: action_image_recognition
+

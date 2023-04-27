@@ -9,32 +9,17 @@
 
 from typing import Any, Text, Dict, List
 from rasa_sdk.events import SlotSet
-# from rasa_sdk.events import EventType
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import mysql.connector
+import rasa.core.tracker_store
 # import pandas as pd
+import logging
 
-# import sys
-# import io
-#
-# sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+logger = logging.getLogger(__name__)
 
 
-# from rasa.utils.io import utf8_file
-#
-# training_data_file = "data/nlu.md"
-# training_data = utf8_file(training_data_file)
-
-# from rasa.core.domain import Domain
-#
-# domain_file = "domain.yml"
-# domain = Domain.load(domain_file, utf8=True)
-
-
-
-#######################################
-################# Xem điểm Anh văn đầu vào
+################### xem diem anh van
 
 class action_ask_point(Action):
 
@@ -84,9 +69,7 @@ class action_ask_point(Action):
         return []
 
 
-
-#######################################
-################# Cung cấp họ tên để góp ý
+########################### góp ý
 class action_give_comment_name(Action):
 
     def name(self) -> Text:
@@ -101,8 +84,8 @@ class action_give_comment_name(Action):
 
 
 
-#######################################
-################# Góp ý
+
+
 class action_give_comment_content(Action):
 
     def name(self) -> Text:
@@ -139,9 +122,7 @@ class action_give_comment_content(Action):
         return []
 
 
-
-#######################################
-################# Xem lại góp ý
+############################## xem lại góp ý
 class action_ask_comment_replay(Action):
 
     def name(self) -> Text:
@@ -179,9 +160,8 @@ class action_ask_comment_replay(Action):
         return []
 
 
-
+################# hỏi ngành chuyên sâu
 #######################################
-################# Hỏi ngành chuyên sâu
 class action_ask_majors(Action):
 
     def name(self) -> Text:
@@ -213,9 +193,9 @@ class action_ask_majors(Action):
         if not (df is None):#len(df)>0:
             dispatcher.utter_message(text="Ngành " + majors_name + " có nha bạn với các tổ hợp xét tuyển như: " + str(df[3]))
         else:
-            dispatcher.utter_message(text="Không tìm thấy ngành. Bạn vui lòng kiểm tra lại (lưu ý: tên ngành phải đầy đủ)!")
+            dispatcher.utter_message(text="Không tìm thấy ngành. Bạn vui lòng kiểm tra lại(lưu ý: tên ngành phải đầy đủ)!")
 
-        return [SlotSet("name", majors_name)]
+        return [SlotSet("mj_name", majors_name)]
 
 class action_ask_majors_point(Action):
 
@@ -227,7 +207,7 @@ class action_ask_majors_point(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
 
-        majors_name = tracker.get_slot("name")
+        majors_name = tracker.get_slot("mj_name")
         mydb = mysql.connector.connect(
             host="localhost",
             user="root",
