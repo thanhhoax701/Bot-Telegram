@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c255ea-75e9-4dde-8e2b-1ae2204bf855" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NLMMT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NLMMT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/actions/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/actions/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
     </list>
@@ -38,6 +41,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,21 +93,13 @@
       <workItem from="1682601059299" duration="4965000" />
       <workItem from="1682607702101" duration="1290000" />
       <workItem from="1682609652793" duration="710000" />
+      <workItem from="1682651268479" duration="2671000" />
+      <workItem from="1682654297003" duration="1907000" />
+      <workItem from="1682656730184" duration="1232000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/mybot/actions/handoff_actions.py</url>
-          <line>94</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
