@@ -114,7 +114,7 @@ class TelegramOutput(TeleBot, OutputChannel):
             ("action",): "send_chat_action",
             (
                 "title",
-                "decription",
+                "description",
                 "payload",
                 "provider_token",
                 "start_parameter",
