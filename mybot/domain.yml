@@ -483,7 +483,7 @@ responses:
 
   utter_diem_I:
     - text: "Điểm I:
-    \n- Dành cho các trường hợp chưa hoàn thành đầy đủ yêu cầu của học phần (SV đã dự học, dự các lần kiểm tra giữa học kỳ, đã thực hiện các hoạt động liên quan đến học phần như thí nghiệm, thực hành nhưng vì 1ý do bất khả kháng như ốm đau, tai nạn,... đã vắng mặt trong buổi thi kết thúc học phần và được giảng viên phụ trách học phần chấp thuận cho bổ sung điểm). 
+    \n- Dành cho các trường hợp chưa hoàn thành đầy đủ yêu cầu của học phần (Sinh viên đã dự học, dự các lần kiểm tra giữa học kỳ, đã thực hiện các hoạt động liên quan đến học phần như thí nghiệm, thực hành nhưng vì 1ý do bất khả kháng như ốm đau, tai nạn,... đã vắng mặt trong buổi thi kết thúc học phần và được giảng viên phụ trách học phần chấp thuận cho bổ sung điểm). 
     \n- Điểm I không được tính vào ĐTBCHK ở học kỳ đó.
     \n- Để nhận được điểm I, sinh viên phải làm đơn kèm theo hồ sơ hợp lệ nộp cho giảng viên giảng day học phần xem xét và trình trưởng khoa duyệt.
     \n- Thời hạn bổ sung điểm của học phần do giảng viên quy định nhưng không quá 1 năm kể từ ngày thi lần trước. Quá thời hạn trên, nếu sinh viên không hoàn thành thì sẽ bị điểm F.
@@ -724,13 +724,13 @@ responses:
 
   utter_greet:
     - text: "Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ. 
-    \nĐây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng phó hiểu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
+    \nĐây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng - Phó hiệu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
       Các lĩnh vực hỗ trợ trợ gồm:
       \n 1) Quy chế học vụ;
       \n 2) Các địa chỉ liên hệ trợ giúp; 
       \n 3) Tra cứu kết quả trình độ ngoại ngữ;
       \n 4) Góp ý;
-      \n....
+      \n ....
       \nMình tên là CTU Students Advisor. Mình có thể hỗ trợ nhanh với những yêu cầu dưới đây. Bạn cũng có thể đặt các câu hỏi ngắn gọn như “quy chế học vụ”, “bảo hiểm y tế”,… mình sẽ giải đáp ngay."
       buttons:
         - title: "Quy chế học vụ"
