@@ -1,0 +1,49 @@
+{
+  "student_name": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 740,
+    "confused_with": {}
+  },
+  "comment_content": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 109,
+    "confused_with": {}
+  },
+  "student_code": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 332,
+    "confused_with": {}
+  },
+  "majors_code": {
+    "precision": 1.0,
+    "recall": 0.9722222222222222,
+    "f1-score": 0.9859154929577464,
+    "support": 72,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 1.0,
+    "recall": 0.9984038308060654,
+    "f1-score": 0.9992012779552716,
+    "support": 1253
+  },
+  "macro avg": {
+    "precision": 1.0,
+    "recall": 0.9930555555555556,
+    "f1-score": 0.9964788732394366,
+    "support": 1253
+  },
+  "weighted avg": {
+    "precision": 1.0,
+    "recall": 0.9984038308060654,
+    "f1-score": 0.9991906747749064,
+    "support": 1253
+  },
+  "accuracy": 0.9999516616314199
+}
