@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="40c255ea-75e9-4dde-8e2b-1ae2204bf855" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
     </list>
@@ -104,6 +106,9 @@
       <workItem from="1682773147638" duration="1732000" />
       <workItem from="1682839453870" duration="937000" />
       <workItem from="1682840484649" duration="2178000" />
+      <workItem from="1682993518647" duration="64000" />
+      <workItem from="1682993599565" duration="412000" />
+      <workItem from="1683188657403" duration="371000" />
     </task>
     <servers />
   </component>
