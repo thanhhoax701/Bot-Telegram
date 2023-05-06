@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40c255ea-75e9-4dde-8e2b-1ae2204bf855" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/actions/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/actions/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Demo/venv/Lib/site-packages/sklearn/cluster/setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +113,11 @@
       <workItem from="1682993518647" duration="64000" />
       <workItem from="1682993599565" duration="412000" />
       <workItem from="1683188657403" duration="371000" />
+      <workItem from="1683357439618" duration="1057000" />
+      <workItem from="1683358700745" duration="628000" />
+      <workItem from="1683375720161" duration="30000" />
+      <workItem from="1683380770336" duration="1107000" />
+      <workItem from="1683381931069" duration="6791000" />
     </task>
     <servers />
   </component>
