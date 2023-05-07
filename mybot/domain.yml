@@ -73,7 +73,7 @@ intents:
   - khien_trach_sv
   - canh_cao_sv
   - dinh_chi_sv
-  - sv_thi_ho
+  - sinh viên_thi_ho
   - trinh_do_nam_hoc
   - ask_tot_nghiep
   - dieu_kien_tot_nghiep
@@ -175,42 +175,42 @@ responses:
       button_type: vertical
 
   utter_time_study:
-    - text: "Kế hoạch học tập chuẩn  toàn khóa có thời gian thiết kế cho một CTDT tuy theo ngành học.
-    Thời gian học tập tối đa cho phép để SV hoàn thành CTDT được xác định theo hai loại dưới đây:"
+    - text: "Kế hoạch học tập chuẩn toàn khóa có thời gian thiết kế cho một chương trình đào tạo (CTĐT) tuy theo ngành học.
+    Thời gian học tập tối đa cho phép để sinh viên hoàn thành CTĐT được xác định theo hai loại dưới đây:"
       buttons:
-        - title: "Thời gian học theo CTDT"
+        - title: "Thời gian học theo CTĐT"
           payload: "/time_chuan"
         - title: "Thời gian học tập tối đa"
           payload: "/time_toi_da"
 
   utter_time_chuan:
-    - text: "Thời gian thiết kế  của CTDT
+    - text: "Thời gian thiết kế  của CTĐT
               \na) 4 năm
               \nb) 4,5 năm
               \nc) 5 năm
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_time_toi_da:
-    - text: "Thời gian học tập tối đa để SV hoàn thành CTDT
-              \na) 8 năm (nếu CTDT là 4 năm)
-              \nb) 9 năm (nếu CTDT là 4,5 năm)
-              \nc) 10 năm (nếu CTDT là 5 năm)
+    - text: "Thời gian học tập tối đa để sinh viên hoàn thành CTĐT
+              \na) 8 năm (nếu CTĐT là 4 năm)
+              \nb) 9 năm (nếu CTĐT là 4,5 năm)
+              \nc) 10 năm (nếu CTĐT là 5 năm)
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_drl:
-    - text: "1.	Mức độ rèn luyện của SV được đánh giá từng HK của 2 HK chính và đo lường bằng ĐRL được chấm theo thang điểm 100 dựa vào các quy định hiện hành. ĐRL cả năm là trung bình cộng của ĐRL 2 HK chính. HK phụ không tính ĐRL.
+    - text: "1.	Mức độ rèn luyện của sinh viên được đánh giá từng học kỳ của 2 học kỳ chính và đo lường bằng điểm rèn luyện được chấm theo thang điểm 100 dựa vào các quy định hiện hành. điểm rèn luyện cả năm là trung bình cộng của điểm rèn luyện 2 học kỳ chính. học kỳ phụ không tính điểm rèn luyện.
       \n2. Sinh viên bị kỷ luật mức khiển trách cấp Trường, khi đánh giá kết quả rèn luyện không được vượt quá lọai khá.
       \n3. Sinh viên bị kỷ luật mức cảnh cáo cấp Trường, khi đánh giá kết quả rèn luyện không được vượt quá loại trung bình.
-      \n4. Sinh viên không thực hiện bảng đánh giá kết quả rèn luyện hoặc không nộp bảng đánh giá đúng thời gian quy định sẽ bị xếp loại kém ở HK đó.
-      \n5. Sinh viên bị xếp loại rèn luyện yếu, kém trong 2 HK liên tiếp sẽ bị đình chỉ học tập 1 HK.
-      \n6. Sinh viên bị xếp loại rèn luyện yếu, kém trong 2 HK liên tiếp lần thứ hai sẽ bị buộc thôi học.
+      \n4. Sinh viên không thực hiện bảng đánh giá kết quả rèn luyện hoặc không nộp bảng đánh giá đúng thời gian quy định sẽ bị xếp loại kém ở học kỳ đó.
+      \n5. Sinh viên bị xếp loại rèn luyện yếu, kém trong 2 học kỳ liên tiếp sẽ bị đình chỉ học tập 1 học kỳ.
+      \n6. Sinh viên bị xếp loại rèn luyện yếu, kém trong 2 học kỳ liên tiếp lần thứ hai sẽ bị buộc thôi học.
       \n7. Sử dụng điểm rèn luyện:
-        \na) Điểm rèn luyện toàn khóa học được in trong hồ sơ quản lý SV, ghi vào phụ lục văn bằng tốt nghiệp của SV.
-        \nb) Điểm rèn luyện của SV trong HK là tiêu chí để xét HBKKHT, xếp loại và khen thưởng cuối mỗi năm học.
+        \na) Điểm rèn luyện toàn khóa học được in trong hồ sơ quản lý sinh viên, ghi vào phụ lục văn bằng tốt nghiệp của sinh viên.
+        \nb) Điểm rèn luyện của sinh viên trong học kỳ là tiêu chí để xét HBKKHT, xếp loại và khen thưởng cuối mỗi năm học.
       \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_info_hoc_ky:
-    - text: "Mỗi năm học được tổ chức thành ba HK: gồm 2 học kỳ chính và 1 học kỳ phụ:"
+    - text: "Mỗi năm học được tổ chức thành ba học kỳ: gồm 2 học kỳ chính và 1 học kỳ phụ:"
       buttons:
         - title: "Học kỳ chính"
           payload: "/hoc_ky_chinh"
@@ -218,16 +218,16 @@ responses:
           payload: "/hoc_ky_phu"
 
   utter_hoc_ky_chinh:
-    - text: "- Học kỳ I và HK II là các HK chính kéo dài 20 tuần.
-    \n- Trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 HK.
-    \n- Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12, HK II bắt đầu từ tháng 01 đến cuối tháng 5.
+    - text: "- Học kỳ I và học kỳ II là các học kỳ chính kéo dài 20 tuần.
+    \n- Trong đó gồm 15 tuần học, 1 tuần dự trữ và thi những học phần lẻ, 2 tuần thi học phần chung, 1 tuần xử lý kết quả và 1 tuần nghỉ giữa 2 học kỳ.
+    \n- Học kỳ I bắt đầu từ tháng 8 đến cuối tháng 12, học kỳ II bắt đầu từ tháng 01 đến cuối tháng 5.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_hoc_ky_phu:
-    - text: "- Học kỳ III là HK phụ kéo dài 8 tuần. Trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả.
+    - text: "- Học kỳ III là học kỳ phụ kéo dài 8 tuần. Trong đó gồm 5 tuần học, 3 tuần thi và xử lý kết quả.
     \n- Học kỳ III bắt đầu từ giữa tháng 5 đến cuối tháng 6.
-    \n- Học kỳ III giúp SV rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc SV phải học HK III.
-    \n- Kết quả học tập của HK III không dùng vào việc xét học bổng, khen thưởng, kỉ luật SV.
+    \n- Học kỳ III giúp sinh viên rút ngắn thời gian học, cải thiện kết quả học tập. Không bắt buộc sinh viên phải học học kỳ III.
+    \n- Kết quả học tập của học kỳ III không dùng vào việc xét học bổng, khen thưởng, kỉ luật sinh viên.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 
@@ -236,28 +236,28 @@ responses:
       image: "https://imgur.com/gallery/4aU0x07"
 
   utter_khht:
-    - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa và hướng dẫn của cố vấn học tập (CVHT), SV phải xây dựng kế hoạch học tập toàn khóa (KHHTTK) bằng cách liệt kê các học phần phải học cho từng học kỳ (HK) của khoá học. 
-    KHHTTK phải được CVHT phê duyệt. KHHTTK là cơ sở để SV đăng ký học phần trong mỗi HK.
+    - text: "Căn cứ kế hoạch học tập chuẩn toàn khóa và hướng dẫn của cố vấn học tập (CVHT), sinh viên phải xây dựng kế hoạch học tập toàn khóa (KHHTTK) bằng cách liệt kê các học phần phải học cho từng học kỳ (HK) của khoá học. 
+    KHHTTK phải được CVHT phê duyệt. KHHTTK là cơ sở để sinh viên đăng ký học phần trong mỗi học kỳ.
     Sinh viên có thể thay đổi KHHTTK trong quá trình học nhưng phải có ý kiến của CVHT.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 
   utter_info_HP:
-    - text: "1. Học phần là lượng kiến thức tương đối trọn vẹn được dạy trong một HK. Mỗi học phần có tên riêng và được ký hiệu bằng một mã số.
-      \n2. Học phần bắt buộc là học phần SV phải tích lũy.
-      \n3. Học phần tự chọn là học phần SV tự lựa chọn để tích lũy.
-      \n4. Học phần tiên quyết của học phần HPxxx là học phần mà SV phải tích lũy mới được đăng ký hoc học phần HPxxx.
-      \n5. Học phần song hành của học phần HPxxx là học phần mà SV phải học trước hoặc học cùng lúc với học phần HPxxx.
-      \n6. Học phần điều kiện (bao gồm các học phần Giáo dục Quốc phòng và An ninh (GDQP&AN), Giáo dục thể chất (GDTC), Ngoại ngữ căn bản, Tin học căn bản) là học phần mà SV phải hoàn thành nhưng kết quả học phần không dùng để tính điểm trung bình chung tích lũy (DTBCTL); ngoài ra, điểm học phần GDTC không dùng để tính điểm trung bình chung học kỳ (ĐTBCHK) và điểm trung bình chung năm học (DTBCNH).
-      \n7. Lớp học phần (được dạy và học trực tiếp hoặc trực tuyến) là lớp bao gồm những SV đăng ký theo học cùng học phần trong một HK. Mỗi học phần có thế có nhiều lớp học phần với mã số khác nhau.
-      \n8. Lớp chuyên ngành là lớp được hình thành từ đầu khóa học cho đến cuối khóa học. Tổ chức lớp chuyên ngành để duy trì những sinh hoạt đoàn thể, lao động, xét kết quả rèn luyện, xét khen thưởng, phổ biến những thông tin của Trường, Khoa đến SV. Mỗi lớp chuyên ngành có mã số riêng và được bố trí một CVHT để giúp đỡ SV.
+    - text: "1. Học phần là lượng kiến thức tương đối trọn vẹn được dạy trong một học kỳ. Mỗi học phần có tên riêng và được ký hiệu bằng một mã số.
+      \n2. Học phần bắt buộc là học phần sinh viên phải tích lũy.
+      \n3. Học phần tự chọn là học phần sinh viên tự lựa chọn để tích lũy.
+      \n4. Học phần tiên quyết của học phần HPxxx là học phần mà sinh viên phải tích lũy mới được đăng ký hoc học phần HPxxx.
+      \n5. Học phần song hành của học phần HPxxx là học phần mà sinh viên phải học trước hoặc học cùng lúc với học phần HPxxx.
+      \n6. Học phần điều kiện (bao gồm các học phần Giáo dục Quốc phòng và An ninh (GDQP&AN), Giáo dục thể chất (GDTC), Ngoại ngữ căn bản, Tin học căn bản) là học phần mà sinh viên phải hoàn thành nhưng kết quả học phần không dùng để tính điểm trung bình chung tích lũy (DTBCTL); ngoài ra, điểm học phần GDTC không dùng để tính điểm trung bình chung học kỳ (ĐTBCHK) và điểm trung bình chung năm học (DTBCNH).
+      \n7. Lớp học phần (được dạy và học trực tiếp hoặc trực tuyến) là lớp bao gồm những sinh viên đăng ký theo học cùng học phần trong một học kỳ. Mỗi học phần có thế có nhiều lớp học phần với mã số khác nhau.
+      \n8. Lớp chuyên ngành là lớp được hình thành từ đầu khóa học cho đến cuối khóa học. Tổ chức lớp chuyên ngành để duy trì những sinh hoạt đoàn thể, lao động, xét kết quả rèn luyện, xét khen thưởng, phổ biến những thông tin của Trường, Khoa đến sinh viên. Mỗi lớp chuyên ngành có mã số riêng và được bố trí một CVHT để giúp đỡ sinh viên.
       \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_tin_chi:
     - text: "1. Kiến thức của mỗi học phần và toàn khóa học được đo lường bằng tín chỉ (TC). Thời lượng của TC được quy định như sau:
     1 TC = 15 tiết học lý thuyết và 30 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 30 tiết thực hành, thí nghiệm, thảo luận, seminar,... và 15 tiết tự học, chuẩn bị cá nhân có hướng dẫn; hoặc 45 tiết thực tập tại cơ sở, làm tiểu luận, bài tập lớn, đồ án, niên luận, tiểu luận tốt nghiệp, luận văn tốt nghiệp.
     \n2. Một tiết học được tính bằng 50 phút.
-    \n3. Khối lượng CTOT của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTDT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.
+    \n3. Khối lượng chương trình đào tạo (CTĐT) của các ngành/chuyên ngành đào tạo được xây dựng theo quy định của Bộ Giáo dục và Đào tạo; được cụ thể hóa trong CTĐT ngành/chuyên ngành đào tạo công bố tại trang thông tin điện tử của Trường.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_hoc_bong:
@@ -275,17 +275,17 @@ responses:
 
   utter_hoc_bong_khuyen_khich:
     - text: "Học bổng khuyến khích học tập.\n
-      \ta)	Học bổng khuyến khích học tập (HBKKHT) được xét cấp theo HK dựa trên cơ sở ĐTBCHK (xem Điều 24) và điểm rèn luyện (ĐRL - xem Điều 25) của HK chính trước đó. Học bổng được cấp cho SV từ cao xuống thấp theo mức học bổng (xem điểm d khoản 1 Điều 9 này), trong từng mức ưu tiên theo ĐTBCHK (trường hợp SV có cùng ĐTBCHK thì xét ưu tiên theo ĐRL). Riêng đối với HK đầu tiên của khóa học, học bổng được cấp dựa trên kết quả  xét tuyển đầu vào do Hiệu trưởng quyết định không bao gồm điểm ưu tiên).\n
-      \tb)	Quỹ học bổng cấp cho SV từng lớp chuyên ngành được công bố từ đầu khóa học và sẽ được điều chỉnh nếu nguồn quỹ học bổng của Trường có thay đối.\n
+      \ta)	Học bổng khuyến khích học tập (HBKKHT) được xét cấp theo học kỳ dựa trên cơ sở điểm trung bình chung học kỳ ĐTBCHK (xem Điều 24) và điểm rèn luyện (ĐRL - xem Điều 25) của học kỳ chính trước đó. Học bổng được cấp cho sinh viên từ cao xuống thấp theo mức học bổng (xem điểm d khoản 1 Điều 9 này), trong từng mức ưu tiên theo ĐTBCHK (trường hợp sinh viên có cùng ĐTBCHK thì xét ưu tiên theo điểm rèn luyện). Riêng đối với học kỳ đầu tiên của khóa học, học bổng được cấp dựa trên kết quả  xét tuyển đầu vào do Hiệu trưởng quyết định không bao gồm điểm ưu tiên).\n
+      \tb)	Quỹ học bổng cấp cho sinh viên từng lớp chuyên ngành được công bố từ đầu khóa học và sẽ được điều chỉnh nếu nguồn quỹ học bổng của Trường có thay đổi.\n
       \tc)	Điều kiện để được xét học bổng:\n
-      \t\t-	Có số TC đăng ký tối thiểu trong HK chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n
-      \t\t-	HK chính trước đó, SV có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D (xem Điều 22);\n
+      \t\t-	Có số tín chỉ (TC) đăng ký tối thiểu trong học kỳ chính trước đó là 15 TC (trừ trường hợp do Trường bố trí);\n
+      \t\t-	Học kỳ chính trước đó, sinh viên có kết quả học tập, rèn luyện đạt từ loại khá trở lên, trong đó không có học phần dưới điểm D (xem Điều 22);\n
       \t\t-	Không bị kỷ luật từ hình thức khiển trách cấp Trường trở lên.\n
       \td)	Tiêu chuẩn cho từng mức học bổng được xác định như sau:\n
-      \t\t-	Mức học bổng loại xuất sắc: ĐTBCHK và ĐRL đạt loại xuất sắc.\n
-      \t\t-	Mức học bổng loại giỏi: ĐTBCHK đạt từ loại giỏi và ĐRL đạt từ loại tốt trở lên.\n
-      \t\t-	Mức học bổng loại khá: ĐTBCHK và ĐRL đạt từ loại khá trở lên.\n
-      \tđ)	Học bổng cho SV đi hoc tập ở nước ngoài: SV được cấp HBKKHT còn được xét cấp học bổng để đi học nước ngoài theo quy định hiện hành của Hiệu trưởng Trường Đại học Cần Thơ.\n
+      \t\t-	Mức học bổng loại xuất sắc: ĐTBCHK và điểm rèn luyện đạt loại xuất sắc.\n
+      \t\t-	Mức học bổng loại giỏi: ĐTBCHK đạt từ loại giỏi và điểm rèn luyện đạt từ loại tốt trở lên.\n
+      \t\t-	Mức học bổng loại khá: ĐTBCHK và điểm rèn luyện đạt từ loại khá trở lên.\n
+      \tđ)	Học bổng cho sinh viên đi hoc tập ở nước ngoài: sinh viên được cấp HBKKHT còn được xét cấp học bổng để đi học nước ngoài theo quy định hiện hành của Hiệu trưởng Trường Đại học Cần Thơ.\n
       \te)	Mức học bổng do Hiệu trưởng quyết định.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -294,15 +294,15 @@ responses:
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_quy_ho_tro:
-    - text: "Quỹ hỗ trợ SV: Khi gặp khó khăn đột xuất về kinh tế, SV có thể làm đơn trình bày rõ hoàn cành khó khăn, có xác nhận của CVHT và trưởng khoa để Hiệu trưởng xem xét.
+    - text: "Quỹ hỗ trợ sinh viên: Khi gặp khó khăn đột xuất về kinh tế, sinh viên có thể làm đơn trình bày rõ hoàn cành khó khăn, có xác nhận của CVHT và trưởng khoa để Hiệu trưởng xem xét.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_tro_cap_xa_hoi:
-    - text: "Trợ cấp xã hội: đối tượng được hưởng trợ cấp xã hội là SV dân tộc ít người ở vùng cao; SV mồ côi cả cha lẫn mẹ; SV tàn tật trên 41%; SV thuộc hộ nghèo, hộ đói.
+    - text: "Trợ cấp xã hội: đối tượng được hưởng trợ cấp xã hội là sinh viên dân tộc ít người ở vùng cao; sinh viên mồ côi cả cha lẫn mẹ; sinh viên tàn tật trên 41%; sinh viên thuộc hộ nghèo, hộ đói.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_change_ctdt:
-    - text: "Thông tin về việc chuyển cơ sở đào tạo, chuyển ngành đào tạo và hình thức đào tạo"
+    - text: "Thông tin về việc chuyển cơ sở đào tạo, chuyển ngành đào tạo và chuyển hình thức đào tạo"
       buttons:
         - title: "Chuyển cơ sở đào tạo"
           payload: "/change_co_so_dao_tao"
@@ -314,7 +314,7 @@ responses:
   
   utter_change_co_so_dao_tao:
     - text: "Sinh viên được xem xét chuyển cơ sở đào tạo khi có đủ các điều kiện sau:
-    \na) Không đang là SV trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại Điều 5 của Quy định này.
+    \na) Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại Điều 5 của Quy định này.
     \nb) Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo cùng khóa tuyển sinh tại nơi chuyển đến.
     \nc) Nơi chuyển đến có đủ các điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo đối với chương trình, ngành đào tạo đó theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
     \nd) Được sự đồng ý của hiệu trưởng cơ sở đào tạo xin chuyển đi và hiệu trưởng cơ sở đào tạo xin chuyển đến.
@@ -322,7 +322,7 @@ responses:
 
   utter_change_nganh_dao_tao:
     - text: "Sinh viên khóa 47 về sau được xem xét chuyển sang học một chương trình, một ngành đào tạo khác khi có đủ các điều kiện sau:
-    \na) Không đang là SV trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại Điều 5 của Quy định này.
+    \na) Không đang là sinh viên trình độ năm thứ nhất hoặc năm cuối khóa, không thuộc diện bị xem xét buộc thôi học và còn đủ thời gian học tập theo quy định tại Điều 5 của Quy định này.
     \nb) Sinh viên đạt điều kiện trúng tuyển của chương trình, ngành đào tạo trong cùng khóa tuyển sinh.
     \nc) Chương trình, ngành đào tạo đáp ứng đủ các điều kiện bảo đảm chất lượng, chưa vượt quá năng lực đào tạo theo quy định hiện hành của Bộ Giáo dục và Đào tạo.
     \nd) Được sự đồng ý của trường khoa phụ trách chương trình, ngành đào tạo và của Hiệu trưởng.
@@ -338,8 +338,8 @@ responses:
     - text: "Để đảm bảo tiến độ thời gian hoàn thành khóa học và đảm bảo chất lượng học tập, mỗi học kỳ sinh viên đăng ký với số lượng tín chỉ (TC) như sau:
     \n1. Học kỳ chính:
     \n\ta) Sinh viên được đăng ký học tối đa 25 TC/HK.
-    \n\tb) Đối với HK đầu tiên, sinh viên không phải đăng ký học phần. Các học phần của HK này sẽ do Trường bố trí.
-    \n2. Học kỳ phụ: Sinh viên đăng ký tối đa 8 TC/HK. Trường không bắt buộc sinh viên phải học HK này.
+    \n\tb) Đối với học kỳ đầu tiên, sinh viên không phải đăng ký học phần. Các học phần của học kỳ này sẽ do Trường bố trí.
+    \n2. Học kỳ phụ: Sinh viên đăng ký tối đa 8 TC/HK. Trường không bắt buộc sinh viên phải học học kỳ này.
     \nTùy theo năng lực học tập và điều kiện cá nhân, sinh viên nên đăng ký học với số TC phù hợp để đạt kết quả học tập tốt.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -352,11 +352,13 @@ responses:
           payload: "/add_lop_HP"
 
   utter_info_delete_lop_HP:
-    - text: "Trường sẽ xóa những lớp học phần có số lượng đăng ký ít hơn 25 sinh viên, những trường hợp đặc biệt do Hiệu trưởng quyết định. Trong tuần đầu HK, những sinh viên đã đăng ký các học phần bị xóa do không đủ điều kiện mở lớp được phép đăng ký học phần khác để thay thế (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC).
+    - text: "Trường sẽ xóa những lớp học phần có số lượng đăng ký ít hơn 25 sinh viên, những trường hợp đặc biệt do Hiệu trưởng quyết định. Trong tuần đầu học kỳ, những sinh viên đã đăng ký các học phần bị xóa do không đủ điều kiện 
+    mở lớp được phép đăng ký học phần khác để thay thế (trừ các học phần thực hành, thí nghiệm, thực tập tại cơ sở, GDQP&AN, GDTC).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_info_add_lop_HP:
-    - text: "Trong thời gian quy định đăng ký học phần của HK, nếu có nhiều hơn 25 sinh viên có nguyện vọng học, được trưởng bộ môn và trưởng khoa quản lý học phần đó chấp thuận, Trường sẽ mở thêm lớp học phần theo đề  nghị.
+    - text: "Trong thời gian quy định đăng ký học phần của học kỳ, nếu có nhiều hơn 25 sinh viên có nguyện vọng học, được trưởng bộ môn và trưởng khoa quản lý học phần đó chấp thuận, 
+    Trường sẽ mở thêm lớp học phần theo đề  nghị.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_info_dang_ky_hoc_lai:
@@ -382,23 +384,23 @@ responses:
     \na) Được điều động vào các lực lượng vũ trang.
     \nb) Được cơ quan có thẩm quyền điều động, đại diện quốc gia tham dự các kỳ thi, giải đấu quốc tế.
     \nc) Bị ốm, thai sản hoặc tai nạn phải điều trị trong thời gian dài có chứng nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền theo quy định của Bộ Y tế.
-    \nd) Vì lý do cá nhân (hoàn cảnh gia đình neo đơn, việc riêng,...). Trường hợp này chỉ giải quyết khi sinh viên đã học ít nhất 1 học kỳ ở Trường, không thuộc các trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật. Thời gian nghỉ học tạm thời trong trường hợp này được tính vào thời gian học tập để hoàn thành CTDT theo quy định tại Điều 5 của Quy định này.
+    \nd) Vì lý do cá nhân (hoàn cảnh gia đình neo đơn, việc riêng,...). Trường hợp này chỉ giải quyết khi sinh viên đã học ít nhất 1 học kỳ ở Trường, không thuộc các trường hợp bị xem xét buộc thôi học hoặc xem xét kỷ luật. Thời gian nghỉ học tạm thời trong trường hợp này được tính vào thời gian học tập để hoàn thành CTĐT theo quy định tại Điều 5 của Quy định này.
     \nNếu được chấp thuận, sinh viên sẽ được nhận quyết định cho phép nghỉ học của Hiệu trưởng. Khi hết thời gian nghỉ học tạm thời và chậm nhất là 2 tuần trước khi học kỳ mới bắt đầu, sinh viên phải nộp hồ sơ đề nghị học 1ại. Nếu đủ điều kiện, Hiệu trưởng sẽ có quyết định thu nhận sinh viên học lại.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_canh_bao_hoc_tap:
     - text: "Cảnh báo học tập là hình thức cảnh báo sinh viên trong các trường hợp:
-    \na) Có ĐTBCHK đạt dưới 0,80 đối với học kỳ đầu của khóa học, dưới 1,00 đối với các học kỳ tiếp theo.
+    \na) Có điểm trung bình chung học kỳ đạt dưới 0,80 đối với học kỳ đầu của khóa học, dưới 1,00 đối với các học kỳ tiếp theo.
     \nb) Không đăng ký học trong học kỳ chính mà không được sự cho phép của Hiệu trưởng.
     \nc) Từ Khóa 47 trở về sau, ngoài áp dụng quy định tại Điểm a và Điểm b khoản này, sinh viên bị cảnh báo học tập trong các trường hợp:
       \n-	Tổng số tín chỉ không đạt trong học kỳ vượt quá 50% khối lượng đã đăng ký học trong học kỳ, hoặc tổng số tín chỉ nợ đọng từ đầu khóa học vượt quá 24 tín chỉ (TC);
-      \n-	Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba dưới 1,8 đối với SV các năm tiếp theo.
+      \n-	Điểm trung bình tích lũy đạt dưới 1,2 đối với sinh viên trình độ năm thứ nhất, dưới 1,4 đối với sinh viên trình độ năm thứ hai, dưới 1,6 đối với sinh viên trình độ năm thứ ba dưới 1,8 đối với sinh viên các năm tiếp theo.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_dinh_chi_hoc_tap:
     - text: "Đình chỉ học tập 1 học kỳ trong các trường hợp:
     \n\ta) Bị kỷ luật ở mức đình chỉ học tập 1 học kỳ.
-    \n\tb) Có ĐRL yếu, kém trong 2 học kỳ liên tiếp.
+    \n\tb) Có điểm rèn luyện yếu, kém trong 2 học kỳ liên tiếp.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_buoc_thoi_hoc:
@@ -408,7 +410,7 @@ responses:
     \n\tc) Nghỉ học tạm thời quá thời hạn cho phép.
     \n\td) Không đăng ký học trong 2 học kỳ chính liên tiếp mà không được sự cho phép của Hiệu trưởng.
     \n\td) Không đóng học phí 2 học kỳ liên tiếp.
-    \n\te) Có ĐRL yếu, kém 2 học kỳ liên tiếp lần thứ hai.
+    \n\te) Có điểm rèn luyện yếu, kém 2 học kỳ liên tiếp lần thứ hai.
     \n\tg) Thời gian học tập vượt quá giới hạn theo quy định tại Điều 5 của Quy định này.
     \n\th) Người học sử dụng hồ sơ, văn bằng, chứng chỉ giả làm điều kiện trúng tuyển hoặc điều kiện tốt nghiệp; văn bằng tốt nghiệp nếu đã được cấp sẽ bị thu hồi, hủy bỏ.
     \n\tĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
@@ -425,7 +427,8 @@ responses:
   utter_dieu_kien_learn:
     - text: "Điều kiện để học cùng lúc hai chương trình:
     \na) Ngành đào tạo có chương trình thứ hai phải khác ngành đào tạo ở chương trình thứ nhất.
-    \nb) Đối với sinh viên thuộc khóa 46 trở về trước, sinh viên phải hoàn thành học kỳ đầu tiên và có ĐTBCTL từ 2,00 trở lên. Đối với sinh viên thuộc khóa 47 trở về sau, sinh viên được xếp trình độ năm thứ hai của chương trình thứ nhất (xem Điều 30) và sinh viên phải đáp ứng 01 trong 02 điều kiện như sau tại thời điểm đăng ký:
+    \nb) Đối với sinh viên thuộc khóa 46 trở về trước, sinh viên phải hoàn thành học kỳ đầu tiên và có điểm trung bình chung tích lũy (ĐTBCTL) từ 2,00 trở lên. 
+    Đối với sinh viên thuộc khóa 47 trở về sau, sinh viên được xếp trình độ năm thứ hai của chương trình thứ nhất (xem Điều 30) và sinh viên phải đáp ứng một trong hai điều kiện như sau tại thời điểm đăng ký:
       \n\t-	Có ĐTBCTL từ 2,50 trở lên và đáp ứng ngưỡng bảo đảm chất lượng của chương trình thứ hai trong năm tuyển sinh (điểm sàn và các điều kiện khác nếu có);
       \n\t-	Hoặc có ĐTBCTL từ 2,00 trở lên và đáp ứng điều kiện trúng tuyển của chương trình thứ hai trong năm tuyển sinh (điểm chuẩn và các điều kiện khác nếu có).
     \nc) Khoa quản lý chương trình thứ hai còn khả năng tiếp nhận thêm sinh viên.
@@ -434,8 +437,8 @@ responses:
   utter_thu_tuc_learn:
     - text: "Thủ tục đăng ký học thêm chương trình thứ hai:
     \na) Sinh viên đăng ký học chương trình thứ hai vào đầu mỗi học kỳ chính (theo thông báo của Trường).
-    \nb) Khi có quyết định chấp thuận học cùng lúc hai chương trình, sinh viên tự nghiên cứu CTDT của chương trình thứ hai và bổ sung các học phần cần phải học vào KHHTTK để đăng ký học phần.
-    \nc) Sau khi tốt nghiệp chương trình thứ nhất, sinh viên sẽ được chuyển về Khoa quản lý chương trình thứ hai để quản lý và được bố trí CVHT mới. Khoa quản ý chương trình thứ hai sẽ xét các học phần của CTDT thứ hai sinh viên được miễn do sinh viên đã tích lũy các học phần này ở CTDT thứ nhất và sinh viên sẽ xây dựng KHHTTK của CTDT thứ hai dưới sự hướng dẫn của CVHT mới.
+    \nb) Khi có quyết định chấp thuận học cùng lúc hai chương trình, sinh viên tự nghiên cứu CTĐT của chương trình thứ hai và bổ sung các học phần cần phải học vào kế hoạch học tập học kỳ (KHHTTK) để đăng ký học phần.
+    \nc) Sau khi tốt nghiệp chương trình thứ nhất, sinh viên sẽ được chuyển về Khoa quản lý chương trình thứ hai để quản lý và được bố trí cố vấn học tập (CVHT) mới. Khoa quản lý chương trình thứ hai sẽ xét các học phần của CTĐT thứ hai sinh viên được miễn do sinh viên đã tích lũy các học phần này ở CTĐT thứ nhất và sinh viên sẽ xây dựng KHHTTK của CTĐT thứ hai dưới sự hướng dẫn của CVHT mới.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 # ĐÁNH GIÁ HỌC TẬP
@@ -477,22 +480,23 @@ responses:
   utter_diem_M:
     - text: "Điểm M (tương đương điểm R của Thông tư 08/2021/TT-BGDĐT):
     \n- Dùng để xác nhận học phần sinh viên được miễn học do đã tích lũy được bằng các hình thức khác.
-    \n- Điểm M không được tính vào ĐTBCHK và ĐTBCTL.
-    \n- Số tín chỉ của học phần có điểm M được tính vào tổng số tín chỉ tích lũy. Để nhận điểm M, sinh viên phải làm đơn có ý kiến của CVHT và trưởng khoa xem xét theo từng học kỳ, kèm theo giấy tờ hợp lệ.
+    \n- Điểm M không được tính vào điểm trung bình chung học kỳ (ĐTBCHK) và điểm trung bình chung tích lũy (ĐTBCTL).
+    \n- Số tín chỉ của học phần có điểm M được tính vào tổng số tín chỉ tích lũy. Để nhận điểm M, sinh viên phải làm đơn có ý kiến của cố vấn học tập (CVHT) và trưởng khoa xem xét theo từng học kỳ, kèm theo giấy tờ hợp lệ.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_diem_I:
     - text: "Điểm I:
-    \n- Dành cho các trường hợp chưa hoàn thành đầy đủ yêu cầu của học phần (Sinh viên đã dự học, dự các lần kiểm tra giữa học kỳ, đã thực hiện các hoạt động liên quan đến học phần như thí nghiệm, thực hành nhưng vì 1ý do bất khả kháng như ốm đau, tai nạn,... đã vắng mặt trong buổi thi kết thúc học phần và được giảng viên phụ trách học phần chấp thuận cho bổ sung điểm). 
-    \n- Điểm I không được tính vào ĐTBCHK ở học kỳ đó.
+    \n- Dành cho các trường hợp chưa hoàn thành đầy đủ yêu cầu của học phần (Sinh viên đã dự học, dự các lần kiểm tra giữa học kỳ, đã thực hiện 
+    các hoạt động liên quan đến học phần như thí nghiệm, thực hành nhưng vì lý do bất khả kháng như ốm đau, tai nạn,... đã vắng mặt trong buổi thi kết thúc học phần và được giảng viên phụ trách học phần chấp thuận cho bổ sung điểm). 
+    \n- Điểm I không được tính vào điểm trung bình chung học kỳ (ĐTBCHK) ở học kỳ đó.
     \n- Để nhận được điểm I, sinh viên phải làm đơn kèm theo hồ sơ hợp lệ nộp cho giảng viên giảng day học phần xem xét và trình trưởng khoa duyệt.
-    \n- Thời hạn bổ sung điểm của học phần do giảng viên quy định nhưng không quá 1 năm kể từ ngày thi lần trước. Quá thời hạn trên, nếu sinh viên không hoàn thành thì sẽ bị điểm F.
+    \n- Thời hạn bổ sung điểm của học phần do giảng viên quy định nhưng không quá một năm kể từ ngày thi lần trước. Quá thời hạn trên, nếu sinh viên không hoàn thành thì sẽ bị điểm F.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_diem_W:
     - text: "Điểm W:
     \n- Dành cho các học phần mà sinh viên được phép rút theo quy định (xem Điều 15).
-    \n- Điểm W không tính vào ĐTBCHK và ĐTBCTL.
+    \n- Điểm W không tính vào điểm trung bình chung học kỳ (ĐTBCHK) và điểm trung bình chung tích lũy (ĐTBCTL).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_tong_hop_thi:
@@ -506,8 +510,8 @@ responses:
           payload: "/vang_thi_CK"
 
   utter_so_lan_thi_CK:
-    - text: "Kỳ thi kết thúc học phần được tổ chức 1 lần. 
-    Lịch thi kết thúc học phần được Khoa quản lý học phần công bố tại trang thông tin điện tử của Trường, đơn vị và được giảng viên thông báo đến tất cả sinh viên chậm nhất 1 tuần trước ngày thi.
+    - text: "Kỳ thi kết thúc học phần được tổ chức một lần. 
+    Lịch thi kết thúc học phần được Khoa quản lý học phần công bố tại trang thông tin điện tử của Trường, đơn vị và được giảng viên thông báo đến tất cả sinh viên chậm nhất một tuần trước ngày thi.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_to_chuc_thi_CK:
@@ -532,24 +536,24 @@ responses:
       button_type: vertical
 
   utter_diem_tbchk:
-    - text: "Điểm trung bình chung học kỳ là trung bình có trọng số của điểm các học phần mà sinh viên đã học trong học kỳ (kể cả các học phần bị điểm F và học phần điều kiện trừ học phần GDTC), với trọng số là số tín chỉ của các học phần đó. ĐTBCHK là cơ sở để đánh giá kết quả học tập, xét học bổng, khen thưởng, cảnh báo học tập sau mỗi học kỳ. 
+    - text: "Điểm trung bình chung học kỳ là trung bình có trọng số của điểm các học phần mà sinh viên đã học trong học kỳ (kể cả các học phần bị điểm F và học phần điều kiện trừ học phần Giáo dục thể chất (GDTC)), với trọng số là số tín chỉ của các học phần đó. ĐTBCHK là cơ sở để đánh giá kết quả học tập, xét học bổng, khen thưởng, cảnh báo học tập sau mỗi học kỳ. 
     ĐTBCHK được tính theo công thức tính như sau:"
       image: "https://imgur.com/gallery/Rch7qOE"
 
   utter_diem_tbcnh:
-    - text: "Điểm trung bình chung năm học là trung bình có trọng số của điểm các học phần mà sinh viên đã học trong 2 học kỳ chính của năm học (kể cả các học phần bị điểm F và học phần điều kiện trừ học phần GDTC).
+    - text: "Điểm trung bình chung năm học là trung bình có trọng số của điểm các học phần mà sinh viên đã học trong 2 học kỳ chính của năm học (kể cả các học phần bị điểm F và học phần điều kiện trừ học phần Giáo dục thể chất (GDTC)).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_diem_tbctl:
-    - text: "Điểm trung bình chung tích lũy là trung bình có trọng số của điểm các học phần đã tích lũy tính đến thời điểm xét (không bao gồm các học phần bị điểm F và học phần điều kiện). ĐTBCTL là cơ sở để đánh giá kết quả học tập trong suốt thời gian học, xếp loại học tập, xếp hạng tốt nghiệp.
+    - text: "Điểm trung bình chung tích lũy (ĐTBCTL) là trung bình có trọng số của điểm các học phần đã tích lũy tính đến thời điểm xét (không bao gồm các học phần bị điểm F và học phần điều kiện). ĐTBCTL là cơ sở để đánh giá kết quả học tập trong suốt thời gian học, xếp loại học tập, xếp hạng tốt nghiệp.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_rank_hoc_tap:
-    - text: "Xếp loại học tập học kỳ căn cứ vào ĐTBCHK; xếp loại học tập năm học căn cứ vào ĐTBCNH theo bảng sau:"
+    - text: "Xếp loại học tập học kỳ căn cứ vào điểm trung bình chung học kỳ (ĐTBCHK); xếp loại học tập năm học căn cứ vào điểm trung bình chung năm học (ĐTBCNH) theo bảng sau:"
       image: "https://imgur.com/gallery/gZ1W7kW"
 
   utter_xep_loai_khen_thuong:
-    - text: "Sinh viên học đủ số tín chỉ theo quy định (từ 15 tín chỉ trở lên cho mỗi học kỳ), có tiến độ học tập trong khung thời gian thiết kế CTDT, không vi phạm kỷ luật từ hình thức khiển trách cấp Trường trở lên, đạt thành tích cao trong học tập và rèn luyện sẽ được xếp loại như sau:"
+    - text: "Sinh viên học đủ số tín chỉ theo quy định (từ 15 tín chỉ trở lên cho mỗi học kỳ), có tiến độ học tập trong khung thời gian thiết kế chương trình đào tạo, không vi phạm kỷ luật từ hình thức khiển trách cấp Trường trở lên, đạt thành tích cao trong học tập và rèn luyện sẽ được xếp loại như sau:"
       buttons:
         - title: "Loại xuất sắc"
           payload: "/loai_xuat_sac"
@@ -570,22 +574,22 @@ responses:
   utter_khen_thuong:
     - text: "Khen thưởng cho sinh viên khi thuộc các trường hợp sau đây:
     \n\ta) Sinh viên trúng tuyển vào Trường có điểm cao sẽ được khen thưởng theo quyết định của Hiệu trưởng.
-    \n\tb) Sinh viên tốt nghiệp đúng hoặc sớm hơn thời gian thiết kế của CTDT:
+    \n\tb) Sinh viên tốt nghiệp đúng hoặc sớm hơn thời gian thiết kế của chương trình đào tạo (CTĐT):
       -	Sinh viên đạt từ loại khá toàn khóa trở lên được xét thủ khoa của ngành/chuyên ngành đào tạo sẽ được cấp giấy khen và phần thưởng.
       -	Sinh viên đạt từ loại giỏi toàn khoá trở 1ên sẽ được cấp giấy khen.
-    \n\tc) Khen thưởng sinh viên cuối mỗi năm học: Hiệu trưởng xét cấp giấy khen và phần thưởng cho mỗi lớp chuyên ngành một (01) SV được xếp loại giỏi trở lên.
-    \nTrường hợp sinh viên có cùng kết quả học tập thì ưu tiên chọn sinh viên có ĐRL cao hơn.
+    \n\tc) Khen thưởng sinh viên cuối mỗi năm học: Hiệu trưởng xét cấp giấy khen và phần thưởng cho mỗi lớp chuyên ngành một (01) sinh viên được xếp loại giỏi trở lên.
+    \nTrường hợp sinh viên có cùng kết quả học tập thì ưu tiên chọn sinh viên có điểm rèn luyện cao hơn.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_quy_dinh_kiem_tra:
     - text: "Sinh viên có trách nhiệm chấp hành các quy định về thi và kiểm tra, cụ thể như sau:
-    \n1. Thực hiện đúng lịch kiểm tra và thi của Trường, của Khoa, của bộ môn. Phải có mặt đúng giờ, nêu đến trễ 15 phút sau khi mở đề, SV sẽ không được dự thi và xem như vắng thi không lý do, sẽ nhận điểm F cho học phần đó.
-    \n2. Phải mang thẻ SV (giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng để chứng mình về nhân thân như chứng mình nhân dân, căn cước công dân, hộ chiếu, giấy, phép lái xe,...) khi vào phòng thi. 
-    Tuyệt đối phục tùng sự kiểm tra, quản lý và hướng dẫn của cán bộ coi thi (CBC7). Túi xách, tài liệu, phương tiện kỹ thuật thu, phát, truyền tin, ghi âm.... phải để tập trung đúng nơi quy định.
+    \n1. Thực hiện đúng lịch kiểm tra và thi của Trường, của Khoa, của bộ môn. Phải có mặt đúng giờ, nêu đến trễ 15 phút sau khi mở đề, sinh viên sẽ không được dự thi và xem như vắng thi không lý do, sẽ nhận điểm F cho học phần đó.
+    \n2. Phải mang thẻ sinh viên (giấy tờ khác có dán ảnh và thông tin cá nhân do cơ quan có thẩm quyền cấp, còn giá trị sử dụng để chứng mình về nhân thân như chứng mình nhân dân, căn cước công dân, hộ chiếu, giấy, phép lái xe,...) khi vào phòng thi. 
+    Tuyệt đối phục tùng sự kiểm tra, quản lý và hướng dẫn của cán bộ coi thi (CBCT). Túi xách, tài liệu, phương tiện kỹ thuật thu, phát, truyền tin, ghi âm.... phải để tập trung đúng nơi quy định.
     \n3. Không được ra khỏi phòng th trong thời gian làm bài. Các trường hợp đặc biệt cân cho ra ngoài đêu phải lập biên bản.
     \n4. Bài thi phải làm trên giấy thi thống nhất, viết rõ ràng, sạch sẽ. Được sử dụng bút mực hoặc bút bi màu xanh dương, đen hoặc tím; thước kẻ; thước tính; máy tính điện tử
     không có thẻ nhớ và không soạn thảo được văn bản; giấy nháp có chữ ký của CBCT.
-    \n5. Trong giờ thi SV phải giữ trật tự, nghiêm túc làm bài và bảo v làm của mình, không để người khác chép bài của mình. Nếu có thắc mắc phải hỏi công khai.
+    \n5. Trong giờ thi sinh viên phải giữ trật tự, nghiêm túc làm bài và bảo v làm của mình, không để người khác chép bài của mình. Nếu có thắc mắc phải hỏi công khai.
     Nếu ốm đau bắt thường phải báo cáo để CBCT giải quyết.
     \n6. Những bài thi sau đây là không hợp lệ và không được chấm điểm:
     \n\ta) Làm bài trên giấy thi khác với giấy thi quy định.
@@ -593,7 +597,7 @@ responses:
     \n\te) Viết bằng bút chì, mực đỏ (hình vẽ có thể dùng bút chì).
     \n\td) Các bài làm giống nhau.
     \n\tđ) Vẽ bậy, viết bậy trong bài thi.
-    \n7. Hết giờ làm bài, SV phải ngừng viết, để bài làm trước mặt và im lặng chờ CBCT thu bài. Khi nộp bài phải ghỉ rõ số tờ giấy thi đã nộp và ký tên vào danh sách dự thi.
+    \n7. Hết giờ làm bài, sinh viên phải ngừng viết, để bài làm trước mặt và im lặng chờ CBCT thu bài. Khi nộp bài phải ghỉ rõ số tờ giấy thi đã nộp và ký tên vào danh sách dự thi.
     \nSinh viên vi phạm các quy định trên đây sẽ bị CBCT lập biên bản về hành vi vi phạm và bị xử lý kỷ luật theo quy định Xem Điều 28).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -622,17 +626,17 @@ responses:
       \n\ta) Đã bị khiển trách một lần nhưng vẫn tiếp tục vi phạm trong một buổi thi.
       \n\tb) Trao đổi giấy nháp cho nhau nhưng chưa sử dụng (xử lý cả 2 sinh viên).
       \n\tc) Chép bài của người khác hoặc để cho người khác chép bài của mình.
-      \n\td) Không phục tùng sự quản lý, nhắc nhở của CBCT hoặc có thái độ vô lễ đối với CBCT.
+      \n\td) Không phục tùng sự quản lý, nhắc nhở của cán bộ coi thi (CBCT) hoặc có thái độ vô lễ đối với CBCT.
     \nSinh viên bị cảnh cáo sẽ bị trừ 50% điểm số của lần thi/kiểm tra đó. Sinh viên bị cảnh cáo thi 2 lần trong một năm học sẽ bị kỷ luật cảnh cáo toàn Trường.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_dinh_chi_sv:
     - text: "Đình chỉ thi khi sinh viên vi phạm một trong các lỗi sau:
       \n\ta) Đã bị cảnh cáo một lần nhưng vẫn tiếp tục vi phạm trong một buổi thi.
-      \n\tb) Sau khi mở đề thi bị phát hiện vẫn còn mang theo người (hoặc nơi ngồi của mìn\n\th) những vật dụng không được phép mang vào phòng thi.
+      \n\tb) Sau khi mở đề thi bị phát hiện vẫn còn mang theo người (hoặc nơi ngồi của mình) những vật dụng không được phép mang vào phòng thi.
       \n\tc) Sử dụng giấy nháp hoặc bài làm của người khác (xử lý cả 2 sinh viên).
       \n\td) Đưa đề thi ra ngoài nhờ người khác làm hộ hoặc nhận bài giải từ ngoài vào phòng thi.
-      \n\tđ) Có hành động gây rối hoặc đe dọa CBCT hoặc sinh viên khác.
+      \n\tđ) Có hành động gây rối hoặc đe dọa cán bộ coi thi hoặc sinh viên khác.
     \nSinh viên bị đình chỉ thi bị nhận điểm 0 cho lần thi/kiểm tra đó. Sinh viên bị đình chỉ thi 2 lần trong một năm học sẽ bị đình chỉ học tập I năm sau đó. Nếu tái phạm sẽ bị buộc thôi học.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -646,7 +650,8 @@ responses:
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_trinh_do_nam_hoc:
-    - text: "Xếp trình độ năm học được xác định dựa vào tổng số tín chỉ đã tích lũy, không dựa vào thời gian sinh viên vào Trường. Sau mỗi học kỳ, căn cứ vào khối lượng tín chỉ tích lũy, sinh viên được xếp trình độ năm học như sau:
+    - text: "Xếp trình độ năm học được xác định dựa vào tổng số tín chỉ đã tích lũy, không dựa vào thời gian sinh viên vào Trường. 
+    Sau mỗi học kỳ, căn cứ vào khối lượng tín chỉ tích lũy, sinh viên được xếp trình độ năm học như sau:
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
       image:  "https://imgur.com/gallery/X03W6Eb"
 
@@ -659,17 +664,17 @@ responses:
     \n2. Tiểu luận tốt nghiệp (TLTN):
     \n\t- TLTN do cán bộ hướng dẫn và 1 cán bộ khác chấm, không phải bảo vệ trước hội đồng.
     \n\t- Cán bộ chấm TLTN do trưởng khoa quyết định.
-    \n3. Tích lũy TC tốt nghiệp:
+    \n3. Tích lũy tín chỉ (TC) tốt nghiệp:
     \n\t- Sinh viên có thể chọn hình thức không làm LVTN hoặc TLTN. 
     \n\t- Những sinh viên này phải học thêm các học phần tự chọn đẻ đủ số TC theo yêu cầu của CTĐT.
     \n\t* Để được nhận đề tài LVTN hoặc TLTN, sinh viên phải thỏa mãn các điều kiện do Khoa quy định.
-    \n\t* Cuối mỗi HK, Khoa xét và công bố hình thức thực hiện cuối khóa cho sinh viên ở HK tiếp theo. Sinh viên làm LVTN hay TLTN đều phải đăng ký học phần như các học phần khác.
+    \n\t* Cuối mỗi học kỳ, Khoa xét và công bố hình thức thực hiện cuối khóa cho sinh viên ở học kỳ tiếp theo. Sinh viên làm LVTN hay TLTN đều phải đăng ký học phần như các học phần khác.
     \n\t* Sinh viên nhận điểm F của LVTN hay TLTN phải đăng ký làm lại hoặc đăng ký các học phân thay thê để hoàn thành CTĐT.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_dieu_kien_tot_nghiep:
     - text: "Sinh viên có đủ các điều kiện sau đây được xét công nhận tốt nghiệp:
-      \n\ta) Tích lũy đủ các học phần và số TC quy định trong CTĐT; ĐTBCTL của các học phần đạt từ 2,00 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào ứng (kế cả chuẩn đầu ra về ngoại ngữ và công nghệ thông tin).
+      \n\ta) Tích lũy đủ các học phần và số tín chỉ (TC) quy định trong chương trình đào tạo; Điểm trung bình chung tích lũy (ĐTBCTL) của các học phần đạt từ 2,00 trở lên (theo thang điểm 4); đạt chuẩn đầu ra của chương trình đào ứng (kế cả chuẩn đầu ra về ngoại ngữ và công nghệ thông tin).
       \n\tb) Hoàn thành các học phần điều kiện. Ngoài ra, điểm trung bình chung các học phần GDQP&AN phải đạt từ 5,0 trở lên (theo thang điểm 10).
       \n\tc) Tại thời điểm xét tốt nghiệp không bị truy cứu trách nhiệm hình sự, không đang trong thời gian bị kỷ luật ở mức đình chỉ học tập.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
@@ -682,7 +687,7 @@ responses:
 
   utter_qua_han_tot_nghiep:
     - text: "Xử lý sinh viên quá hạn thời gian học tập
-    \n1. Khi hết thời gian học tập tối đa theo quy định đem Điều 5), những sinh viên không
+    \n1. Khi hết thời gian học tập tối đa theo quy định đem Điều 5, những sinh viên không
     đủ điều kiện tốt nghiệp sẽ bị xóa tên, trừ những sinh viên được hưởng ưu tiên theo đối tượng quy định tại Quy chế tuyển sinh đại học, cao đẳng hệ chính quy.
     \n2. Sinh viên đã hết thời gian học tập tối đa theo quy định nhưng chưa đủ điều kiện tốt nghiệp do chưa hoàn thành những học phần GDQP&AN hoặc GDTC, trong thời hạn 5 năm tính từ khi thôi học sinh viên được phép trở về Trường để hoàn thiện các điều kiện còn thiếu và để nghị xét công nhận tốt nghiệp. 
     Đối với sinh viên từ Khóa 47 trở về sau, sinh viên đã hết thời gian học tập tối đa theo quy định nhưng chưa đủ điều kiện tốt nghiệp do chưa hoàn thành những học phần GDQP&AN hoặc GDTC hoặc chưa đạt chuẩn đầu ra về ngoại ngữ, công nghệ thông tin, trong thời hạn 3 năm tính từ khi thôi
@@ -693,18 +698,18 @@ responses:
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_rank_tot_nghiep:
-    - text: "Hạng tốt nghiệp căn cứ vào ĐTBCTL theo các mức trong bảng sau:"
+    - text: "Hạng tốt nghiệp căn cứ vào điểm trung bình chung tích lũy theo các mức trong bảng sau:"
       image: "https://prnt.sc/1MrHLhGox7rZ"
 
   utter_ask_fee:
-    - text: "1.	Học phí đóng theo HK và tính theo tổng số TC mà SV đã đăng ký học ở HK đó. Mức học phí do Hiệu trưởng quyết định.
+    - text: "1.	Học phí đóng theo học kỳ và tính theo tổng số tín chỉ mà sinh viên đã đăng ký học ở học kỳ đó. Mức học phí do Hiệu trưởng quyết định.
     \n2. Đối tượng được miễn, giảm học phí và được hỗ trợ chi phí học tập thực hiện theo các quy định hiện hành và các văn bản hướng dẫn có liên quan. Hồ sơ hướng dẫn thực hiện miễn, giảm học phí và hỗ trợ chi phí học tập xem tại trang thông tin điện tử của Phòng Công tác Sinh viên.
-    \n3. Sau thời hạn đóng học phí, SV không đóng học phí sẽ bi hủy kết quả học tập những học phần nợ học phí trong HK đó và buộc phải đóng học phí còn nợ cùng lúc với học phí của HK tiếp theo. SV không đóng học phí 2 HK liên tiếp së bị buộc thôi học.
+    \n3. Sau thời hạn đóng học phí, sinh viên không đóng học phí sẽ bi hủy kết quả học tập những học phần nợ học phí trong học kỳ đó và buộc phải đóng học phí còn nợ cùng lúc với học phí của học kỳ tiếp theo. sinh viên không đóng học phí 2 học kỳ liên tiếp së bị buộc thôi học.
     \nThông tin học phí xin mời bạn cập nhật chi tiết tại: https://tuyensinh.ctu.edu.vn/dai-hoc-chinh-quy/1007-hocphi2022.html."
 
   utter_info_bhyt:
-    - text: "1. Bảo hiểm y tế: SV phải nộp phí Bảo hiểm y tế theo các quy định hiện hành của pháp luật và các văn bản hướng dẫn có liên quan.
-    \n2. Bảo hiểm tai nạn: Trường khuyến khích SV tham gia nộp Bảo hiểm tai nạn.
+    - text: "1. Bảo hiểm y tế: sinh viên phải nộp phí bảo hiểm y tế theo các quy định hiện hành của pháp luật và các văn bản hướng dẫn có liên quan.
+    \n2. Bảo hiểm tai nạn: Trường khuyến khích sinh viên tham gia nộp bảo hiểm tai nạn.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 
@@ -769,9 +774,9 @@ responses:
       buttons:
         - title: "Phạm vi và đối tượng áp dụng"
           payload: "/ask_pham_vi_doi_tuong"
-        - title: "Sinh Viên"
+        - title: "Sinh viên"
           payload: "/ask_sinh_vien"
-        - title: "Chương trình đào tạo, dạy học và bản mô tả CTDT"
+        - title: "Chương trình đào tạo, dạy học và bản mô tả chương trình đào tạo"
           payload: "/ask_ctdt_mt_ctgd"
         - title: "Thời gian học tập"
           payload: "/ask_time_study"
@@ -796,11 +801,11 @@ responses:
   utter_to_chuc_dao_tao:
     - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 12 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
-        - title: "Trách nhệm của Trường và sinh viên trong ĐKHP"
+        - title: "Trách nhệm của Trường và sinh viên trong việc đăng ký học phần"
           payload: "/ask_trach_nhiem"
         - title: "Số tín chỉ được phép đăng ký trong một học kỳ"
           payload: "/ask_tin_chi_HK"
-        - title: "Quy trình ĐKHP"
+        - title: "Quy trình đăng ký học phần"
           payload: "/ask_quy_trinh_dkhp"
         - title: "Xóa và mở thêm lớp học phần"
           payload: "/info_add_delete_HP"
@@ -849,7 +854,7 @@ responses:
   utter_xet_va_cong_nhan_tot_nghiep:
     - text: "Tổ chức đào tạo trong quy chế học vụ bao gồm 6 điều được tổng hợp thành các nội dung chính sau đây:"
       buttons:
-        - title: "Luận văn, tiểu luận tốt nghiệp và tích lũy tín chỉ tốt nghiệp"
+        - title: "Luận văn tốt nghiệp, tiểu luận tốt nghiệp và tích lũy tín chỉ tốt nghiệp"
           payload: "/ask_tot_nghiep"
         - title: "Điều kiện tốt nghiệp"
           payload: "/dieu_kien_tot_nghiep"
@@ -876,24 +881,24 @@ responses:
           payload: "/doi_tuong"
 
   utter_pham_vi:
-    - text: "Quy định này quy định về công tác học vụ dành cho sinh viên (SV) trình độ đại học hệ chính quy bao gồm: Chương trình đào tạo (CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cắp bằng tốt nghiệp và những quy định khác đối với SV.
+    - text: "Quy định này quy định về công tác học vụ dành cho sinh viên (SV) trình độ đại học hệ chính quy bao gồm: Chương trình đào tạo (CTĐT), thời gian học tập, tổ chức đào tạo, đánh giá kết quả học tập, cắp bằng tốt nghiệp và những quy định khác đối với sinh viên.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_doi_tuong:
-    - text: "Quy định này áp dụng đối với SV các ngành, khóa đào tạo trình độ đại học hệ chính quy của Trường Đại học Cần Thơ (ĐHCT).
+    - text: "Quy định này áp dụng đối với sinh viên các ngành, khóa đào tạo trình độ đại học hệ chính quy của Trường Đại học Cần Thơ (ĐHCT).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_sinh_vien:
     - text: "Sinh viên (SV) hệ chính quy của Trường Đại học Cần Thơ (ĐHCT) là những người đã trúng tuyển kỳ thi tuyển sinh hoặc được xét tuyển và có quyểt định thu nhận vào học hệ chính quy của Trường.
-    \n\t- Mỗi SV sẽ được cấp một mã số SV, thẻ SV và địa chỉ thư điện tử: (email) để sử dụng trong suốt quá trình theo học tại Trường.
+    \n\t- Mỗi sinh viên sẽ được cấp một mã số sinh viên, thẻ sinh viên và địa chỉ thư điện tử: (email) để sử dụng trong suốt quá trình theo học tại Trường.
     \n\t- Sinh viên Trường ĐHCT phải chấp hành nội quy, quy định của Trường, của Khoa/Viện/Bộ môn trực thuộc Trường (sau đây gọi chung là Khoa), của lớp và của các đơn vị khác trong Trường.
-    \n\t- Khi vào Trường, SV phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.
+    \n\t- Khi vào Trường, sinh viên phải mang bảng tên, trang phục sạch sẽ, gọn gàng, kín đáo; phải mặc đồng phục khi tham dự những học phần có yêu cầu.
     \n\t- Sinh viên phải giữ trật tự, vệ sinh, chấp hành luật giao thông, để xe đúng nơi quy định.
     \n\t- Sinh viên Trường ĐHCT phải có nếp sống văn minh; có ý thức bảo vệ của công, bảo vệ môi trường; không làm ơn, gây mật trật tự; không tu tập uống rượu bia.
     \nể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_ctdt_mt_ctgd:
-    - text: "Chương trình đào tạo, Bản mô tả chương trình đào tạo và chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để SV và các bên liên quan được biết.
+    - text: "Chương trình đào tạo, Bản mô tả chương trình đào tạo và chương trình dạy học được công khai tại trang thông tin điện tử của Trường và Khoa để sinh viên và các bên liên quan được biết.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
       buttons:
         - title: "Chương trình đào tạo"
@@ -905,11 +910,11 @@ responses:
       button_type: vertical
   
   utter_ask_ctdt:
-    - text: "Chương trình đào tạo của mọi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp.
+    - text: "Chương trình đào tạo (CTĐT) của mọi ngành học được xây dựng theo đơn vị tín chỉ, cấu trúc từ các học phần (thuộc khối kiến thức giáo dục đại cương và giáo dục chuyên nghiệp), trong đó có đủ các học phần bắt buộc và đáp ứng chuẩn CTĐT theo quy định hiện hành của Bộ Giáo dục và Đào tạo. Sinh viên phải tích lũy đủ các học phần và khối lượng tín chỉ tối thiểu theo yêu cầu của CTĐT để được xét cấp bằng tốt nghiệp.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_mota:
-    - text: "Bản mô tả chương trình đào tạo và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung:
+    - text: "Bản mô tả chương trình đào tạo (CTĐT) và chương trình dạy học được xây dựng căn cứ vào CTĐT, gồm các nội dung:
     \n\t- Thông tin chung về CTĐT;
     \n\t- Thông tin về đối sánh giữa CTĐT với các chương trình tương tự trong và ngoài nước;
     \n\t- Thông tin về kết quả đánh giá hoặc kiểm đánh chất lượng CTĐT;
@@ -923,16 +928,16 @@ responses:
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_ctgd:
-    - text: "Một số học phần thuộc CTĐT có thể được tổ chức lớp học bằng phương thức dạy và học trực tuyến một phần hoặc toàn bộ học phần khi đáp ứng các quy định hiện hành.
+    - text: "Một số học phần thuộc chương trình đào tạo (CTĐT) có thể được tổ chức lớp học bằng phương thức dạy và học trực tuyến một phần hoặc toàn bộ học phần khi đáp ứng các quy định hiện hành.
     \n\t- Những nội dung dạy và học trực tuyến được ghi trong đề cương chi tiết học phần.
-    \n\t- Tổng khối lượng (tính theo tín chi) được thựcc hiện bằng phương thức dạy và học trực tuyến không quá 30% khối lượng của chương trình đào tạo.
+    \n\t- Tổng khối lượng (tính theo tín chỉ) được thựcc hiện bằng phương thức dạy và học trực tuyến không quá 30% khối lượng của chương trình đào tạo.
     \n\t- Trong trường hợp thiên tai, dịch bệnh phức tạp và các trường hợp bất khả kháng khác, Trường có thể thực hiện việc dạy và học bằng phương thức trực tuyến theo yêu cầu và hướng dẫn của Nhà nước.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_time_lien_thong:
-    - text: "Những sinh viên (SV) học liên thông (người đã có bằng tốt nghiệp trình độ đại học trở lên; người có bằng tốt nghiệp trình độ cao đẳng trở lên) và những SV có kểt quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một CTĐT khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường.
-    \nĐối với SV từ Khóa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những SV này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khoá giảm tương ứng với khối lượng tín chỉ được miễn trừ.
-    \nCụ thể là mỗi 9 TC được công nhận và chuyển đổi thì thời gian học tập tối đa để SV hoàn thành CTĐT giảm tương ứng là 1 HK chính (ví dụ được công nhận và chuyển đổi ít hơn 9 TC thì không giảm thời gian học tập tối đa, từ 9 TC đến 17 TC thì thời gian học tập tối đa giảm 1 HK chính, từ 18 TC đến 26 TC thì thời gian học tập tối đa giảm 2 HK chính, ...).
+    - text: "Những sinh viên (SV) học liên thông (người đã có bằng tốt nghiệp trình độ đại học trở lên; người có bằng tốt nghiệp trình độ cao đẳng trở lên) và những sinh viên có kểt quả học tập đã tích lũy từ một trình độ đào tạo khác, một ngành đào tạo hoặc một chương trình đào tạo (CTĐT) khác, một khóa học khác hoặc từ một cơ sở đào tạo khác được xem xét công nhận, chuyển đổi sang tín chỉ của những học phần trong CTĐT theo học theo Quy định xét miễn và công nhận điểm học phần trong CTĐT trình độ đại học hệ chính quy của Trường.
+    \nĐối với sinh viên từ Khóa 47 trở về sau, khối lượng tín chỉ tối đa được công nhận, chuyển đổi không vượt quá 50% khối lượng học tập tối thiểu của CTĐT và thời gian tối đa để những sinh viên này hoàn thành khóa học được xác định trên cơ sở thời gian theo kế hoạch học tập chuẩn toàn khoá giảm tương ứng với khối lượng tín chỉ được miễn trừ.
+    \nCụ thể là mỗi 9 tín chỉ (TC) được công nhận và chuyển đổi thì thời gian học tập tối đa để sinh viên hoàn thành CTĐT giảm tương ứng là 1 học kỳ chính (ví dụ được công nhận và chuyển đổi ít hơn 9 TC thì không giảm thời gian học tập tối đa, từ 9 TC đến 17 TC thì thời gian học tập tối đa giảm 1 học kỳ chính, từ 18 TC đến 26 TC thì thời gian học tập tối đa giảm 2 học kỳ chính, ...).
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 # ============= TỔ CHỨC ĐÀO TẠO =============
@@ -945,21 +950,21 @@ responses:
           payload: "/trach_nhiem_sinh_vien"
   
   utter_trach_nhiem_truong:
-    - text: "a)	Đầu khóa học, Trường cung cấp cho sinh viên (SV) kế hoạch học tập chuẩn toàn khóa của ngành học, quy định về công tác học vụ và bố trí Cố vấn học tập (CVHT) cho từng lớp chuyên ngành.
-        \n\tb) Cán bộ làm CVHT chịu trách nhiệm quản lý SV; căn cứ kế hoạch học tập chuẩn toàn khóa, tư vấn SV xây dựng kế hoạch học tập toàn khóa (KHHTTK) và thực hiện quá trình học tập theo đúng quy định của Trường.
-        \n\tc) Đầu mỗi học kỳ (HK), Trường thông báo cho SV những học phần sẽ giảng dạy trong HK đó và thời khóa biểu (TKB) của từng học phần tương ứng.
+    - text: "a)	Đầu khóa học, Trường cung cấp cho sinh viên (SV) kế hoạch học tập chuẩn toàn khóa của ngành học, quy định về công tác học vụ và bố trí cố vấn học tập (CVHT) cho từng lớp chuyên ngành.
+        \n\tb) Cán bộ làm CVHT chịu trách nhiệm quản lý sinh viên; căn cứ kế hoạch học tập chuẩn toàn khóa, tư vấn sinh viên xây dựng kế hoạch học tập toàn khóa (KHHTTK) và thực hiện quá trình học tập theo đúng quy định của Trường.
+        \n\tc) Đầu mỗi học kỳ (HK), Trường thông báo cho sinh viên những học phần sẽ giảng dạy trong học kỳ đó và thời khóa biểu (TKB) của từng học phần tương ứng.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_trach_nhiem_sinh_vien:
-    - text: "Sinh viên (SV) phải thực hiện đăng ký học phần trước khi học kỳ (HK) mới bắt đầu (SV mới trúng tuyển không phải đăng học phần cho HK đầu tiên của khóa học). Các học phần đăng ký phải theo KHHTTK.
+    - text: "Sinh viên (SV) phải thực hiện đăng ký học phần trước khi học kỳ (HK) mới bắt đầu (SV mới trúng tuyển không phải đăng học phần cho học kỳ đầu tiên của khóa học). Các học phần đăng ký phải theo kế hoạch học tập toàn khóa.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
   utter_ask_quy_trinh_dkhp:
-    - text: "Sinh viên dựa vào kết hoạch học tập toàn khóa (KHHTTK) và thời khóa biểu (TKB) các học phần giảng dạy trong học kỳ (HK) do Trường công bố để đăng ký học phần trực tuyến theo kế hoạch chung. Sau tuần lễ thứ 2 của HK, SV vào hệ thống quản lý trực tuyến để in “Kết quả đăng ký học phần”.
-      \n\t-	Danh mục các học phần dự kiến mở ở HK được quy định trong CTĐT và được công bố tại trang thông tin điện tử của Trường chậm nhất 6 tuần trước khi bắt đầu HK.
-      \n\t-	Danh mục các học phần không đủ điều kiện tổ chức giảng dạy sẽ được công bố tại trang thông tin điện tử của Trường 1 tuần trước khi bắt đầu HK.
-      \n\t-	Trong 1 tuần đầu của HK, SV có thể xóa những học phần đã đăng ký; hoặc đăng ký bổ sung những học phần mới (trừ các học phần thực hành, thí nghiệm, thực tâp tại cơ sở, GDQP&AN, GDTC) thay cho các học phần mà Trường không thể mở được. Sau thời gian trên, kết quả đăng ký học phần của SV sẽ được cố định.
-      \n\t-	Chậm nhất là tuần lễ thứ 8 của HK chính và tuần lễ thứ 2 của HK phụ nếu thấy việc học khó khăn có thể dẫn đến kết quả kém, SV có thể rút bớt học phần đã đăng ký nhưng không được trả lại học phí. Muốn rút bớt học phần, SV vào hệ thống quản lý trực tuyến của Trường để thực hiện. Những học phần đã rút sẽ nhận điểm W trong bảng điểm của HK đó.
+    - text: "Sinh viên dựa vào kết hoạch học tập toàn khóa (KHHTTK) và thời khóa biểu (TKB) các học phần giảng dạy trong học kỳ (HK) do Trường công bố để đăng ký học phần trực tuyến theo kế hoạch chung. Sau tuần lễ thứ 2 của học kỳ, sinh viên vào hệ thống quản lý trực tuyến để in “Kết quả đăng ký học phần”.
+      \n\t-	Danh mục các học phần dự kiến mở ở học kỳ được quy định trong CTĐT và được công bố tại trang thông tin điện tử của Trường chậm nhất 6 tuần trước khi bắt đầu học kỳ.
+      \n\t-	Danh mục các học phần không đủ điều kiện tổ chức giảng dạy sẽ được công bố tại trang thông tin điện tử của Trường 1 tuần trước khi bắt đầu học kỳ.
+      \n\t-	Trong 1 tuần đầu của học kỳ, sinh viên có thể xóa những học phần đã đăng ký; hoặc đăng ký bổ sung những học phần mới (trừ các học phần thực hành, thí nghiệm, thực tâp tại cơ sở, GDQP&AN, GDTC) thay cho các học phần mà Trường không thể mở được. Sau thời gian trên, kết quả đăng ký học phần của sinh viên sẽ được cố định.
+      \n\t-	Chậm nhất là tuần lễ thứ 8 của học kỳ chính và tuần lễ thứ 2 của học kỳ phụ nếu thấy việc học khó khăn có thể dẫn đến kết quả kém, sinh viên có thể rút bớt học phần đã đăng ký nhưng không được trả lại học phí. Muốn rút bớt học phần, sinh viên vào hệ thống quản lý trực tuyến của Trường để thực hiện. Những học phần đã rút sẽ nhận điểm W trong bảng điểm của học kỳ đó.
       \n\t-	Sinh viên đã đăng ký học phần nhưng không đi học hoặc không đi thi kết thúc học phần sẽ bị điểm F của học phần đó.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
@@ -987,7 +992,7 @@ responses:
     - text: "Thông báo kết quả học tập:
         \n1. Giảng viên chịu trách nhiệm: giải đáp thắc mắc (nếu có) của sinh viên (SV) về kết quả học tập của học phần; nhập điểm học phần vào hệ thống quản lý trực tuyến và in hai (02) bản điểm, ký tên, gửi Khoa quản lý học phần. Khoa quản lý học phần lưu một (01) bản và gửi về Phòng Đào tạo một (01) bản chậm nhất là 10 ngày kể từ ngày kết thúc kế hoạch nhập điểm của học kỳ. Trưởng khoa quản lý học phần ký duyệt bảng điểm và xử lý tất cả khiếu nại liên quan đến kết quả học tập của học phần do Khoa quản lý và chỉ thực hiện trong thòi gian 1 tuần kể từ ngày công bố điểm.
         \n2. Đơn vị quản lý học phần lưu giữ các bài thi viết, tiểu luận ít nhất là 05 năm kể từ ngày thi hoặc ngày nộp tiểu luận.
-        \n3. Trong quá trình học tập, SV có thể đăng ký cấp bảng điểm HK theo nhu cầu riêng; mức chi phí do Trường quy định.
+        \n3. Trong quá trình học tập, sinh viên có thể đăng ký cấp bảng điểm học kỳ theo nhu cầu riêng; mức chi phí do Trường quy định.
     \nĐể biết thêm chi tiết về quy chế học vụ bạn có thể nhấn vào đây: https://dsa.ctu.edu.vn/images/upload/vbanply/2021/Vanban/QD1813_QD_ban_hanh_Quy_dinh_cong_tac_hoc_vu_2021.pdf"
 
 # ============= XÉT VÀ CÔNG NHẬN TỐT NGHIỆP =============

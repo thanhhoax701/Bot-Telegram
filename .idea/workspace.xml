@@ -8,9 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../Bot-Telegram-loi" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/actions/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/actions/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybot/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/domain.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
@@ -120,6 +119,7 @@
       <workItem from="1683380770336" duration="1107000" />
       <workItem from="1683381931069" duration="6791000" />
       <workItem from="1683423590432" duration="2899000" />
+      <workItem from="1683426639731" duration="3050000" />
     </task>
     <servers />
   </component>
