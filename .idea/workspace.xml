@@ -9,6 +9,20 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/domain.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/domain.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_errors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_histogram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/DIETClassifier_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/TEDPolicy_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/failed_test_stories.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_histogram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/intent_report.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/stories_with_warnings.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/story_confusion_matrix.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/results/story_report.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Demo/venv/Lib/site-packages/sklearn/cluster/setup.py" beforeDir="false" />
@@ -119,6 +133,7 @@
       <workItem from="1683423590432" duration="2899000" />
       <workItem from="1683426639731" duration="3050000" />
       <workItem from="1683440744425" duration="579000" />
+      <workItem from="1683442624326" duration="1825000" />
     </task>
     <servers />
   </component>

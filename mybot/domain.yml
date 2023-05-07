@@ -729,7 +729,7 @@ responses:
 
   utter_greet:
     - text: "Welcome: Chào mừng các bạn đến với dịch vụ hỗ trợ tự động sinh viên Đại học Cần Thơ. 
-    \nĐây là kết quả thử nghiệm của đề tài niên luận ngành do bạn Hòa & Luyến  thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng - Phó hiệu trưởng trường CNTT & TT trực thuộc Đại Học Cần Thơ.
+    \nĐây là kết quả thử nghiệm của đề tài luận văn tốt nghiệp do bạn Hòa & Luyến thực hiện dưới sự hướng dẫn của giảng viên TS. Ngô Bá Hùng - Phó hiệu trưởng trường CNTT & TT trực thuộc Đại học Cần Thơ.
       Các lĩnh vực hỗ trợ trợ gồm:
       \n 1) Quy chế học vụ;
       \n 2) Các địa chỉ liên hệ trợ giúp; 

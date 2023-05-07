@@ -1,58 +1,21 @@
 [
   {
-    "text": "ngành Hệ thống thông tin có không",
+    "text": "Phan Văn Tài Em em nhé",
     "entities": [
       {
-        "start": 6,
-        "end": 24,
-        "value": "Hệ thống thông tin",
-        "entity": "majors_code"
+        "start": 0,
+        "end": 15,
+        "value": "Phan Văn Tài Em",
+        "entity": "student_name"
       }
     ],
     "predicted_entities": [
       {
-        "entity": "majors_code",
-        "start": 6,
-        "end": 8,
-        "confidence_entity": 0.849401593208313,
-        "value": "Hệ",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "majors_code",
-        "start": 15,
-        "end": 24,
-        "confidence_entity": 0.7564237117767334,
-        "value": "thông tin",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "đại học cần thơ có ngành Hệ thống thông tin không",
-    "entities": [
-      {
-        "start": 25,
-        "end": 43,
-        "value": "Hệ thống thông tin",
-        "entity": "majors_code"
-      }
-    ],
-    "predicted_entities": [
-      {
-        "entity": "majors_code",
-        "start": 25,
-        "end": 27,
-        "confidence_entity": 0.9296156167984009,
-        "value": "Hệ",
-        "extractor": "DIETClassifier"
-      },
-      {
-        "entity": "majors_code",
-        "start": 34,
-        "end": 43,
-        "confidence_entity": 0.9080629944801331,
-        "value": "thông tin",
+        "entity": "student_name",
+        "start": 0,
+        "end": 12,
+        "confidence_entity": 0.9920163154602051,
+        "value": "Phan Văn Tài",
         "extractor": "DIETClassifier"
       }
     ]
