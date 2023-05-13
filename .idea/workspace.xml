@@ -9,6 +9,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/.rasa/cache/cache.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybot/credentials.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mybot/credentials.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybot/out.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ngrok.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ngrok.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven)" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../ChatBot-Telegram (nguyen ven).rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Demo/venv/Lib/site-packages/sklearn/cluster/setup.py" beforeDir="false" />
@@ -121,6 +123,10 @@
       <workItem from="1683440744425" duration="579000" />
       <workItem from="1683442624326" duration="1825000" />
       <workItem from="1683458022844" duration="552000" />
+      <workItem from="1683710582611" duration="49000" />
+      <workItem from="1683766620634" duration="523000" />
+      <workItem from="1683767821945" duration="1625000" />
+      <workItem from="1683961493999" duration="682000" />
     </task>
     <servers />
   </component>
